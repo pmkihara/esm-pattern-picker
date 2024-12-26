@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react'
+import '@/styles/globals.css'
 
 const preview: Preview = {
   parameters: {
@@ -7,6 +8,16 @@ const preview: Preview = {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+    },
+    backgrounds: {
+      default: 'white',
+      values: [
+        { name: 'white', value: '#FFFFFF' },
+        { name: 'sky-200', value: '#B5E8F9' },
+      ],
+    },
+    nextjs: {
+      appDirectory: true,
     },
   },
 }
