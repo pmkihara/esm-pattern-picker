@@ -9,6 +9,9 @@ import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import ErrorMessage from '@/components/atoms/ErrorMessage'
+import { useSearchParams } from 'next/navigation'
+import { useSettings } from '@/providers/SettingsProvider'
+import { checkAccess } from '@/services/googleapis'
 
 const spreadsheetSchema = z.object({
   id: z.string().min(8),
@@ -17,16 +20,28 @@ const spreadsheetSchema = z.object({
 type SpreadsheetSchema = z.infer<typeof spreadsheetSchema>
 
 const SpreadsheetForm = () => {
+  const searchParams = useSearchParams()
+  const id = searchParams.get('id') || ''
+  const { setSpreadsheetId } = useSettings()
+
   const {
     register,
     handleSubmit,
+    setError,
     formState: { errors, isValid },
   } = useForm<SpreadsheetSchema>({
     resolver: zodResolver(spreadsheetSchema),
+    values: { id },
   })
 
-  const onSubmit = ({ id }: SpreadsheetSchema) => {
-    console.log('submit', id)
+  const onSubmit = async ({ id }: SpreadsheetSchema) => {
+    const result = await checkAccess(id)
+
+    if (result?.error) {
+      setError('id', { message: result.error })
+    } else {
+      setSpreadsheetId(id)
+    }
   }
 
   return (
