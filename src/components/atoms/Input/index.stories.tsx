@@ -6,9 +6,6 @@ import SpreadsheetIcon from '@@/public/assets/icons/spreadsheet.svg'
 const meta = {
   title: 'Atoms/Input',
   component: Input,
-  parameters: {
-    layout: 'centered',
-  },
   tags: ['autodocs'],
 } satisfies Meta<typeof Input>
 

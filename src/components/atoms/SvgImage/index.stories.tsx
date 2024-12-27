@@ -6,9 +6,6 @@ import SpreadsheetIcon from '@@/public/assets/icons/spreadsheet.svg'
 const meta = {
   title: 'Atoms/SvgImage',
   component: SvgImage,
-  parameters: {
-    layout: 'centered',
-  },
   tags: ['autodocs'],
 } satisfies Meta<typeof SvgImage>
 

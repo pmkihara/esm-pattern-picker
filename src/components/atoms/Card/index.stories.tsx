@@ -6,7 +6,6 @@ const meta = {
   title: 'Atoms/Card',
   component: Card,
   parameters: {
-    layout: 'centered',
     backgrounds: {
       default: 'sky-200',
     },
