@@ -1,9 +1,18 @@
 import type { Metadata } from 'next'
-import { Manrope } from 'next/font/google'
 import '@/styles/globals.css'
 import { SettingsProvider } from '@/providers/SettingsProvider'
+import { Baloo_2, Manrope } from 'next/font/google'
 
-const manrope = Manrope({ subsets: ['latin'] })
+export const baloo2 = Baloo_2({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-baloo2',
+})
+export const manrope = Manrope({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-manrope',
+})
 
 export const metadata: Metadata = {
   title: 'ES Pattern Picker',
@@ -17,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${manrope.className} antialiased`}>
+      <body
+        className={`${manrope.variable} ${baloo2.variable} font-sans subpixel-antialiased`}
+      >
         <SettingsProvider>{children}</SettingsProvider>
       </body>
     </html>

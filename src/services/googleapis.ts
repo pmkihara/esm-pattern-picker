@@ -32,6 +32,20 @@ const errorMessage = (message?: string, status?: number) => {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const mapValues = (values: any[][]) => {
+  // the first row is the header
+  const header = values.shift()
+  if (!header) return []
+
+  return values.map((row) => {
+    return row.reduce((acc, value, index) => {
+      acc[header[index]] = value
+      return acc
+    }, {})
+  })
+}
+
 export const checkAccess = async (spreadsheetId: string) => {
   try {
     // The list permissions endpoint will return a 403 error if the spreadsheet
@@ -72,6 +86,22 @@ export const createSheet = async (spreadsheetId: string, sheetName: string) => {
         includeSpreadsheetInResponse: false,
       },
     })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (error: any) {
+    return { error: errorMessage(error.message, error.status) }
+  }
+}
+
+export const getRows = async (spreadsheetId: string, sheetName: string) => {
+  try {
+    const response = await googleSheets.spreadsheets.values.get({
+      spreadsheetId,
+      range: sheetName,
+      valueRenderOption: 'UNFORMATTED_VALUE',
+    })
+    const rows = response.data.values
+    return { rows: mapValues(rows || []) }
+
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { error: errorMessage(error.message, error.status) }

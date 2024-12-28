@@ -15,6 +15,7 @@ const preview: Preview = {
       values: [
         { name: 'white', value: '#FFFFFF' },
         { name: 'sky-200', value: '#B5E8F9' },
+        { name: 'sky-300', value: '#6ADAF4' },
       ],
     },
     nextjs: {

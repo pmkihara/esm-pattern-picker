@@ -11,6 +11,9 @@ export default {
       backgroundImage: {
         sparkles: "url('/assets/sparkles.svg')",
       },
+      boxShadow: {
+        up: '0 -2px 5px 1px rgba(0, 0, 0, 0.1)',
+      },
       colors: {
         active: '#FE403C',
         passion: '#F29703',
@@ -47,6 +50,16 @@ export default {
           400: '#FEC721',
           500: '#F8A608',
         },
+      },
+      fontFamily: {
+        sans: ['var(--font-manrope)'],
+        header: ['var(--font-baloo2)'],
+      },
+      fontSize: {
+        '2xs': '0.625rem',
+      },
+      spacing: {
+        15: '3.75rem',
       },
     },
   },
