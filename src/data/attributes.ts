@@ -1,3 +1,5 @@
+import { Idol } from './idols'
+
 export const ACTIVE = 'active'
 export const PASSION = 'passion'
 export const UNIQUE = 'unique'
@@ -14,6 +16,8 @@ export enum IdolAttribute {
   Charisma = CHARISMA,
 }
 
+export type IdolAttributesMap = Record<Idol, IdolAttributes>
+
 export type IdolAttributes = Record<IdolAttribute, number>
 
 export const emptyAttrs = {
@@ -23,4 +27,8 @@ export const emptyAttrs = {
   [IdolAttribute.Smart]: 0,
   [IdolAttribute.Technique]: 0,
   [IdolAttribute.Charisma]: 0,
+}
+
+export const emptyIdolRow = (name: Idol) => {
+  return { name, ...emptyAttrs }
 }

@@ -38,3 +38,12 @@ export const SkyDisabled: Story = {
     disabled: true,
   },
 }
+
+export const SkyLoading: Story = {
+  args: {
+    children: 'Button',
+    variant: 'sky',
+    isLoading: true,
+    disabled: true,
+  },
+}

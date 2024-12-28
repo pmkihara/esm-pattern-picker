@@ -2,6 +2,12 @@
 
 import { drive } from '@googleapis/drive'
 import { sheets, auth } from '@googleapis/sheets'
+import {
+  ServiceError,
+  SheetNames,
+  SheetRows,
+  ServiceResponse,
+} from './services_types'
 
 const googleAuth = new auth.GoogleAuth({
   keyFile: 'credentials.json',
@@ -46,7 +52,9 @@ const mapValues = (values: any[][]) => {
   })
 }
 
-export const checkAccess = async (spreadsheetId: string) => {
+export const checkDrivePermissions = async (
+  fileId: string,
+): Promise<ServiceResponse | ServiceError> => {
   try {
     // The list permissions endpoint will return a 403 error if the spreadsheet
     // was shared with read-only permissions (both with the service account and
@@ -54,30 +62,32 @@ export const checkAccess = async (spreadsheetId: string) => {
     // If the spreadsheet was not shared with either the service account or the
     // global access, the endpoint will return a 404 error.
     await googleDrive.permissions.list({
-      fileId: spreadsheetId,
+      fileId: fileId,
       fields: 'permissions(emailAddress, role)',
     })
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (error: any) {
-    return { error: errorMessage(error.message, error.status) }
+    return { ok: true }
+  } catch (error) {
+    return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }
 
 export const getSheetNames = async (
   spreadsheetId: string,
-): Promise<{ sheetNames?: string[]; error?: string }> => {
+): Promise<ServiceResponse<SheetNames> | ServiceError> => {
   try {
     const response = await googleSheets.spreadsheets.get({ spreadsheetId })
     const sheetNames =
       response.data.sheets?.map((sheet) => sheet.properties?.title || '') || []
-    return { sheetNames }
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (error: any) {
-    return { error: errorMessage(error.message, error.status) }
+    return { ok: true, sheetNames }
+  } catch (error) {
+    return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }
 
-export const createSheet = async (spreadsheetId: string, sheetName: string) => {
+export const createSheet = async (
+  spreadsheetId: string,
+  sheetName: string,
+): Promise<ServiceResponse | ServiceError> => {
   try {
     await googleSheets.spreadsheets.batchUpdate({
       spreadsheetId,
@@ -86,24 +96,26 @@ export const createSheet = async (spreadsheetId: string, sheetName: string) => {
         includeSpreadsheetInResponse: false,
       },
     })
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (error: any) {
-    return { error: errorMessage(error.message, error.status) }
+    return { ok: true }
+  } catch (error) {
+    return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }
 
-export const getRows = async (spreadsheetId: string, sheetName: string) => {
+export const getRows = async (
+  spreadsheetId: string,
+  sheetName: string,
+): Promise<ServiceResponse<SheetRows> | ServiceError> => {
   try {
     const response = await googleSheets.spreadsheets.values.get({
       spreadsheetId,
       range: sheetName,
       valueRenderOption: 'UNFORMATTED_VALUE',
     })
-    const rows = response.data.values
-    return { rows: mapValues(rows || []) }
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (error: any) {
-    return { error: errorMessage(error.message, error.status) }
+    const rows = mapValues(response.data.values || [])
+    return { ok: true, rows }
+  } catch (error) {
+    console.log(error.errors)
+    return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }

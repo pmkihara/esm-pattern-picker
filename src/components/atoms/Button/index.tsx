@@ -1,6 +1,7 @@
 import { cva, VariantProps } from 'class-variance-authority'
 import { ButtonHTMLAttributes, ReactNode } from 'react'
 import { twMerge } from 'tailwind-merge'
+import Spinner from '../Spinner'
 
 const buttonVariants = cva(
   'px-6 py-3 rounded text-base font-semibold disabled:cursor-not-allowed',
@@ -23,6 +24,9 @@ const buttonVariants = cva(
           'disabled:border-sky-200 disabled:text-sky-200',
         ),
       },
+      isLoading: {
+        true: 'flex gap-2 items-center justify-center',
+      },
     },
     defaultVariants: {
       variant: 'sky',
@@ -35,14 +39,22 @@ export interface ButtonProps
     VariantProps<typeof buttonVariants> {
   children: ReactNode
   className?: string
+  isLoading?: boolean
 }
 
-const Button = ({ children, className, variant, ...props }: ButtonProps) => {
+const Button = ({
+  children,
+  className,
+  variant,
+  isLoading,
+  ...props
+}: ButtonProps) => {
   return (
     <button
       {...props}
-      className={twMerge(buttonVariants({ variant }), className)}
+      className={twMerge(buttonVariants({ variant, isLoading }), className)}
     >
+      {isLoading && <Spinner color='sky' />}
       {children}
     </button>
   )

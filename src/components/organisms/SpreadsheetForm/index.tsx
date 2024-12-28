@@ -11,7 +11,7 @@ import { useForm } from 'react-hook-form'
 import ErrorMessage from '@/components/atoms/ErrorMessage'
 import { useSearchParams } from 'next/navigation'
 import { useSettings } from '@/providers/SettingsProvider'
-import { checkAccess } from '@/services/googleapis'
+import { checkSpreadsheetAccess } from '@/services/actions'
 
 const spreadsheetSchema = z.object({
   id: z.string().min(8),
@@ -28,16 +28,16 @@ const SpreadsheetForm = () => {
     register,
     handleSubmit,
     setError,
-    formState: { errors, isValid },
+    formState: { errors, isSubmitting },
   } = useForm<SpreadsheetSchema>({
     resolver: zodResolver(spreadsheetSchema),
     values: { id },
   })
 
   const onSubmit = async ({ id }: SpreadsheetSchema) => {
-    const result = await checkAccess(id)
+    const result = await checkSpreadsheetAccess(id)
 
-    if (result?.error) {
+    if (!result.ok) {
       setError('id', { message: result.error })
     } else {
       setSpreadsheetId(id)
@@ -56,7 +56,12 @@ const SpreadsheetForm = () => {
         <IconButton iconSrc={InfoIcon.src} className='grow-0' />
       </div>
       <ErrorMessage message={errors.id?.message} />
-      <Button type='submit' className='w-full' disabled={!isValid}>
+      <Button
+        type='submit'
+        className='w-full'
+        disabled={isSubmitting}
+        isLoading={isSubmitting}
+      >
         Start
       </Button>
     </form>
