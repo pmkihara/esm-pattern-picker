@@ -4,8 +4,14 @@ import { drive } from '@googleapis/drive'
 import { sheets, auth } from '@googleapis/sheets'
 import { ServiceError, SheetRows, ServiceResponse } from './services_types'
 
+// https://cloud.google.com/nodejs/docs/reference/google-auth-library/latest#loading-credentials-from-environment-variables
+const credentialsBase64 = process.env.GOOGLE_CREDENTIALS_BASE64 || ''
+const credentialsFile = JSON.parse(
+  Buffer.from(credentialsBase64, 'base64').toString('utf-8'),
+)
+
 const googleAuth = new auth.GoogleAuth({
-  keyFile: 'credentials.json',
+  credentials: credentialsFile,
   scopes: [
     'https://www.googleapis.com/auth/drive.readonly',
     'https://www.googleapis.com/auth/spreadsheets',
