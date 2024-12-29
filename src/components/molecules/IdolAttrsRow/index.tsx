@@ -1,10 +1,10 @@
 import AttributeInput from '@/components/atoms/AttributeInput'
 import Avatar from '@/components/atoms/Avatar'
 import {
-  IdolAttributesSchema,
-  IdolAttrsTableSchema,
-} from '@/components/organisms/IdolAttrsTable'
-import { IdolAttribute, IdolAttributes } from '@/data/attributes'
+  IdolAttribute,
+  IdolAttributes,
+  IdolAttributesMap,
+} from '@/data/attributes'
 import { Idol } from '@/data/idols'
 import { FieldErrors, UseFormRegister } from 'react-hook-form'
 import { twMerge } from 'tailwind-merge'
@@ -12,8 +12,8 @@ import { twMerge } from 'tailwind-merge'
 interface IdolAttrsRowProps {
   idol: Idol
   attributes: IdolAttributes
-  register: UseFormRegister<IdolAttrsTableSchema>
-  errors?: FieldErrors<IdolAttributesSchema>
+  register: UseFormRegister<IdolAttributesMap>
+  errors?: FieldErrors<IdolAttributes>
   attrClassName?: string
 }
 

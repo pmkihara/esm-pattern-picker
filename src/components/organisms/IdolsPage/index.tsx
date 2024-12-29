@@ -32,7 +32,7 @@ const IdolsPage = () => {
       </TopBar>
       <div className='p-4 md:py-6 md:px-10 flex-grow h-full max-h-full overflow-auto max-w-screen-lg'>
         <H1>Idol Settings</H1>
-        <IdolAttrsTable idols={idolAttrs} />
+        <IdolAttrsTable idols={idolAttrs} spreadsheetId={spreadsheetId} />
       </div>
     </div>
   )

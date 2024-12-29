@@ -1,4 +1,5 @@
-import { IdolAttributesMap } from '@/data/attributes'
+import { IdolAttributes, IdolAttributesMap } from '@/data/attributes'
+import { Idol } from '@/data/idols'
 
 export type ServiceError = {
   ok: false
@@ -7,10 +8,6 @@ export type ServiceError = {
 
 export type ServiceResponse<T = object> = T & {
   ok: true
-}
-
-export type SheetNames = {
-  sheetNames: string[]
 }
 
 export type SheetRows = {
@@ -23,4 +20,8 @@ export type SheetRows = {
 export type AllAttributesMap = {
   allAttributes: IdolAttributesMap
   newSheet: boolean
+}
+
+export type IdolRow = IdolAttributes & {
+  name: Idol
 }

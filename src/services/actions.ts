@@ -1,20 +1,26 @@
 'use server'
 
-import { checkDrivePermissions, createSheet, getRows } from './googleapis'
-import { allIdols, Idol } from '@/data/idols'
 import {
+  checkDrivePermissions,
+  createSheet,
+  getRows,
+  updateRows,
+} from './googleapis'
+import { allIdols } from '@/data/idols'
+import {
+  allAttributes,
   emptyIdolRow,
-  IdolAttributes,
   IdolAttributesMap,
 } from '@/data/attributes'
 import {
   AllAttributesMap,
+  IdolRow,
   ServiceError,
   ServiceResponse,
 } from './services_types'
 
-interface IdolRow extends IdolAttributes {
-  name: Idol
+export const checkSpreadsheetAccess = async (spreadsheetId: string) => {
+  return await checkDrivePermissions(spreadsheetId)
 }
 
 export const initializeIdols = async (
@@ -47,6 +53,14 @@ export const initializeIdols = async (
   return { ok: true, newSheet, allAttributes }
 }
 
-export const checkSpreadsheetAccess = async (spreadsheetId: string) => {
-  return await checkDrivePermissions(spreadsheetId)
+export const updateIdolsAttributes = async (
+  spreadsheetId: string,
+  idolsAttrs: IdolAttributesMap,
+): Promise<ServiceResponse | ServiceError> => {
+  const headers = ['name', ...allAttributes]
+  const idolRows = Object.entries(idolsAttrs).map(([name, attrs]) => {
+    const attrsArray = allAttributes.map((header) => attrs[header] ?? 0)
+    return [name, ...attrsArray]
+  })
+  return await updateRows(spreadsheetId, 'idols', [headers, ...idolRows])
 }

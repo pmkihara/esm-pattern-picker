@@ -4,9 +4,11 @@ import Button from '@/components/atoms/Button'
 import SaveButton from '@/components/atoms/SaveButton'
 import IdolAttrsHeader from '@/components/molecules/IdolAttrsHeader'
 import IdolAttrsRow from '@/components/molecules/IdolAttrsRow'
-import { IdolAttribute, IdolAttributes } from '@/data/attributes'
+import { IdolAttribute, IdolAttributesMap } from '@/data/attributes'
 import { idolsByGroup } from '@/data/idols'
 import { useBreakpoint } from '@/hooks/tailwind'
+import { useSettings } from '@/providers/SettingsProvider'
+import { updateIdolsAttributes } from '@/services/actions'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
@@ -14,7 +16,8 @@ import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
 
 interface IdolAttrsTableProps {
-  idols: { [key: string]: IdolAttributes }
+  idols: IdolAttributesMap
+  spreadsheetId: string
 }
 
 const idolAttributesSchema = z.record(
@@ -23,25 +26,25 @@ const idolAttributesSchema = z.record(
 )
 const idolAttrsTableSchema = z.record(z.string(), idolAttributesSchema)
 
-export type IdolAttributesSchema = z.infer<typeof idolAttributesSchema>
-export type IdolAttrsTableSchema = z.infer<typeof idolAttrsTableSchema>
-
-const IdolAttrsTable = ({ idols }: IdolAttrsTableProps) => {
+const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
   const isLaptop = useBreakpoint('lg')
+  const { setIsLoading } = useSettings()
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<IdolAttrsTableSchema>({
+  } = useForm<IdolAttributesMap>({
     resolver: zodResolver(idolAttrsTableSchema),
     values: idols,
   })
 
   const attrGridCls = 'w-48 md:w-[32rem]'
 
-  const onSubmit = (data: IdolAttrsTableSchema) => {
-    console.log(data)
+  const onSubmit = async (data: IdolAttributesMap) => {
+    setIsLoading(true)
+    await updateIdolsAttributes(spreadsheetId, data)
+    setIsLoading(false)
   }
 
   return (

@@ -2,12 +2,7 @@
 
 import { drive } from '@googleapis/drive'
 import { sheets, auth } from '@googleapis/sheets'
-import {
-  ServiceError,
-  SheetNames,
-  SheetRows,
-  ServiceResponse,
-} from './services_types'
+import { ServiceError, SheetRows, ServiceResponse } from './services_types'
 
 const googleAuth = new auth.GoogleAuth({
   keyFile: 'credentials.json',
@@ -71,19 +66,6 @@ export const checkDrivePermissions = async (
   }
 }
 
-export const getSheetNames = async (
-  spreadsheetId: string,
-): Promise<ServiceResponse<SheetNames> | ServiceError> => {
-  try {
-    const response = await googleSheets.spreadsheets.get({ spreadsheetId })
-    const sheetNames =
-      response.data.sheets?.map((sheet) => sheet.properties?.title || '') || []
-    return { ok: true, sheetNames }
-  } catch (error) {
-    return { ok: false, error: errorMessage(error.message, error.status) }
-  }
-}
-
 export const createSheet = async (
   spreadsheetId: string,
   sheetName: string,
@@ -116,6 +98,27 @@ export const getRows = async (
     return { ok: true, rows }
   } catch (error) {
     console.log(error.errors)
+    return { ok: false, error: errorMessage(error.message, error.status) }
+  }
+}
+
+export const updateRows = async (
+  spreadsheetId: string,
+  sheetName: string,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  rows: any[][], // the sheets api requires a 2D array of any type
+): Promise<ServiceResponse | ServiceError> => {
+  try {
+    await googleSheets.spreadsheets.values.update({
+      spreadsheetId,
+      range: sheetName,
+      valueInputOption: 'USER_ENTERED',
+      requestBody: {
+        values: rows,
+      },
+    })
+    return { ok: true }
+  } catch (error) {
     return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }

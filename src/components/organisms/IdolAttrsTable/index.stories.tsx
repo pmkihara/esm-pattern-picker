@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 import IdolAttrsTable from '.'
 import { allIdols } from '@/data/idols'
-import { emptyAttrs, IdolAttributes } from '@/data/attributes'
+import { emptyAttrs, IdolAttributesMap } from '@/data/attributes'
 
 const meta = {
   title: 'Organisms/IdolAttrsTable',
@@ -16,16 +16,14 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-const idols = allIdols.reduce(
-  (acc, idol) => {
-    acc[idol] = emptyAttrs
-    return acc
-  },
-  {} as { [key: string]: IdolAttributes },
-)
+const idols = allIdols.reduce((acc, idol) => {
+  acc[idol] = emptyAttrs
+  return acc
+}, {} as IdolAttributesMap)
 
 export const Default: Story = {
   args: {
     idols: idols,
+    spreadsheetId: '1',
   },
 }

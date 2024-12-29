@@ -1,24 +1,19 @@
 import { Idol } from './idols'
 
-export const ACTIVE = 'active'
-export const PASSION = 'passion'
-export const UNIQUE = 'unique'
-export const SMART = 'smart'
-export const TECHNIQUE = 'technique'
-export const CHARISMA = 'charisma'
-
 export enum IdolAttribute {
-  Active = ACTIVE,
-  Passion = PASSION,
-  Unique = UNIQUE,
-  Smart = SMART,
-  Technique = TECHNIQUE,
-  Charisma = CHARISMA,
+  Active = 'active',
+  Passion = 'passion',
+  Unique = 'unique',
+  Smart = 'smart',
+  Technique = 'technique',
+  Charisma = 'charisma',
 }
 
 export type IdolAttributesMap = Record<Idol, IdolAttributes>
 
 export type IdolAttributes = Record<IdolAttribute, number>
+
+export const allAttributes = Object.values(IdolAttribute)
 
 export const emptyAttrs = {
   [IdolAttribute.Active]: 0,
