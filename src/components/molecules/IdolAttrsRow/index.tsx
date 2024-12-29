@@ -1,5 +1,5 @@
 import AttributeInput from '@/components/atoms/AttributeInput'
-import Avatar from '@/components/atoms/Avatar'
+import AvatarHead from '@/components/atoms/AvatarHead'
 import {
   IdolAttribute,
   IdolAttributes,
@@ -30,7 +30,7 @@ const IdolAttrsRow = ({
       id={idol}
     >
       <div className='grow shrink flex gap-2 items-center max-w-full'>
-        <Avatar idol={idol} />
+        <AvatarHead idol={idol} />
         <span className='font-bold max-w-full overflow-hidden truncate'>
           {firstName(idol)}
         </span>
