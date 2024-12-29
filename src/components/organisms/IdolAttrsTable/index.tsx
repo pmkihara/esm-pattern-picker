@@ -49,8 +49,8 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <IdolAttrsHeader attrClassName={attrGridCls} />
-      <div>
+      <div className='max-w-screen-lg'>
+        <IdolAttrsHeader attrClassName={attrGridCls} />
         {Object.entries(idolsByGroup).map(([groupName, groupIdols]) => (
           <Fragment key={groupName}>
             <div key={groupName} className='font-bold text-sky-600 text-sm'>

@@ -56,6 +56,13 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   }, [spreadsheetId, router])
 
   useEffect(() => {
+    if (spreadsheetId === undefined) {
+      router.push('/')
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  useEffect(() => {
     if (!spreadsheetId || idolAttrs) return
     fetchAttributes()
   }, [spreadsheetId, idolAttrs, router, fetchAttributes])
