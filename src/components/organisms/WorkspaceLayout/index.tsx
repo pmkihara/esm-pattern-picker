@@ -1,5 +1,6 @@
+import SettingsLoading from '@/components/atoms/SettingsLoading'
 import NavBar from '@/components/molecules/NavBar'
-import { ReactNode } from 'react'
+import { ReactNode, Suspense } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 interface WorkspaceLayoutProps {
@@ -18,6 +19,9 @@ const WorkspaceLayout = ({ children }: WorkspaceLayoutProps) => {
         {children}
       </div>
       <NavBar />
+      <Suspense>
+        <SettingsLoading />
+      </Suspense>
     </div>
   )
 }

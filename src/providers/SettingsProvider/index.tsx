@@ -3,7 +3,7 @@
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import { IdolAttributesMap } from '@/data/attributes'
 import { initializeIdols } from '@/services/actions'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import {
   createContext,
   ReactNode,
@@ -32,11 +32,7 @@ export const SettingsContext = createContext<SettingsContext | undefined>(
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const router = useRouter()
-  const searchParams = useSearchParams()
-  const initialId = searchParams.get('id') || undefined
-  const [spreadsheetId, setSpreadsheetId] = useState<string | undefined>(
-    initialId,
-  )
+  const [spreadsheetId, setSpreadsheetId] = useState<string | undefined>()
   const [idolAttrs, setIdolAttrs] = useState<IdolAttributesMap>()
   const [isLoading, setIsLoading] = useState(false)
 
@@ -48,24 +44,17 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
 
     if (attrsResponse.ok) {
       setIdolAttrs(attrsResponse.allAttributes)
-      if (attrsResponse.newSheet) {
-        router.push(`/idols?id=${spreadsheetId}`)
-      }
+      // todo: only push if new sheet (user should skip to the next step if\
+      // they've already set up the sheet)
+      router.push(`/idols?id=${spreadsheetId}`)
     }
     setIsLoading(false)
   }, [spreadsheetId, router])
 
   useEffect(() => {
-    if (spreadsheetId === undefined) {
-      router.push('/')
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
-  useEffect(() => {
     if (!spreadsheetId || idolAttrs) return
     fetchAttributes()
-  }, [spreadsheetId, idolAttrs, router, fetchAttributes])
+  }, [spreadsheetId, idolAttrs, fetchAttributes])
 
   return (
     <SettingsContext.Provider

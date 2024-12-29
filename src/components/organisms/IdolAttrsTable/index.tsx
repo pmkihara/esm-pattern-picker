@@ -39,7 +39,7 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
     values: idols,
   })
 
-  const attrGridCls = 'w-48 md:w-[32rem]'
+  const attrGridCls = 'w-48 sm:w-72 md:w-[32rem]'
 
   const onSubmit = async (data: IdolAttributesMap) => {
     setIsLoading(true)
@@ -53,7 +53,10 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
         <IdolAttrsHeader attrClassName={attrGridCls} />
         {Object.entries(idolsByGroup).map(([groupName, groupIdols]) => (
           <Fragment key={groupName}>
-            <div key={groupName} className='font-bold text-sky-600 text-sm'>
+            <div
+              key={groupName}
+              className='font-bold text-sky-600 text-sm bg-grey-50 p-1'
+            >
               {groupName}
             </div>
             {groupIdols.map((idol) => (

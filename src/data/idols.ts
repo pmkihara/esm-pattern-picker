@@ -97,3 +97,5 @@ export const idolsByGroup: Record<IdolGroup, Idol[]> = {
   [IdolGroup.Switch]: [Idol.Natsume, Idol.Tsumugi, Idol.Sora],
   [IdolGroup.MaM]: [Idol.Madara, Idol.Kohaku],
 }
+
+export const firstName = (idol: Idol) => idol.split(' ')[0]

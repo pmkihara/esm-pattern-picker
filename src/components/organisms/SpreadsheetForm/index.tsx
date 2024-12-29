@@ -9,7 +9,6 @@ import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import ErrorMessage from '@/components/atoms/ErrorMessage'
-import { useSearchParams } from 'next/navigation'
 import { useSettings } from '@/providers/SettingsProvider'
 import { checkSpreadsheetAccess } from '@/services/actions'
 
@@ -19,9 +18,12 @@ const spreadsheetSchema = z.object({
 
 type SpreadsheetSchema = z.infer<typeof spreadsheetSchema>
 
-const SpreadsheetForm = () => {
-  const searchParams = useSearchParams()
-  const id = searchParams.get('id') || ''
+type SpreadsheetFormProps = {
+  initialId?: string
+}
+
+const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
+  const id = initialId || ''
   const { setSpreadsheetId } = useSettings()
 
   const {

@@ -112,7 +112,7 @@ const Avatar = ({ idol, className }: AvatarProps) => {
   return (
     <div
       className={twMerge(
-        'rounded-full h-10 w-10 overflow-clip ring-1 ring-grey-100',
+        'rounded-full h-8 w-8 sm:h-10 sm:w-10 overflow-clip ring-1 ring-grey-100 shrink-0 grow-0',
         className,
       )}
     >

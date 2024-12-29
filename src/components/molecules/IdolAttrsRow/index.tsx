@@ -5,7 +5,7 @@ import {
   IdolAttributes,
   IdolAttributesMap,
 } from '@/data/attributes'
-import { Idol } from '@/data/idols'
+import { firstName, Idol } from '@/data/idols'
 import { FieldErrors, UseFormRegister } from 'react-hook-form'
 import { twMerge } from 'tailwind-merge'
 
@@ -25,14 +25,19 @@ const IdolAttrsRow = ({
   attrClassName,
 }: IdolAttrsRowProps) => {
   return (
-    <div className='flex border-y border-grey-100 p-1 text-xs'>
-      <div className='grow shrink flex gap-2 items-center'>
+    <div
+      className='flex border-b border-grey-100 p-1 text-xs pt-7 -mt-6'
+      id={idol}
+    >
+      <div className='grow shrink flex gap-2 items-center max-w-full'>
         <Avatar idol={idol} />
-        <span className='font-bold'>{idol}</span>
+        <span className='font-bold max-w-full overflow-hidden truncate'>
+          {firstName(idol)}
+        </span>
       </div>
       <div
         className={twMerge(
-          'grid grid-cols-6 content-center justify-items-center',
+          'shrink-0 grow-0 grid grid-cols-6 content-center justify-items-center',
           attrClassName,
         )}
       >
