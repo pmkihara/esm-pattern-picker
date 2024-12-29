@@ -1,5 +1,6 @@
 'use client'
 
+import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import { IdolAttributesMap } from '@/data/attributes'
 import { initializeIdols } from '@/services/actions'
 import { useRouter, useSearchParams } from 'next/navigation'
@@ -21,6 +22,8 @@ interface SettingsContext {
   setSpreadsheetId: (id: string) => void
   idolAttrs?: IdolAttributesMap
   setIdolAttrs: (names: IdolAttributesMap) => void
+  isLoading: boolean
+  setIsLoading: (loading: boolean) => void
 }
 
 export const SettingsContext = createContext<SettingsContext | undefined>(
@@ -35,10 +38,12 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     initialId,
   )
   const [idolAttrs, setIdolAttrs] = useState<IdolAttributesMap>()
+  const [isLoading, setIsLoading] = useState(false)
 
   const fetchAttributes = useCallback(async () => {
     if (!spreadsheetId) return
 
+    setIsLoading(true)
     const attrsResponse = await initializeIdols(spreadsheetId)
 
     if (attrsResponse.ok) {
@@ -47,6 +52,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         router.push(`/idols?id=${spreadsheetId}`)
       }
     }
+    setIsLoading(false)
   }, [spreadsheetId, router])
 
   useEffect(() => {
@@ -56,8 +62,16 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
 
   return (
     <SettingsContext.Provider
-      value={{ spreadsheetId, setSpreadsheetId, idolAttrs, setIdolAttrs }}
+      value={{
+        spreadsheetId,
+        setSpreadsheetId,
+        idolAttrs,
+        setIdolAttrs,
+        isLoading,
+        setIsLoading,
+      }}
     >
+      <LoadingOverlay isLoading={isLoading} />
       {children}
     </SettingsContext.Provider>
   )
