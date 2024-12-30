@@ -15,8 +15,8 @@ export const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'ES Pattern Picker',
-  description: 'Helper for choosing which patterns to craft on ES music!!',
+  title: 'ENStars Music!! Pattern Picker',
+  description: 'Helper for choosing which patterns to craft on Enstars Music!!',
 }
 
 export default function RootLayout({
