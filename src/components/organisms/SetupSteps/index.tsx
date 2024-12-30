@@ -3,7 +3,7 @@ import SaveButton from '@/components/atoms/SaveButton'
 import SetupStatusCard from '@/components/molecules/SetupStatusCard'
 import Link from 'next/link'
 
-type SetupStepsProps = {
+interface SetupStepsProps {
   spreadsheetIsSetup: boolean
   StatsAreSetup: boolean
   outfitsAreSetup: boolean

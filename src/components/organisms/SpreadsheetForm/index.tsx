@@ -19,7 +19,7 @@ const spreadsheetSchema = z.object({
 
 type SpreadsheetSchema = z.infer<typeof spreadsheetSchema>
 
-type SpreadsheetFormProps = {
+interface SpreadsheetFormProps {
   initialId?: string
 }
 

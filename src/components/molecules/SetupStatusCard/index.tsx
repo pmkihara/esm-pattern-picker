@@ -1,7 +1,7 @@
 import StatusIcon from '@/components/atoms/StatusIcon'
 import { twMerge } from 'tailwind-merge'
 
-type SetupStatusCardProps = {
+interface SetupStatusCardProps {
   completed: boolean
   title: string
   text: string

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import LogoBig from '@@/public/assets/logo-big.png'
 import SpreadsheetForm from '@/components/organisms/SpreadsheetForm'
 
-type HomeProps = {
+interface HomeProps {
   searchParams: Promise<{ id?: string }>
 }
 

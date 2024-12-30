@@ -1,4 +1,4 @@
-type ErrorMessageProps = {
+interface ErrorMessageProps {
   message?: string
 }
 

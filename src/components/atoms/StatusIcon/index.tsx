@@ -4,7 +4,7 @@ import { twMerge } from 'tailwind-merge'
 import SvgImage from '../SvgImage'
 import { useBreakpoint } from '@/hooks/tailwind'
 
-type StatusIconProps = {
+interface StatusIconProps {
   completed: boolean
 }
 
