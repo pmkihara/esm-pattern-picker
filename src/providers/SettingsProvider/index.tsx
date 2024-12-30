@@ -3,7 +3,6 @@
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import { IdolAttributesMap } from '@/data/attributes'
 import { initializeIdols } from '@/services/actions'
-import { useRouter } from 'next/navigation'
 import {
   createContext,
   ReactNode,
@@ -24,6 +23,10 @@ interface SettingsContext {
   setIdolAttrs: (names: IdolAttributesMap) => void
   isLoading: boolean
   setIsLoading: (loading: boolean) => void
+  spreadsheetIsSetup: boolean
+  idolsAreSetup: boolean
+  outfitsAreSetup: boolean
+  fetchIdols: () => void
 }
 
 export const SettingsContext = createContext<SettingsContext | undefined>(
@@ -31,12 +34,12 @@ export const SettingsContext = createContext<SettingsContext | undefined>(
 )
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
-  const router = useRouter()
   const [spreadsheetId, setSpreadsheetId] = useState<string | undefined>()
   const [idolAttrs, setIdolAttrs] = useState<IdolAttributesMap>()
   const [isLoading, setIsLoading] = useState(false)
+  const [idolsAreSetup, setIdolsAreSetup] = useState(false)
 
-  const fetchAttributes = useCallback(async () => {
+  const fetchIdols = useCallback(async () => {
     if (!spreadsheetId) return
 
     setIsLoading(true)
@@ -44,17 +47,19 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
 
     if (attrsResponse.ok) {
       setIdolAttrs(attrsResponse.allAttributes)
-      // todo: only push if new sheet (user should skip to the next step if\
-      // they've already set up the sheet)
-      router.push(`/idols?id=${spreadsheetId}`)
+      setIdolsAreSetup(!attrsResponse.newSheet)
+    } else {
+      console.error(attrsResponse.error)
     }
     setIsLoading(false)
-  }, [spreadsheetId, router])
+  }, [spreadsheetId])
+
+  // TODO: Implement fetchOutfits
 
   useEffect(() => {
     if (!spreadsheetId || idolAttrs) return
-    fetchAttributes()
-  }, [spreadsheetId, idolAttrs, fetchAttributes])
+    fetchIdols()
+  }, [spreadsheetId, idolAttrs, fetchIdols])
 
   return (
     <SettingsContext.Provider
@@ -65,6 +70,10 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         setIdolAttrs,
         isLoading,
         setIsLoading,
+        spreadsheetIsSetup: !!spreadsheetId,
+        idolsAreSetup,
+        outfitsAreSetup: false,
+        fetchIdols,
       }}
     >
       <LoadingOverlay isLoading={isLoading} />

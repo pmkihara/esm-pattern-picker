@@ -10,6 +10,7 @@ import { useBreakpoint } from '@/hooks/tailwind'
 import { useSettings } from '@/providers/SettingsProvider'
 import { updateIdolsAttributes } from '@/services/actions'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { useRouter } from 'next/navigation'
 import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
 import { twMerge } from 'tailwind-merge'
@@ -29,6 +30,7 @@ const idolAttrsTableSchema = z.record(z.string(), idolAttributesSchema)
 const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
   const isLaptop = useBreakpoint('lg')
   const { setIsLoading } = useSettings()
+  const router = useRouter()
 
   const {
     register,
@@ -43,7 +45,12 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
 
   const onSubmit = async (data: IdolAttributesMap) => {
     setIsLoading(true)
-    await updateIdolsAttributes(spreadsheetId, data)
+    const response = await updateIdolsAttributes(spreadsheetId, data)
+    if (response.ok) {
+      router.push(`/dashboard?id=${spreadsheetId}`)
+    } else {
+      console.error(response.error)
+    }
     setIsLoading(false)
   }
 

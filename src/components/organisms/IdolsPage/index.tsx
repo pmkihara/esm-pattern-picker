@@ -21,8 +21,8 @@ const IdolsPage = () => {
           iconSrc={MagnifierIcon.src}
         />
       </TopBar>
-      <div className='p-4 md:py-6 md:px-10 flex-grow h-full max-h-full overflow-auto'>
-        <H1>Idol Settings</H1>
+      <div className='p-4 pb-12 md:py-6 md:px-10 flex-grow h-full max-h-full overflow-auto'>
+        <H1>Idol Stats</H1>
         <IdolAttrsTable idols={idolAttrs} spreadsheetId={spreadsheetId} />
       </div>
     </div>
