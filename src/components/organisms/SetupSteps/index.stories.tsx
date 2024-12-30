@@ -14,7 +14,7 @@ type Story = StoryObj<typeof meta>
 export const AllCompleted: Story = {
   args: {
     spreadsheetIsSetup: true,
-    idolAttributesAreSetup: true,
+    StatsAreSetup: true,
     outfitsAreSetup: true,
   },
 }
@@ -22,7 +22,7 @@ export const AllCompleted: Story = {
 export const AllNotCompleted: Story = {
   args: {
     spreadsheetIsSetup: false,
-    idolAttributesAreSetup: false,
+    StatsAreSetup: false,
     outfitsAreSetup: false,
   },
 }

@@ -3,14 +3,14 @@
 import H1 from '@/components/atoms/H1'
 import Input from '@/components/atoms/Input'
 import TopBar from '@/components/atoms/TopBar'
-import IdolAttrsTable from '@/components/organisms/IdolAttrsTable'
+import IdolsStatsForm from '@/components/organisms/IdolsStatsForm'
 import { useSettings } from '@/providers/SettingsProvider'
 import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
 
 const IdolsPage = () => {
-  const { spreadsheetId, idolAttrs } = useSettings()
+  const { spreadsheetId, idolStats } = useSettings()
 
-  if (spreadsheetId === undefined || idolAttrs === undefined) return null
+  if (spreadsheetId === undefined || idolStats === undefined) return null
 
   return (
     <div className='h-full flex flex-col max-h-full'>
@@ -23,7 +23,7 @@ const IdolsPage = () => {
       </TopBar>
       <div className='p-4 pb-12 md:py-6 md:px-10 flex-grow h-full max-h-full overflow-auto'>
         <H1>Idol Stats</H1>
-        <IdolAttrsTable idols={idolAttrs} spreadsheetId={spreadsheetId} />
+        <IdolsStatsForm idols={idolStats} spreadsheetId={spreadsheetId} />
       </div>
     </div>
   )

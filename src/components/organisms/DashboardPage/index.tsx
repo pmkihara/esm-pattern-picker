@@ -11,7 +11,7 @@ const DashboardPage = () => {
     <div className='h-full flex flex-col max-h-full'>
       <SetupSteps
         spreadsheetIsSetup={spreadsheetIsSetup}
-        idolAttributesAreSetup={idolsAreSetup}
+        StatsAreSetup={idolsAreSetup}
         outfitsAreSetup={outfitsAreSetup}
       />
     </div>

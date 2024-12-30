@@ -103,7 +103,7 @@ export const getRows = async (
     const rows = mapValues(response.data.values || [])
     return { ok: true, rows }
   } catch (error) {
-    console.log(error.errors)
+    console.error(error.errors)
     return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }

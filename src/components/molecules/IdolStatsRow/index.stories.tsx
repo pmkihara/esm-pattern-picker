@@ -1,27 +1,27 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import IdolAttrsRow from '.'
+import IdolStatsRow from '.'
 import { Idol } from '@/data/idols'
-import { emptyAttrs } from '@/data/attributes'
+import { emptyStats } from '@/data/stats'
 import { fn } from '@storybook/test'
 
 const meta = {
-  title: 'Molecules/IdolAttrsRow',
-  component: IdolAttrsRow,
+  title: 'Molecules/IdolStatsRow',
+  component: IdolStatsRow,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',
   },
-} satisfies Meta<typeof IdolAttrsRow>
+} satisfies Meta<typeof IdolStatsRow>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    attrClassName: 'w-48 md:w-[32rem]',
+    gridClassName: 'w-48 md:w-[32rem]',
     idol: Idol.Subaru,
-    attributes: emptyAttrs,
+    stats: emptyStats,
     register: fn(),
   },
 }

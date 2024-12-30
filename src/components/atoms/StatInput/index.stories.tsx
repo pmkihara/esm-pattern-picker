@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import AttributeInput from '.'
+import StatInput from '.'
 
 const meta = {
-  title: 'Atoms/AttributeInput',
-  component: AttributeInput,
+  title: 'Atoms/StatInput',
+  component: StatInput,
   tags: ['autodocs'],
-} satisfies Meta<typeof AttributeInput>
+} satisfies Meta<typeof StatInput>
 
 export default meta
 type Story = StoryObj<typeof meta>

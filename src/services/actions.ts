@@ -7,13 +7,9 @@ import {
   updateRows,
 } from './googleapis'
 import { allIdols } from '@/data/idols'
+import { allStats, emptyIdolRow, StatsMap } from '@/data/stats'
 import {
-  allAttributes,
-  emptyIdolRow,
-  IdolAttributesMap,
-} from '@/data/attributes'
-import {
-  AllAttributesMap,
+  allStatsMap,
   IdolRow,
   ServiceError,
   ServiceResponse,
@@ -25,7 +21,7 @@ export const checkSpreadsheetAccess = async (spreadsheetId: string) => {
 
 export const initializeIdols = async (
   spreadsheetId: string,
-): Promise<ServiceResponse<AllAttributesMap> | ServiceError> => {
+): Promise<ServiceResponse<allStatsMap> | ServiceError> => {
   const response = await getRows(spreadsheetId, 'idols')
   let newSheet = false
 
@@ -42,25 +38,25 @@ export const initializeIdols = async (
   const idolRows = response.ok ? (response.rows as IdolRow[]) : []
   newSheet = newSheet || idolRows.length === 0
 
-  // Create a map of all idol attributes
-  const allAttributes = allIdols.reduce((acc, idol) => {
-    const { name, ...attrs } =
+  // Create a map of all idol stats
+  const allStats = allIdols.reduce((acc, idol) => {
+    const { name, ...stats } =
       idolRows.find((row) => row.name === idol) ?? emptyIdolRow(idol)
-    acc[name] = attrs
+    acc[name] = stats
     return acc
-  }, {} as IdolAttributesMap)
+  }, {} as StatsMap)
 
-  return { ok: true, newSheet, allAttributes }
+  return { ok: true, newSheet, allStats }
 }
 
-export const updateIdolsAttributes = async (
+export const updateIdolsStats = async (
   spreadsheetId: string,
-  idolsAttrs: IdolAttributesMap,
+  idolsStats: StatsMap,
 ): Promise<ServiceResponse | ServiceError> => {
-  const headers = ['name', ...allAttributes]
-  const idolRows = Object.entries(idolsAttrs).map(([name, attrs]) => {
-    const attrsArray = allAttributes.map((header) => attrs[header] ?? 0)
-    return [name, ...attrsArray]
+  const headers = ['name', ...allStats]
+  const idolRows = Object.entries(idolsStats).map(([name, stats]) => {
+    const statsArray = allStats.map((header) => stats[header] ?? 0)
+    return [name, ...statsArray]
   })
   return await updateRows(spreadsheetId, 'idols', [headers, ...idolRows])
 }

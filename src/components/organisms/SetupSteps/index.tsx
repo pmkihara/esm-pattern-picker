@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 type SetupStepsProps = {
   spreadsheetIsSetup: boolean
-  idolAttributesAreSetup: boolean
+  StatsAreSetup: boolean
   outfitsAreSetup: boolean
 }
 
 const SetupSteps = ({
   spreadsheetIsSetup,
-  idolAttributesAreSetup,
+  StatsAreSetup,
   outfitsAreSetup,
 }: SetupStepsProps) => {
   const setupCompleted = {
@@ -36,7 +36,7 @@ const SetupSteps = ({
     },
     idols: {
       title: 'Idols Stats',
-      text: 'Add your idols attributes',
+      text: 'Add your idols stats',
     },
     outfits: {
       title: 'Outfits & Patterns',
@@ -64,9 +64,7 @@ const SetupSteps = ({
           />
         </Link>
         <Link href='/idols'>
-          <SetupStatusCard
-            {...getStepStatus('idols', idolAttributesAreSetup)}
-          />
+          <SetupStatusCard {...getStepStatus('idols', StatsAreSetup)} />
         </Link>
         <Link href='/outfits'>
           <SetupStatusCard {...getStepStatus('outfits', outfitsAreSetup)} />

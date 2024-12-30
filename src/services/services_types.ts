@@ -1,4 +1,4 @@
-import { IdolAttributes, IdolAttributesMap } from '@/data/attributes'
+import { Stats, StatsMap } from '@/data/stats'
 import { Idol } from '@/data/idols'
 
 export type ServiceError = {
@@ -17,11 +17,11 @@ export type SheetRows = {
   rows: any[]
 }
 
-export type AllAttributesMap = {
-  allAttributes: IdolAttributesMap
+export type allStatsMap = {
+  allStats: StatsMap
   newSheet: boolean
 }
 
-export type IdolRow = IdolAttributes & {
+export type IdolRow = Stats & {
   name: Idol
 }

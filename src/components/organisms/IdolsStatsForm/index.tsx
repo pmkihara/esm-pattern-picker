@@ -2,13 +2,13 @@
 
 import Button from '@/components/atoms/Button'
 import SaveButton from '@/components/atoms/SaveButton'
-import IdolAttrsHeader from '@/components/molecules/IdolAttrsHeader'
-import IdolAttrsRow from '@/components/molecules/IdolAttrsRow'
-import { IdolAttribute, IdolAttributesMap } from '@/data/attributes'
-import { idolsByGroup } from '@/data/idols'
+import IdolStatsHeader from '@/components/molecules/IdolStatsHeader'
+import IdolStatsRow from '@/components/molecules/IdolStatsRow'
+import { Stat, StatsMap } from '@/data/stats'
+import { idolsByUnit } from '@/data/idols'
 import { useBreakpoint } from '@/hooks/tailwind'
 import { useSettings } from '@/providers/SettingsProvider'
-import { updateIdolsAttributes } from '@/services/actions'
+import { updateIdolsStats } from '@/services/actions'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useRouter } from 'next/navigation'
 import { Fragment } from 'react'
@@ -16,37 +16,35 @@ import { useForm } from 'react-hook-form'
 import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
 
-interface IdolAttrsTableProps {
-  idols: IdolAttributesMap
+interface IdolsStatsFormProps {
+  idols: StatsMap
   spreadsheetId: string
 }
 
-const idolAttributesSchema = z.record(
-  z.nativeEnum(IdolAttribute),
-  z.number().min(0).max(100),
-)
-const idolAttrsTableSchema = z.record(z.string(), idolAttributesSchema)
+const StatsSchema = z.record(z.nativeEnum(Stat), z.number().min(0).max(100))
+const IdolsStatsFormSchema = z.record(z.string(), StatsSchema)
 
-const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
+const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
   const isLaptop = useBreakpoint('lg')
-  const { setIsLoading } = useSettings()
+  const { setIsLoading, setIdolStats } = useSettings()
   const router = useRouter()
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<IdolAttributesMap>({
-    resolver: zodResolver(idolAttrsTableSchema),
+  } = useForm<StatsMap>({
+    resolver: zodResolver(IdolsStatsFormSchema),
     values: idols,
   })
 
-  const attrGridCls = 'w-48 sm:w-72 md:w-[32rem]'
+  const gridClassName = 'w-48 sm:w-72 md:w-[32rem]'
 
-  const onSubmit = async (data: IdolAttributesMap) => {
+  const onSubmit = async (data: StatsMap) => {
     setIsLoading(true)
-    const response = await updateIdolsAttributes(spreadsheetId, data)
+    const response = await updateIdolsStats(spreadsheetId, data)
     if (response.ok) {
+      setIdolStats(data)
       router.push(`/dashboard?id=${spreadsheetId}`)
     } else {
       console.error(response.error)
@@ -57,8 +55,8 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className='max-w-screen-lg'>
-        <IdolAttrsHeader attrClassName={attrGridCls} />
-        {Object.entries(idolsByGroup).map(([groupName, groupIdols]) => (
+        <IdolStatsHeader gridClassName={gridClassName} />
+        {Object.entries(idolsByUnit).map(([groupName, groupIdols]) => (
           <Fragment key={groupName}>
             <div
               key={groupName}
@@ -67,11 +65,11 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
               {groupName}
             </div>
             {groupIdols.map((idol) => (
-              <IdolAttrsRow
+              <IdolStatsRow
                 key={idol}
-                attrClassName={attrGridCls}
+                gridClassName={gridClassName}
                 idol={idol}
-                attributes={idols[idol]}
+                stats={idols[idol]}
                 register={register}
                 errors={errors[idol]}
               />
@@ -100,4 +98,4 @@ const IdolAttrsTable = ({ spreadsheetId, idols }: IdolAttrsTableProps) => {
   )
 }
 
-export default IdolAttrsTable
+export default IdolsStatsForm

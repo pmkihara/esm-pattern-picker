@@ -1,7 +1,7 @@
 'use client'
 
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
-import { IdolAttributesMap } from '@/data/attributes'
+import { StatsMap } from '@/data/stats'
 import { initializeIdols } from '@/services/actions'
 import {
   createContext,
@@ -19,8 +19,8 @@ interface SettingsProviderProps {
 interface SettingsContext {
   spreadsheetId: string | undefined
   setSpreadsheetId: (id: string) => void
-  idolAttrs?: IdolAttributesMap
-  setIdolAttrs: (names: IdolAttributesMap) => void
+  idolStats?: StatsMap
+  setIdolStats: (names: StatsMap) => void
   isLoading: boolean
   setIsLoading: (loading: boolean) => void
   spreadsheetIsSetup: boolean
@@ -35,7 +35,7 @@ export const SettingsContext = createContext<SettingsContext | undefined>(
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [spreadsheetId, setSpreadsheetId] = useState<string | undefined>()
-  const [idolAttrs, setIdolAttrs] = useState<IdolAttributesMap>()
+  const [idolStats, setIdolStats] = useState<StatsMap>()
   const [isLoading, setIsLoading] = useState(false)
   const [idolsAreSetup, setIdolsAreSetup] = useState(false)
 
@@ -43,13 +43,13 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     if (!spreadsheetId) return
 
     setIsLoading(true)
-    const attrsResponse = await initializeIdols(spreadsheetId)
+    const statsResponse = await initializeIdols(spreadsheetId)
 
-    if (attrsResponse.ok) {
-      setIdolAttrs(attrsResponse.allAttributes)
-      setIdolsAreSetup(!attrsResponse.newSheet)
+    if (statsResponse.ok) {
+      setIdolStats(statsResponse.allStats)
+      setIdolsAreSetup(!statsResponse.newSheet)
     } else {
-      console.error(attrsResponse.error)
+      console.error(statsResponse.error)
     }
     setIsLoading(false)
   }, [spreadsheetId])
@@ -57,17 +57,17 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   // TODO: Implement fetchOutfits
 
   useEffect(() => {
-    if (!spreadsheetId || idolAttrs) return
+    if (!spreadsheetId || idolStats) return
     fetchIdols()
-  }, [spreadsheetId, idolAttrs, fetchIdols])
+  }, [spreadsheetId, idolStats, fetchIdols])
 
   return (
     <SettingsContext.Provider
       value={{
         spreadsheetId,
         setSpreadsheetId,
-        idolAttrs,
-        setIdolAttrs,
+        idolStats,
+        setIdolStats,
         isLoading,
         setIsLoading,
         spreadsheetIsSetup: !!spreadsheetId,
