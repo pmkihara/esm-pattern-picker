@@ -7,8 +7,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "鳴上 嵐",
-    "outfit": "NEW COLOR衣装"
+    "idol": "Arashi",
+    "outfit": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -18,8 +18,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "NEW COLOR衣装"
+    "idol": "Natsume",
+    "outfit": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -29,8 +29,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 30,
-    "idol": "青葉 つむぎ",
-    "outfit": "NEW COLOR衣装"
+    "idol": "Tsumugi",
+    "outfit": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -40,8 +40,8 @@
     "Sm": 40,
     "Te": 30,
     "Ch": 80,
-    "idol": "三毛縞 斑",
-    "outfit": "NEW COLOR衣装"
+    "idol": "Madara",
+    "outfit": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -51,8 +51,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "出発新GO衣装"
+    "idol": "Tomoya",
+    "outfit": "出発新GO Outfit"
   },
   {
     "group": "event",
@@ -62,8 +62,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "仁兎 なずな",
-    "outfit": "出発新GO衣装"
+    "idol": "Nazuna",
+    "outfit": "出発新GO Outfit"
   },
   {
     "group": "event",
@@ -73,8 +73,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "天満 光",
-    "outfit": "出発新GO衣装"
+    "idol": "Mitsuru",
+    "outfit": "出発新GO Outfit"
   },
   {
     "group": "event",
@@ -84,8 +84,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "出発新GO衣装"
+    "idol": "Hajime",
+    "outfit": "出発新GO Outfit"
   },
   {
     "group": "event",
@@ -95,8 +95,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "スーパーヴィランズ衣装"
+    "idol": "Chiaki",
+    "outfit": "スーパーヴィランズ Outfit"
   },
   {
     "group": "event",
@@ -106,8 +106,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 40,
-    "idol": "深海 奏汰",
-    "outfit": "スーパーヴィランズ衣装"
+    "idol": "Kanata",
+    "outfit": "スーパーヴィランズ Outfit"
   },
   {
     "group": "event",
@@ -117,8 +117,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "スーパーヴィランズ衣装"
+    "idol": "Tetora",
+    "outfit": "スーパーヴィランズ Outfit"
   },
   {
     "group": "event",
@@ -128,8 +128,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 30,
-    "idol": "高峯 翠",
-    "outfit": "スーパーヴィランズ衣装"
+    "idol": "Midori",
+    "outfit": "スーパーヴィランズ Outfit"
   },
   {
     "group": "event",
@@ -139,8 +139,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 30,
-    "idol": "仙石 忍",
-    "outfit": "スーパーヴィランズ衣装"
+    "idol": "Shinobu",
+    "outfit": "スーパーヴィランズ Outfit"
   },
   {
     "group": "event",
@@ -150,8 +150,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "乱 凪砂",
-    "outfit": "ショコラフェス衣装"
+    "idol": "Nagisa",
+    "outfit": "ショコラフェス Outfit"
   },
   {
     "group": "event",
@@ -161,8 +161,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 40,
-    "idol": "巴 日和",
-    "outfit": "ショコラフェス衣装"
+    "idol": "Hiyori",
+    "outfit": "ショコラフェス Outfit"
   },
   {
     "group": "event",
@@ -172,8 +172,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "七種 茨",
-    "outfit": "ショコラフェス衣装"
+    "idol": "Ibara",
+    "outfit": "ショコラフェス Outfit"
   },
   {
     "group": "event",
@@ -183,8 +183,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "漣 ジュン",
-    "outfit": "ショコラフェス衣装"
+    "idol": "Jun",
+    "outfit": "ショコラフェス Outfit"
   },
   {
     "group": "event",
@@ -194,8 +194,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 0,
-    "idol": "斎宮 宗",
-    "outfit": "マキナ衣装"
+    "idol": "Shu",
+    "outfit": "マキナ Outfit"
   },
   {
     "group": "event",
@@ -205,8 +205,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 0,
-    "idol": "影片 みか",
-    "outfit": "マキナ衣装"
+    "idol": "Mika",
+    "outfit": "マキナ Outfit"
   },
   {
     "group": "event",
@@ -216,8 +216,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Yuzuru",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -227,8 +227,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "氷鷹 北斗",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Hokuto",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -238,8 +238,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 40,
-    "idol": "明星 スバル",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Subaru",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -249,8 +249,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Makoto",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -260,8 +260,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 30,
-    "idol": "衣更 真緒",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Mao",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -271,8 +271,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 0,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Mayoi",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -282,8 +282,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 40,
-    "idol": "影片 みか",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Mika",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -293,8 +293,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Koga",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -304,8 +304,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 40,
-    "idol": "乙狩 アドニス",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Adonis",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -315,8 +315,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 40,
-    "idol": "神崎 颯馬",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Souma",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -326,8 +326,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 40,
-    "idol": "朔間 凛月",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Ritsu",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -337,8 +337,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "鳴上 嵐",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Arashi",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -348,8 +348,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "グラデュエーション衣装"
+    "idol": "Natsume",
+    "outfit": "グラデュエーション Outfit"
   },
   {
     "group": "event",
@@ -359,8 +359,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "Big Ocean衣装"
+    "idol": "Hinata",
+    "outfit": "Big Ocean Outfit"
   },
   {
     "group": "event",
@@ -370,8 +370,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "葵 ゆうた",
-    "outfit": "Big Ocean衣装"
+    "idol": "Yuta",
+    "outfit": "Big Ocean Outfit"
   },
   {
     "group": "event",
@@ -381,8 +381,8 @@
     "Sm": 40,
     "Te": 80,
     "Ch": 30,
-    "idol": "日々樹 渉",
-    "outfit": "『オルタード』衣装"
+    "idol": "Wataru",
+    "outfit": "『オルタード』 Outfit"
   },
   {
     "group": "event",
@@ -392,8 +392,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 80,
-    "idol": "深海 奏汰",
-    "outfit": "『オルタード』衣装"
+    "idol": "Kanata",
+    "outfit": "『オルタード』 Outfit"
   },
   {
     "group": "event",
@@ -403,8 +403,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 80,
-    "idol": "斎宮 宗",
-    "outfit": "『オルタード』衣装"
+    "idol": "Shu",
+    "outfit": "『オルタード』 Outfit"
   },
   {
     "group": "event",
@@ -414,8 +414,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 80,
-    "idol": "朔間 零",
-    "outfit": "『オルタード』衣装"
+    "idol": "Rei",
+    "outfit": "『オルタード』 Outfit"
   },
   {
     "group": "event",
@@ -425,8 +425,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "『オルタード』衣装"
+    "idol": "Natsume",
+    "outfit": "『オルタード』 Outfit"
   },
   {
     "group": "event",
@@ -436,8 +436,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 0,
-    "idol": "天祥院 英智",
-    "outfit": "『fine-O』衣装"
+    "idol": "Eichi",
+    "outfit": "『fine-O』 Outfit"
   },
   {
     "group": "event",
@@ -447,8 +447,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 40,
-    "idol": "乱 凪砂",
-    "outfit": "『fine-O』衣装"
+    "idol": "Nagisa",
+    "outfit": "『fine-O』 Outfit"
   },
   {
     "group": "event",
@@ -458,8 +458,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "巴 日和",
-    "outfit": "『fine-O』衣装"
+    "idol": "Hiyori",
+    "outfit": "『fine-O』 Outfit"
   },
   {
     "group": "event",
@@ -469,8 +469,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 30,
-    "idol": "青葉 つむぎ",
-    "outfit": "『fine-O』衣装"
+    "idol": "Tsumugi",
+    "outfit": "『fine-O』 Outfit"
   },
   {
     "group": "event",
@@ -480,8 +480,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 40,
-    "idol": "朱桜 司",
-    "outfit": "Mad Party衣装"
+    "idol": "Tsukasa",
+    "outfit": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -491,8 +491,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 40,
-    "idol": "月永 レオ",
-    "outfit": "Mad Party衣装"
+    "idol": "Leo",
+    "outfit": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -502,8 +502,8 @@
     "Sm": 30,
     "Te": 40,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "Mad Party衣装"
+    "idol": "Izumi",
+    "outfit": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -513,8 +513,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "Mad Party衣装"
+    "idol": "Ritsu",
+    "outfit": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -524,8 +524,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "鳴上 嵐",
-    "outfit": "Mad Party衣装"
+    "idol": "Arashi",
+    "outfit": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -535,8 +535,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 80,
-    "idol": "伏見 弓弦",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Yuzuru",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -546,8 +546,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Makoto",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -557,8 +557,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Chiaki",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -568,8 +568,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Tatsumi",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -579,8 +579,8 @@
     "Sm": 40,
     "Te": 80,
     "Ch": 30,
-    "idol": "乱 凪砂",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Nagisa",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -590,8 +590,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 40,
-    "idol": "漣 ジュン",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Jun",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -601,8 +601,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 40,
-    "idol": "斎宮 宗",
-    "outfit": "ウェディングマーチ衣装"
+    "idol": "Shu",
+    "outfit": "ウェディングマーチ Outfit"
   },
   {
     "group": "event",
@@ -612,8 +612,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 40,
-    "idol": "天城 燐音",
-    "outfit": "ナンバーエイト衣装"
+    "idol": "Rinne",
+    "outfit": "ナンバーエイト Outfit"
   },
   {
     "group": "event",
@@ -624,7 +624,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "HiMERU",
-    "outfit": "ナンバーエイト衣装"
+    "outfit": "ナンバーエイト Outfit"
   },
   {
     "group": "event",
@@ -634,8 +634,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "桜河 こはく",
-    "outfit": "ナンバーエイト衣装"
+    "idol": "Kohaku",
+    "outfit": "ナンバーエイト Outfit"
   },
   {
     "group": "event",
@@ -645,8 +645,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "椎名 ニキ",
-    "outfit": "ナンバーエイト衣装"
+    "idol": "Niki",
+    "outfit": "ナンバーエイト Outfit"
   },
   {
     "group": "event",
@@ -656,8 +656,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 40,
-    "idol": "仁兎 なずな",
-    "outfit": "パラレルワールド衣装"
+    "idol": "Nazuna",
+    "outfit": "パラレルワールド Outfit"
   },
   {
     "group": "event",
@@ -667,8 +667,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "天満 光",
-    "outfit": "パラレルワールド衣装"
+    "idol": "Mitsuru",
+    "outfit": "パラレルワールド Outfit"
   },
   {
     "group": "event",
@@ -678,8 +678,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 80,
-    "idol": "真白 友也",
-    "outfit": "パラレルワールド衣装"
+    "idol": "Tomoya",
+    "outfit": "パラレルワールド Outfit"
   },
   {
     "group": "event",
@@ -689,8 +689,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 80,
-    "idol": "紫之 創",
-    "outfit": "パラレルワールド衣装"
+    "idol": "Hajime",
+    "outfit": "パラレルワールド Outfit"
   },
   {
     "group": "event",
@@ -700,8 +700,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "トロピカル衣装"
+    "idol": "Tetora",
+    "outfit": "トロピカル Outfit"
   },
   {
     "group": "event",
@@ -711,8 +711,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 40,
-    "idol": "高峯 翠",
-    "outfit": "トロピカル衣装"
+    "idol": "Midori",
+    "outfit": "トロピカル Outfit"
   },
   {
     "group": "event",
@@ -722,8 +722,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "トロピカル衣装"
+    "idol": "Shinobu",
+    "outfit": "トロピカル Outfit"
   },
   {
     "group": "event",
@@ -733,8 +733,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "トロピカル衣装"
+    "idol": "Chiaki",
+    "outfit": "トロピカル Outfit"
   },
   {
     "group": "event",
@@ -744,8 +744,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 80,
-    "idol": "深海 奏汰",
-    "outfit": "トロピカル衣装"
+    "idol": "Kanata",
+    "outfit": "トロピカル Outfit"
   },
   {
     "group": "event",
@@ -755,8 +755,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Subaru",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -766,8 +766,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 30,
-    "idol": "衣更 真緒",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Mao",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -777,8 +777,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 80,
-    "idol": "葵 ひなた",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Hinata",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -788,8 +788,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "椎名 ニキ",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Niki",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -799,8 +799,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Rei",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -810,8 +810,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 0,
-    "idol": "仁兎 なずな",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Nazuna",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -821,8 +821,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "ドリフトアイランド衣装"
+    "idol": "Madara",
+    "outfit": "ドリフトアイランド Outfit"
   },
   {
     "group": "event",
@@ -832,8 +832,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "三毛縞 斑",
-    "outfit": "ラストミッション衣装"
+    "idol": "Madara",
+    "outfit": "ラストミッション Outfit"
   },
   {
     "group": "event",
@@ -843,8 +843,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "ラストミッション衣装"
+    "idol": "Kohaku",
+    "outfit": "ラストミッション Outfit"
   },
   {
     "group": "event",
@@ -854,8 +854,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 0,
-    "idol": "天祥院 英智",
-    "outfit": "『ATLANTIS』衣装"
+    "idol": "Eichi",
+    "outfit": "『ATLANTIS』 Outfit"
   },
   {
     "group": "event",
@@ -865,8 +865,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 40,
-    "idol": "日々樹 渉",
-    "outfit": "『ATLANTIS』衣装"
+    "idol": "Wataru",
+    "outfit": "『ATLANTIS』 Outfit"
   },
   {
     "group": "event",
@@ -876,8 +876,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "『ATLANTIS』衣装"
+    "idol": "Tori",
+    "outfit": "『ATLANTIS』 Outfit"
   },
   {
     "group": "event",
@@ -887,8 +887,8 @@
     "Sm": 80,
     "Te": 30,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "『ATLANTIS』衣装"
+    "idol": "Yuzuru",
+    "outfit": "『ATLANTIS』 Outfit"
   },
   {
     "group": "event",
@@ -898,8 +898,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 80,
-    "idol": "斎宮 宗",
-    "outfit": "レゾンデートル衣装"
+    "idol": "Shu",
+    "outfit": "レゾンデートル Outfit"
   },
   {
     "group": "event",
@@ -909,8 +909,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 80,
-    "idol": "影片 みか",
-    "outfit": "レゾンデートル衣装"
+    "idol": "Mika",
+    "outfit": "レゾンデートル Outfit"
   },
   {
     "group": "event",
@@ -920,8 +920,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "高峯 翠",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Midori",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -931,8 +931,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 30,
-    "idol": "羽風 薫",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Kaoru",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -942,8 +942,8 @@
     "Sm": 40,
     "Te": 30,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Koga",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -953,8 +953,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "天満 光",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Mitsuru",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -964,8 +964,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Hajime",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -975,8 +975,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 40,
-    "idol": "蓮巳 敬人",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Keito",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -986,8 +986,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "朱桜 司",
-    "outfit": "エスケープマンション衣装"
+    "idol": "Tsukasa",
+    "outfit": "エスケープマンション Outfit"
   },
   {
     "group": "event",
@@ -997,8 +997,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "2×2衣装"
+    "idol": "Hinata",
+    "outfit": "2×2 Outfit"
   },
   {
     "group": "event",
@@ -1008,8 +1008,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 40,
-    "idol": "葵 ゆうた",
-    "outfit": "2×2衣装"
+    "idol": "Yuta",
+    "outfit": "2×2 Outfit"
   },
   {
     "group": "event",
@@ -1019,8 +1019,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "ホリスティックハロウィン衣装"
+    "idol": "Hiiro",
+    "outfit": "ホリスティックハロウィン Outfit"
   },
   {
     "group": "event",
@@ -1030,8 +1030,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "白鳥 藍良",
-    "outfit": "ホリスティックハロウィン衣装"
+    "idol": "Aira",
+    "outfit": "ホリスティックハロウィン Outfit"
   },
   {
     "group": "event",
@@ -1041,8 +1041,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 30,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "ホリスティックハロウィン衣装"
+    "idol": "Mayoi",
+    "outfit": "ホリスティックハロウィン Outfit"
   },
   {
     "group": "event",
@@ -1052,8 +1052,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "ホリスティックハロウィン衣装"
+    "idol": "Tatsumi",
+    "outfit": "ホリスティックハロウィン Outfit"
   },
   {
     "group": "event",
@@ -1063,8 +1063,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Tori",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1074,8 +1074,8 @@
     "Sm": 80,
     "Te": 40,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Yuzuru",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1085,8 +1085,8 @@
     "Sm": 40,
     "Te": 80,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Mao",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1096,8 +1096,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 40,
-    "idol": "影片 みか",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Mika",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1107,8 +1107,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 30,
-    "idol": "紫之 創",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Hajime",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1118,8 +1118,8 @@
     "Sm": 30,
     "Te": 80,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Ritsu",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1129,8 +1129,8 @@
     "Sm": 40,
     "Te": 80,
     "Ch": 0,
-    "idol": "鳴上 嵐",
-    "outfit": "チャンバラナイト衣装"
+    "idol": "Arashi",
+    "outfit": "チャンバラナイト Outfit"
   },
   {
     "group": "event",
@@ -1140,8 +1140,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 80,
-    "idol": "朔間 零",
-    "outfit": "フラッシュバック衣装"
+    "idol": "Rei",
+    "outfit": "フラッシュバック Outfit"
   },
   {
     "group": "event",
@@ -1151,8 +1151,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 80,
-    "idol": "羽風 薫",
-    "outfit": "フラッシュバック衣装"
+    "idol": "Kaoru",
+    "outfit": "フラッシュバック Outfit"
   },
   {
     "group": "event",
@@ -1162,8 +1162,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "大神 晃牙",
-    "outfit": "フラッシュバック衣装"
+    "idol": "Koga",
+    "outfit": "フラッシュバック Outfit"
   },
   {
     "group": "event",
@@ -1173,8 +1173,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "乙狩 アドニス",
-    "outfit": "フラッシュバック衣装"
+    "idol": "Adonis",
+    "outfit": "フラッシュバック Outfit"
   },
   {
     "group": "event",
@@ -1184,8 +1184,8 @@
     "Sm": 30,
     "Te": 40,
     "Ch": 0,
-    "idol": "蓮巳 敬人",
-    "outfit": "【天地鳴動】衣装"
+    "idol": "Keito",
+    "outfit": "【天地鳴動】 Outfit"
   },
   {
     "group": "event",
@@ -1195,8 +1195,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "鬼龍 紅郎",
-    "outfit": "【天地鳴動】衣装"
+    "idol": "Kuro",
+    "outfit": "【天地鳴動】 Outfit"
   },
   {
     "group": "event",
@@ -1206,8 +1206,8 @@
     "Sm": 30,
     "Te": 40,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "【天地鳴動】衣装"
+    "idol": "Souma",
+    "outfit": "【天地鳴動】 Outfit"
   },
   {
     "group": "event",
@@ -1217,8 +1217,8 @@
     "Sm": 30,
     "Te": 40,
     "Ch": 0,
-    "idol": "氷鷹 北斗",
-    "outfit": "Xday衣装"
+    "idol": "Hokuto",
+    "outfit": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1228,8 +1228,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "Xday衣装"
+    "idol": "Subaru",
+    "outfit": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1239,8 +1239,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 30,
-    "idol": "遊木 真",
-    "outfit": "Xday衣装"
+    "idol": "Makoto",
+    "outfit": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1250,8 +1250,8 @@
     "Sm": 80,
     "Te": 0,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "Xday衣装"
+    "idol": "Mao",
+    "outfit": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1261,8 +1261,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 40,
-    "idol": "七種 茨",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Ibara",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1272,8 +1272,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 30,
-    "idol": "葵 ゆうた",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Yuta",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1283,8 +1283,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Rinne",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1294,8 +1294,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 80,
-    "idol": "鳴上 嵐",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Arashi",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1305,8 +1305,8 @@
     "Sm": 30,
     "Te": 40,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Natsume",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1316,8 +1316,8 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 30,
-    "idol": "青葉 つむぎ",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Tsumugi",
+    "outfit": "双六盤上戦 Outfit"
   },
   {
     "group": "event",
@@ -1327,7 +1327,7 @@
     "Sm": 0,
     "Te": 80,
     "Ch": 30,
-    "idol": "三毛縞 斑",
-    "outfit": "双六盤上戦衣装"
+    "idol": "Madara",
+    "outfit": "双六盤上戦 Outfit"
   }
 ]

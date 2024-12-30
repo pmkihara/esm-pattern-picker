@@ -7,8 +7,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "天祥院 英智",
-    "outfit": "正月衣装"
+    "idol": "Eichi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -18,8 +18,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 20,
-    "idol": "日々樹 渉",
-    "outfit": "正月衣装"
+    "idol": "Wataru",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -29,8 +29,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "姫宮 桃李",
-    "outfit": "正月衣装"
+    "idol": "Tori",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -40,8 +40,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "正月衣装"
+    "idol": "Yuzuru",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -51,8 +51,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "氷鷹 北斗",
-    "outfit": "正月衣装"
+    "idol": "Hokuto",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -62,8 +62,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "正月衣装"
+    "idol": "Subaru",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -73,8 +73,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "遊木 真",
-    "outfit": "正月衣装"
+    "idol": "Makoto",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -84,8 +84,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "正月衣装"
+    "idol": "Mao",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -95,8 +95,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "守沢 千秋",
-    "outfit": "正月衣装"
+    "idol": "Chiaki",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -106,8 +106,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "深海 奏汰",
-    "outfit": "正月衣装"
+    "idol": "Kanata",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -117,8 +117,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "南雲 鉄虎",
-    "outfit": "正月衣装"
+    "idol": "Tetora",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -128,8 +128,8 @@
     "Sm": 15,
     "Te": 25,
     "Ch": 0,
-    "idol": "高峯 翠",
-    "outfit": "正月衣装"
+    "idol": "Midori",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -139,8 +139,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "仙石 忍",
-    "outfit": "正月衣装"
+    "idol": "Shinobu",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -150,8 +150,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "正月衣装"
+    "idol": "Hiiro",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -161,8 +161,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "白鳥 藍良",
-    "outfit": "正月衣装"
+    "idol": "Aira",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -172,8 +172,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "正月衣装"
+    "idol": "Mayoi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -183,8 +183,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "風早 巽",
-    "outfit": "正月衣装"
+    "idol": "Tatsumi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -194,8 +194,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "乱 凪砂",
-    "outfit": "正月衣装"
+    "idol": "Nagisa",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -205,8 +205,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "巴 日和",
-    "outfit": "正月衣装"
+    "idol": "Hiyori",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -216,8 +216,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "七種 茨",
-    "outfit": "正月衣装"
+    "idol": "Ibara",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -227,8 +227,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "漣 ジュン",
-    "outfit": "正月衣装"
+    "idol": "Jun",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -238,8 +238,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "斎宮 宗",
-    "outfit": "正月衣装"
+    "idol": "Shu",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -249,8 +249,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "影片 みか",
-    "outfit": "正月衣装"
+    "idol": "Mika",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -260,8 +260,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "葵 ひなた",
-    "outfit": "正月衣装"
+    "idol": "Hinata",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -271,8 +271,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "葵 ゆうた",
-    "outfit": "正月衣装"
+    "idol": "Yuta",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -282,8 +282,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "正月衣装"
+    "idol": "Rinne",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -294,7 +294,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "正月衣装"
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -304,8 +304,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "桜河 こはく",
-    "outfit": "正月衣装"
+    "idol": "Kohaku",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -315,8 +315,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "椎名 ニキ",
-    "outfit": "正月衣装"
+    "idol": "Niki",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -326,8 +326,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "正月衣装"
+    "idol": "Rei",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -337,8 +337,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "羽風 薫",
-    "outfit": "正月衣装"
+    "idol": "Kaoru",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -348,8 +348,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "正月衣装"
+    "idol": "Koga",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -359,8 +359,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "乙狩 アドニス",
-    "outfit": "正月衣装"
+    "idol": "Adonis",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -370,8 +370,8 @@
     "Sm": 0,
     "Te": 20,
     "Ch": 30,
-    "idol": "真白 友也",
-    "outfit": "正月衣装"
+    "idol": "Tomoya",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -381,8 +381,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "仁兎 なずな",
-    "outfit": "正月衣装"
+    "idol": "Nazuna",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -392,8 +392,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "天満 光",
-    "outfit": "正月衣装"
+    "idol": "Mitsuru",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -403,8 +403,8 @@
     "Sm": 25,
     "Te": 15,
     "Ch": 40,
-    "idol": "紫之 創",
-    "outfit": "正月衣装"
+    "idol": "Hajime",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -414,8 +414,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 20,
-    "idol": "蓮巳 敬人",
-    "outfit": "正月衣装"
+    "idol": "Keito",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -425,8 +425,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 25,
-    "idol": "鬼龍 紅郎",
-    "outfit": "正月衣装"
+    "idol": "Kuro",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -436,8 +436,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "神崎 颯馬",
-    "outfit": "正月衣装"
+    "idol": "Souma",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -447,8 +447,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "朱桜 司",
-    "outfit": "正月衣装"
+    "idol": "Tsukasa",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -458,8 +458,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "月永 レオ",
-    "outfit": "正月衣装"
+    "idol": "Leo",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -469,8 +469,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "正月衣装"
+    "idol": "Izumi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -480,8 +480,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "朔間 凛月",
-    "outfit": "正月衣装"
+    "idol": "Ritsu",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -491,8 +491,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "鳴上 嵐",
-    "outfit": "正月衣装"
+    "idol": "Arashi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -502,8 +502,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "逆先 夏目",
-    "outfit": "正月衣装"
+    "idol": "Natsume",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -513,8 +513,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "青葉 つむぎ",
-    "outfit": "正月衣装"
+    "idol": "Tsumugi",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -524,8 +524,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "春川 宙",
-    "outfit": "正月衣装"
+    "idol": "Sora",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -535,8 +535,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "正月衣装"
+    "idol": "Madara",
+    "outfit": "Red/White New Year"
   },
   {
     "group": "general",
@@ -546,8 +546,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "天祥院 英智",
-    "outfit": "天使のアニバーサリーロック"
+    "idol": "Eichi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -557,8 +557,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "日々樹 渉",
-    "outfit": "天使のアニバーサリーロック"
+    "idol": "Wataru",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -568,8 +568,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "天使のアニバーサリーロック"
+    "idol": "Tori",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -579,8 +579,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "天使のアニバーサリーロック"
+    "idol": "Yuzuru",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -590,8 +590,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "氷鷹 北斗",
-    "outfit": "四つ星のアニバーサリーロック"
+    "idol": "Hokuto",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -601,8 +601,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "四つ星のアニバーサリーロック"
+    "idol": "Subaru",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -612,8 +612,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "四つ星のアニバーサリーロック"
+    "idol": "Makoto",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -623,8 +623,8 @@
     "Sm": 25,
     "Te": 55,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "四つ星のアニバーサリーロック"
+    "idol": "Mao",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -634,8 +634,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "守沢 千秋",
-    "outfit": "流星のアニバーサリーロック"
+    "idol": "Chiaki",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -645,8 +645,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "流星のアニバーサリーロック"
+    "idol": "Kanata",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -656,8 +656,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "流星のアニバーサリーロック"
+    "idol": "Tetora",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -667,8 +667,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "高峯 翠",
-    "outfit": "流星のアニバーサリーロック"
+    "idol": "Midori",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -678,8 +678,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "流星のアニバーサリーロック"
+    "idol": "Shinobu",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -689,8 +689,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "兵隊のアニバーサリーロック"
+    "idol": "Hiiro",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -700,8 +700,8 @@
     "Sm": 25,
     "Te": 55,
     "Ch": 0,
-    "idol": "白鳥 藍良",
-    "outfit": "兵隊のアニバーサリーロック"
+    "idol": "Aira",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -711,8 +711,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "兵隊のアニバーサリーロック"
+    "idol": "Mayoi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -722,8 +722,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "兵隊のアニバーサリーロック"
+    "idol": "Tatsumi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -733,8 +733,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "乱 凪砂",
-    "outfit": "黒翼のアニバーサリーロック"
+    "idol": "Nagisa",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -744,8 +744,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "巴 日和",
-    "outfit": "黒翼のアニバーサリーロック"
+    "idol": "Hiyori",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -755,8 +755,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "七種 茨",
-    "outfit": "黒翼のアニバーサリーロック"
+    "idol": "Ibara",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -766,8 +766,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "漣 ジュン",
-    "outfit": "黒翼のアニバーサリーロック"
+    "idol": "Jun",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -777,8 +777,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "斎宮 宗",
-    "outfit": "気品のアニバーサリーロック"
+    "idol": "Shu",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -788,8 +788,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "影片 みか",
-    "outfit": "気品のアニバーサリーロック"
+    "idol": "Mika",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -799,8 +799,8 @@
     "Sm": 25,
     "Te": 55,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "双楽のアニバーサリーロック"
+    "idol": "Hinata",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -810,8 +810,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "葵 ゆうた",
-    "outfit": "双楽のアニバーサリーロック"
+    "idol": "Yuta",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -821,8 +821,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "天城 燐音",
-    "outfit": "刺激のアニバーサリーロック"
+    "idol": "Rinne",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -833,7 +833,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "刺激のアニバーサリーロック"
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -843,8 +843,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "刺激のアニバーサリーロック"
+    "idol": "Kohaku",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -854,8 +854,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "椎名 ニキ",
-    "outfit": "刺激のアニバーサリーロック"
+    "idol": "Niki",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -865,8 +865,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "朔間 零",
-    "outfit": "魅惑のアニバーサリーロック"
+    "idol": "Rei",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -876,8 +876,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "羽風 薫",
-    "outfit": "魅惑のアニバーサリーロック"
+    "idol": "Kaoru",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -887,8 +887,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "大神 晃牙",
-    "outfit": "魅惑のアニバーサリーロック"
+    "idol": "Koga",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -898,8 +898,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "乙狩 アドニス",
-    "outfit": "魅惑のアニバーサリーロック"
+    "idol": "Adonis",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -909,8 +909,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "弾むアニバーサリーロック"
+    "idol": "Tomoya",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -920,8 +920,8 @@
     "Sm": 25,
     "Te": 55,
     "Ch": 0,
-    "idol": "仁兎 なずな",
-    "outfit": "弾むアニバーサリーロック"
+    "idol": "Nazuna",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -931,8 +931,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "天満 光",
-    "outfit": "弾むアニバーサリーロック"
+    "idol": "Mitsuru",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -942,8 +942,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "弾むアニバーサリーロック"
+    "idol": "Hajime",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -953,8 +953,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "蓮巳 敬人",
-    "outfit": "伝統のアニバーサリーロック"
+    "idol": "Keito",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -964,8 +964,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "鬼龍 紅郎",
-    "outfit": "伝統のアニバーサリーロック"
+    "idol": "Kuro",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -975,8 +975,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "伝統のアニバーサリーロック"
+    "idol": "Souma",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -986,8 +986,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "朱桜 司",
-    "outfit": "騎士のアニバーサリーロック"
+    "idol": "Tsukasa",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -997,8 +997,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "月永 レオ",
-    "outfit": "騎士のアニバーサリーロック"
+    "idol": "Leo",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1008,8 +1008,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "騎士のアニバーサリーロック"
+    "idol": "Izumi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1019,8 +1019,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "騎士のアニバーサリーロック"
+    "idol": "Ritsu",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1030,8 +1030,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 55,
-    "idol": "鳴上 嵐",
-    "outfit": "騎士のアニバーサリーロック"
+    "idol": "Arashi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1041,8 +1041,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "閃光のアニバーサリーロック"
+    "idol": "Natsume",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1052,8 +1052,8 @@
     "Sm": 55,
     "Te": 25,
     "Ch": 0,
-    "idol": "青葉 つむぎ",
-    "outfit": "閃光のアニバーサリーロック"
+    "idol": "Tsumugi",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1063,8 +1063,8 @@
     "Sm": 25,
     "Te": 55,
     "Ch": 0,
-    "idol": "春川 宙",
-    "outfit": "閃光のアニバーサリーロック"
+    "idol": "Sora",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1074,8 +1074,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "暗躍のアニバーサリーロック"
+    "idol": "Madara",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1085,8 +1085,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "暗躍のアニバーサリーロック"
+    "idol": "Kohaku",
+    "outfit": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1096,8 +1096,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "天祥院 英智",
-    "outfit": "私服（秋～冬）"
+    "idol": "Eichi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1107,8 +1107,8 @@
     "Sm": 15,
     "Te": 25,
     "Ch": 0,
-    "idol": "日々樹 渉",
-    "outfit": "私服（秋～冬）"
+    "idol": "Wataru",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1118,8 +1118,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tori",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1129,8 +1129,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "私服（秋～冬）"
+    "idol": "Yuzuru",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1140,8 +1140,8 @@
     "Sm": 20,
     "Te": 0,
     "Ch": 0,
-    "idol": "氷鷹 北斗",
-    "outfit": "私服（秋～冬）"
+    "idol": "Hokuto",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1151,8 +1151,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "明星 スバル",
-    "outfit": "私服（秋～冬）"
+    "idol": "Subaru",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1162,8 +1162,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "遊木 真",
-    "outfit": "私服（秋～冬）"
+    "idol": "Makoto",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1173,8 +1173,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "衣更 真緒",
-    "outfit": "私服（秋～冬）"
+    "idol": "Mao",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1184,8 +1184,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "私服（秋～冬）"
+    "idol": "Chiaki",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1195,8 +1195,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "私服（秋～冬）"
+    "idol": "Kanata",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1206,8 +1206,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tetora",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1217,8 +1217,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "高峯 翠",
-    "outfit": "私服（秋～冬）"
+    "idol": "Midori",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1228,8 +1228,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "仙石 忍",
-    "outfit": "私服（秋～冬）"
+    "idol": "Shinobu",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1239,8 +1239,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 25,
-    "idol": "天城 一彩",
-    "outfit": "私服（秋～冬）"
+    "idol": "Hiiro",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1250,8 +1250,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 25,
-    "idol": "白鳥 藍良",
-    "outfit": "私服（秋～冬）"
+    "idol": "Aira",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1261,8 +1261,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "私服（秋～冬）"
+    "idol": "Mayoi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1272,8 +1272,8 @@
     "Sm": 30,
     "Te": 20,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tatsumi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1283,8 +1283,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "乱 凪砂",
-    "outfit": "私服（秋～冬）"
+    "idol": "Nagisa",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1294,8 +1294,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "巴 日和",
-    "outfit": "私服（秋～冬）"
+    "idol": "Hiyori",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1305,8 +1305,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "七種 茨",
-    "outfit": "私服（秋～冬）"
+    "idol": "Ibara",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1316,8 +1316,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "漣 ジュン",
-    "outfit": "私服（秋～冬）"
+    "idol": "Jun",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1327,8 +1327,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "斎宮 宗",
-    "outfit": "私服（秋～冬）"
+    "idol": "Shu",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1338,8 +1338,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 20,
-    "idol": "影片 みか",
-    "outfit": "私服（秋～冬）"
+    "idol": "Mika",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1349,8 +1349,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "私服（秋～冬）"
+    "idol": "Hinata",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1360,8 +1360,8 @@
     "Sm": 25,
     "Te": 15,
     "Ch": 0,
-    "idol": "葵 ゆうた",
-    "outfit": "私服（秋～冬）"
+    "idol": "Yuta",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1371,8 +1371,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "私服（秋～冬）"
+    "idol": "Rinne",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1383,7 +1383,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "私服（秋～冬）"
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1393,8 +1393,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "私服（秋～冬）"
+    "idol": "Kohaku",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1404,8 +1404,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "椎名 ニキ",
-    "outfit": "私服（秋～冬）"
+    "idol": "Niki",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1415,8 +1415,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "私服（秋～冬）"
+    "idol": "Rei",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1426,8 +1426,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "羽風 薫",
-    "outfit": "私服（秋～冬）"
+    "idol": "Kaoru",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1437,8 +1437,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "大神 晃牙",
-    "outfit": "私服（秋～冬）"
+    "idol": "Koga",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1448,8 +1448,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "乙狩 アドニス",
-    "outfit": "私服（秋～冬）"
+    "idol": "Adonis",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1459,8 +1459,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tomoya",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1470,8 +1470,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "仁兎 なずな",
-    "outfit": "私服（秋～冬）"
+    "idol": "Nazuna",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1481,8 +1481,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "天満 光",
-    "outfit": "私服（秋～冬）"
+    "idol": "Mitsuru",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1492,8 +1492,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "私服（秋～冬）"
+    "idol": "Hajime",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1503,8 +1503,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "蓮巳 敬人",
-    "outfit": "私服（秋～冬）"
+    "idol": "Keito",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1514,8 +1514,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "鬼龍 紅郎",
-    "outfit": "私服（秋～冬）"
+    "idol": "Kuro",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1525,8 +1525,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "私服（秋～冬）"
+    "idol": "Souma",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1536,8 +1536,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "朱桜 司",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tsukasa",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1547,8 +1547,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "月永 レオ",
-    "outfit": "私服（秋～冬）"
+    "idol": "Leo",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1558,8 +1558,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "瀬名 泉",
-    "outfit": "私服（秋～冬）"
+    "idol": "Izumi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1569,8 +1569,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "私服（秋～冬）"
+    "idol": "Ritsu",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1580,8 +1580,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "鳴上 嵐",
-    "outfit": "私服（秋～冬）"
+    "idol": "Arashi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1591,8 +1591,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "逆先 夏目",
-    "outfit": "私服（秋～冬）"
+    "idol": "Natsume",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1602,8 +1602,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "青葉 つむぎ",
-    "outfit": "私服（秋～冬）"
+    "idol": "Tsumugi",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1613,8 +1613,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "春川 宙",
-    "outfit": "私服（秋～冬）"
+    "idol": "Sora",
+    "outfit": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1624,7 +1624,7 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "私服（秋～冬）"
+    "idol": "Madara",
+    "outfit": "Casual (Autumn-Winter)"
   }
 ]

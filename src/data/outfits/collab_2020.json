@@ -7,8 +7,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "天祥院 英智",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Eichi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -18,8 +18,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "日々樹 渉",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Wataru",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -29,8 +29,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tori",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -40,8 +40,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Yuzuru",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -51,8 +51,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "氷鷹 北斗",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Hokuto",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -62,8 +62,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Subaru",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -73,8 +73,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Makoto",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -84,8 +84,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Mao",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -95,8 +95,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "守沢 千秋",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Chiaki",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -106,8 +106,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Kanata",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -117,8 +117,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "南雲 鉄虎",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tetora",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -128,8 +128,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 15,
-    "idol": "高峯 翠",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Midori",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -139,8 +139,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Shinobu",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -150,8 +150,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Hiiro",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -161,8 +161,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "白鳥 藍良",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Aira",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -172,8 +172,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Mayoi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -183,8 +183,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "風早 巽",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tatsumi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -194,8 +194,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "乱 凪砂",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Nagisa",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -205,8 +205,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "巴 日和",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Hiyori",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -216,8 +216,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "七種 茨",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Ibara",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -227,8 +227,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "漣 ジュン",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Jun",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -238,8 +238,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "斎宮 宗",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Shu",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -249,8 +249,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "影片 みか",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Mika",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -260,8 +260,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Hinata",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -271,8 +271,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "葵 ゆうた",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Yuta",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -282,8 +282,8 @@
     "Sm": 25,
     "Te": 40,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Rinne",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -294,7 +294,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "ローソン宣伝スタイル"
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -304,8 +304,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Kohaku",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -315,8 +315,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "椎名 ニキ",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Niki",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -326,8 +326,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "朔間 零",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Rei",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -337,8 +337,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "羽風 薫",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Kaoru",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -348,8 +348,8 @@
     "Sm": 25,
     "Te": 40,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Koga",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -359,8 +359,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "乙狩 アドニス",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Adonis",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -370,8 +370,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "真白 友也",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tomoya",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -381,8 +381,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 15,
-    "idol": "仁兎 なずな",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Nazuna",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -392,8 +392,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 40,
-    "idol": "天満 光",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Mitsuru",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -403,8 +403,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Hajime",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -414,8 +414,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 15,
-    "idol": "蓮巳 敬人",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Keito",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -425,8 +425,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "鬼龍 紅郎",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Kuro",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -436,8 +436,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 15,
-    "idol": "神崎 颯馬",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Souma",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -447,8 +447,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "朱桜 司",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tsukasa",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -458,8 +458,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "月永 レオ",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Leo",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -469,8 +469,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "瀬名 泉",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Izumi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -480,8 +480,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "朔間 凛月",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Ritsu",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -491,8 +491,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "鳴上 嵐",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Arashi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -502,8 +502,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Natsume",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -513,8 +513,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "青葉 つむぎ",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Tsumugi",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -524,8 +524,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "春川 宙",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Sora",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -535,8 +535,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "三毛縞 斑",
-    "outfit": "ローソン宣伝スタイル"
+    "idol": "Madara",
+    "outfit": "Lawson Promotion"
   },
   {
     "group": "collab",
@@ -546,8 +546,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "天祥院 英智",
-    "outfit": "ココイチスタイル"
+    "idol": "Eichi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -557,8 +557,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "日々樹 渉",
-    "outfit": "ココイチスタイル"
+    "idol": "Wataru",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -568,8 +568,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "姫宮 桃李",
-    "outfit": "ココイチスタイル"
+    "idol": "Tori",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -579,8 +579,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "伏見 弓弦",
-    "outfit": "ココイチスタイル"
+    "idol": "Yuzuru",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -590,8 +590,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "氷鷹 北斗",
-    "outfit": "ココイチスタイル"
+    "idol": "Hokuto",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -601,8 +601,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "明星 スバル",
-    "outfit": "ココイチスタイル"
+    "idol": "Subaru",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -612,8 +612,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "ココイチスタイル"
+    "idol": "Makoto",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -623,8 +623,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "ココイチスタイル"
+    "idol": "Mao",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -634,8 +634,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "ココイチスタイル"
+    "idol": "Chiaki",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -645,8 +645,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "ココイチスタイル"
+    "idol": "Kanata",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -656,8 +656,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "南雲 鉄虎",
-    "outfit": "ココイチスタイル"
+    "idol": "Tetora",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -667,8 +667,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "高峯 翠",
-    "outfit": "ココイチスタイル"
+    "idol": "Midori",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -678,8 +678,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "ココイチスタイル"
+    "idol": "Shinobu",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -689,8 +689,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "天城 一彩",
-    "outfit": "ココイチスタイル"
+    "idol": "Hiiro",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -700,8 +700,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "白鳥 藍良",
-    "outfit": "ココイチスタイル"
+    "idol": "Aira",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -711,8 +711,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "ココイチスタイル"
+    "idol": "Mayoi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -722,8 +722,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "風早 巽",
-    "outfit": "ココイチスタイル"
+    "idol": "Tatsumi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -733,8 +733,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "乱 凪砂",
-    "outfit": "ココイチスタイル"
+    "idol": "Nagisa",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -744,8 +744,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "巴 日和",
-    "outfit": "ココイチスタイル"
+    "idol": "Hiyori",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -755,8 +755,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "七種 茨",
-    "outfit": "ココイチスタイル"
+    "idol": "Ibara",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -766,8 +766,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "漣 ジュン",
-    "outfit": "ココイチスタイル"
+    "idol": "Jun",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -777,8 +777,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "斎宮 宗",
-    "outfit": "ココイチスタイル"
+    "idol": "Shu",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -788,8 +788,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "影片 みか",
-    "outfit": "ココイチスタイル"
+    "idol": "Mika",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -799,8 +799,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "ココイチスタイル"
+    "idol": "Hinata",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -810,8 +810,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "葵 ゆうた",
-    "outfit": "ココイチスタイル"
+    "idol": "Yuta",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -821,8 +821,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "ココイチスタイル"
+    "idol": "Rinne",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -833,7 +833,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "HiMERU",
-    "outfit": "ココイチスタイル"
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -843,8 +843,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "ココイチスタイル"
+    "idol": "Kohaku",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -854,8 +854,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "椎名 ニキ",
-    "outfit": "ココイチスタイル"
+    "idol": "Niki",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -865,8 +865,8 @@
     "Sm": 20,
     "Te": 30,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "ココイチスタイル"
+    "idol": "Rei",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -876,8 +876,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 20,
-    "idol": "羽風 薫",
-    "outfit": "ココイチスタイル"
+    "idol": "Kaoru",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -887,8 +887,8 @@
     "Sm": 0,
     "Te": 20,
     "Ch": 30,
-    "idol": "大神 晃牙",
-    "outfit": "ココイチスタイル"
+    "idol": "Koga",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -898,8 +898,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 20,
-    "idol": "乙狩 アドニス",
-    "outfit": "ココイチスタイル"
+    "idol": "Adonis",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -909,8 +909,8 @@
     "Sm": 30,
     "Te": 20,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "ココイチスタイル"
+    "idol": "Tomoya",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -920,8 +920,8 @@
     "Sm": 20,
     "Te": 0,
     "Ch": 30,
-    "idol": "仁兎 なずな",
-    "outfit": "ココイチスタイル"
+    "idol": "Nazuna",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -931,8 +931,8 @@
     "Sm": 20,
     "Te": 0,
     "Ch": 30,
-    "idol": "天満 光",
-    "outfit": "ココイチスタイル"
+    "idol": "Mitsuru",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -942,8 +942,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 20,
-    "idol": "紫之 創",
-    "outfit": "ココイチスタイル"
+    "idol": "Hajime",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -953,8 +953,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "蓮巳 敬人",
-    "outfit": "ココイチスタイル"
+    "idol": "Keito",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -964,8 +964,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "鬼龍 紅郎",
-    "outfit": "ココイチスタイル"
+    "idol": "Kuro",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -975,8 +975,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "ココイチスタイル"
+    "idol": "Souma",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -986,8 +986,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "朱桜 司",
-    "outfit": "ココイチスタイル"
+    "idol": "Tsukasa",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -997,8 +997,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "月永 レオ",
-    "outfit": "ココイチスタイル"
+    "idol": "Leo",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1008,8 +1008,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "ココイチスタイル"
+    "idol": "Izumi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1019,8 +1019,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "ココイチスタイル"
+    "idol": "Ritsu",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1030,8 +1030,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "鳴上 嵐",
-    "outfit": "ココイチスタイル"
+    "idol": "Arashi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1041,8 +1041,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "逆先 夏目",
-    "outfit": "ココイチスタイル"
+    "idol": "Natsume",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1052,8 +1052,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "青葉 つむぎ",
-    "outfit": "ココイチスタイル"
+    "idol": "Tsumugi",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1063,8 +1063,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "春川 宙",
-    "outfit": "ココイチスタイル"
+    "idol": "Sora",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1074,8 +1074,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "三毛縞 斑",
-    "outfit": "ココイチスタイル"
+    "idol": "Madara",
+    "outfit": "CoCoICHI"
   },
   {
     "group": "collab",
@@ -1085,8 +1085,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "天祥院 英智",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Eichi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1096,8 +1096,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "日々樹 渉",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Wataru",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1107,8 +1107,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "姫宮 桃李",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tori",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1118,8 +1118,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Yuzuru",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1129,8 +1129,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "氷鷹 北斗",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Hokuto",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1140,8 +1140,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Subaru",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1151,8 +1151,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "遊木 真",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Makoto",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1162,8 +1162,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "衣更 真緒",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Mao",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1173,8 +1173,8 @@
     "Sm": 20,
     "Te": 0,
     "Ch": 30,
-    "idol": "守沢 千秋",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Chiaki",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1184,8 +1184,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Kanata",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1195,8 +1195,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tetora",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1206,8 +1206,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 20,
-    "idol": "高峯 翠",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Midori",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1217,8 +1217,8 @@
     "Sm": 30,
     "Te": 20,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Shinobu",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1228,8 +1228,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Hiiro",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1239,8 +1239,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "白鳥 藍良",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Aira",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1250,8 +1250,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Mayoi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1261,8 +1261,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tatsumi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1272,8 +1272,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "乱 凪砂",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Nagisa",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1283,8 +1283,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "巴 日和",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Hiyori",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1294,8 +1294,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "七種 茨",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Ibara",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1305,8 +1305,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "漣 ジュン",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Jun",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1316,8 +1316,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "斎宮 宗",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Shu",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1327,8 +1327,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "影片 みか",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Mika",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1338,8 +1338,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Hinata",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1349,8 +1349,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "葵 ゆうた",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Yuta",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1360,8 +1360,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "天城 燐音",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Rinne",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1372,7 +1372,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "HiMERU",
-    "outfit": "めぐりズムパジャマ"
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1382,8 +1382,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Kohaku",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1393,8 +1393,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "椎名 ニキ",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Niki",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1404,8 +1404,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "朔間 零",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Rei",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1415,8 +1415,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "羽風 薫",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Kaoru",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1426,8 +1426,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Koga",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1437,8 +1437,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "乙狩 アドニス",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Adonis",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1448,8 +1448,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tomoya",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1459,8 +1459,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "仁兎 なずな",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Nazuna",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1470,8 +1470,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "天満 光",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Mitsuru",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1481,8 +1481,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Hajime",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1492,8 +1492,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "蓮巳 敬人",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Keito",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1503,8 +1503,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "鬼龍 紅郎",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Kuro",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1514,8 +1514,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Souma",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1525,8 +1525,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "朱桜 司",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tsukasa",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1536,8 +1536,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "月永 レオ",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Leo",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1547,8 +1547,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Izumi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1558,8 +1558,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "朔間 凛月",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Ritsu",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1569,8 +1569,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "鳴上 嵐",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Arashi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1580,8 +1580,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Natsume",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1591,8 +1591,8 @@
     "Sm": 0,
     "Te": 40,
     "Ch": 25,
-    "idol": "青葉 つむぎ",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Tsumugi",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1602,8 +1602,8 @@
     "Sm": 15,
     "Te": 40,
     "Ch": 0,
-    "idol": "春川 宙",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Sora",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1613,8 +1613,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "めぐりズムパジャマ"
+    "idol": "Madara",
+    "outfit": "MegRhythm Pajama"
   },
   {
     "group": "collab",
@@ -1624,8 +1624,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "天祥院 英智",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Eichi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1635,8 +1635,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "日々樹 渉",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Wataru",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1646,8 +1646,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "姫宮 桃李",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tori",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1657,8 +1657,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "伏見 弓弦",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Yuzuru",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1668,8 +1668,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "氷鷹 北斗",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Hokuto",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1679,8 +1679,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "明星 スバル",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Subaru",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1690,8 +1690,8 @@
     "Sm": 15,
     "Te": 25,
     "Ch": 0,
-    "idol": "遊木 真",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Makoto",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1701,8 +1701,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "衣更 真緒",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Mao",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1712,8 +1712,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "守沢 千秋",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Chiaki",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1723,8 +1723,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Kanata",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1734,8 +1734,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "南雲 鉄虎",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tetora",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1745,8 +1745,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "高峯 翠",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Midori",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1756,8 +1756,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "仙石 忍",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Shinobu",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1767,8 +1767,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Hiiro",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1778,8 +1778,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "白鳥 藍良",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Aira",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1789,8 +1789,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 25,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Mayoi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1800,8 +1800,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "風早 巽",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tatsumi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1811,8 +1811,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "乱 凪砂",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Nagisa",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1822,8 +1822,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "巴 日和",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Hiyori",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1833,8 +1833,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "七種 茨",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Ibara",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1844,8 +1844,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 25,
-    "idol": "漣 ジュン",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Jun",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1855,8 +1855,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 25,
-    "idol": "斎宮 宗",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Shu",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1866,8 +1866,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "影片 みか",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Mika",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1877,8 +1877,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "葵 ひなた",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Hinata",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1888,8 +1888,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "葵 ゆうた",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Yuta",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1899,8 +1899,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "天城 燐音",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Rinne",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1911,7 +1911,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "タワレコ店長スタイル"
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1921,8 +1921,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "桜河 こはく",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Kohaku",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1932,8 +1932,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 25,
-    "idol": "椎名 ニキ",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Niki",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1943,8 +1943,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Rei",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1954,8 +1954,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "羽風 薫",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Kaoru",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1965,8 +1965,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 0,
-    "idol": "大神 晃牙",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Koga",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1976,8 +1976,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "乙狩 アドニス",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Adonis",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1987,8 +1987,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tomoya",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -1998,8 +1998,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "仁兎 なずな",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Nazuna",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2009,8 +2009,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "天満 光",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Mitsuru",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2020,8 +2020,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "紫之 創",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Hajime",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2031,8 +2031,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 25,
-    "idol": "蓮巳 敬人",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Keito",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2042,8 +2042,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "鬼龍 紅郎",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Kuro",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2053,8 +2053,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "神崎 颯馬",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Souma",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2064,8 +2064,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "朱桜 司",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tsukasa",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2075,8 +2075,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 15,
-    "idol": "月永 レオ",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Leo",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2086,8 +2086,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "瀬名 泉",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Izumi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2097,8 +2097,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "朔間 凛月",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Ritsu",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2108,8 +2108,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "鳴上 嵐",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Arashi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2119,8 +2119,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "逆先 夏目",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Natsume",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2130,8 +2130,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "青葉 つむぎ",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Tsumugi",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2141,8 +2141,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "春川 宙",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Sora",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2152,8 +2152,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 25,
-    "idol": "三毛縞 斑",
-    "outfit": "タワレコ店長スタイル"
+    "idol": "Madara",
+    "outfit": "Tower Records Manager"
   },
   {
     "group": "collab",
@@ -2163,8 +2163,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "天祥院 英智",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Eichi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2174,8 +2174,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "日々樹 渉",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Wataru",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2185,8 +2185,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "姫宮 桃李",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tori",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2196,8 +2196,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "伏見 弓弦",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Yuzuru",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2207,8 +2207,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "氷鷹 北斗",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Hokuto",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2218,8 +2218,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 25,
-    "idol": "明星 スバル",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Subaru",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2229,8 +2229,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "遊木 真",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Makoto",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2240,8 +2240,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "衣更 真緒",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Mao",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2251,8 +2251,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 0,
-    "idol": "守沢 千秋",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Chiaki",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2262,8 +2262,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 0,
-    "idol": "深海 奏汰",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Kanata",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2273,8 +2273,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "南雲 鉄虎",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tetora",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2284,8 +2284,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 25,
-    "idol": "高峯 翠",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Midori",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2295,8 +2295,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "仙石 忍",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Shinobu",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2306,8 +2306,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 0,
-    "idol": "天城 一彩",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Hiiro",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2317,8 +2317,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "白鳥 藍良",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Aira",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2328,8 +2328,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "礼瀬 マヨイ",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Mayoi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2339,8 +2339,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "風早 巽",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tatsumi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2350,8 +2350,8 @@
     "Sm": 15,
     "Te": 25,
     "Ch": 40,
-    "idol": "乱 凪砂",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Nagisa",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2361,8 +2361,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "巴 日和",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Hiyori",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2372,8 +2372,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "七種 茨",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Ibara",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2383,8 +2383,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "漣 ジュン",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Jun",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2394,8 +2394,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 15,
-    "idol": "斎宮 宗",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Shu",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2405,8 +2405,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 15,
-    "idol": "影片 みか",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Mika",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2416,8 +2416,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "葵 ひなた",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Hinata",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2427,8 +2427,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "葵 ゆうた",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Yuta",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2438,8 +2438,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 15,
-    "idol": "天城 燐音",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Rinne",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2450,7 +2450,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "HiMERU",
-    "outfit": "ラブ・ライナースタイル"
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2460,8 +2460,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 0,
-    "idol": "桜河 こはく",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Kohaku",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2471,8 +2471,8 @@
     "Sm": 40,
     "Te": 15,
     "Ch": 0,
-    "idol": "椎名 ニキ",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Niki",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2482,8 +2482,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "朔間 零",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Rei",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2493,8 +2493,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "羽風 薫",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Kaoru",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2504,8 +2504,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 25,
-    "idol": "大神 晃牙",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Koga",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2515,8 +2515,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 15,
-    "idol": "乙狩 アドニス",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Adonis",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2526,8 +2526,8 @@
     "Sm": 40,
     "Te": 25,
     "Ch": 0,
-    "idol": "真白 友也",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tomoya",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2537,8 +2537,8 @@
     "Sm": 25,
     "Te": 0,
     "Ch": 40,
-    "idol": "仁兎 なずな",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Nazuna",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2548,8 +2548,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 40,
-    "idol": "天満 光",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Mitsuru",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2559,8 +2559,8 @@
     "Sm": 0,
     "Te": 25,
     "Ch": 40,
-    "idol": "紫之 創",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Hajime",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2570,8 +2570,8 @@
     "Sm": 0,
     "Te": 15,
     "Ch": 25,
-    "idol": "蓮巳 敬人",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Keito",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2581,8 +2581,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "鬼龍 紅郎",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Kuro",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2592,8 +2592,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "神崎 颯馬",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Souma",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2603,8 +2603,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 30,
-    "idol": "朱桜 司",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tsukasa",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2614,8 +2614,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 30,
-    "idol": "月永 レオ",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Leo",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2625,8 +2625,8 @@
     "Sm": 30,
     "Te": 0,
     "Ch": 30,
-    "idol": "瀬名 泉",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Izumi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2636,8 +2636,8 @@
     "Sm": 0,
     "Te": 30,
     "Ch": 30,
-    "idol": "朔間 凛月",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Ritsu",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2647,8 +2647,8 @@
     "Sm": 0,
     "Te": 0,
     "Ch": 30,
-    "idol": "鳴上 嵐",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Arashi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2658,8 +2658,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "逆先 夏目",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Natsume",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2669,8 +2669,8 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "青葉 つむぎ",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Tsumugi",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2680,8 +2680,8 @@
     "Sm": 15,
     "Te": 0,
     "Ch": 40,
-    "idol": "春川 宙",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Sora",
+    "outfit": "Love Liner"
   },
   {
     "group": "collab",
@@ -2691,7 +2691,7 @@
     "Sm": 40,
     "Te": 0,
     "Ch": 0,
-    "idol": "三毛縞 斑",
-    "outfit": "ラブ・ライナースタイル"
+    "idol": "Madara",
+    "outfit": "Love Liner"
   }
 ]
