@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
-import { SettingsProvider } from '@/providers/SettingsProvider'
 import { Baloo_2, Manrope } from 'next/font/google'
 
-export const baloo2 = Baloo_2({
+const baloo2 = Baloo_2({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-baloo2',
 })
-export const manrope = Manrope({
+const manrope = Manrope({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-manrope',
@@ -29,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${baloo2.variable} font-sans subpixel-antialiased`}
       >
-        <SettingsProvider>{children}</SettingsProvider>
+        {children}
       </body>
     </html>
   )

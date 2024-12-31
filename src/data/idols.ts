@@ -89,5 +89,5 @@ export const idolsByUnit: Record<Unit, Idol[]> = {
   [Unit.Akatsuki]: [Idol.Keito, Idol.Kuro, Idol.Souma],
   [Unit.Knights]: [Idol.Tsukasa, Idol.Leo, Idol.Izumi, Idol.Ritsu, Idol.Arashi],
   [Unit.Switch]: [Idol.Natsume, Idol.Tsumugi, Idol.Sora],
-  [Unit.MaM]: [Idol.Madara, Idol.Kohaku],
+  [Unit.MaM]: [Idol.Madara],
 }

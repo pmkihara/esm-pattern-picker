@@ -1,4 +1,4 @@
-import { Stat } from '@/data/stats'
+import { longStats, Stat } from '@/data/stats'
 import { useBreakpoint } from '@/hooks/tailwind'
 import { twMerge } from 'tailwind-merge'
 
@@ -25,7 +25,7 @@ const StatTag = ({ type }: StatTagProps) => {
         statColors[type],
       )}
     >
-      {isTablet ? type : type.substring(0, 2)}
+      {isTablet ? longStats[type] : type}
     </div>
   )
 }

@@ -7,12 +7,14 @@ interface SetupStepsProps {
   spreadsheetIsSetup: boolean
   StatsAreSetup: boolean
   outfitsAreSetup: boolean
+  spreadsheetId: string
 }
 
 const SetupSteps = ({
   spreadsheetIsSetup,
   StatsAreSetup,
   outfitsAreSetup,
+  spreadsheetId,
 }: SetupStepsProps) => {
   const setupCompleted = {
     spreadsheet: {
@@ -58,15 +60,15 @@ const SetupSteps = ({
     <div className='px-4 py-6 md:px-10 flex-grow h-full max-h-full overflow-auto w-full max-w-4xl mx-auto lg:mx-0'>
       <H1 className='mb-4'>Setup steps</H1>
       <div className='grid gap-4'>
-        <Link href='/'>
+        <Link href={`/?id=${spreadsheetId}`}>
           <SetupStatusCard
             {...getStepStatus('spreadsheet', spreadsheetIsSetup)}
           />
         </Link>
-        <Link href='/idols'>
+        <Link href={`/idols?id=${spreadsheetId}`}>
           <SetupStatusCard {...getStepStatus('idols', StatsAreSetup)} />
         </Link>
-        <Link href='/outfits'>
+        <Link href={`/outfits?id=${spreadsheetId}`}>
           <SetupStatusCard {...getStepStatus('outfits', outfitsAreSetup)} />
         </Link>
       </div>

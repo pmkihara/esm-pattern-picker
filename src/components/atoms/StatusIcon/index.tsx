@@ -1,3 +1,5 @@
+'use client'
+
 import CheckIcon from '@@/public/assets/icons/check.svg'
 import AlertIcon from '@@/public/assets/icons/alert.svg'
 import { twMerge } from 'tailwind-merge'

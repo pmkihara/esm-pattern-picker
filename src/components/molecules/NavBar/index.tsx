@@ -5,7 +5,7 @@ import UserCardIcon from '@@/public/assets/icons/user-card.svg'
 import OutfitIcon from '@@/public/assets/icons/outfit.svg'
 import WorkIcon from '@@/public/assets/icons/work.svg'
 import NavItem from '@/components/atoms/NavItem'
-import { usePathname } from 'next/navigation'
+import { usePathname, useSearchParams } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 import LogoHorizontal from '@@/public/assets/logo-horizontal.png'
 import Image from 'next/image'
@@ -13,31 +13,38 @@ import Image from 'next/image'
 const NavBar = () => {
   // get current path
   const pathName = usePathname()
+  const searchParams = useSearchParams()
+  const spreadsheetId = searchParams.get('id')
+
+  const getHref = (path: string) => {
+    const queryParams = spreadsheetId ? `?id=${spreadsheetId}` : ''
+    return `${path}${queryParams}`
+  }
 
   const items = {
     home: {
       iconSrc: HomeIcon.src,
       text: 'Home',
-      href: '/dashboard',
-      active: pathName === '/dashboard',
+      href: getHref('/'),
+      active: pathName === getHref('/'),
     },
     idols: {
       iconSrc: UserCardIcon.src,
       text: 'Idols',
-      href: '/idols',
-      active: pathName === '/idols',
+      href: getHref('/idols'),
+      active: pathName === getHref('/idols'),
     },
     outfits: {
       iconSrc: OutfitIcon.src,
       text: 'Outfits',
-      href: '/outfits',
-      active: pathName === '/outfits',
+      href: getHref('/outfits'),
+      active: pathName === getHref('/outfits'),
     },
     work: {
       iconSrc: WorkIcon.src,
       text: 'Work',
-      href: '/work',
-      active: pathName === '/work',
+      href: getHref('/work'),
+      active: pathName === getHref('/work'),
     },
   }
 

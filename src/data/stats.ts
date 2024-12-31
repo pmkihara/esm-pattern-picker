@@ -1,12 +1,12 @@
 import { Idol } from './idols'
 
 export enum Stat {
-  Active = 'active',
-  Passion = 'passion',
-  Unique = 'unique',
-  Smart = 'smart',
-  Technique = 'technique',
-  Charisma = 'charisma',
+  Active = 'Ac',
+  Passion = 'Pa',
+  Unique = 'Un',
+  Smart = 'Sm',
+  Technique = 'Te',
+  Charisma = 'Ch',
 }
 
 export type StatsMap = Record<Idol, Stats>
@@ -26,4 +26,13 @@ export const emptyStats = {
 
 export const emptyIdolRow = (name: Idol) => {
   return { name, ...emptyStats }
+}
+
+export const longStats = {
+  [Stat.Active]: 'Active',
+  [Stat.Passion]: 'Passion',
+  [Stat.Unique]: 'Unique',
+  [Stat.Smart]: 'Smart',
+  [Stat.Technique]: 'Technique',
+  [Stat.Charisma]: 'Charisma',
 }

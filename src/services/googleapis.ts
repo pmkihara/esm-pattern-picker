@@ -103,7 +103,6 @@ export const getRows = async (
     const rows = mapValues(response.data.values || [])
     return { ok: true, rows }
   } catch (error) {
-    console.error(error.errors)
     return { ok: false, error: errorMessage(error.message, error.status) }
   }
 }
@@ -114,6 +113,9 @@ export const updateRows = async (
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   rows: any[][], // the sheets api requires a 2D array of any type
 ): Promise<ServiceResponse | ServiceError> => {
+  console.log('---------------------------------------------')
+
+  console.log('fetching rows')
   try {
     await googleSheets.spreadsheets.values.update({
       spreadsheetId,

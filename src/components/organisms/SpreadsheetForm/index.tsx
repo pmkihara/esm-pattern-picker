@@ -9,8 +9,7 @@ import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import ErrorMessage from '@/components/atoms/ErrorMessage'
-import { useSettings } from '@/providers/SettingsProvider'
-import { checkSpreadsheetAccess } from '@/services/actions'
+import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { useRouter } from 'next/navigation'
 
 const spreadsheetSchema = z.object({
@@ -25,7 +24,6 @@ interface SpreadsheetFormProps {
 
 const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
   const id = initialId || ''
-  const { setSpreadsheetId } = useSettings()
   const router = useRouter()
 
   const {
@@ -44,7 +42,6 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
     if (!result.ok) {
       setError('id', { message: result.error })
     } else {
-      setSpreadsheetId(id)
       router.push(`/dashboard?id=${id}`)
     }
   }
