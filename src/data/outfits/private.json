@@ -8,7 +8,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -19,7 +19,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -30,7 +30,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -41,7 +41,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -52,7 +52,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Hokuto",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -63,7 +63,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -74,7 +74,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Makoto",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -85,7 +85,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -96,7 +96,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -107,7 +107,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Kanata",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -118,7 +118,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Tetora",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -129,7 +129,7 @@
     "Te": 55,
     "Ch": 65,
     "idol": "Midori",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -140,7 +140,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -151,7 +151,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -162,7 +162,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Aira",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -173,7 +173,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -184,7 +184,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -195,7 +195,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Nagisa",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -206,7 +206,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -217,7 +217,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -228,7 +228,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -239,7 +239,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -250,7 +250,7 @@
     "Te": 60,
     "Ch": 50,
     "idol": "Mika",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -261,7 +261,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Hinata",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -272,7 +272,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Yuta",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -283,7 +283,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -294,7 +294,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -305,7 +305,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -316,7 +316,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -327,7 +327,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -338,7 +338,7 @@
     "Te": 45,
     "Ch": 55,
     "idol": "Kaoru",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -349,7 +349,7 @@
     "Te": 65,
     "Ch": 50,
     "idol": "Koga",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -360,7 +360,7 @@
     "Te": 0,
     "Ch": 45,
     "idol": "Adonis",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -371,7 +371,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -382,7 +382,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -393,7 +393,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -404,7 +404,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Hajime",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -415,7 +415,7 @@
     "Te": 60,
     "Ch": 45,
     "idol": "Keito",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -426,7 +426,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -437,7 +437,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -448,7 +448,7 @@
     "Te": 0,
     "Ch": 70,
     "idol": "Tsukasa",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -459,7 +459,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -470,7 +470,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -481,7 +481,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Ritsu",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -492,7 +492,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -503,7 +503,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -514,7 +514,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Tsumugi",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -525,7 +525,7 @@
     "Te": 55,
     "Ch": 65,
     "idol": "Sora",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -536,7 +536,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -547,7 +547,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "エス",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -558,7 +558,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "カンナ",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -569,7 +569,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -580,7 +580,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Mods Ⅰ"
+    "name": "Mods Ⅰ"
   },
   {
     "group": "private",
@@ -591,7 +591,7 @@
     "Te": 120,
     "Ch": 110,
     "idol": "Eichi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -602,7 +602,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -613,7 +613,7 @@
     "Te": 110,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -624,7 +624,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Yuzuru",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -635,7 +635,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -646,7 +646,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -657,7 +657,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -668,7 +668,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -679,7 +679,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -690,7 +690,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -701,7 +701,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Tetora",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -712,7 +712,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Midori",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -723,7 +723,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Shinobu",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -734,7 +734,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Hiiro",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -745,7 +745,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -756,7 +756,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -767,7 +767,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -778,7 +778,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Nagisa",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -789,7 +789,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -800,7 +800,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -811,7 +811,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -822,7 +822,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Shu",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -833,7 +833,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Mika",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -844,7 +844,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Hinata",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -855,7 +855,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -866,7 +866,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -877,7 +877,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -888,7 +888,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -899,7 +899,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -910,7 +910,7 @@
     "Te": 0,
     "Ch": 125,
     "idol": "Rei",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -921,7 +921,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Kaoru",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -932,7 +932,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -943,7 +943,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -954,7 +954,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Tomoya",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -965,7 +965,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -976,7 +976,7 @@
     "Te": 95,
     "Ch": 140,
     "idol": "Mitsuru",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -987,7 +987,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Hajime",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -998,7 +998,7 @@
     "Te": 105,
     "Ch": 135,
     "idol": "Keito",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1009,7 +1009,7 @@
     "Te": 115,
     "Ch": 120,
     "idol": "Kuro",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1020,7 +1020,7 @@
     "Te": 0,
     "Ch": 125,
     "idol": "Souma",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1031,7 +1031,7 @@
     "Te": 110,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1042,7 +1042,7 @@
     "Te": 110,
     "Ch": 95,
     "idol": "Leo",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1053,7 +1053,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1064,7 +1064,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1075,7 +1075,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1086,7 +1086,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1097,7 +1097,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Tsumugi",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1108,7 +1108,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1119,7 +1119,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1130,7 +1130,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "エス",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1141,7 +1141,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1152,7 +1152,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1163,7 +1163,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "ライカ",
-    "outfit": "Mods Ⅱ"
+    "name": "Mods Ⅱ"
   },
   {
     "group": "private",
@@ -1174,7 +1174,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1185,7 +1185,7 @@
     "Te": 0,
     "Ch": 210,
     "idol": "Wataru",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1196,7 +1196,7 @@
     "Te": 0,
     "Ch": 195,
     "idol": "Tori",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1207,7 +1207,7 @@
     "Te": 0,
     "Ch": 130,
     "idol": "Yuzuru",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1218,7 +1218,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1229,7 +1229,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "Subaru",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1240,7 +1240,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1251,7 +1251,7 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Mao",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1262,7 +1262,7 @@
     "Te": 195,
     "Ch": 150,
     "idol": "Chiaki",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1273,7 +1273,7 @@
     "Te": 130,
     "Ch": 185,
     "idol": "Kanata",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1284,7 +1284,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1295,7 +1295,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1306,7 +1306,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1317,7 +1317,7 @@
     "Te": 0,
     "Ch": 190,
     "idol": "Hiiro",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1328,7 +1328,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1339,7 +1339,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1350,7 +1350,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Tatsumi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1361,7 +1361,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1372,7 +1372,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1383,7 +1383,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1394,7 +1394,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1405,7 +1405,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1416,7 +1416,7 @@
     "Te": 160,
     "Ch": 195,
     "idol": "Mika",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1427,7 +1427,7 @@
     "Te": 180,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1438,7 +1438,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1449,7 +1449,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1460,7 +1460,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1471,7 +1471,7 @@
     "Te": 0,
     "Ch": 150,
     "idol": "Kohaku",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1482,7 +1482,7 @@
     "Te": 205,
     "Ch": 140,
     "idol": "Niki",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1493,7 +1493,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1504,7 +1504,7 @@
     "Te": 180,
     "Ch": 140,
     "idol": "Kaoru",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1515,7 +1515,7 @@
     "Te": 145,
     "Ch": 190,
     "idol": "Koga",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1526,7 +1526,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Adonis",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1537,7 +1537,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1548,7 +1548,7 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Nazuna",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1559,7 +1559,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1570,7 +1570,7 @@
     "Te": 0,
     "Ch": 205,
     "idol": "Hajime",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1581,7 +1581,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1592,7 +1592,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1603,7 +1603,7 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1614,7 +1614,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Tsukasa",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1625,7 +1625,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1636,7 +1636,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1647,7 +1647,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1658,7 +1658,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Arashi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1669,7 +1669,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1680,7 +1680,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1691,7 +1691,7 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1702,7 +1702,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1713,7 +1713,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1724,7 +1724,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1735,7 +1735,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "ユメ",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1746,7 +1746,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Mods Ⅲ"
+    "name": "Mods Ⅲ"
   },
   {
     "group": "private",
@@ -1757,7 +1757,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1768,7 +1768,7 @@
     "Te": 300,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1779,7 +1779,7 @@
     "Te": 235,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1790,7 +1790,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Yuzuru",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1801,7 +1801,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Hokuto",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1812,7 +1812,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1823,7 +1823,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1834,7 +1834,7 @@
     "Te": 255,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1845,7 +1845,7 @@
     "Te": 0,
     "Ch": 305,
     "idol": "Chiaki",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1856,7 +1856,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1867,7 +1867,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Tetora",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1878,7 +1878,7 @@
     "Te": 0,
     "Ch": 340,
     "idol": "Midori",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1889,7 +1889,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1900,7 +1900,7 @@
     "Te": 245,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1911,7 +1911,7 @@
     "Te": 295,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1922,7 +1922,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1933,7 +1933,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1944,7 +1944,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Nagisa",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1955,7 +1955,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Hiyori",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1966,7 +1966,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Ibara",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1977,7 +1977,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1988,7 +1988,7 @@
     "Te": 305,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -1999,7 +1999,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2010,7 +2010,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Hinata",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2021,7 +2021,7 @@
     "Te": 0,
     "Ch": 230,
     "idol": "Yuta",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2032,7 +2032,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2043,7 +2043,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2054,7 +2054,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2065,7 +2065,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Niki",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2076,7 +2076,7 @@
     "Te": 320,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2087,7 +2087,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2098,7 +2098,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2109,7 +2109,7 @@
     "Te": 0,
     "Ch": 345,
     "idol": "Adonis",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2120,7 +2120,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2131,7 +2131,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2142,7 +2142,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2153,7 +2153,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2164,7 +2164,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2175,7 +2175,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2186,7 +2186,7 @@
     "Te": 0,
     "Ch": 230,
     "idol": "Souma",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2197,7 +2197,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2208,7 +2208,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2219,7 +2219,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2230,7 +2230,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Ritsu",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2241,7 +2241,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Arashi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2252,7 +2252,7 @@
     "Te": 0,
     "Ch": 320,
     "idol": "Natsume",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2263,7 +2263,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Tsumugi",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2274,7 +2274,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2285,7 +2285,7 @@
     "Te": 320,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2296,7 +2296,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "エス",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2307,7 +2307,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2318,7 +2318,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2329,7 +2329,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Mods Ⅳ"
+    "name": "Mods Ⅳ"
   },
   {
     "group": "private",
@@ -2340,7 +2340,7 @@
     "Te": 50,
     "Ch": 55,
     "idol": "Eichi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2351,7 +2351,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2362,7 +2362,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2373,7 +2373,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2384,7 +2384,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2395,7 +2395,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2406,7 +2406,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2417,7 +2417,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Mao",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2428,7 +2428,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Chiaki",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2439,7 +2439,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2450,7 +2450,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2461,7 +2461,7 @@
     "Te": 55,
     "Ch": 45,
     "idol": "Midori",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2472,7 +2472,7 @@
     "Te": 45,
     "Ch": 65,
     "idol": "Shinobu",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2483,7 +2483,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2494,7 +2494,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Aira",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2505,7 +2505,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Mayoi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2516,7 +2516,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Tatsumi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2527,7 +2527,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Nagisa",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2538,7 +2538,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2549,7 +2549,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2560,7 +2560,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2571,7 +2571,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2582,7 +2582,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2593,7 +2593,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2604,7 +2604,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Yuta",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2615,7 +2615,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2626,7 +2626,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2637,7 +2637,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Kohaku",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2648,7 +2648,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2659,7 +2659,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2670,7 +2670,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2681,7 +2681,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2692,7 +2692,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2703,7 +2703,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2714,7 +2714,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2725,7 +2725,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Mitsuru",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2736,7 +2736,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2747,7 +2747,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2758,7 +2758,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2769,7 +2769,7 @@
     "Te": 60,
     "Ch": 50,
     "idol": "Souma",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2780,7 +2780,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Tsukasa",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2791,7 +2791,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2802,7 +2802,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2813,7 +2813,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2824,7 +2824,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Arashi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2835,7 +2835,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Natsume",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2846,7 +2846,7 @@
     "Te": 60,
     "Ch": 50,
     "idol": "Tsumugi",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2857,7 +2857,7 @@
     "Te": 0,
     "Ch": 45,
     "idol": "Sora",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2868,7 +2868,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Madara",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2879,7 +2879,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2890,7 +2890,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "カンナ",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2901,7 +2901,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2912,7 +2912,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Performer Ⅰ"
+    "name": "Performer Ⅰ"
   },
   {
     "group": "private",
@@ -2923,7 +2923,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2934,7 +2934,7 @@
     "Te": 110,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2945,7 +2945,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Tori",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2956,7 +2956,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2967,7 +2967,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Hokuto",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2978,7 +2978,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -2989,7 +2989,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3000,7 +3000,7 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Mao",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3011,7 +3011,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3022,7 +3022,7 @@
     "Te": 125,
     "Ch": 95,
     "idol": "Kanata",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3033,7 +3033,7 @@
     "Te": 135,
     "Ch": 105,
     "idol": "Tetora",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3044,7 +3044,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3055,7 +3055,7 @@
     "Te": 100,
     "Ch": 120,
     "idol": "Shinobu",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3066,7 +3066,7 @@
     "Te": 0,
     "Ch": 130,
     "idol": "Hiiro",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3077,7 +3077,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3088,7 +3088,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3099,7 +3099,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3110,7 +3110,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3121,7 +3121,7 @@
     "Te": 90,
     "Ch": 125,
     "idol": "Hiyori",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3132,7 +3132,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Ibara",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3143,7 +3143,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3154,7 +3154,7 @@
     "Te": 100,
     "Ch": 140,
     "idol": "Shu",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3165,7 +3165,7 @@
     "Te": 95,
     "Ch": 115,
     "idol": "Mika",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3176,7 +3176,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3187,7 +3187,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3198,7 +3198,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3209,7 +3209,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "HiMERU",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3220,7 +3220,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3231,7 +3231,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Niki",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3242,7 +3242,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3253,7 +3253,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3264,7 +3264,7 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Koga",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3275,7 +3275,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3286,7 +3286,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3297,7 +3297,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3308,7 +3308,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Mitsuru",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3319,7 +3319,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Hajime",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3330,7 +3330,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Keito",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3341,7 +3341,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3352,7 +3352,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3363,7 +3363,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3374,7 +3374,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Leo",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3385,7 +3385,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Izumi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3396,7 +3396,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Ritsu",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3407,7 +3407,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3418,7 +3418,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3429,7 +3429,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3440,7 +3440,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3451,7 +3451,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3462,7 +3462,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3473,7 +3473,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3484,7 +3484,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3495,7 +3495,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "ライカ",
-    "outfit": "Performer Ⅱ"
+    "name": "Performer Ⅱ"
   },
   {
     "group": "private",
@@ -3506,7 +3506,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3517,7 +3517,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Wataru",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3528,7 +3528,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3539,7 +3539,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3550,7 +3550,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3561,7 +3561,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3572,7 +3572,7 @@
     "Te": 0,
     "Ch": 150,
     "idol": "Makoto",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3583,7 +3583,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Mao",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3594,7 +3594,7 @@
     "Te": 160,
     "Ch": 170,
     "idol": "Chiaki",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3605,7 +3605,7 @@
     "Te": 0,
     "Ch": 190,
     "idol": "Kanata",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3616,7 +3616,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3627,7 +3627,7 @@
     "Te": 0,
     "Ch": 150,
     "idol": "Midori",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3638,7 +3638,7 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3649,7 +3649,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3660,7 +3660,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3671,7 +3671,7 @@
     "Te": 135,
     "Ch": 185,
     "idol": "Mayoi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3682,7 +3682,7 @@
     "Te": 165,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3693,7 +3693,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3704,7 +3704,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Hiyori",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3715,7 +3715,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Ibara",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3726,7 +3726,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3737,7 +3737,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3748,7 +3748,7 @@
     "Te": 200,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3759,7 +3759,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3770,7 +3770,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Yuta",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3781,7 +3781,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Rinne",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3792,7 +3792,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3803,7 +3803,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Kohaku",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3814,7 +3814,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3825,7 +3825,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3836,7 +3836,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3847,7 +3847,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Koga",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3858,7 +3858,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3869,7 +3869,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Tomoya",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3880,7 +3880,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3891,7 +3891,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Mitsuru",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3902,7 +3902,7 @@
     "Te": 145,
     "Ch": 215,
     "idol": "Hajime",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3913,7 +3913,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3924,7 +3924,7 @@
     "Te": 0,
     "Ch": 180,
     "idol": "Kuro",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3935,7 +3935,7 @@
     "Te": 165,
     "Ch": 145,
     "idol": "Souma",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3946,7 +3946,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3957,7 +3957,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3968,7 +3968,7 @@
     "Te": 200,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3979,7 +3979,7 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -3990,7 +3990,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4001,7 +4001,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4012,7 +4012,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4023,7 +4023,7 @@
     "Te": 0,
     "Ch": 210,
     "idol": "Sora",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4034,7 +4034,7 @@
     "Te": 180,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4045,7 +4045,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4056,7 +4056,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4067,7 +4067,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "ユメ",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4078,7 +4078,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Performer Ⅲ"
+    "name": "Performer Ⅲ"
   },
   {
     "group": "private",
@@ -4089,7 +4089,7 @@
     "Te": 225,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4100,7 +4100,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4111,7 +4111,7 @@
     "Te": 210,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4122,7 +4122,7 @@
     "Te": 340,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4133,7 +4133,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Hokuto",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4144,7 +4144,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4155,7 +4155,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4166,7 +4166,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4177,7 +4177,7 @@
     "Te": 0,
     "Ch": 315,
     "idol": "Chiaki",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4188,7 +4188,7 @@
     "Te": 0,
     "Ch": 250,
     "idol": "Kanata",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4199,7 +4199,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4210,7 +4210,7 @@
     "Te": 0,
     "Ch": 305,
     "idol": "Midori",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4221,7 +4221,7 @@
     "Te": 300,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4232,7 +4232,7 @@
     "Te": 0,
     "Ch": 250,
     "idol": "Hiiro",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4243,7 +4243,7 @@
     "Te": 300,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4254,7 +4254,7 @@
     "Te": 0,
     "Ch": 240,
     "idol": "Mayoi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4265,7 +4265,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4276,7 +4276,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4287,7 +4287,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4298,7 +4298,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4309,7 +4309,7 @@
     "Te": 0,
     "Ch": 315,
     "idol": "Jun",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4320,7 +4320,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4331,7 +4331,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Mika",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4342,7 +4342,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4353,7 +4353,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4364,7 +4364,7 @@
     "Te": 245,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4375,7 +4375,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4386,7 +4386,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4397,7 +4397,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Niki",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4408,7 +4408,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4419,7 +4419,7 @@
     "Te": 0,
     "Ch": 310,
     "idol": "Kaoru",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4430,7 +4430,7 @@
     "Te": 0,
     "Ch": 230,
     "idol": "Koga",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4441,7 +4441,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4452,7 +4452,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4463,7 +4463,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4474,7 +4474,7 @@
     "Te": 295,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4485,7 +4485,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4496,7 +4496,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4507,7 +4507,7 @@
     "Te": 220,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4518,7 +4518,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4529,7 +4529,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4540,7 +4540,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4551,7 +4551,7 @@
     "Te": 0,
     "Ch": 240,
     "idol": "Izumi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4562,7 +4562,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4573,7 +4573,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Arashi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4584,7 +4584,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Natsume",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4595,7 +4595,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4606,7 +4606,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4617,7 +4617,7 @@
     "Te": 0,
     "Ch": 285,
     "idol": "Madara",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4628,7 +4628,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4639,7 +4639,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "カンナ",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4650,7 +4650,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4661,7 +4661,7 @@
     "Te": 0,
     "Ch": 250,
     "idol": "ライカ",
-    "outfit": "Performer Ⅳ"
+    "name": "Performer Ⅳ"
   },
   {
     "group": "private",
@@ -4672,7 +4672,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4683,7 +4683,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Wataru",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4694,7 +4694,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4705,7 +4705,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4716,7 +4716,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4727,7 +4727,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4738,7 +4738,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4749,7 +4749,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4760,7 +4760,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Chiaki",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4771,7 +4771,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4782,7 +4782,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Tetora",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4793,7 +4793,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4804,7 +4804,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Shinobu",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4815,7 +4815,7 @@
     "Te": 50,
     "Ch": 50,
     "idol": "Hiiro",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4826,7 +4826,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4837,7 +4837,7 @@
     "Te": 65,
     "Ch": 45,
     "idol": "Mayoi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4848,7 +4848,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Tatsumi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4859,7 +4859,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4870,7 +4870,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4881,7 +4881,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4892,7 +4892,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4903,7 +4903,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4914,7 +4914,7 @@
     "Te": 60,
     "Ch": 45,
     "idol": "Mika",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4925,7 +4925,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4936,7 +4936,7 @@
     "Te": 55,
     "Ch": 55,
     "idol": "Yuta",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4947,7 +4947,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4958,7 +4958,7 @@
     "Te": 60,
     "Ch": 50,
     "idol": "HiMERU",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4969,7 +4969,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4980,7 +4980,7 @@
     "Te": 0,
     "Ch": 70,
     "idol": "Niki",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -4991,7 +4991,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Rei",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5002,7 +5002,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5013,7 +5013,7 @@
     "Te": 50,
     "Ch": 55,
     "idol": "Koga",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5024,7 +5024,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5035,7 +5035,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5046,7 +5046,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5057,7 +5057,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5068,7 +5068,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5079,7 +5079,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Keito",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5090,7 +5090,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5101,7 +5101,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5112,7 +5112,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Tsukasa",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5123,7 +5123,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Leo",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5134,7 +5134,7 @@
     "Te": 50,
     "Ch": 55,
     "idol": "Izumi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5145,7 +5145,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5156,7 +5156,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5167,7 +5167,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Natsume",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5178,7 +5178,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5189,7 +5189,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5200,7 +5200,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Madara",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5211,7 +5211,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "エス",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5222,7 +5222,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5233,7 +5233,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "ユメ",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5244,7 +5244,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Mascot Ⅰ"
+    "name": "Mascot Ⅰ"
   },
   {
     "group": "private",
@@ -5255,7 +5255,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Eichi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5266,7 +5266,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5277,7 +5277,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Tori",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5288,7 +5288,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5299,7 +5299,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Hokuto",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5310,7 +5310,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5321,7 +5321,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5332,7 +5332,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Mao",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5343,7 +5343,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5354,7 +5354,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Kanata",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5365,7 +5365,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Tetora",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5376,7 +5376,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Midori",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5387,7 +5387,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5398,7 +5398,7 @@
     "Te": 120,
     "Ch": 95,
     "idol": "Hiiro",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5409,7 +5409,7 @@
     "Te": 90,
     "Ch": 125,
     "idol": "Aira",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5420,7 +5420,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Mayoi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5431,7 +5431,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5442,7 +5442,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5453,7 +5453,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5464,7 +5464,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5475,7 +5475,7 @@
     "Te": 120,
     "Ch": 110,
     "idol": "Jun",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5486,7 +5486,7 @@
     "Te": 105,
     "Ch": 125,
     "idol": "Shu",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5497,7 +5497,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5508,7 +5508,7 @@
     "Te": 90,
     "Ch": 140,
     "idol": "Hinata",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5519,7 +5519,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5530,7 +5530,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5541,7 +5541,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5552,7 +5552,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Kohaku",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5563,7 +5563,7 @@
     "Te": 125,
     "Ch": 105,
     "idol": "Niki",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5574,7 +5574,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5585,7 +5585,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5596,7 +5596,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Koga",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5607,7 +5607,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5618,7 +5618,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5629,7 +5629,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5640,7 +5640,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5651,7 +5651,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5662,7 +5662,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5673,7 +5673,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5684,7 +5684,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5695,7 +5695,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Tsukasa",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5706,7 +5706,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5717,7 +5717,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5728,7 +5728,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5739,7 +5739,7 @@
     "Te": 85,
     "Ch": 120,
     "idol": "Arashi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5750,7 +5750,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5761,7 +5761,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5772,7 +5772,7 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Sora",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5783,7 +5783,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5794,7 +5794,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5805,7 +5805,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "カンナ",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5816,7 +5816,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5827,7 +5827,7 @@
     "Te": 100,
     "Ch": 120,
     "idol": "ライカ",
-    "outfit": "Mascot Ⅱ"
+    "name": "Mascot Ⅱ"
   },
   {
     "group": "private",
@@ -5838,7 +5838,7 @@
     "Te": 150,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5849,7 +5849,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5860,7 +5860,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5871,7 +5871,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5882,7 +5882,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5893,7 +5893,7 @@
     "Te": 180,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5904,7 +5904,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Makoto",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5915,7 +5915,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5926,7 +5926,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5937,7 +5937,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5948,7 +5948,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5959,7 +5959,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5970,7 +5970,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5981,7 +5981,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -5992,7 +5992,7 @@
     "Te": 160,
     "Ch": 185,
     "idol": "Aira",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6003,7 +6003,7 @@
     "Te": 0,
     "Ch": 200,
     "idol": "Mayoi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6014,7 +6014,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6025,7 +6025,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6036,7 +6036,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6047,7 +6047,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Ibara",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6058,7 +6058,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6069,7 +6069,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6080,7 +6080,7 @@
     "Te": 205,
     "Ch": 145,
     "idol": "Mika",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6091,7 +6091,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6102,7 +6102,7 @@
     "Te": 160,
     "Ch": 200,
     "idol": "Yuta",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6113,7 +6113,7 @@
     "Te": 175,
     "Ch": 145,
     "idol": "Rinne",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6124,7 +6124,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6135,7 +6135,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6146,7 +6146,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Niki",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6157,7 +6157,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Rei",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6168,7 +6168,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "Kaoru",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6179,7 +6179,7 @@
     "Te": 205,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6190,7 +6190,7 @@
     "Te": 150,
     "Ch": 170,
     "idol": "Adonis",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6201,7 +6201,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6212,7 +6212,7 @@
     "Te": 0,
     "Ch": 180,
     "idol": "Nazuna",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6223,7 +6223,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Mitsuru",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6234,7 +6234,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6245,7 +6245,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Keito",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6256,7 +6256,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Kuro",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6267,7 +6267,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6278,7 +6278,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Tsukasa",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6289,7 +6289,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Leo",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6300,7 +6300,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6311,7 +6311,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6322,7 +6322,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Arashi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6333,7 +6333,7 @@
     "Te": 135,
     "Ch": 200,
     "idol": "Natsume",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6344,7 +6344,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6355,7 +6355,7 @@
     "Te": 180,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6366,7 +6366,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6377,7 +6377,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6388,7 +6388,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6399,7 +6399,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6410,7 +6410,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "ライカ",
-    "outfit": "Mascot Ⅲ"
+    "name": "Mascot Ⅲ"
   },
   {
     "group": "private",
@@ -6421,7 +6421,7 @@
     "Te": 0,
     "Ch": 330,
     "idol": "Eichi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6432,7 +6432,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Wataru",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6443,7 +6443,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6454,7 +6454,7 @@
     "Te": 245,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6465,7 +6465,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6476,7 +6476,7 @@
     "Te": 240,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6487,7 +6487,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6498,7 +6498,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6509,7 +6509,7 @@
     "Te": 0,
     "Ch": 280,
     "idol": "Chiaki",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6520,7 +6520,7 @@
     "Te": 0,
     "Ch": 335,
     "idol": "Kanata",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6531,7 +6531,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6542,7 +6542,7 @@
     "Te": 0,
     "Ch": 225,
     "idol": "Midori",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6553,7 +6553,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6564,7 +6564,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Hiiro",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6575,7 +6575,7 @@
     "Te": 240,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6586,7 +6586,7 @@
     "Te": 310,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6597,7 +6597,7 @@
     "Te": 0,
     "Ch": 235,
     "idol": "Tatsumi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6608,7 +6608,7 @@
     "Te": 0,
     "Ch": 315,
     "idol": "Nagisa",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6619,7 +6619,7 @@
     "Te": 305,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6630,7 +6630,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6641,7 +6641,7 @@
     "Te": 0,
     "Ch": 240,
     "idol": "Jun",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6652,7 +6652,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6663,7 +6663,7 @@
     "Te": 0,
     "Ch": 345,
     "idol": "Mika",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6674,7 +6674,7 @@
     "Te": 0,
     "Ch": 285,
     "idol": "Hinata",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6685,7 +6685,7 @@
     "Te": 325,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6696,7 +6696,7 @@
     "Te": 305,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6707,7 +6707,7 @@
     "Te": 0,
     "Ch": 280,
     "idol": "HiMERU",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6718,7 +6718,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6729,7 +6729,7 @@
     "Te": 0,
     "Ch": 250,
     "idol": "Niki",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6740,7 +6740,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Rei",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6751,7 +6751,7 @@
     "Te": 240,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6762,7 +6762,7 @@
     "Te": 0,
     "Ch": 300,
     "idol": "Koga",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6773,7 +6773,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Adonis",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6784,7 +6784,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6795,7 +6795,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6806,7 +6806,7 @@
     "Te": 0,
     "Ch": 240,
     "idol": "Mitsuru",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6817,7 +6817,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6828,7 +6828,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6839,7 +6839,7 @@
     "Te": 0,
     "Ch": 325,
     "idol": "Kuro",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6850,7 +6850,7 @@
     "Te": 315,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6861,7 +6861,7 @@
     "Te": 340,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6872,7 +6872,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Leo",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6883,7 +6883,7 @@
     "Te": 320,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6894,7 +6894,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6905,7 +6905,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Arashi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6916,7 +6916,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Natsume",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6927,7 +6927,7 @@
     "Te": 0,
     "Ch": 315,
     "idol": "Tsumugi",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6938,7 +6938,7 @@
     "Te": 0,
     "Ch": 335,
     "idol": "Sora",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6949,7 +6949,7 @@
     "Te": 0,
     "Ch": 220,
     "idol": "Madara",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6960,7 +6960,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6971,7 +6971,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "カンナ",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6982,7 +6982,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -6993,7 +6993,7 @@
     "Te": 270,
     "Ch": 250,
     "idol": "ライカ",
-    "outfit": "Mascot Ⅳ"
+    "name": "Mascot Ⅳ"
   },
   {
     "group": "private",
@@ -7004,7 +7004,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7015,7 +7015,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7026,7 +7026,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7037,7 +7037,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Yuzuru",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7048,7 +7048,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7059,7 +7059,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7070,7 +7070,7 @@
     "Te": 50,
     "Ch": 55,
     "idol": "Makoto",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7081,7 +7081,7 @@
     "Te": 70,
     "Ch": 45,
     "idol": "Mao",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7092,7 +7092,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Chiaki",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7103,7 +7103,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7114,7 +7114,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7125,7 +7125,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7136,7 +7136,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7147,7 +7147,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Hiiro",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7158,7 +7158,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "Aira",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7169,7 +7169,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7180,7 +7180,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Tatsumi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7191,7 +7191,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7202,7 +7202,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7213,7 +7213,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Ibara",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7224,7 +7224,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7235,7 +7235,7 @@
     "Te": 50,
     "Ch": 70,
     "idol": "Shu",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7246,7 +7246,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7257,7 +7257,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7268,7 +7268,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Yuta",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7279,7 +7279,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Rinne",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7290,7 +7290,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7301,7 +7301,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7312,7 +7312,7 @@
     "Te": 0,
     "Ch": 45,
     "idol": "Niki",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7323,7 +7323,7 @@
     "Te": 65,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7334,7 +7334,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Kaoru",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7345,7 +7345,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Koga",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7356,7 +7356,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7367,7 +7367,7 @@
     "Te": 60,
     "Ch": 60,
     "idol": "Tomoya",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7378,7 +7378,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7389,7 +7389,7 @@
     "Te": 45,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7400,7 +7400,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7411,7 +7411,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7422,7 +7422,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7433,7 +7433,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7444,7 +7444,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7455,7 +7455,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Leo",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7466,7 +7466,7 @@
     "Te": 50,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7477,7 +7477,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7488,7 +7488,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "Arashi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7499,7 +7499,7 @@
     "Te": 0,
     "Ch": 65,
     "idol": "Natsume",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7510,7 +7510,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7521,7 +7521,7 @@
     "Te": 0,
     "Ch": 45,
     "idol": "Sora",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7532,7 +7532,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Madara",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7543,7 +7543,7 @@
     "Te": 0,
     "Ch": 50,
     "idol": "エス",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7554,7 +7554,7 @@
     "Te": 60,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7565,7 +7565,7 @@
     "Te": 0,
     "Ch": 60,
     "idol": "ユメ",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7576,7 +7576,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Suit Ⅰ"
+    "name": "Suit Ⅰ"
   },
   {
     "group": "private",
@@ -7587,7 +7587,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7598,7 +7598,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7609,7 +7609,7 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7620,7 +7620,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Yuzuru",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7631,7 +7631,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7642,7 +7642,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7653,7 +7653,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7664,7 +7664,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Mao",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7675,7 +7675,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7686,7 +7686,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7697,7 +7697,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7708,7 +7708,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7719,7 +7719,7 @@
     "Te": 115,
     "Ch": 105,
     "idol": "Shinobu",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7730,7 +7730,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Hiiro",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7741,7 +7741,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Aira",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7752,7 +7752,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7763,7 +7763,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Tatsumi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7774,7 +7774,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7785,7 +7785,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7796,7 +7796,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7807,7 +7807,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Jun",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7818,7 +7818,7 @@
     "Te": 0,
     "Ch": 105,
     "idol": "Shu",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7829,7 +7829,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7840,7 +7840,7 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7851,7 +7851,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7862,7 +7862,7 @@
     "Te": 110,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7873,7 +7873,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7884,7 +7884,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Kohaku",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7895,7 +7895,7 @@
     "Te": 0,
     "Ch": 115,
     "idol": "Niki",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7906,7 +7906,7 @@
     "Te": 110,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7917,7 +7917,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7928,7 +7928,7 @@
     "Te": 125,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7939,7 +7939,7 @@
     "Te": 0,
     "Ch": 110,
     "idol": "Adonis",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7950,7 +7950,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Tomoya",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7961,7 +7961,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7972,7 +7972,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7983,7 +7983,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Hajime",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -7994,7 +7994,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Keito",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8005,7 +8005,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Kuro",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8016,7 +8016,7 @@
     "Te": 115,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8027,7 +8027,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8038,7 +8038,7 @@
     "Te": 0,
     "Ch": 130,
     "idol": "Leo",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8049,7 +8049,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8060,7 +8060,7 @@
     "Te": 105,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8071,7 +8071,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8082,7 +8082,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8093,7 +8093,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8104,7 +8104,7 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Sora",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8115,7 +8115,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Madara",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8126,7 +8126,7 @@
     "Te": 100,
     "Ch": 0,
     "idol": "エス",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8137,7 +8137,7 @@
     "Te": 0,
     "Ch": 120,
     "idol": "カンナ",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8148,7 +8148,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "ユメ",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8159,7 +8159,7 @@
     "Te": 120,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Suit Ⅱ"
+    "name": "Suit Ⅱ"
   },
   {
     "group": "private",
@@ -8170,7 +8170,7 @@
     "Te": 165,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8181,7 +8181,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Wataru",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8192,7 +8192,7 @@
     "Te": 150,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8203,7 +8203,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8214,7 +8214,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8225,7 +8225,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Subaru",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8236,7 +8236,7 @@
     "Te": 165,
     "Ch": 140,
     "idol": "Makoto",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8247,7 +8247,7 @@
     "Te": 155,
     "Ch": 150,
     "idol": "Mao",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8258,7 +8258,7 @@
     "Te": 210,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8269,7 +8269,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8280,7 +8280,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8291,7 +8291,7 @@
     "Te": 0,
     "Ch": 205,
     "idol": "Midori",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8302,7 +8302,7 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Shinobu",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8313,7 +8313,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Hiiro",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8324,7 +8324,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Aira",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8335,7 +8335,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8346,7 +8346,7 @@
     "Te": 0,
     "Ch": 130,
     "idol": "Tatsumi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8357,7 +8357,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8368,7 +8368,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8379,7 +8379,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Ibara",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8390,7 +8390,7 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8401,7 +8401,7 @@
     "Te": 0,
     "Ch": 145,
     "idol": "Shu",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8412,7 +8412,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8423,7 +8423,7 @@
     "Te": 0,
     "Ch": 180,
     "idol": "Hinata",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8434,7 +8434,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8445,7 +8445,7 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Rinne",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8456,7 +8456,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8467,7 +8467,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8478,7 +8478,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8489,7 +8489,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8500,7 +8500,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8511,7 +8511,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "Koga",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8522,7 +8522,7 @@
     "Te": 0,
     "Ch": 155,
     "idol": "Adonis",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8533,7 +8533,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8544,7 +8544,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8555,7 +8555,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8566,7 +8566,7 @@
     "Te": 0,
     "Ch": 150,
     "idol": "Hajime",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8577,7 +8577,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8588,7 +8588,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8599,7 +8599,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8610,7 +8610,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8621,7 +8621,7 @@
     "Te": 205,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8632,7 +8632,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8643,7 +8643,7 @@
     "Te": 155,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8654,7 +8654,7 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Arashi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8665,7 +8665,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8676,7 +8676,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8687,7 +8687,7 @@
     "Te": 0,
     "Ch": 150,
     "idol": "Sora",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8698,7 +8698,7 @@
     "Te": 0,
     "Ch": 200,
     "idol": "Madara",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8709,7 +8709,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "エス",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8720,7 +8720,7 @@
     "Te": 140,
     "Ch": 0,
     "idol": "カンナ",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8731,7 +8731,7 @@
     "Te": 160,
     "Ch": 140,
     "idol": "ユメ",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8742,7 +8742,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Suit Ⅲ"
+    "name": "Suit Ⅲ"
   },
   {
     "group": "private",
@@ -8753,7 +8753,7 @@
     "Te": 220,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8764,7 +8764,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8775,7 +8775,7 @@
     "Te": 230,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8786,7 +8786,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Yuzuru",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8797,7 +8797,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8808,7 +8808,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8819,7 +8819,7 @@
     "Te": 0,
     "Ch": 325,
     "idol": "Makoto",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8830,7 +8830,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8841,7 +8841,7 @@
     "Te": 300,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8852,7 +8852,7 @@
     "Te": 240,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8863,7 +8863,7 @@
     "Te": 325,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8874,7 +8874,7 @@
     "Te": 0,
     "Ch": 330,
     "idol": "Midori",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8885,7 +8885,7 @@
     "Te": 0,
     "Ch": 285,
     "idol": "Shinobu",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8896,7 +8896,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8907,7 +8907,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Aira",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8918,7 +8918,7 @@
     "Te": 0,
     "Ch": 230,
     "idol": "Mayoi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8929,7 +8929,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8940,7 +8940,7 @@
     "Te": 0,
     "Ch": 250,
     "idol": "Nagisa",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8951,7 +8951,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8962,7 +8962,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8973,7 +8973,7 @@
     "Te": 315,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8984,7 +8984,7 @@
     "Te": 300,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -8995,7 +8995,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9006,7 +9006,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9017,7 +9017,7 @@
     "Te": 0,
     "Ch": 225,
     "idol": "Yuta",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9028,7 +9028,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9039,7 +9039,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9050,7 +9050,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9061,7 +9061,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9072,7 +9072,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9083,7 +9083,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Kaoru",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9094,7 +9094,7 @@
     "Te": 0,
     "Ch": 220,
     "idol": "Koga",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9105,7 +9105,7 @@
     "Te": 0,
     "Ch": 300,
     "idol": "Adonis",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9116,7 +9116,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9127,7 +9127,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9138,7 +9138,7 @@
     "Te": 305,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9149,7 +9149,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Hajime",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9160,7 +9160,7 @@
     "Te": 295,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9171,7 +9171,7 @@
     "Te": 0,
     "Ch": 235,
     "idol": "Kuro",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9182,7 +9182,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9193,7 +9193,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9204,7 +9204,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9215,7 +9215,7 @@
     "Te": 0,
     "Ch": 260,
     "idol": "Izumi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9226,7 +9226,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9237,7 +9237,7 @@
     "Te": 0,
     "Ch": 225,
     "idol": "Arashi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9248,7 +9248,7 @@
     "Te": 0,
     "Ch": 300,
     "idol": "Natsume",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9259,7 +9259,7 @@
     "Te": 0,
     "Ch": 240,
     "idol": "Tsumugi",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9270,7 +9270,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9281,7 +9281,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9292,7 +9292,7 @@
     "Te": 270,
     "Ch": 250,
     "idol": "エス",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9303,7 +9303,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "カンナ",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9314,7 +9314,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "ユメ",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9325,7 +9325,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "ライカ",
-    "outfit": "Suit Ⅳ"
+    "name": "Suit Ⅳ"
   },
   {
     "group": "private",
@@ -9336,7 +9336,7 @@
     "Te": 80,
     "Ch": 60,
     "idol": "Eichi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9347,7 +9347,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9358,7 +9358,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9369,7 +9369,7 @@
     "Te": 100,
     "Ch": 60,
     "idol": "Yuzuru",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9380,7 +9380,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9391,7 +9391,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9402,7 +9402,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9413,7 +9413,7 @@
     "Te": 85,
     "Ch": 55,
     "idol": "Mao",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9424,7 +9424,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9435,7 +9435,7 @@
     "Te": 95,
     "Ch": 50,
     "idol": "Kanata",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9446,7 +9446,7 @@
     "Te": 80,
     "Ch": 55,
     "idol": "Tetora",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9457,7 +9457,7 @@
     "Te": 85,
     "Ch": 70,
     "idol": "Midori",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9468,7 +9468,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9479,7 +9479,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9490,7 +9490,7 @@
     "Te": 100,
     "Ch": 45,
     "idol": "Aira",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9501,7 +9501,7 @@
     "Te": 95,
     "Ch": 45,
     "idol": "Mayoi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9512,7 +9512,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9523,7 +9523,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9534,7 +9534,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9545,7 +9545,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9556,7 +9556,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9567,7 +9567,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9578,7 +9578,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9589,7 +9589,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9600,7 +9600,7 @@
     "Te": 95,
     "Ch": 50,
     "idol": "Yuta",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9611,7 +9611,7 @@
     "Te": 85,
     "Ch": 60,
     "idol": "Rinne",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9622,7 +9622,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9633,7 +9633,7 @@
     "Te": 80,
     "Ch": 60,
     "idol": "Kohaku",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9644,7 +9644,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9655,7 +9655,7 @@
     "Te": 95,
     "Ch": 45,
     "idol": "Rei",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9666,7 +9666,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9677,7 +9677,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9688,7 +9688,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9699,7 +9699,7 @@
     "Te": 80,
     "Ch": 70,
     "idol": "Tomoya",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9710,7 +9710,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9721,7 +9721,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9732,7 +9732,7 @@
     "Te": 85,
     "Ch": 65,
     "idol": "Hajime",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9743,7 +9743,7 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9754,7 +9754,7 @@
     "Te": 90,
     "Ch": 60,
     "idol": "Kuro",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9765,7 +9765,7 @@
     "Te": 80,
     "Ch": 60,
     "idol": "Souma",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9776,7 +9776,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9787,7 +9787,7 @@
     "Te": 85,
     "Ch": 65,
     "idol": "Leo",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9798,7 +9798,7 @@
     "Te": 85,
     "Ch": 60,
     "idol": "Izumi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9809,7 +9809,7 @@
     "Te": 95,
     "Ch": 55,
     "idol": "Ritsu",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9820,7 +9820,7 @@
     "Te": 90,
     "Ch": 45,
     "idol": "Arashi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9831,7 +9831,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9842,7 +9842,7 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9853,7 +9853,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9864,7 +9864,7 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Illusion Ⅰ"
+    "name": "Illusion Ⅰ"
   },
   {
     "group": "private",
@@ -9875,7 +9875,7 @@
     "Te": 160,
     "Ch": 120,
     "idol": "Eichi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9886,7 +9886,7 @@
     "Te": 160,
     "Ch": 140,
     "idol": "Wataru",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9897,7 +9897,7 @@
     "Te": 180,
     "Ch": 110,
     "idol": "Tori",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9908,7 +9908,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9919,7 +9919,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9930,7 +9930,7 @@
     "Te": 180,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9941,7 +9941,7 @@
     "Te": 195,
     "Ch": 115,
     "idol": "Makoto",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9952,7 +9952,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9963,7 +9963,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9974,7 +9974,7 @@
     "Te": 165,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9985,7 +9985,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -9996,7 +9996,7 @@
     "Te": 190,
     "Ch": 85,
     "idol": "Midori",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10007,7 +10007,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10018,7 +10018,7 @@
     "Te": 180,
     "Ch": 100,
     "idol": "Hiiro",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10029,7 +10029,7 @@
     "Te": 190,
     "Ch": 95,
     "idol": "Aira",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10040,7 +10040,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10051,7 +10051,7 @@
     "Te": 195,
     "Ch": 95,
     "idol": "Tatsumi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10062,7 +10062,7 @@
     "Te": 200,
     "Ch": 90,
     "idol": "Nagisa",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10073,7 +10073,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10084,7 +10084,7 @@
     "Te": 165,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10095,7 +10095,7 @@
     "Te": 185,
     "Ch": 115,
     "idol": "Jun",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10106,7 +10106,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10117,7 +10117,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10128,7 +10128,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10139,7 +10139,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10150,7 +10150,7 @@
     "Te": 190,
     "Ch": 90,
     "idol": "Rinne",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10161,7 +10161,7 @@
     "Te": 200,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10172,7 +10172,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10183,7 +10183,7 @@
     "Te": 195,
     "Ch": 90,
     "idol": "Niki",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10194,7 +10194,7 @@
     "Te": 165,
     "Ch": 135,
     "idol": "Rei",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10205,7 +10205,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10216,7 +10216,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10227,7 +10227,7 @@
     "Te": 190,
     "Ch": 115,
     "idol": "Adonis",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10238,7 +10238,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10249,7 +10249,7 @@
     "Te": 180,
     "Ch": 95,
     "idol": "Nazuna",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10260,7 +10260,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10271,7 +10271,7 @@
     "Te": 175,
     "Ch": 110,
     "idol": "Hajime",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10282,7 +10282,7 @@
     "Te": 160,
     "Ch": 130,
     "idol": "Keito",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10293,7 +10293,7 @@
     "Te": 160,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10304,7 +10304,7 @@
     "Te": 185,
     "Ch": 95,
     "idol": "Souma",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10315,7 +10315,7 @@
     "Te": 165,
     "Ch": 120,
     "idol": "Tsukasa",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10326,7 +10326,7 @@
     "Te": 175,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10337,7 +10337,7 @@
     "Te": 195,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10348,7 +10348,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10359,7 +10359,7 @@
     "Te": 165,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10370,7 +10370,7 @@
     "Te": 190,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10381,7 +10381,7 @@
     "Te": 185,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10392,7 +10392,7 @@
     "Te": 170,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10403,7 +10403,7 @@
     "Te": 200,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Illusion Ⅱ"
+    "name": "Illusion Ⅱ"
   },
   {
     "group": "private",
@@ -10414,7 +10414,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10425,7 +10425,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10436,7 +10436,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10447,7 +10447,7 @@
     "Te": 260,
     "Ch": 195,
     "idol": "Yuzuru",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10458,7 +10458,7 @@
     "Te": 250,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10469,7 +10469,7 @@
     "Te": 250,
     "Ch": 150,
     "idol": "Subaru",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10480,7 +10480,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10491,7 +10491,7 @@
     "Te": 280,
     "Ch": 170,
     "idol": "Mao",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10502,7 +10502,7 @@
     "Te": 280,
     "Ch": 165,
     "idol": "Chiaki",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10513,7 +10513,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10524,7 +10524,7 @@
     "Te": 295,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10535,7 +10535,7 @@
     "Te": 245,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10546,7 +10546,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10557,7 +10557,7 @@
     "Te": 245,
     "Ch": 165,
     "idol": "Hiiro",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10568,7 +10568,7 @@
     "Te": 275,
     "Ch": 190,
     "idol": "Aira",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10579,7 +10579,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10590,7 +10590,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10601,7 +10601,7 @@
     "Te": 295,
     "Ch": 140,
     "idol": "Nagisa",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10612,7 +10612,7 @@
     "Te": 290,
     "Ch": 125,
     "idol": "Hiyori",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10623,7 +10623,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10634,7 +10634,7 @@
     "Te": 290,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10645,7 +10645,7 @@
     "Te": 285,
     "Ch": 170,
     "idol": "Shu",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10656,7 +10656,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10667,7 +10667,7 @@
     "Te": 260,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10678,7 +10678,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10689,7 +10689,7 @@
     "Te": 260,
     "Ch": 160,
     "idol": "Rinne",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10700,7 +10700,7 @@
     "Te": 295,
     "Ch": 180,
     "idol": "HiMERU",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10711,7 +10711,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10722,7 +10722,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10733,7 +10733,7 @@
     "Te": 260,
     "Ch": 190,
     "idol": "Rei",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10744,7 +10744,7 @@
     "Te": 245,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10755,7 +10755,7 @@
     "Te": 245,
     "Ch": 185,
     "idol": "Koga",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10766,7 +10766,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10777,7 +10777,7 @@
     "Te": 250,
     "Ch": 165,
     "idol": "Tomoya",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10788,7 +10788,7 @@
     "Te": 295,
     "Ch": 135,
     "idol": "Nazuna",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10799,7 +10799,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10810,7 +10810,7 @@
     "Te": 285,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10821,7 +10821,7 @@
     "Te": 265,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10832,7 +10832,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10843,7 +10843,7 @@
     "Te": 285,
     "Ch": 175,
     "idol": "Souma",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10854,7 +10854,7 @@
     "Te": 270,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10865,7 +10865,7 @@
     "Te": 255,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10876,7 +10876,7 @@
     "Te": 255,
     "Ch": 145,
     "idol": "Izumi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10887,7 +10887,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10898,7 +10898,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10909,7 +10909,7 @@
     "Te": 275,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10920,7 +10920,7 @@
     "Te": 300,
     "Ch": 150,
     "idol": "Tsumugi",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10931,7 +10931,7 @@
     "Te": 280,
     "Ch": 140,
     "idol": "Sora",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10942,7 +10942,7 @@
     "Te": 280,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Illusion Ⅲ"
+    "name": "Illusion Ⅲ"
   },
   {
     "group": "private",
@@ -10953,7 +10953,7 @@
     "Te": 485,
     "Ch": 295,
     "idol": "Eichi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -10964,7 +10964,7 @@
     "Te": 435,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -10975,7 +10975,7 @@
     "Te": 415,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -10986,7 +10986,7 @@
     "Te": 410,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -10997,7 +10997,7 @@
     "Te": 495,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11008,7 +11008,7 @@
     "Te": 460,
     "Ch": 270,
     "idol": "Subaru",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11019,7 +11019,7 @@
     "Te": 485,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11030,7 +11030,7 @@
     "Te": 470,
     "Ch": 300,
     "idol": "Mao",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11041,7 +11041,7 @@
     "Te": 430,
     "Ch": 240,
     "idol": "Chiaki",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11052,7 +11052,7 @@
     "Te": 415,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11063,7 +11063,7 @@
     "Te": 495,
     "Ch": 245,
     "idol": "Tetora",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11074,7 +11074,7 @@
     "Te": 480,
     "Ch": 215,
     "idol": "Midori",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11085,7 +11085,7 @@
     "Te": 440,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11096,7 +11096,7 @@
     "Te": 485,
     "Ch": 295,
     "idol": "Hiiro",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11107,7 +11107,7 @@
     "Te": 450,
     "Ch": 270,
     "idol": "Aira",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11118,7 +11118,7 @@
     "Te": 430,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11129,7 +11129,7 @@
     "Te": 435,
     "Ch": 250,
     "idol": "Tatsumi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11140,7 +11140,7 @@
     "Te": 435,
     "Ch": 335,
     "idol": "Nagisa",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11151,7 +11151,7 @@
     "Te": 490,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11162,7 +11162,7 @@
     "Te": 435,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11173,7 +11173,7 @@
     "Te": 420,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11184,7 +11184,7 @@
     "Te": 405,
     "Ch": 295,
     "idol": "Shu",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11195,7 +11195,7 @@
     "Te": 460,
     "Ch": 300,
     "idol": "Mika",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11206,7 +11206,7 @@
     "Te": 480,
     "Ch": 310,
     "idol": "Hinata",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11217,7 +11217,7 @@
     "Te": 470,
     "Ch": 305,
     "idol": "Yuta",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11228,7 +11228,7 @@
     "Te": 435,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11239,7 +11239,7 @@
     "Te": 460,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11250,7 +11250,7 @@
     "Te": 430,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11261,7 +11261,7 @@
     "Te": 465,
     "Ch": 235,
     "idol": "Niki",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11272,7 +11272,7 @@
     "Te": 435,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11283,7 +11283,7 @@
     "Te": 470,
     "Ch": 230,
     "idol": "Kaoru",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11294,7 +11294,7 @@
     "Te": 495,
     "Ch": 260,
     "idol": "Koga",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11305,7 +11305,7 @@
     "Te": 400,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11316,7 +11316,7 @@
     "Te": 480,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11327,7 +11327,7 @@
     "Te": 410,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11338,7 +11338,7 @@
     "Te": 470,
     "Ch": 220,
     "idol": "Mitsuru",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11349,7 +11349,7 @@
     "Te": 460,
     "Ch": 320,
     "idol": "Hajime",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11360,7 +11360,7 @@
     "Te": 490,
     "Ch": 210,
     "idol": "Keito",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11371,7 +11371,7 @@
     "Te": 445,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11382,7 +11382,7 @@
     "Te": 460,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11393,7 +11393,7 @@
     "Te": 415,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11404,7 +11404,7 @@
     "Te": 465,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11415,7 +11415,7 @@
     "Te": 465,
     "Ch": 275,
     "idol": "Izumi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11426,7 +11426,7 @@
     "Te": 435,
     "Ch": 275,
     "idol": "Ritsu",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11437,7 +11437,7 @@
     "Te": 435,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11448,7 +11448,7 @@
     "Te": 485,
     "Ch": 230,
     "idol": "Natsume",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11459,7 +11459,7 @@
     "Te": 425,
     "Ch": 305,
     "idol": "Tsumugi",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11470,7 +11470,7 @@
     "Te": 410,
     "Ch": 315,
     "idol": "Sora",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11481,7 +11481,7 @@
     "Te": 480,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Illusion Ⅳ"
+    "name": "Illusion Ⅳ"
   },
   {
     "group": "private",
@@ -11492,7 +11492,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Eichi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11503,7 +11503,7 @@
     "Te": 60,
     "Ch": 85,
     "idol": "Wataru",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11514,7 +11514,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Tori",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11525,7 +11525,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Yuzuru",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11536,7 +11536,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Hokuto",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11547,7 +11547,7 @@
     "Te": 45,
     "Ch": 95,
     "idol": "Subaru",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11558,7 +11558,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Makoto",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11569,7 +11569,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Mao",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11580,7 +11580,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Chiaki",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11591,7 +11591,7 @@
     "Te": 60,
     "Ch": 95,
     "idol": "Kanata",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11602,7 +11602,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Tetora",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11613,7 +11613,7 @@
     "Te": 60,
     "Ch": 80,
     "idol": "Midori",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11624,7 +11624,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Shinobu",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11635,7 +11635,7 @@
     "Te": 55,
     "Ch": 95,
     "idol": "Hiiro",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11646,7 +11646,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Aira",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11657,7 +11657,7 @@
     "Te": 50,
     "Ch": 95,
     "idol": "Mayoi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11668,7 +11668,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Tatsumi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11679,7 +11679,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Nagisa",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11690,7 +11690,7 @@
     "Te": 50,
     "Ch": 90,
     "idol": "Hiyori",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11701,7 +11701,7 @@
     "Te": 60,
     "Ch": 85,
     "idol": "Ibara",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11712,7 +11712,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Jun",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11723,7 +11723,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Shu",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11734,7 +11734,7 @@
     "Te": 50,
     "Ch": 95,
     "idol": "Mika",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11745,7 +11745,7 @@
     "Te": 70,
     "Ch": 85,
     "idol": "Hinata",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11756,7 +11756,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Yuta",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11767,7 +11767,7 @@
     "Te": 0,
     "Ch": 100,
     "idol": "Rinne",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11778,7 +11778,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "HiMERU",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11789,7 +11789,7 @@
     "Te": 60,
     "Ch": 95,
     "idol": "Kohaku",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11800,7 +11800,7 @@
     "Te": 55,
     "Ch": 80,
     "idol": "Niki",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11811,7 +11811,7 @@
     "Te": 55,
     "Ch": 90,
     "idol": "Rei",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11822,7 +11822,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Kaoru",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11833,7 +11833,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Koga",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11844,7 +11844,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Adonis",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11855,7 +11855,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Tomoya",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11866,7 +11866,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Nazuna",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11877,7 +11877,7 @@
     "Te": 55,
     "Ch": 95,
     "idol": "Mitsuru",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11888,7 +11888,7 @@
     "Te": 60,
     "Ch": 100,
     "idol": "Hajime",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11899,7 +11899,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Keito",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11910,7 +11910,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Kuro",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11921,7 +11921,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Souma",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11932,7 +11932,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Tsukasa",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11943,7 +11943,7 @@
     "Te": 45,
     "Ch": 95,
     "idol": "Leo",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11954,7 +11954,7 @@
     "Te": 55,
     "Ch": 90,
     "idol": "Izumi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11965,7 +11965,7 @@
     "Te": 0,
     "Ch": 85,
     "idol": "Ritsu",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11976,7 +11976,7 @@
     "Te": 50,
     "Ch": 80,
     "idol": "Arashi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11987,7 +11987,7 @@
     "Te": 50,
     "Ch": 95,
     "idol": "Natsume",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -11998,7 +11998,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Tsumugi",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -12009,7 +12009,7 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Sora",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -12020,7 +12020,7 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Madara",
-    "outfit": "Prince Ⅰ"
+    "name": "Prince Ⅰ"
   },
   {
     "group": "private",
@@ -12031,7 +12031,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Eichi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12042,7 +12042,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Wataru",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12053,7 +12053,7 @@
     "Te": 115,
     "Ch": 185,
     "idol": "Tori",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12064,7 +12064,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Yuzuru",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12075,7 +12075,7 @@
     "Te": 120,
     "Ch": 170,
     "idol": "Hokuto",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12086,7 +12086,7 @@
     "Te": 100,
     "Ch": 170,
     "idol": "Subaru",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12097,7 +12097,7 @@
     "Te": 85,
     "Ch": 200,
     "idol": "Makoto",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12108,7 +12108,7 @@
     "Te": 115,
     "Ch": 190,
     "idol": "Mao",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12119,7 +12119,7 @@
     "Te": 110,
     "Ch": 165,
     "idol": "Chiaki",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12130,7 +12130,7 @@
     "Te": 0,
     "Ch": 200,
     "idol": "Kanata",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12141,7 +12141,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Tetora",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12152,7 +12152,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Midori",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12163,7 +12163,7 @@
     "Te": 130,
     "Ch": 175,
     "idol": "Shinobu",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12174,7 +12174,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Hiiro",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12185,7 +12185,7 @@
     "Te": 115,
     "Ch": 195,
     "idol": "Aira",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12196,7 +12196,7 @@
     "Te": 0,
     "Ch": 160,
     "idol": "Mayoi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12207,7 +12207,7 @@
     "Te": 100,
     "Ch": 185,
     "idol": "Tatsumi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12218,7 +12218,7 @@
     "Te": 0,
     "Ch": 200,
     "idol": "Nagisa",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12229,7 +12229,7 @@
     "Te": 0,
     "Ch": 190,
     "idol": "Hiyori",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12240,7 +12240,7 @@
     "Te": 0,
     "Ch": 190,
     "idol": "Ibara",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12251,7 +12251,7 @@
     "Te": 100,
     "Ch": 180,
     "idol": "Jun",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12262,7 +12262,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Shu",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12273,7 +12273,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Mika",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12284,7 +12284,7 @@
     "Te": 120,
     "Ch": 195,
     "idol": "Hinata",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12295,7 +12295,7 @@
     "Te": 105,
     "Ch": 185,
     "idol": "Yuta",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12306,7 +12306,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Rinne",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12317,7 +12317,7 @@
     "Te": 110,
     "Ch": 165,
     "idol": "HiMERU",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12328,7 +12328,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Kohaku",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12339,7 +12339,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Niki",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12350,7 +12350,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Rei",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12361,7 +12361,7 @@
     "Te": 0,
     "Ch": 185,
     "idol": "Kaoru",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12372,7 +12372,7 @@
     "Te": 0,
     "Ch": 195,
     "idol": "Koga",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12383,7 +12383,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Adonis",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12394,7 +12394,7 @@
     "Te": 0,
     "Ch": 165,
     "idol": "Tomoya",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12405,7 +12405,7 @@
     "Te": 105,
     "Ch": 165,
     "idol": "Nazuna",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12416,7 +12416,7 @@
     "Te": 90,
     "Ch": 195,
     "idol": "Mitsuru",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12427,7 +12427,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Hajime",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12438,7 +12438,7 @@
     "Te": 130,
     "Ch": 185,
     "idol": "Keito",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12449,7 +12449,7 @@
     "Te": 110,
     "Ch": 185,
     "idol": "Kuro",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12460,7 +12460,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Souma",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12471,7 +12471,7 @@
     "Te": 120,
     "Ch": 170,
     "idol": "Tsukasa",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12482,7 +12482,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Leo",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12493,7 +12493,7 @@
     "Te": 0,
     "Ch": 195,
     "idol": "Izumi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12504,7 +12504,7 @@
     "Te": 0,
     "Ch": 195,
     "idol": "Ritsu",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12515,7 +12515,7 @@
     "Te": 0,
     "Ch": 175,
     "idol": "Arashi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12526,7 +12526,7 @@
     "Te": 0,
     "Ch": 170,
     "idol": "Natsume",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12537,7 +12537,7 @@
     "Te": 120,
     "Ch": 185,
     "idol": "Tsumugi",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12548,7 +12548,7 @@
     "Te": 0,
     "Ch": 180,
     "idol": "Sora",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12559,7 +12559,7 @@
     "Te": 0,
     "Ch": 190,
     "idol": "Madara",
-    "outfit": "Prince Ⅱ"
+    "name": "Prince Ⅱ"
   },
   {
     "group": "private",
@@ -12570,7 +12570,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Eichi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12581,7 +12581,7 @@
     "Te": 0,
     "Ch": 260,
     "idol": "Wataru",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12592,7 +12592,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Tori",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12603,7 +12603,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Yuzuru",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12614,7 +12614,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Hokuto",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12625,7 +12625,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Subaru",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12636,7 +12636,7 @@
     "Te": 145,
     "Ch": 295,
     "idol": "Makoto",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12647,7 +12647,7 @@
     "Te": 170,
     "Ch": 240,
     "idol": "Mao",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12658,7 +12658,7 @@
     "Te": 210,
     "Ch": 245,
     "idol": "Chiaki",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12669,7 +12669,7 @@
     "Te": 180,
     "Ch": 295,
     "idol": "Kanata",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12680,7 +12680,7 @@
     "Te": 170,
     "Ch": 260,
     "idol": "Tetora",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12691,7 +12691,7 @@
     "Te": 0,
     "Ch": 295,
     "idol": "Midori",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12702,7 +12702,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Shinobu",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12713,7 +12713,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Hiiro",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12724,7 +12724,7 @@
     "Te": 180,
     "Ch": 260,
     "idol": "Aira",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12735,7 +12735,7 @@
     "Te": 135,
     "Ch": 285,
     "idol": "Mayoi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12746,7 +12746,7 @@
     "Te": 190,
     "Ch": 255,
     "idol": "Tatsumi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12757,7 +12757,7 @@
     "Te": 165,
     "Ch": 295,
     "idol": "Nagisa",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12768,7 +12768,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Hiyori",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12779,7 +12779,7 @@
     "Te": 165,
     "Ch": 280,
     "idol": "Ibara",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12790,7 +12790,7 @@
     "Te": 160,
     "Ch": 240,
     "idol": "Jun",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12801,7 +12801,7 @@
     "Te": 0,
     "Ch": 260,
     "idol": "Shu",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12812,7 +12812,7 @@
     "Te": 195,
     "Ch": 245,
     "idol": "Mika",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12823,7 +12823,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Hinata",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12834,7 +12834,7 @@
     "Te": 0,
     "Ch": 260,
     "idol": "Yuta",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12845,7 +12845,7 @@
     "Te": 160,
     "Ch": 270,
     "idol": "Rinne",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12856,7 +12856,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "HiMERU",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12867,7 +12867,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Kohaku",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12878,7 +12878,7 @@
     "Te": 0,
     "Ch": 275,
     "idol": "Niki",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12889,7 +12889,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Rei",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12900,7 +12900,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Kaoru",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12911,7 +12911,7 @@
     "Te": 135,
     "Ch": 300,
     "idol": "Koga",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12922,7 +12922,7 @@
     "Te": 0,
     "Ch": 290,
     "idol": "Adonis",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12933,7 +12933,7 @@
     "Te": 130,
     "Ch": 285,
     "idol": "Tomoya",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12944,7 +12944,7 @@
     "Te": 0,
     "Ch": 285,
     "idol": "Nazuna",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12955,7 +12955,7 @@
     "Te": 140,
     "Ch": 270,
     "idol": "Mitsuru",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12966,7 +12966,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Hajime",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12977,7 +12977,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Keito",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12988,7 +12988,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Kuro",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -12999,7 +12999,7 @@
     "Te": 0,
     "Ch": 255,
     "idol": "Souma",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13010,7 +13010,7 @@
     "Te": 0,
     "Ch": 285,
     "idol": "Tsukasa",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13021,7 +13021,7 @@
     "Te": 0,
     "Ch": 245,
     "idol": "Leo",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13032,7 +13032,7 @@
     "Te": 0,
     "Ch": 265,
     "idol": "Izumi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13043,7 +13043,7 @@
     "Te": 165,
     "Ch": 265,
     "idol": "Ritsu",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13054,7 +13054,7 @@
     "Te": 170,
     "Ch": 280,
     "idol": "Arashi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13065,7 +13065,7 @@
     "Te": 190,
     "Ch": 285,
     "idol": "Natsume",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13076,7 +13076,7 @@
     "Te": 0,
     "Ch": 260,
     "idol": "Tsumugi",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13087,7 +13087,7 @@
     "Te": 0,
     "Ch": 270,
     "idol": "Sora",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13098,7 +13098,7 @@
     "Te": 165,
     "Ch": 275,
     "idol": "Madara",
-    "outfit": "Prince Ⅲ"
+    "name": "Prince Ⅲ"
   },
   {
     "group": "private",
@@ -13109,7 +13109,7 @@
     "Te": 0,
     "Ch": 410,
     "idol": "Eichi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13120,7 +13120,7 @@
     "Te": 270,
     "Ch": 455,
     "idol": "Wataru",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13131,7 +13131,7 @@
     "Te": 270,
     "Ch": 495,
     "idol": "Tori",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13142,7 +13142,7 @@
     "Te": 0,
     "Ch": 455,
     "idol": "Yuzuru",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13153,7 +13153,7 @@
     "Te": 0,
     "Ch": 420,
     "idol": "Hokuto",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13164,7 +13164,7 @@
     "Te": 260,
     "Ch": 445,
     "idol": "Subaru",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13175,7 +13175,7 @@
     "Te": 0,
     "Ch": 420,
     "idol": "Makoto",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13186,7 +13186,7 @@
     "Te": 0,
     "Ch": 445,
     "idol": "Mao",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13197,7 +13197,7 @@
     "Te": 250,
     "Ch": 465,
     "idol": "Chiaki",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13208,7 +13208,7 @@
     "Te": 0,
     "Ch": 465,
     "idol": "Kanata",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13219,7 +13219,7 @@
     "Te": 240,
     "Ch": 465,
     "idol": "Tetora",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13230,7 +13230,7 @@
     "Te": 0,
     "Ch": 420,
     "idol": "Midori",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13241,7 +13241,7 @@
     "Te": 255,
     "Ch": 450,
     "idol": "Shinobu",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13252,7 +13252,7 @@
     "Te": 0,
     "Ch": 495,
     "idol": "Hiiro",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13263,7 +13263,7 @@
     "Te": 0,
     "Ch": 420,
     "idol": "Aira",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13274,7 +13274,7 @@
     "Te": 270,
     "Ch": 490,
     "idol": "Mayoi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13285,7 +13285,7 @@
     "Te": 250,
     "Ch": 440,
     "idol": "Tatsumi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13296,7 +13296,7 @@
     "Te": 310,
     "Ch": 445,
     "idol": "Nagisa",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13307,7 +13307,7 @@
     "Te": 300,
     "Ch": 475,
     "idol": "Hiyori",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13318,7 +13318,7 @@
     "Te": 0,
     "Ch": 465,
     "idol": "Ibara",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13329,7 +13329,7 @@
     "Te": 235,
     "Ch": 450,
     "idol": "Jun",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13340,7 +13340,7 @@
     "Te": 230,
     "Ch": 490,
     "idol": "Shu",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13351,7 +13351,7 @@
     "Te": 290,
     "Ch": 460,
     "idol": "Mika",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13362,7 +13362,7 @@
     "Te": 0,
     "Ch": 400,
     "idol": "Hinata",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13373,7 +13373,7 @@
     "Te": 0,
     "Ch": 485,
     "idol": "Yuta",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13384,7 +13384,7 @@
     "Te": 265,
     "Ch": 485,
     "idol": "Rinne",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13395,7 +13395,7 @@
     "Te": 0,
     "Ch": 430,
     "idol": "HiMERU",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13406,7 +13406,7 @@
     "Te": 0,
     "Ch": 460,
     "idol": "Kohaku",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13417,7 +13417,7 @@
     "Te": 270,
     "Ch": 435,
     "idol": "Niki",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13428,7 +13428,7 @@
     "Te": 255,
     "Ch": 470,
     "idol": "Rei",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13439,7 +13439,7 @@
     "Te": 0,
     "Ch": 425,
     "idol": "Kaoru",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13450,7 +13450,7 @@
     "Te": 320,
     "Ch": 450,
     "idol": "Koga",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13461,7 +13461,7 @@
     "Te": 0,
     "Ch": 405,
     "idol": "Adonis",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13472,7 +13472,7 @@
     "Te": 0,
     "Ch": 425,
     "idol": "Tomoya",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13483,7 +13483,7 @@
     "Te": 265,
     "Ch": 470,
     "idol": "Nazuna",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13494,7 +13494,7 @@
     "Te": 250,
     "Ch": 420,
     "idol": "Mitsuru",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13505,7 +13505,7 @@
     "Te": 0,
     "Ch": 410,
     "idol": "Hajime",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13516,7 +13516,7 @@
     "Te": 0,
     "Ch": 475,
     "idol": "Keito",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13527,7 +13527,7 @@
     "Te": 0,
     "Ch": 425,
     "idol": "Kuro",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13538,7 +13538,7 @@
     "Te": 320,
     "Ch": 455,
     "idol": "Souma",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13549,7 +13549,7 @@
     "Te": 255,
     "Ch": 485,
     "idol": "Tsukasa",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13560,7 +13560,7 @@
     "Te": 0,
     "Ch": 445,
     "idol": "Leo",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13571,7 +13571,7 @@
     "Te": 0,
     "Ch": 440,
     "idol": "Izumi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13582,7 +13582,7 @@
     "Te": 0,
     "Ch": 480,
     "idol": "Ritsu",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13593,7 +13593,7 @@
     "Te": 265,
     "Ch": 485,
     "idol": "Arashi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13604,7 +13604,7 @@
     "Te": 265,
     "Ch": 400,
     "idol": "Natsume",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13615,7 +13615,7 @@
     "Te": 330,
     "Ch": 420,
     "idol": "Tsumugi",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13626,7 +13626,7 @@
     "Te": 0,
     "Ch": 470,
     "idol": "Sora",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   },
   {
     "group": "private",
@@ -13637,6 +13637,6 @@
     "Te": 0,
     "Ch": 405,
     "idol": "Madara",
-    "outfit": "Prince Ⅳ"
+    "name": "Prince Ⅳ"
   }
 ]

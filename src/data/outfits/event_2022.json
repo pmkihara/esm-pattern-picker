@@ -8,7 +8,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Hokuto",
-    "outfit": "Four Seasons Outfit"
+    "name": "Four Seasons Outfit"
   },
   {
     "group": "event",
@@ -19,7 +19,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Four Seasons Outfit"
+    "name": "Four Seasons Outfit"
   },
   {
     "group": "event",
@@ -30,7 +30,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Makoto",
-    "outfit": "Four Seasons Outfit"
+    "name": "Four Seasons Outfit"
   },
   {
     "group": "event",
@@ -41,7 +41,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Four Seasons Outfit"
+    "name": "Four Seasons Outfit"
   },
   {
     "group": "event",
@@ -52,7 +52,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Phantom Airship Outfit"
+    "name": "Phantom Airship Outfit"
   },
   {
     "group": "event",
@@ -63,7 +63,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Aira",
-    "outfit": "Phantom Airship Outfit"
+    "name": "Phantom Airship Outfit"
   },
   {
     "group": "event",
@@ -74,7 +74,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mayoi",
-    "outfit": "Phantom Airship Outfit"
+    "name": "Phantom Airship Outfit"
   },
   {
     "group": "event",
@@ -85,7 +85,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Phantom Airship Outfit"
+    "name": "Phantom Airship Outfit"
   },
   {
     "group": "event",
@@ -96,7 +96,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Love Letter Outfit"
+    "name": "Love Letter Outfit"
   },
   {
     "group": "event",
@@ -107,7 +107,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Love Letter Outfit"
+    "name": "Love Letter Outfit"
   },
   {
     "group": "event",
@@ -118,7 +118,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Natsume",
-    "outfit": "Tri-Lights Outfit"
+    "name": "Tri-Lights Outfit"
   },
   {
     "group": "event",
@@ -129,7 +129,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Tri-Lights Outfit"
+    "name": "Tri-Lights Outfit"
   },
   {
     "group": "event",
@@ -140,7 +140,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Tri-Lights Outfit"
+    "name": "Tri-Lights Outfit"
   },
   {
     "group": "event",
@@ -151,7 +151,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Shu",
-    "outfit": "Hermitage Outfit"
+    "name": "Hermitage Outfit"
   },
   {
     "group": "event",
@@ -162,7 +162,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Mika",
-    "outfit": "Hermitage Outfit"
+    "name": "Hermitage Outfit"
   },
   {
     "group": "event",
@@ -173,7 +173,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Spring Evening's RespiteOutfit"
+    "name": "Spring Evening's RespiteOutfit"
   },
   {
     "group": "event",
@@ -184,7 +184,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Kohaku",
-    "outfit": "Spring Evening's RespiteOutfit"
+    "name": "Spring Evening's RespiteOutfit"
   },
   {
     "group": "event",
@@ -195,7 +195,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Wataru",
-    "outfit": "Puffy☆Bunny Outfit"
+    "name": "Puffy☆Bunny Outfit"
   },
   {
     "group": "event",
@@ -206,7 +206,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Shinobu",
-    "outfit": "Puffy☆Bunny Outfit"
+    "name": "Puffy☆Bunny Outfit"
   },
   {
     "group": "event",
@@ -217,7 +217,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Hiiro",
-    "outfit": "Puffy☆Bunny Outfit"
+    "name": "Puffy☆Bunny Outfit"
   },
   {
     "group": "event",
@@ -228,7 +228,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Mika",
-    "outfit": "Puffy☆Bunny Outfit"
+    "name": "Puffy☆Bunny Outfit"
   },
   {
     "group": "event",
@@ -239,7 +239,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Puffy☆Bunny Outfit"
+    "name": "Puffy☆Bunny Outfit"
   },
   {
     "group": "event",
@@ -250,7 +250,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -261,7 +261,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -272,7 +272,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hiyori",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -283,7 +283,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Ibara",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -294,7 +294,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -305,7 +305,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "HiMERU",
-    "outfit": "COMP Outfit"
+    "name": "COMP Outfit"
   },
   {
     "group": "event",
@@ -316,7 +316,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Hokuto",
-    "outfit": "VS GAME Outfit"
+    "name": "VS GAME Outfit"
   },
   {
     "group": "event",
@@ -327,7 +327,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "VS GAME Outfit"
+    "name": "VS GAME Outfit"
   },
   {
     "group": "event",
@@ -338,7 +338,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "VS GAME Outfit"
+    "name": "VS GAME Outfit"
   },
   {
     "group": "event",
@@ -349,7 +349,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Mao",
-    "outfit": "VS GAME Outfit"
+    "name": "VS GAME Outfit"
   },
   {
     "group": "event",
@@ -360,7 +360,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Bride Light Outfit"
+    "name": "Bride Light Outfit"
   },
   {
     "group": "event",
@@ -371,7 +371,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Kaoru",
-    "outfit": "Bride Light Outfit"
+    "name": "Bride Light Outfit"
   },
   {
     "group": "event",
@@ -382,7 +382,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Koga",
-    "outfit": "Bride Light Outfit"
+    "name": "Bride Light Outfit"
   },
   {
     "group": "event",
@@ -393,7 +393,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Adonis",
-    "outfit": "Bride Light Outfit"
+    "name": "Bride Light Outfit"
   },
   {
     "group": "event",
@@ -404,7 +404,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Keito",
-    "outfit": "Black Paradise Flycatcher Outfit"
+    "name": "Black Paradise Flycatcher Outfit"
   },
   {
     "group": "event",
@@ -415,7 +415,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Black Paradise Flycatcher Outfit"
+    "name": "Black Paradise Flycatcher Outfit"
   },
   {
     "group": "event",
@@ -426,7 +426,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Black Paradise Flycatcher Outfit"
+    "name": "Black Paradise Flycatcher Outfit"
   },
   {
     "group": "event",
@@ -437,7 +437,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Tanabata Outfit"
+    "name": "Tanabata Outfit"
   },
   {
     "group": "event",
@@ -448,7 +448,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Tanabata Outfit"
+    "name": "Tanabata Outfit"
   },
   {
     "group": "event",
@@ -459,7 +459,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Tsukasa",
-    "outfit": "Tanabata Outfit"
+    "name": "Tanabata Outfit"
   },
   {
     "group": "event",
@@ -470,7 +470,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Ritsu",
-    "outfit": "Tanabata Outfit"
+    "name": "Tanabata Outfit"
   },
   {
     "group": "event",
@@ -481,7 +481,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Arashi",
-    "outfit": "Tanabata Outfit"
+    "name": "Tanabata Outfit"
   },
   {
     "group": "event",
@@ -492,7 +492,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Cruise Outfit"
+    "name": "Cruise Outfit"
   },
   {
     "group": "event",
@@ -503,7 +503,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Tsumugi",
-    "outfit": "Cruise Outfit"
+    "name": "Cruise Outfit"
   },
   {
     "group": "event",
@@ -514,7 +514,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Sora",
-    "outfit": "Cruise Outfit"
+    "name": "Cruise Outfit"
   },
   {
     "group": "event",
@@ -525,7 +525,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Sunshine Outfit"
+    "name": "Sunshine Outfit"
   },
   {
     "group": "event",
@@ -536,7 +536,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Leo",
-    "outfit": "Sunshine Outfit"
+    "name": "Sunshine Outfit"
   },
   {
     "group": "event",
@@ -547,7 +547,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Sunshine Outfit"
+    "name": "Sunshine Outfit"
   },
   {
     "group": "event",
@@ -558,7 +558,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Ritsu",
-    "outfit": "Sunshine Outfit"
+    "name": "Sunshine Outfit"
   },
   {
     "group": "event",
@@ -569,7 +569,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Arashi",
-    "outfit": "Sunshine Outfit"
+    "name": "Sunshine Outfit"
   },
   {
     "group": "event",
@@ -580,7 +580,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Subaru",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -591,7 +591,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -602,7 +602,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hiiro",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -613,7 +613,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Aira",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -624,7 +624,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -635,7 +635,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Yuta",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -646,7 +646,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Tomoya",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -657,7 +657,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Grand Slam Outfit"
+    "name": "Grand Slam Outfit"
   },
   {
     "group": "event",
@@ -668,7 +668,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "BUTOUKAI Outfit"
+    "name": "BUTOUKAI Outfit"
   },
   {
     "group": "event",
@@ -679,7 +679,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Jun",
-    "outfit": "BUTOUKAI Outfit"
+    "name": "BUTOUKAI Outfit"
   },
   {
     "group": "event",
@@ -690,7 +690,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "BUTOUKAI Outfit"
+    "name": "BUTOUKAI Outfit"
   },
   {
     "group": "event",
@@ -701,7 +701,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "BUTOUKAI Outfit"
+    "name": "BUTOUKAI Outfit"
   },
   {
     "group": "event",
@@ -712,7 +712,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "BUTOUKAI Outfit"
+    "name": "BUTOUKAI Outfit"
   },
   {
     "group": "event",
@@ -723,7 +723,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Hiiro",
-    "outfit": "Card Outfit"
+    "name": "Card Outfit"
   },
   {
     "group": "event",
@@ -734,7 +734,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Card Outfit"
+    "name": "Card Outfit"
   },
   {
     "group": "event",
@@ -745,7 +745,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Card Outfit"
+    "name": "Card Outfit"
   },
   {
     "group": "event",
@@ -756,7 +756,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tatsumi",
-    "outfit": "Card Outfit"
+    "name": "Card Outfit"
   },
   {
     "group": "event",
@@ -767,7 +767,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -778,7 +778,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -789,7 +789,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Midori",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -800,7 +800,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hinata",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -811,7 +811,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -822,7 +822,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Mitsuru",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -833,7 +833,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Hajime",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -844,7 +844,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Sora",
-    "outfit": "High and Low Outfit"
+    "name": "High and Low Outfit"
   },
   {
     "group": "event",
@@ -855,7 +855,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Eichi",
-    "outfit": "Ghostic Halloween Outfit"
+    "name": "Ghostic Halloween Outfit"
   },
   {
     "group": "event",
@@ -866,7 +866,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Wataru",
-    "outfit": "Ghostic Halloween Outfit"
+    "name": "Ghostic Halloween Outfit"
   },
   {
     "group": "event",
@@ -877,7 +877,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Ghostic Halloween Outfit"
+    "name": "Ghostic Halloween Outfit"
   },
   {
     "group": "event",
@@ -888,7 +888,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Yuzuru",
-    "outfit": "Ghostic Halloween Outfit"
+    "name": "Ghostic Halloween Outfit"
   },
   {
     "group": "event",
@@ -899,7 +899,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Spider Outfit"
+    "name": "Spider Outfit"
   },
   {
     "group": "event",
@@ -910,7 +910,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "HiMERU",
-    "outfit": "Spider Outfit"
+    "name": "Spider Outfit"
   },
   {
     "group": "event",
@@ -921,7 +921,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Kohaku",
-    "outfit": "Spider Outfit"
+    "name": "Spider Outfit"
   },
   {
     "group": "event",
@@ -932,7 +932,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Spider Outfit"
+    "name": "Spider Outfit"
   },
   {
     "group": "event",
@@ -943,7 +943,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "BLEND+ Outfit"
+    "name": "BLEND+ Outfit"
   },
   {
     "group": "event",
@@ -954,7 +954,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Yuta",
-    "outfit": "BLEND+ Outfit"
+    "name": "BLEND+ Outfit"
   },
   {
     "group": "event",
@@ -965,7 +965,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "BLEND+ Outfit"
+    "name": "BLEND+ Outfit"
   },
   {
     "group": "event",
@@ -976,7 +976,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "BLEND+ Outfit"
+    "name": "BLEND+ Outfit"
   },
   {
     "group": "event",
@@ -987,7 +987,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Tsumugi",
-    "outfit": "BLEND+ Outfit"
+    "name": "BLEND+ Outfit"
   },
   {
     "group": "event",
@@ -998,7 +998,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1009,7 +1009,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1020,7 +1020,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Shinobu",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1031,7 +1031,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Mayoi",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1042,7 +1042,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1053,7 +1053,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1064,7 +1064,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Arashi",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1075,7 +1075,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "STAR FES Outfit"
+    "name": "STAR FES Outfit"
   },
   {
     "group": "event",
@@ -1086,7 +1086,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Flambé！ Outfit"
+    "name": "Flambé！ Outfit"
   },
   {
     "group": "event",
@@ -1097,7 +1097,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Flambé！ Outfit"
+    "name": "Flambé！ Outfit"
   },
   {
     "group": "event",
@@ -1108,7 +1108,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Flambé！ Outfit"
+    "name": "Flambé！ Outfit"
   },
   {
     "group": "event",
@@ -1119,7 +1119,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Flambé！ Outfit"
+    "name": "Flambé！ Outfit"
   },
   {
     "group": "event",
@@ -1130,6 +1130,6 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tomoya",
-    "outfit": "Flambé！ Outfit"
+    "name": "Flambé！ Outfit"
   }
 ]

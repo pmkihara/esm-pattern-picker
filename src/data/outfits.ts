@@ -6,7 +6,7 @@ export type OutfitGroup = 'general' | 'event' | 'private' | 'collab'
 export interface Outfit extends Stats {
   group: OutfitGroup
   idol: string
-  outfit: string
+  name: string
 }
 
 export interface UserOutfit extends Outfit {
@@ -34,7 +34,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Eichi',
-    outfit: 'fine Training Uniform',
+    name: 'fine Training Uniform',
   },
   {
     group: 'general',
@@ -45,7 +45,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Wataru',
-    outfit: 'fine Training Uniform',
+    name: 'fine Training Uniform',
   },
   {
     group: 'general',
@@ -56,7 +56,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tori',
-    outfit: 'fine Training Uniform',
+    name: 'fine Training Uniform',
   },
   {
     group: 'general',
@@ -67,7 +67,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Yuzuru',
-    outfit: 'fine Training Uniform',
+    name: 'fine Training Uniform',
   },
   {
     group: 'general',
@@ -78,7 +78,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Hokuto',
-    outfit: 'Trickstar Training Uniform',
+    name: 'Trickstar Training Uniform',
   },
   {
     group: 'general',
@@ -89,7 +89,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Subaru',
-    outfit: 'Trickstar Training Uniform',
+    name: 'Trickstar Training Uniform',
   },
   {
     group: 'general',
@@ -100,7 +100,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Makoto',
-    outfit: 'Trickstar Training Uniform',
+    name: 'Trickstar Training Uniform',
   },
   {
     group: 'general',
@@ -111,7 +111,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Mao',
-    outfit: 'Trickstar Training Uniform',
+    name: 'Trickstar Training Uniform',
   },
   {
     group: 'general',
@@ -122,7 +122,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Chiaki',
-    outfit: 'RYUSEITAI Training Uniform',
+    name: 'RYUSEITAI Training Uniform',
   },
   {
     group: 'general',
@@ -133,7 +133,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Kanata',
-    outfit: 'RYUSEITAI Training Uniform',
+    name: 'RYUSEITAI Training Uniform',
   },
   {
     group: 'general',
@@ -144,7 +144,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tetora',
-    outfit: 'RYUSEITAI Training Uniform',
+    name: 'RYUSEITAI Training Uniform',
   },
   {
     group: 'general',
@@ -155,7 +155,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Midori',
-    outfit: 'RYUSEITAI Training Uniform',
+    name: 'RYUSEITAI Training Uniform',
   },
   {
     group: 'general',
@@ -166,7 +166,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Shinobu',
-    outfit: 'RYUSEITAI Training Uniform',
+    name: 'RYUSEITAI Training Uniform',
   },
   {
     group: 'general',
@@ -177,7 +177,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Hiiro',
-    outfit: 'ALKALOID Training Uniform',
+    name: 'ALKALOID Training Uniform',
   },
   {
     group: 'general',
@@ -188,7 +188,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Aira',
-    outfit: 'ALKALOID Training Uniform',
+    name: 'ALKALOID Training Uniform',
   },
   {
     group: 'general',
@@ -199,7 +199,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Mayoi',
-    outfit: 'ALKALOID Training Uniform',
+    name: 'ALKALOID Training Uniform',
   },
   {
     group: 'general',
@@ -210,7 +210,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tatsumi',
-    outfit: 'ALKALOID Training Uniform',
+    name: 'ALKALOID Training Uniform',
   },
   {
     group: 'general',
@@ -221,7 +221,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Nagisa',
-    outfit: 'Eden Training Uniform',
+    name: 'Eden Training Uniform',
   },
   {
     group: 'general',
@@ -232,7 +232,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Hiyori',
-    outfit: 'Eden Training Uniform',
+    name: 'Eden Training Uniform',
   },
   {
     group: 'general',
@@ -243,7 +243,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Ibara',
-    outfit: 'Eden Training Uniform',
+    name: 'Eden Training Uniform',
   },
   {
     group: 'general',
@@ -254,7 +254,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Jun',
-    outfit: 'Eden Training Uniform',
+    name: 'Eden Training Uniform',
   },
   {
     group: 'general',
@@ -265,7 +265,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Shu',
-    outfit: 'Valkyrie Training Uniform',
+    name: 'Valkyrie Training Uniform',
   },
   {
     group: 'general',
@@ -276,7 +276,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Mika',
-    outfit: 'Valkyrie Training Uniform',
+    name: 'Valkyrie Training Uniform',
   },
   {
     group: 'general',
@@ -287,7 +287,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Hinata',
-    outfit: '2wink Training Uniform',
+    name: '2wink Training Uniform',
   },
   {
     group: 'general',
@@ -298,7 +298,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Yuta',
-    outfit: '2wink Training Uniform',
+    name: '2wink Training Uniform',
   },
   {
     group: 'general',
@@ -309,7 +309,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Rinne',
-    outfit: 'Crazy:B Training Uniform',
+    name: 'Crazy:B Training Uniform',
   },
   {
     group: 'general',
@@ -320,7 +320,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'HiMERU',
-    outfit: 'Crazy:B Training Uniform',
+    name: 'Crazy:B Training Uniform',
   },
   {
     group: 'general',
@@ -331,7 +331,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Kohaku',
-    outfit: 'Crazy:B Training Uniform',
+    name: 'Crazy:B Training Uniform',
   },
   {
     group: 'general',
@@ -342,7 +342,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Niki',
-    outfit: 'Crazy:B Training Uniform',
+    name: 'Crazy:B Training Uniform',
   },
   {
     group: 'general',
@@ -353,7 +353,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Rei',
-    outfit: 'UNDEAD Training Uniform',
+    name: 'UNDEAD Training Uniform',
   },
   {
     group: 'general',
@@ -364,7 +364,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Kaoru',
-    outfit: 'UNDEAD Training Uniform',
+    name: 'UNDEAD Training Uniform',
   },
   {
     group: 'general',
@@ -375,7 +375,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Koga',
-    outfit: 'UNDEAD Training Uniform',
+    name: 'UNDEAD Training Uniform',
   },
   {
     group: 'general',
@@ -386,7 +386,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Adonis',
-    outfit: 'UNDEAD Training Uniform',
+    name: 'UNDEAD Training Uniform',
   },
   {
     group: 'general',
@@ -397,7 +397,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tomoya',
-    outfit: 'Ra*bits Training Uniform',
+    name: 'Ra*bits Training Uniform',
   },
   {
     group: 'general',
@@ -408,7 +408,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Nazuna',
-    outfit: 'Ra*bits Training Uniform',
+    name: 'Ra*bits Training Uniform',
   },
   {
     group: 'general',
@@ -419,7 +419,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Mitsuru',
-    outfit: 'Ra*bits Training Uniform',
+    name: 'Ra*bits Training Uniform',
   },
   {
     group: 'general',
@@ -430,7 +430,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Hajime',
-    outfit: 'Ra*bits Training Uniform',
+    name: 'Ra*bits Training Uniform',
   },
   {
     group: 'general',
@@ -441,7 +441,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Keito',
-    outfit: '紅月 Training Uniform',
+    name: '紅月 Training Uniform',
   },
   {
     group: 'general',
@@ -452,7 +452,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Kuro',
-    outfit: '紅月 Training Uniform',
+    name: '紅月 Training Uniform',
   },
   {
     group: 'general',
@@ -463,7 +463,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Souma',
-    outfit: '紅月 Training Uniform',
+    name: '紅月 Training Uniform',
   },
   {
     group: 'general',
@@ -474,7 +474,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tsukasa',
-    outfit: 'Knights Training Uniform',
+    name: 'Knights Training Uniform',
   },
   {
     group: 'general',
@@ -485,7 +485,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Leo',
-    outfit: 'Knights Training Uniform',
+    name: 'Knights Training Uniform',
   },
   {
     group: 'general',
@@ -496,7 +496,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Izumi',
-    outfit: 'Knights Training Uniform',
+    name: 'Knights Training Uniform',
   },
   {
     group: 'general',
@@ -507,7 +507,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Ritsu',
-    outfit: 'Knights Training Uniform',
+    name: 'Knights Training Uniform',
   },
   {
     group: 'general',
@@ -518,7 +518,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Arashi',
-    outfit: 'Knights Training Uniform',
+    name: 'Knights Training Uniform',
   },
   {
     group: 'general',
@@ -529,7 +529,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Natsume',
-    outfit: 'Switch Training Uniform',
+    name: 'Switch Training Uniform',
   },
   {
     group: 'general',
@@ -540,7 +540,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tsumugi',
-    outfit: 'Switch Training Uniform',
+    name: 'Switch Training Uniform',
   },
   {
     group: 'general',
@@ -551,7 +551,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Sora',
-    outfit: 'Switch Training Uniform',
+    name: 'Switch Training Uniform',
   },
   {
     group: 'general',
@@ -562,7 +562,7 @@ export const startOutfits: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Madara',
-    outfit: 'MaM Training Uniform',
+    name: 'MaM Training Uniform',
   },
 ]
 
@@ -576,7 +576,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 0,
     idol: 'Eichi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -587,7 +587,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Wataru',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -598,7 +598,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 25,
     idol: 'Tori',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -609,7 +609,7 @@ export const startPatterns: Outfit[] = [
     Te: 40,
     Ch: 0,
     idol: 'Yuzuru',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -620,7 +620,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 20,
     idol: 'Hokuto',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -631,7 +631,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Subaru',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -642,7 +642,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Makoto',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -653,7 +653,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Mao',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -664,7 +664,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 35,
     idol: 'Chiaki',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -675,7 +675,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 40,
     idol: 'Kanata',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -686,7 +686,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Tetora',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -697,7 +697,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Midori',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -708,7 +708,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 20,
     idol: 'Shinobu',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -719,7 +719,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 35,
     idol: 'Hiiro',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -730,7 +730,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 25,
     idol: 'Aira',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -741,7 +741,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Mayoi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -752,7 +752,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Tatsumi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -763,7 +763,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 20,
     idol: 'Nagisa',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -774,7 +774,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Hiyori',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -785,7 +785,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 25,
     idol: 'Ibara',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -796,7 +796,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 25,
     idol: 'Jun',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -807,7 +807,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 40,
     idol: 'Shu',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -818,7 +818,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 20,
     idol: 'Mika',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -829,7 +829,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Hinata',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -840,7 +840,7 @@ export const startPatterns: Outfit[] = [
     Te: 40,
     Ch: 0,
     idol: 'Yuta',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -851,7 +851,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 35,
     idol: 'Rinne',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -862,7 +862,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 25,
     idol: 'HiMERU',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -873,7 +873,7 @@ export const startPatterns: Outfit[] = [
     Te: 25,
     Ch: 20,
     idol: 'Kohaku',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -884,7 +884,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 20,
     idol: 'Niki',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -895,7 +895,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 25,
     idol: 'Rei',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -906,7 +906,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Kaoru',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -917,7 +917,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 0,
     idol: 'Koga',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -928,7 +928,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Adonis',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -939,7 +939,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 20,
     idol: 'Tomoya',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -950,7 +950,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 35,
     idol: 'Nazuna',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -961,7 +961,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 35,
     idol: 'Mitsuru',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -972,7 +972,7 @@ export const startPatterns: Outfit[] = [
     Te: 40,
     Ch: 0,
     idol: 'Hajime',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -983,7 +983,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Keito',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -994,7 +994,7 @@ export const startPatterns: Outfit[] = [
     Te: 25,
     Ch: 0,
     idol: 'Kuro',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1005,7 +1005,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Souma',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1016,7 +1016,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 20,
     idol: 'Tsukasa',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1027,7 +1027,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 20,
     idol: 'Leo',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1038,7 +1038,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Izumi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1049,7 +1049,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 35,
     idol: 'Ritsu',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1060,7 +1060,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 25,
     idol: 'Arashi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1071,7 +1071,7 @@ export const startPatterns: Outfit[] = [
     Te: 35,
     Ch: 0,
     idol: 'Natsume',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1082,7 +1082,7 @@ export const startPatterns: Outfit[] = [
     Te: 20,
     Ch: 0,
     idol: 'Tsumugi',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1093,7 +1093,7 @@ export const startPatterns: Outfit[] = [
     Te: 0,
     Ch: 0,
     idol: 'Sora',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
   {
     group: 'general',
@@ -1104,6 +1104,6 @@ export const startPatterns: Outfit[] = [
     Te: 25,
     Ch: 0,
     idol: 'Madara',
-    outfit: 'ES Idol Uniform',
+    name: 'ES Idol Uniform',
   },
 ]

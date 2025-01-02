@@ -13,7 +13,7 @@ const mapOutfitValues = (row, headers, group) => {
             groups: { outfit, idol },
           } = value.match(nameRegex)
           obj.idol = idol
-          obj.outfit = outfit
+          obj.name = outfit
         }
       }
       return obj

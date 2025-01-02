@@ -8,7 +8,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Arashi",
-    "outfit": "NEW COLOR Outfit"
+    "name": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -19,7 +19,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "NEW COLOR Outfit"
+    "name": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -30,7 +30,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Tsumugi",
-    "outfit": "NEW COLOR Outfit"
+    "name": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -41,7 +41,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Madara",
-    "outfit": "NEW COLOR Outfit"
+    "name": "NEW COLOR Outfit"
   },
   {
     "group": "event",
@@ -52,7 +52,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "New Start GO Outfit"
+    "name": "New Start GO Outfit"
   },
   {
     "group": "event",
@@ -63,7 +63,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "New Start GO Outfit"
+    "name": "New Start GO Outfit"
   },
   {
     "group": "event",
@@ -74,7 +74,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "New Start GO Outfit"
+    "name": "New Start GO Outfit"
   },
   {
     "group": "event",
@@ -85,7 +85,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "New Start GO Outfit"
+    "name": "New Start GO Outfit"
   },
   {
     "group": "event",
@@ -96,7 +96,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Super Villains Outfit"
+    "name": "Super Villains Outfit"
   },
   {
     "group": "event",
@@ -107,7 +107,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kanata",
-    "outfit": "Super Villains Outfit"
+    "name": "Super Villains Outfit"
   },
   {
     "group": "event",
@@ -118,7 +118,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Super Villains Outfit"
+    "name": "Super Villains Outfit"
   },
   {
     "group": "event",
@@ -129,7 +129,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Midori",
-    "outfit": "Super Villains Outfit"
+    "name": "Super Villains Outfit"
   },
   {
     "group": "event",
@@ -140,7 +140,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Shinobu",
-    "outfit": "Super Villains Outfit"
+    "name": "Super Villains Outfit"
   },
   {
     "group": "event",
@@ -151,7 +151,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Chocolat Fes Outfit"
+    "name": "Chocolat Fes Outfit"
   },
   {
     "group": "event",
@@ -162,7 +162,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Hiyori",
-    "outfit": "Chocolat Fes Outfit"
+    "name": "Chocolat Fes Outfit"
   },
   {
     "group": "event",
@@ -173,7 +173,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Chocolat Fes Outfit"
+    "name": "Chocolat Fes Outfit"
   },
   {
     "group": "event",
@@ -184,7 +184,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Chocolat Fes Outfit"
+    "name": "Chocolat Fes Outfit"
   },
   {
     "group": "event",
@@ -195,7 +195,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Machina Outfit"
+    "name": "Machina Outfit"
   },
   {
     "group": "event",
@@ -206,7 +206,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Machina Outfit"
+    "name": "Machina Outfit"
   },
   {
     "group": "event",
@@ -217,7 +217,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -228,7 +228,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -239,7 +239,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Subaru",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -250,7 +250,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -261,7 +261,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Mao",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -272,7 +272,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -283,7 +283,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Mika",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -294,7 +294,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -305,7 +305,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Adonis",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -316,7 +316,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Souma",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -327,7 +327,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Ritsu",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -338,7 +338,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -349,7 +349,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Graduation Outfit"
+    "name": "Graduation Outfit"
   },
   {
     "group": "event",
@@ -360,7 +360,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Big Ocean Outfit"
+    "name": "Big Ocean Outfit"
   },
   {
     "group": "event",
@@ -371,7 +371,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Yuta",
-    "outfit": "Big Ocean Outfit"
+    "name": "Big Ocean Outfit"
   },
   {
     "group": "event",
@@ -382,7 +382,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Wataru",
-    "outfit": "Altered Outfit"
+    "name": "Altered Outfit"
   },
   {
     "group": "event",
@@ -393,7 +393,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Kanata",
-    "outfit": "Altered Outfit"
+    "name": "Altered Outfit"
   },
   {
     "group": "event",
@@ -404,7 +404,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Shu",
-    "outfit": "Altered Outfit"
+    "name": "Altered Outfit"
   },
   {
     "group": "event",
@@ -415,7 +415,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Rei",
-    "outfit": "Altered Outfit"
+    "name": "Altered Outfit"
   },
   {
     "group": "event",
@@ -426,7 +426,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Altered Outfit"
+    "name": "Altered Outfit"
   },
   {
     "group": "event",
@@ -437,7 +437,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "fine-O Outfit"
+    "name": "fine-O Outfit"
   },
   {
     "group": "event",
@@ -448,7 +448,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Nagisa",
-    "outfit": "fine-O Outfit"
+    "name": "fine-O Outfit"
   },
   {
     "group": "event",
@@ -459,7 +459,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "fine-O Outfit"
+    "name": "fine-O Outfit"
   },
   {
     "group": "event",
@@ -470,7 +470,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Tsumugi",
-    "outfit": "fine-O Outfit"
+    "name": "fine-O Outfit"
   },
   {
     "group": "event",
@@ -481,7 +481,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tsukasa",
-    "outfit": "Mad Party Outfit"
+    "name": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -492,7 +492,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Leo",
-    "outfit": "Mad Party Outfit"
+    "name": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -503,7 +503,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Mad Party Outfit"
+    "name": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -514,7 +514,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Mad Party Outfit"
+    "name": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -525,7 +525,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Mad Party Outfit"
+    "name": "Mad Party Outfit"
   },
   {
     "group": "event",
@@ -536,7 +536,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Yuzuru",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -547,7 +547,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -558,7 +558,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -569,7 +569,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -580,7 +580,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Nagisa",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -591,7 +591,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Jun",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -602,7 +602,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Shu",
-    "outfit": "Wedding March Outfit"
+    "name": "Wedding March Outfit"
   },
   {
     "group": "event",
@@ -613,7 +613,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Rinne",
-    "outfit": "Number Eight Outfit"
+    "name": "Number Eight Outfit"
   },
   {
     "group": "event",
@@ -624,7 +624,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "HiMERU",
-    "outfit": "Number Eight Outfit"
+    "name": "Number Eight Outfit"
   },
   {
     "group": "event",
@@ -635,7 +635,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Kohaku",
-    "outfit": "Number Eight Outfit"
+    "name": "Number Eight Outfit"
   },
   {
     "group": "event",
@@ -646,7 +646,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Number Eight Outfit"
+    "name": "Number Eight Outfit"
   },
   {
     "group": "event",
@@ -657,7 +657,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Nazuna",
-    "outfit": "Parallel World Outfit"
+    "name": "Parallel World Outfit"
   },
   {
     "group": "event",
@@ -668,7 +668,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Parallel World Outfit"
+    "name": "Parallel World Outfit"
   },
   {
     "group": "event",
@@ -679,7 +679,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Tomoya",
-    "outfit": "Parallel World Outfit"
+    "name": "Parallel World Outfit"
   },
   {
     "group": "event",
@@ -690,7 +690,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Hajime",
-    "outfit": "Parallel World Outfit"
+    "name": "Parallel World Outfit"
   },
   {
     "group": "event",
@@ -701,7 +701,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Tropical Outfit"
+    "name": "Tropical Outfit"
   },
   {
     "group": "event",
@@ -712,7 +712,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Midori",
-    "outfit": "Tropical Outfit"
+    "name": "Tropical Outfit"
   },
   {
     "group": "event",
@@ -723,7 +723,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Tropical Outfit"
+    "name": "Tropical Outfit"
   },
   {
     "group": "event",
@@ -734,7 +734,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Tropical Outfit"
+    "name": "Tropical Outfit"
   },
   {
     "group": "event",
@@ -745,7 +745,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Kanata",
-    "outfit": "Tropical Outfit"
+    "name": "Tropical Outfit"
   },
   {
     "group": "event",
@@ -756,7 +756,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -767,7 +767,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Mao",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -778,7 +778,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Hinata",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -789,7 +789,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -800,7 +800,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -811,7 +811,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -822,7 +822,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Drift Island Outfit"
+    "name": "Drift Island Outfit"
   },
   {
     "group": "event",
@@ -833,7 +833,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Madara",
-    "outfit": "Last Mission Outfit"
+    "name": "Last Mission Outfit"
   },
   {
     "group": "event",
@@ -844,7 +844,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Last Mission Outfit"
+    "name": "Last Mission Outfit"
   },
   {
     "group": "event",
@@ -855,7 +855,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "ATLANTIS Outfit"
+    "name": "ATLANTIS Outfit"
   },
   {
     "group": "event",
@@ -866,7 +866,7 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Wataru",
-    "outfit": "ATLANTIS Outfit"
+    "name": "ATLANTIS Outfit"
   },
   {
     "group": "event",
@@ -877,7 +877,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "ATLANTIS Outfit"
+    "name": "ATLANTIS Outfit"
   },
   {
     "group": "event",
@@ -888,7 +888,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "ATLANTIS Outfit"
+    "name": "ATLANTIS Outfit"
   },
   {
     "group": "event",
@@ -899,7 +899,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Shu",
-    "outfit": "Raison d'être Outfit"
+    "name": "Raison d'être Outfit"
   },
   {
     "group": "event",
@@ -910,7 +910,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Mika",
-    "outfit": "Raison d'être Outfit"
+    "name": "Raison d'être Outfit"
   },
   {
     "group": "event",
@@ -921,7 +921,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -932,7 +932,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Kaoru",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -943,7 +943,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -954,7 +954,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -965,7 +965,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -976,7 +976,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Keito",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -987,7 +987,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Escape Mansion Outfit"
+    "name": "Escape Mansion Outfit"
   },
   {
     "group": "event",
@@ -998,7 +998,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "2×2 Outfit"
+    "name": "2×2 Outfit"
   },
   {
     "group": "event",
@@ -1009,7 +1009,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Yuta",
-    "outfit": "2×2 Outfit"
+    "name": "2×2 Outfit"
   },
   {
     "group": "event",
@@ -1020,7 +1020,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Holistic Halloween Outfit"
+    "name": "Holistic Halloween Outfit"
   },
   {
     "group": "event",
@@ -1031,7 +1031,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Holistic Halloween Outfit"
+    "name": "Holistic Halloween Outfit"
   },
   {
     "group": "event",
@@ -1042,7 +1042,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Mayoi",
-    "outfit": "Holistic Halloween Outfit"
+    "name": "Holistic Halloween Outfit"
   },
   {
     "group": "event",
@@ -1053,7 +1053,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Holistic Halloween Outfit"
+    "name": "Holistic Halloween Outfit"
   },
   {
     "group": "event",
@@ -1064,7 +1064,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1075,7 +1075,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1086,7 +1086,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1097,7 +1097,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mika",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1108,7 +1108,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Hajime",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1119,7 +1119,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1130,7 +1130,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Chanbara Night Outfit"
+    "name": "Chanbara Night Outfit"
   },
   {
     "group": "event",
@@ -1141,7 +1141,7 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Rei",
-    "outfit": "Flashback Outfit"
+    "name": "Flashback Outfit"
   },
   {
     "group": "event",
@@ -1152,7 +1152,7 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Kaoru",
-    "outfit": "Flashback Outfit"
+    "name": "Flashback Outfit"
   },
   {
     "group": "event",
@@ -1163,7 +1163,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Koga",
-    "outfit": "Flashback Outfit"
+    "name": "Flashback Outfit"
   },
   {
     "group": "event",
@@ -1174,7 +1174,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Adonis",
-    "outfit": "Flashback Outfit"
+    "name": "Flashback Outfit"
   },
   {
     "group": "event",
@@ -1185,7 +1185,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "TENCHI MEIDO Outfit"
+    "name": "TENCHI MEIDO Outfit"
   },
   {
     "group": "event",
@@ -1196,7 +1196,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "TENCHI MEIDO Outfit"
+    "name": "TENCHI MEIDO Outfit"
   },
   {
     "group": "event",
@@ -1207,7 +1207,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "TENCHI MEIDO Outfit"
+    "name": "TENCHI MEIDO Outfit"
   },
   {
     "group": "event",
@@ -1218,7 +1218,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Xday Outfit"
+    "name": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1229,7 +1229,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Xday Outfit"
+    "name": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1240,7 +1240,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Makoto",
-    "outfit": "Xday Outfit"
+    "name": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1251,7 +1251,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Xday Outfit"
+    "name": "Xday Outfit"
   },
   {
     "group": "event",
@@ -1262,7 +1262,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Ibara",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1273,7 +1273,7 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Yuta",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1284,7 +1284,7 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1295,7 +1295,7 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Arashi",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1306,7 +1306,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1317,7 +1317,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Tsumugi",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   },
   {
     "group": "event",
@@ -1328,6 +1328,6 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Madara",
-    "outfit": "SUGOROKU Outfit"
+    "name": "SUGOROKU Outfit"
   }
 ]

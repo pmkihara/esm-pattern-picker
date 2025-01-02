@@ -8,7 +8,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "ES Idol Uniform (long hair)"
+    "name": "ES Idol Uniform (long hair)"
   },
   {
     "group": "general",
@@ -19,7 +19,7 @@
     "Te": 0,
     "Ch": 75,
     "idol": "Yuta",
-    "outfit": "2wink Uniform (long hair)"
+    "name": "2wink Uniform (long hair)"
   },
   {
     "group": "general",
@@ -30,7 +30,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Eichi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -41,7 +41,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Wataru",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -52,7 +52,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -63,7 +63,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -74,7 +74,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Hokuto",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -85,7 +85,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Subaru",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -96,7 +96,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Makoto",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -107,7 +107,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -118,7 +118,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -129,7 +129,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kanata",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -140,7 +140,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -151,7 +151,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Midori",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -162,7 +162,7 @@
     "Te": 55,
     "Ch": 25,
     "idol": "Shinobu",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -173,7 +173,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Hiiro",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -184,7 +184,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Aira",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -195,7 +195,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -206,7 +206,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -217,7 +217,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -228,7 +228,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -239,7 +239,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -250,7 +250,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -261,7 +261,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Shu",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -272,7 +272,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Mika",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -283,7 +283,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -294,7 +294,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Yuta",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -305,7 +305,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -316,7 +316,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -327,7 +327,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -338,7 +338,7 @@
     "Te": 55,
     "Ch": 25,
     "idol": "Niki",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -349,7 +349,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -360,7 +360,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Kaoru",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -371,7 +371,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Koga",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -382,7 +382,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -393,7 +393,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tomoya",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -404,7 +404,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Nazuna",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -415,7 +415,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -426,7 +426,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -437,7 +437,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Keito",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -448,7 +448,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -459,7 +459,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -470,7 +470,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -481,7 +481,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -492,7 +492,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -503,7 +503,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -514,7 +514,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -525,7 +525,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -536,7 +536,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tsumugi",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -547,7 +547,7 @@
     "Te": 55,
     "Ch": 25,
     "idol": "Sora",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -558,7 +558,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Madara",
-    "outfit": "Anniversary Chance"
+    "name": "Anniversary Chance"
   },
   {
     "group": "general",
@@ -569,7 +569,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Eichi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -580,7 +580,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Wataru",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -591,7 +591,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -602,7 +602,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -613,7 +613,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -624,7 +624,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Subaru",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -635,7 +635,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Makoto",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -646,7 +646,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mao",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -657,7 +657,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Chiaki",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -668,7 +668,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Kanata",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -679,7 +679,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Tetora",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -690,7 +690,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Midori",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -701,7 +701,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -712,7 +712,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -723,7 +723,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -734,7 +734,7 @@
     "Te": 40,
     "Ch": 25,
     "idol": "Mayoi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -745,7 +745,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -756,7 +756,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Nagisa",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -767,7 +767,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -778,7 +778,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Ibara",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -789,7 +789,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Jun",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -800,7 +800,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Shu",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -811,7 +811,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -822,7 +822,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Hinata",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -833,7 +833,7 @@
     "Te": 40,
     "Ch": 15,
     "idol": "Yuta",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -844,7 +844,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Rinne",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -855,7 +855,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -866,7 +866,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Kohaku",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -877,7 +877,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Niki",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -888,7 +888,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -899,7 +899,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -910,7 +910,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -921,7 +921,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Adonis",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -932,7 +932,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -943,7 +943,7 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -954,7 +954,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Mitsuru",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -965,7 +965,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Hajime",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -976,7 +976,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Keito",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -987,7 +987,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -998,7 +998,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Souma",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1009,7 +1009,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1020,7 +1020,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1031,7 +1031,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Izumi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1042,7 +1042,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Ritsu",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1053,7 +1053,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1064,7 +1064,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Natsume",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1075,7 +1075,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tsumugi",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1086,7 +1086,7 @@
     "Te": 40,
     "Ch": 25,
     "idol": "Sora",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1097,7 +1097,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Madara",
-    "outfit": "Cruising"
+    "name": "Cruising"
   },
   {
     "group": "general",
@@ -1108,7 +1108,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Eichi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1119,7 +1119,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1130,7 +1130,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Tori",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1141,7 +1141,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Yuzuru",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1152,7 +1152,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Hokuto",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1163,7 +1163,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1174,7 +1174,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1185,7 +1185,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1196,7 +1196,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1207,7 +1207,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1218,7 +1218,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Tetora",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1229,7 +1229,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1240,7 +1240,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Shinobu",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1251,7 +1251,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1262,7 +1262,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1273,7 +1273,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mayoi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1284,7 +1284,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1295,7 +1295,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Nagisa",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1306,7 +1306,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1317,7 +1317,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Ibara",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1328,7 +1328,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Jun",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1339,7 +1339,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Shu",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1350,7 +1350,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Mika",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1361,7 +1361,7 @@
     "Te": 55,
     "Ch": 25,
     "idol": "Hinata",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1372,7 +1372,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Yuta",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1383,7 +1383,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1394,7 +1394,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "HiMERU",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1405,7 +1405,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Kohaku",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1416,7 +1416,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Niki",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1427,7 +1427,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1438,7 +1438,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kaoru",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1449,7 +1449,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Koga",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1460,7 +1460,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Adonis",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1471,7 +1471,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1482,7 +1482,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1493,7 +1493,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mitsuru",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1504,7 +1504,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1515,7 +1515,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Keito",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1526,7 +1526,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kuro",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1537,7 +1537,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Souma",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1548,7 +1548,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tsukasa",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1559,7 +1559,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Leo",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1570,7 +1570,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Izumi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1581,7 +1581,7 @@
     "Te": 0,
     "Ch": 55,
     "idol": "Ritsu",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1592,7 +1592,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1603,7 +1603,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1614,7 +1614,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1625,7 +1625,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1636,7 +1636,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Anniversary 777"
+    "name": "Anniversary 777"
   },
   {
     "group": "general",
@@ -1647,7 +1647,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1658,7 +1658,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1669,7 +1669,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tori",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1680,7 +1680,7 @@
     "Te": 0,
     "Ch": 20,
     "idol": "Yuzuru",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1691,7 +1691,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1702,7 +1702,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Subaru",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1713,7 +1713,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Makoto",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1724,7 +1724,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Mao",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1735,7 +1735,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1746,7 +1746,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1757,7 +1757,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Tetora",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1768,7 +1768,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1779,7 +1779,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1790,7 +1790,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Hiiro",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1801,7 +1801,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1812,7 +1812,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mayoi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1823,7 +1823,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1834,7 +1834,7 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1845,7 +1845,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1856,7 +1856,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1867,7 +1867,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Jun",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1878,7 +1878,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Shu",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1889,7 +1889,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1900,7 +1900,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Hinata",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1911,7 +1911,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1922,7 +1922,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1933,7 +1933,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "HiMERU",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1944,7 +1944,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kohaku",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1955,7 +1955,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Niki",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1966,7 +1966,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Rei",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1977,7 +1977,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1988,7 +1988,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Koga",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -1999,7 +1999,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Adonis",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2010,7 +2010,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2021,7 +2021,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Nazuna",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2032,7 +2032,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mitsuru",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2043,7 +2043,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hajime",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2054,7 +2054,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2065,7 +2065,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2076,7 +2076,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2087,7 +2087,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2098,7 +2098,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Leo",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2109,7 +2109,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2120,7 +2120,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Ritsu",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2131,7 +2131,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Arashi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2142,7 +2142,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Natsume",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2153,7 +2153,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2164,7 +2164,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Sora",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   },
   {
     "group": "general",
@@ -2175,6 +2175,6 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Halloween Candle"
+    "name": "Halloween Candle"
   }
 ]

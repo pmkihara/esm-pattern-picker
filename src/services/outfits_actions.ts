@@ -17,11 +17,11 @@ import { allIdols } from '@/data/idols'
 import { groupBy } from 'lodash'
 
 const indexOutfit = (
-  { outfit, idol, ...attrs }: UserOutfit,
+  { name, idol, ...attrs }: UserOutfit,
   allOutfits: OutfitsMap,
 ): void => {
-  const id = `${outfit} (${idol})`
-  allOutfits[id] = { ...attrs, outfit, idol }
+  const id = `${name} (${idol})`
+  allOutfits[id] = { ...attrs, name, idol }
 }
 
 const newOutfitSheet = (): OutfitsMap => {

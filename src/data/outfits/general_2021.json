@@ -8,7 +8,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Eichi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -19,7 +19,7 @@
     "Te": 30,
     "Ch": 20,
     "idol": "Wataru",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -30,7 +30,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Tori",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -41,7 +41,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -52,7 +52,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Hokuto",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -63,7 +63,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -74,7 +74,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Makoto",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -85,7 +85,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -96,7 +96,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Chiaki",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -107,7 +107,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kanata",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -118,7 +118,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Tetora",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -129,7 +129,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -140,7 +140,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Shinobu",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -151,7 +151,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -162,7 +162,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -173,7 +173,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mayoi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -184,7 +184,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Tatsumi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -195,7 +195,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -206,7 +206,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -217,7 +217,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Ibara",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -228,7 +228,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Jun",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -239,7 +239,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Shu",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -250,7 +250,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -261,7 +261,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Hinata",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -272,7 +272,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Yuta",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -283,7 +283,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -294,7 +294,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -305,7 +305,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kohaku",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -316,7 +316,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Niki",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -327,7 +327,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -338,7 +338,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kaoru",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -349,7 +349,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Koga",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -360,7 +360,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -371,7 +371,7 @@
     "Te": 20,
     "Ch": 30,
     "idol": "Tomoya",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -382,7 +382,7 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Nazuna",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -393,7 +393,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mitsuru",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -404,7 +404,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Hajime",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -415,7 +415,7 @@
     "Te": 0,
     "Ch": 20,
     "idol": "Keito",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -426,7 +426,7 @@
     "Te": 25,
     "Ch": 25,
     "idol": "Kuro",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -437,7 +437,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Souma",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -448,7 +448,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tsukasa",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -459,7 +459,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -470,7 +470,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -481,7 +481,7 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Ritsu",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -492,7 +492,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Arashi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -503,7 +503,7 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Natsume",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -514,7 +514,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -525,7 +525,7 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Sora",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -536,7 +536,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Red/White New Year"
+    "name": "Red/White New Year"
   },
   {
     "group": "general",
@@ -547,7 +547,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Eichi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -558,7 +558,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Wataru",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -569,7 +569,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -580,7 +580,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -591,7 +591,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Hokuto",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -602,7 +602,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Subaru",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -613,7 +613,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -624,7 +624,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Mao",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -635,7 +635,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Chiaki",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -646,7 +646,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -657,7 +657,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -668,7 +668,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -679,7 +679,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -690,7 +690,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -701,7 +701,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Aira",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -712,7 +712,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mayoi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -723,7 +723,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -734,7 +734,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Nagisa",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -745,7 +745,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -756,7 +756,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Ibara",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -767,7 +767,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Jun",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -778,7 +778,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Shu",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -789,7 +789,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mika",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -800,7 +800,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -811,7 +811,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Yuta",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -822,7 +822,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Rinne",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -833,7 +833,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -844,7 +844,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -855,7 +855,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Niki",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -866,7 +866,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Rei",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -877,7 +877,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kaoru",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -888,7 +888,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Koga",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -899,7 +899,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -910,7 +910,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -921,7 +921,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -932,7 +932,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -943,7 +943,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -954,7 +954,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Keito",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -965,7 +965,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kuro",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -976,7 +976,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -987,7 +987,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tsukasa",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -998,7 +998,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1009,7 +1009,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Izumi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1020,7 +1020,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1031,7 +1031,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Arashi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1042,7 +1042,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1053,7 +1053,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1064,7 +1064,7 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1075,7 +1075,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1086,7 +1086,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "6th Anniversary"
+    "name": "6th Anniversary"
   },
   {
     "group": "general",
@@ -1097,7 +1097,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Eichi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1108,7 +1108,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Wataru",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1119,7 +1119,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tori",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1130,7 +1130,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuzuru",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1141,7 +1141,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1152,7 +1152,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Subaru",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1163,7 +1163,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Makoto",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1174,7 +1174,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Mao",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1185,7 +1185,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1196,7 +1196,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kanata",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1207,7 +1207,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1218,7 +1218,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1229,7 +1229,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Shinobu",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1240,7 +1240,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Hiiro",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1251,7 +1251,7 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Aira",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1262,7 +1262,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Mayoi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1273,7 +1273,7 @@
     "Te": 20,
     "Ch": 0,
     "idol": "Tatsumi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1284,7 +1284,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1295,7 +1295,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Hiyori",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1306,7 +1306,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Ibara",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1317,7 +1317,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Jun",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1328,7 +1328,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Shu",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1339,7 +1339,7 @@
     "Te": 0,
     "Ch": 20,
     "idol": "Mika",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1350,7 +1350,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1361,7 +1361,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Yuta",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1372,7 +1372,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1383,7 +1383,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1394,7 +1394,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Kohaku",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1405,7 +1405,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1416,7 +1416,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1427,7 +1427,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Kaoru",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1438,7 +1438,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Koga",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1449,7 +1449,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Adonis",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1460,7 +1460,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tomoya",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1471,7 +1471,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Nazuna",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1482,7 +1482,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Mitsuru",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1493,7 +1493,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1504,7 +1504,7 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Keito",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1515,7 +1515,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Kuro",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1526,7 +1526,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1537,7 +1537,7 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tsukasa",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1548,7 +1548,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1559,7 +1559,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Izumi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1570,7 +1570,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ritsu",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1581,7 +1581,7 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Arashi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1592,7 +1592,7 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Natsume",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1603,7 +1603,7 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tsumugi",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1614,7 +1614,7 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   },
   {
     "group": "general",
@@ -1625,6 +1625,6 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Madara",
-    "outfit": "Casual (Autumn-Winter)"
+    "name": "Casual (Autumn-Winter)"
   }
 ]
