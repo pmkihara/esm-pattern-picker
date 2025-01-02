@@ -47,12 +47,16 @@ const Button = ({
   className,
   variant,
   isLoading,
+  disabled,
+  type = 'button',
   ...props
 }: ButtonProps) => {
   return (
     <button
       {...props}
       className={twMerge(buttonVariants({ variant, isLoading }), className)}
+      type={type}
+      disabled={disabled || isLoading}
     >
       {isLoading && <Spinner color='sky' />}
       {children}

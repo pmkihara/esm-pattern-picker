@@ -1,23 +1,17 @@
-import { SearchParams } from '../dashboard/page'
-import { redirect } from 'next/navigation'
 import { initializeIdols } from '@/services/idols_actions'
 import TopBar from '@/components/atoms/TopBar'
 import Input from '@/components/atoms/Input'
 import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
 import H1 from '@/components/atoms/H1'
 import IdolsStatsForm from '@/components/organisms/IdolsStatsForm'
+import ContentLayout from '@/components/organisms/ContentLayout'
 
 interface IdolsProps {
-  searchParams: SearchParams
+  params: Promise<{ id: string }>
 }
 
-export default async function Idols({ searchParams }: IdolsProps) {
-  const queryParams = await searchParams
-  const spreadsheetId = queryParams.id as string
-
-  if (!spreadsheetId) {
-    redirect('/dashboard')
-  }
+export default async function Idols({ params }: IdolsProps) {
+  const { id: spreadsheetId } = await params
 
   const statsResponse = await initializeIdols(spreadsheetId)
   if (!statsResponse.ok) {
@@ -34,10 +28,10 @@ export default async function Idols({ searchParams }: IdolsProps) {
           iconSrc={MagnifierIcon.src}
         />
       </TopBar>
-      <div className='p-4 pb-12 md:py-6 md:px-10 flex-grow h-full max-h-full overflow-auto'>
+      <ContentLayout>
         <H1>Idol Stats</H1>
         <IdolsStatsForm idols={allStats} spreadsheetId={spreadsheetId} />
-      </div>
+      </ContentLayout>
     </div>
   )
 }

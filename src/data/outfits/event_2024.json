@@ -8,7 +8,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Tetora",
-    "name": "Stella Maris Outfit"
+    "name": "Stella Maris Outfit",
+    "fullName": "Stella Maris Outfit (Tetora)"
   },
   {
     "group": "event",
@@ -19,7 +20,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Midori",
-    "name": "Stella Maris Outfit"
+    "name": "Stella Maris Outfit",
+    "fullName": "Stella Maris Outfit (Midori)"
   },
   {
     "group": "event",
@@ -30,7 +32,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Shinobu",
-    "name": "Stella Maris Outfit"
+    "name": "Stella Maris Outfit",
+    "fullName": "Stella Maris Outfit (Shinobu)"
   },
   {
     "group": "event",
@@ -41,7 +44,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Chiaki",
-    "name": "Stella Maris Outfit"
+    "name": "Stella Maris Outfit",
+    "fullName": "Stella Maris Outfit (Chiaki)"
   },
   {
     "group": "event",
@@ -52,7 +56,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Kanata",
-    "name": "Stella Maris Outfit"
+    "name": "Stella Maris Outfit",
+    "fullName": "Stella Maris Outfit (Kanata)"
   },
   {
     "group": "event",
@@ -63,7 +68,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Natsume",
-    "name": "Candy House Outfit"
+    "name": "Candy House Outfit",
+    "fullName": "Candy House Outfit (Natsume)"
   },
   {
     "group": "event",
@@ -74,7 +80,8 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Tsumugi",
-    "name": "Candy House Outfit"
+    "name": "Candy House Outfit",
+    "fullName": "Candy House Outfit (Tsumugi)"
   },
   {
     "group": "event",
@@ -85,7 +92,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Sora",
-    "name": "Candy House Outfit"
+    "name": "Candy House Outfit",
+    "fullName": "Candy House Outfit (Sora)"
   },
   {
     "group": "event",
@@ -96,7 +104,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hokuto",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Hokuto)"
   },
   {
     "group": "event",
@@ -107,7 +116,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Makoto)"
   },
   {
     "group": "event",
@@ -118,7 +128,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Aira",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Aira)"
   },
   {
     "group": "event",
@@ -129,7 +140,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mayoi",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Mayoi)"
   },
   {
     "group": "event",
@@ -140,7 +152,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Adonis",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Adonis)"
   },
   {
     "group": "event",
@@ -151,7 +164,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tomoya",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Tomoya)"
   },
   {
     "group": "event",
@@ -162,7 +176,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hajime",
-    "name": "BAIKA YUKIBANA Outfit"
+    "name": "BAIKA YUKIBANA Outfit",
+    "fullName": "BAIKA YUKIBANA Outfit (Hajime)"
   },
   {
     "group": "event",
@@ -173,7 +188,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "name": "Absolute Outfit"
+    "name": "Absolute Outfit",
+    "fullName": "Absolute Outfit (Nagisa)"
   },
   {
     "group": "event",
@@ -184,7 +200,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "name": "Absolute Outfit"
+    "name": "Absolute Outfit",
+    "fullName": "Absolute Outfit (Hiyori)"
   },
   {
     "group": "event",
@@ -195,7 +212,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "name": "Absolute Outfit"
+    "name": "Absolute Outfit",
+    "fullName": "Absolute Outfit (Ibara)"
   },
   {
     "group": "event",
@@ -206,7 +224,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "name": "Absolute Outfit"
+    "name": "Absolute Outfit",
+    "fullName": "Absolute Outfit (Jun)"
   },
   {
     "group": "event",
@@ -217,7 +236,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Tsukasa",
-    "name": "Gambit Outfit"
+    "name": "Gambit Outfit",
+    "fullName": "Gambit Outfit (Tsukasa)"
   },
   {
     "group": "event",
@@ -228,7 +248,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Leo",
-    "name": "Gambit Outfit"
+    "name": "Gambit Outfit",
+    "fullName": "Gambit Outfit (Leo)"
   },
   {
     "group": "event",
@@ -239,7 +260,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Izumi",
-    "name": "Gambit Outfit"
+    "name": "Gambit Outfit",
+    "fullName": "Gambit Outfit (Izumi)"
   },
   {
     "group": "event",
@@ -250,7 +272,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Ritsu",
-    "name": "Gambit Outfit"
+    "name": "Gambit Outfit",
+    "fullName": "Gambit Outfit (Ritsu)"
   },
   {
     "group": "event",
@@ -261,7 +284,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Arashi",
-    "name": "Gambit Outfit"
+    "name": "Gambit Outfit",
+    "fullName": "Gambit Outfit (Arashi)"
   },
   {
     "group": "event",
@@ -272,7 +296,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Eichi",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Eichi)"
   },
   {
     "group": "event",
@@ -283,7 +308,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Tetora",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Tetora)"
   },
   {
     "group": "event",
@@ -294,7 +320,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Hiiro",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Hiiro)"
   },
   {
     "group": "event",
@@ -305,7 +332,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Koga",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Koga)"
   },
   {
     "group": "event",
@@ -316,7 +344,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Adonis",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Adonis)"
   },
   {
     "group": "event",
@@ -327,7 +356,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Tomoya",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Tomoya)"
   },
   {
     "group": "event",
@@ -338,7 +368,8 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Kuro",
-    "name": "Dragon's Head Outfit"
+    "name": "Dragon's Head Outfit",
+    "fullName": "Dragon's Head Outfit (Kuro)"
   },
   {
     "group": "event",
@@ -349,7 +380,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Hiiro)"
   },
   {
     "group": "event",
@@ -360,7 +392,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Aira",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Aira)"
   },
   {
     "group": "event",
@@ -371,7 +404,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Mayoi",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Mayoi)"
   },
   {
     "group": "event",
@@ -382,7 +416,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Tatsumi)"
   },
   {
     "group": "event",
@@ -393,7 +428,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Rinne",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Rinne)"
   },
   {
     "group": "event",
@@ -404,7 +440,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "HiMERU",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (HiMERU)"
   },
   {
     "group": "event",
@@ -415,7 +452,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kohaku",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Kohaku)"
   },
   {
     "group": "event",
@@ -426,7 +464,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "name": "Matrix Outfit"
+    "name": "Matrix Outfit",
+    "fullName": "Matrix Outfit (Niki)"
   },
   {
     "group": "event",
@@ -437,7 +476,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Hokuto",
-    "name": "Evil Telephone Outfit"
+    "name": "Evil Telephone Outfit",
+    "fullName": "Evil Telephone Outfit (Hokuto)"
   },
   {
     "group": "event",
@@ -448,7 +488,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hinata",
-    "name": "Evil Telephone Outfit"
+    "name": "Evil Telephone Outfit",
+    "fullName": "Evil Telephone Outfit (Hinata)"
   },
   {
     "group": "event",
@@ -459,7 +500,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Hajime",
-    "name": "Evil Telephone Outfit"
+    "name": "Evil Telephone Outfit",
+    "fullName": "Evil Telephone Outfit (Hajime)"
   },
   {
     "group": "event",
@@ -470,7 +512,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Ritsu",
-    "name": "Evil Telephone Outfit"
+    "name": "Evil Telephone Outfit",
+    "fullName": "Evil Telephone Outfit (Ritsu)"
   },
   {
     "group": "event",
@@ -481,7 +524,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Natsume",
-    "name": "Evil Telephone Outfit"
+    "name": "Evil Telephone Outfit",
+    "fullName": "Evil Telephone Outfit (Natsume)"
   },
   {
     "group": "event",
@@ -492,7 +536,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (Subaru)"
   },
   {
     "group": "event",
@@ -503,7 +548,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Mao",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (Mao)"
   },
   {
     "group": "event",
@@ -514,7 +560,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Tsukasa",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (Tsukasa)"
   },
   {
     "group": "event",
@@ -525,7 +572,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (Leo)"
   },
   {
     "group": "event",
@@ -536,7 +584,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "エス",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (エス)"
   },
   {
     "group": "event",
@@ -547,7 +596,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "ユメ",
-    "name": "Ballroom Outfit"
+    "name": "Ballroom Outfit",
+    "fullName": "Ballroom Outfit (ユメ)"
   },
   {
     "group": "event",
@@ -558,7 +608,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Rei",
-    "name": "SWING NIGHT Outfit"
+    "name": "SWING NIGHT Outfit",
+    "fullName": "SWING NIGHT Outfit (Rei)"
   },
   {
     "group": "event",
@@ -569,7 +620,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Kaoru",
-    "name": "SWING NIGHT Outfit"
+    "name": "SWING NIGHT Outfit",
+    "fullName": "SWING NIGHT Outfit (Kaoru)"
   },
   {
     "group": "event",
@@ -580,7 +632,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Koga",
-    "name": "SWING NIGHT Outfit"
+    "name": "SWING NIGHT Outfit",
+    "fullName": "SWING NIGHT Outfit (Koga)"
   },
   {
     "group": "event",
@@ -591,7 +644,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Adonis",
-    "name": "SWING NIGHT Outfit"
+    "name": "SWING NIGHT Outfit",
+    "fullName": "SWING NIGHT Outfit (Adonis)"
   },
   {
     "group": "event",
@@ -602,7 +656,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "name": "Timbres of Heaven Outfit"
+    "name": "Timbres of Heaven Outfit",
+    "fullName": "Timbres of Heaven Outfit (Hinata)"
   },
   {
     "group": "event",
@@ -613,7 +668,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Yuta",
-    "name": "Timbres of Heaven Outfit"
+    "name": "Timbres of Heaven Outfit",
+    "fullName": "Timbres of Heaven Outfit (Yuta)"
   },
   {
     "group": "event",
@@ -624,7 +680,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (Chiaki)"
   },
   {
     "group": "event",
@@ -635,7 +692,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mayoi",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (Mayoi)"
   },
   {
     "group": "event",
@@ -646,7 +704,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiyori",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (Hiyori)"
   },
   {
     "group": "event",
@@ -657,7 +716,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Mitsuru",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (Mitsuru)"
   },
   {
     "group": "event",
@@ -668,7 +728,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Ritsu",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (Ritsu)"
   },
   {
     "group": "event",
@@ -679,7 +740,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "ライカ",
-    "name": "Gourmet District Outfit"
+    "name": "Gourmet District Outfit",
+    "fullName": "Gourmet District Outfit (ライカ)"
   },
   {
     "group": "event",
@@ -690,7 +752,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Hiiro",
-    "name": "Sparkle Outfit"
+    "name": "Sparkle Outfit",
+    "fullName": "Sparkle Outfit (Hiiro)"
   },
   {
     "group": "event",
@@ -701,7 +764,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Aira",
-    "name": "Sparkle Outfit"
+    "name": "Sparkle Outfit",
+    "fullName": "Sparkle Outfit (Aira)"
   },
   {
     "group": "event",
@@ -712,7 +776,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Mayoi",
-    "name": "Sparkle Outfit"
+    "name": "Sparkle Outfit",
+    "fullName": "Sparkle Outfit (Mayoi)"
   },
   {
     "group": "event",
@@ -723,7 +788,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tatsumi",
-    "name": "Sparkle Outfit"
+    "name": "Sparkle Outfit",
+    "fullName": "Sparkle Outfit (Tatsumi)"
   },
   {
     "group": "event",
@@ -734,7 +800,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Yuzuru",
-    "name": "M∀N∀ Outfit"
+    "name": "M∀N∀ Outfit",
+    "fullName": "M∀N∀ Outfit (Yuzuru)"
   },
   {
     "group": "event",
@@ -745,7 +812,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Niki",
-    "name": "M∀N∀ Outfit"
+    "name": "M∀N∀ Outfit",
+    "fullName": "M∀N∀ Outfit (Niki)"
   },
   {
     "group": "event",
@@ -756,7 +824,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Rei",
-    "name": "M∀N∀ Outfit"
+    "name": "M∀N∀ Outfit",
+    "fullName": "M∀N∀ Outfit (Rei)"
   },
   {
     "group": "event",
@@ -767,7 +836,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Tsumugi",
-    "name": "M∀N∀ Outfit"
+    "name": "M∀N∀ Outfit",
+    "fullName": "M∀N∀ Outfit (Tsumugi)"
   },
   {
     "group": "event",
@@ -778,7 +848,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Madara",
-    "name": "M∀N∀ Outfit"
+    "name": "M∀N∀ Outfit",
+    "fullName": "M∀N∀ Outfit (Madara)"
   },
   {
     "group": "event",
@@ -789,7 +860,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Wataru",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (Wataru)"
   },
   {
     "group": "event",
@@ -800,7 +872,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (Hiiro)"
   },
   {
     "group": "event",
@@ -811,7 +884,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Nazuna",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (Nazuna)"
   },
   {
     "group": "event",
@@ -822,7 +896,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Keito",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (Keito)"
   },
   {
     "group": "event",
@@ -833,7 +908,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Izumi",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (Izumi)"
   },
   {
     "group": "event",
@@ -844,7 +920,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "滝 維吹",
-    "name": "Twin Rooster Outfit"
+    "name": "Twin Rooster Outfit",
+    "fullName": "Twin Rooster Outfit (滝 維吹)"
   },
   {
     "group": "event",
@@ -855,7 +932,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Rinne",
-    "name": "Ephemeral Festival Outfit"
+    "name": "Ephemeral Festival Outfit",
+    "fullName": "Ephemeral Festival Outfit (Rinne)"
   },
   {
     "group": "event",
@@ -866,7 +944,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "HiMERU",
-    "name": "Ephemeral Festival Outfit"
+    "name": "Ephemeral Festival Outfit",
+    "fullName": "Ephemeral Festival Outfit (HiMERU)"
   },
   {
     "group": "event",
@@ -877,7 +956,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "Ephemeral Festival Outfit"
+    "name": "Ephemeral Festival Outfit",
+    "fullName": "Ephemeral Festival Outfit (Kohaku)"
   },
   {
     "group": "event",
@@ -888,7 +968,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Niki",
-    "name": "Ephemeral Festival Outfit"
+    "name": "Ephemeral Festival Outfit",
+    "fullName": "Ephemeral Festival Outfit (Niki)"
   },
   {
     "group": "event",
@@ -899,7 +980,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Tetora",
-    "name": "Chase Cheshire Outfit"
+    "name": "Chase Cheshire Outfit",
+    "fullName": "Chase Cheshire Outfit (Tetora)"
   },
   {
     "group": "event",
@@ -910,7 +992,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Midori",
-    "name": "Chase Cheshire Outfit"
+    "name": "Chase Cheshire Outfit",
+    "fullName": "Chase Cheshire Outfit (Midori)"
   },
   {
     "group": "event",
@@ -921,7 +1004,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Shinobu",
-    "name": "Chase Cheshire Outfit"
+    "name": "Chase Cheshire Outfit",
+    "fullName": "Chase Cheshire Outfit (Shinobu)"
   },
   {
     "group": "event",
@@ -932,7 +1016,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "Chase Cheshire Outfit"
+    "name": "Chase Cheshire Outfit",
+    "fullName": "Chase Cheshire Outfit (Chiaki)"
   },
   {
     "group": "event",
@@ -943,7 +1028,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Kanata",
-    "name": "Chase Cheshire Outfit"
+    "name": "Chase Cheshire Outfit",
+    "fullName": "Chase Cheshire Outfit (Kanata)"
   },
   {
     "group": "event",
@@ -954,7 +1040,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (Ibara)"
   },
   {
     "group": "event",
@@ -965,7 +1052,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Jun",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (Jun)"
   },
   {
     "group": "event",
@@ -976,7 +1064,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Hinata",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (Hinata)"
   },
   {
     "group": "event",
@@ -987,7 +1076,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Yuta",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (Yuta)"
   },
   {
     "group": "event",
@@ -998,7 +1088,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Sora",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (Sora)"
   },
   {
     "group": "event",
@@ -1009,7 +1100,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "カンナ",
-    "name": "The Arena Outfit"
+    "name": "The Arena Outfit",
+    "fullName": "The Arena Outfit (カンナ)"
   },
   {
     "group": "event",
@@ -1020,7 +1112,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Eichi",
-    "name": "Fairy Tale Outfit"
+    "name": "Fairy Tale Outfit",
+    "fullName": "Fairy Tale Outfit (Eichi)"
   },
   {
     "group": "event",
@@ -1031,7 +1124,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Wataru",
-    "name": "Fairy Tale Outfit"
+    "name": "Fairy Tale Outfit",
+    "fullName": "Fairy Tale Outfit (Wataru)"
   },
   {
     "group": "event",
@@ -1042,7 +1136,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Tori",
-    "name": "Fairy Tale Outfit"
+    "name": "Fairy Tale Outfit",
+    "fullName": "Fairy Tale Outfit (Tori)"
   },
   {
     "group": "event",
@@ -1053,7 +1148,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Yuzuru",
-    "name": "Fairy Tale Outfit"
+    "name": "Fairy Tale Outfit",
+    "fullName": "Fairy Tale Outfit (Yuzuru)"
   },
   {
     "group": "event",
@@ -1064,7 +1160,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Chiaki",
-    "name": "Lupine Halloween Outfit"
+    "name": "Lupine Halloween Outfit",
+    "fullName": "Lupine Halloween Outfit (Chiaki)"
   },
   {
     "group": "event",
@@ -1075,7 +1172,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kaoru",
-    "name": "Lupine Halloween Outfit"
+    "name": "Lupine Halloween Outfit",
+    "fullName": "Lupine Halloween Outfit (Kaoru)"
   },
   {
     "group": "event",
@@ -1086,7 +1184,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Souma",
-    "name": "Lupine Halloween Outfit"
+    "name": "Lupine Halloween Outfit",
+    "fullName": "Lupine Halloween Outfit (Souma)"
   },
   {
     "group": "event",
@@ -1097,7 +1196,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Madara",
-    "name": "Lupine Halloween Outfit"
+    "name": "Lupine Halloween Outfit",
+    "fullName": "Lupine Halloween Outfit (Madara)"
   },
   {
     "group": "event",
@@ -1108,7 +1208,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hokuto",
-    "name": "FREEDOM Outfit"
+    "name": "FREEDOM Outfit",
+    "fullName": "FREEDOM Outfit (Hokuto)"
   },
   {
     "group": "event",
@@ -1119,7 +1220,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Subaru",
-    "name": "FREEDOM Outfit"
+    "name": "FREEDOM Outfit",
+    "fullName": "FREEDOM Outfit (Subaru)"
   },
   {
     "group": "event",
@@ -1130,7 +1232,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Makoto",
-    "name": "FREEDOM Outfit"
+    "name": "FREEDOM Outfit",
+    "fullName": "FREEDOM Outfit (Makoto)"
   },
   {
     "group": "event",
@@ -1141,7 +1244,8 @@
     "Te": 30,
     "Ch": 40,
     "idol": "Mao",
-    "name": "FREEDOM Outfit"
+    "name": "FREEDOM Outfit",
+    "fullName": "FREEDOM Outfit (Mao)"
   },
   {
     "group": "event",
@@ -1152,7 +1256,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "エス",
-    "name": "Snow White Outfit"
+    "name": "Snow White Outfit",
+    "fullName": "Snow White Outfit (エス)"
   },
   {
     "group": "event",
@@ -1163,7 +1268,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "カンナ",
-    "name": "Snow White Outfit"
+    "name": "Snow White Outfit",
+    "fullName": "Snow White Outfit (カンナ)"
   },
   {
     "group": "event",
@@ -1174,7 +1280,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "ユメ",
-    "name": "Snow White Outfit"
+    "name": "Snow White Outfit",
+    "fullName": "Snow White Outfit (ユメ)"
   },
   {
     "group": "event",
@@ -1185,7 +1292,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "ライカ",
-    "name": "Snow White Outfit"
+    "name": "Snow White Outfit",
+    "fullName": "Snow White Outfit (ライカ)"
   },
   {
     "group": "event",
@@ -1196,7 +1304,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tomoya",
-    "name": "HRCN! Outfit"
+    "name": "HRCN! Outfit",
+    "fullName": "HRCN! Outfit (Tomoya)"
   },
   {
     "group": "event",
@@ -1207,7 +1316,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Nazuna",
-    "name": "HRCN! Outfit"
+    "name": "HRCN! Outfit",
+    "fullName": "HRCN! Outfit (Nazuna)"
   },
   {
     "group": "event",
@@ -1218,7 +1328,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Mitsuru",
-    "name": "HRCN! Outfit"
+    "name": "HRCN! Outfit",
+    "fullName": "HRCN! Outfit (Mitsuru)"
   },
   {
     "group": "event",
@@ -1229,6 +1340,7 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Hajime",
-    "name": "HRCN! Outfit"
+    "name": "HRCN! Outfit",
+    "fullName": "HRCN! Outfit (Hajime)"
   }
 ]

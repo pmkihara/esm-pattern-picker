@@ -1,5 +1,4 @@
 import H1 from '@/components/atoms/H1'
-import SaveButton from '@/components/atoms/SaveButton'
 import SetupStatusCard from '@/components/molecules/SetupStatusCard'
 import Link from 'next/link'
 
@@ -65,17 +64,13 @@ const SetupSteps = ({
             {...getStepStatus('spreadsheet', spreadsheetIsSetup)}
           />
         </Link>
-        <Link href={`/idols?id=${spreadsheetId}`}>
+        <Link href={`/${spreadsheetId}/idols`}>
           <SetupStatusCard {...getStepStatus('idols', StatsAreSetup)} />
         </Link>
-        <Link href={`/outfits?id=${spreadsheetId}`}>
+        <Link href={`/${spreadsheetId}/outfits`}>
           <SetupStatusCard {...getStepStatus('outfits', outfitsAreSetup)} />
         </Link>
       </div>
-      <SaveButton
-        className='fixed left-1/2 transform -translate-x-1/2 bottom-8 z-10 lg:hidden'
-        disabled={true}
-      />
     </div>
   )
 }

@@ -8,7 +8,8 @@
     "Te": 90,
     "Ch": 65,
     "idol": "Eichi",
-    "name": "fine Uniform"
+    "name": "fine Uniform",
+    "fullName": "fine Uniform (Eichi)"
   },
   {
     "group": "general",
@@ -19,7 +20,8 @@
     "Te": 140,
     "Ch": 0,
     "idol": "Wataru",
-    "name": "fine Uniform"
+    "name": "fine Uniform",
+    "fullName": "fine Uniform (Wataru)"
   },
   {
     "group": "general",
@@ -30,7 +32,8 @@
     "Te": 0,
     "Ch": 135,
     "idol": "Tori",
-    "name": "fine Uniform"
+    "name": "fine Uniform",
+    "fullName": "fine Uniform (Tori)"
   },
   {
     "group": "general",
@@ -41,7 +44,8 @@
     "Te": 0,
     "Ch": 70,
     "idol": "Yuzuru",
-    "name": "fine Uniform"
+    "name": "fine Uniform",
+    "fullName": "fine Uniform (Yuzuru)"
   },
   {
     "group": "general",
@@ -52,7 +56,8 @@
     "Te": 75,
     "Ch": 0,
     "idol": "Hokuto",
-    "name": "Trickstar Uniform"
+    "name": "Trickstar Uniform",
+    "fullName": "Trickstar Uniform (Hokuto)"
   },
   {
     "group": "general",
@@ -63,7 +68,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Subaru",
-    "name": "Trickstar Uniform"
+    "name": "Trickstar Uniform",
+    "fullName": "Trickstar Uniform (Subaru)"
   },
   {
     "group": "general",
@@ -74,7 +80,8 @@
     "Te": 70,
     "Ch": 0,
     "idol": "Makoto",
-    "name": "Trickstar Uniform"
+    "name": "Trickstar Uniform",
+    "fullName": "Trickstar Uniform (Makoto)"
   },
   {
     "group": "general",
@@ -85,7 +92,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "name": "Trickstar Uniform"
+    "name": "Trickstar Uniform",
+    "fullName": "Trickstar Uniform (Mao)"
   },
   {
     "group": "general",
@@ -96,7 +104,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "RYUSEITAI Uniform"
+    "name": "RYUSEITAI Uniform",
+    "fullName": "RYUSEITAI Uniform (Chiaki)"
   },
   {
     "group": "general",
@@ -107,7 +116,8 @@
     "Te": 75,
     "Ch": 85,
     "idol": "Kanata",
-    "name": "RYUSEITAI Uniform"
+    "name": "RYUSEITAI Uniform",
+    "fullName": "RYUSEITAI Uniform (Kanata)"
   },
   {
     "group": "general",
@@ -118,7 +128,8 @@
     "Te": 145,
     "Ch": 90,
     "idol": "Tetora",
-    "name": "RYUSEITAI Uniform"
+    "name": "RYUSEITAI Uniform",
+    "fullName": "RYUSEITAI Uniform (Tetora)"
   },
   {
     "group": "general",
@@ -129,7 +140,8 @@
     "Te": 80,
     "Ch": 95,
     "idol": "Midori",
-    "name": "RYUSEITAI Uniform"
+    "name": "RYUSEITAI Uniform",
+    "fullName": "RYUSEITAI Uniform (Midori)"
   },
   {
     "group": "general",
@@ -140,7 +152,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "name": "RYUSEITAI Uniform"
+    "name": "RYUSEITAI Uniform",
+    "fullName": "RYUSEITAI Uniform (Shinobu)"
   },
   {
     "group": "general",
@@ -151,7 +164,8 @@
     "Te": 95,
     "Ch": 0,
     "idol": "Hiiro",
-    "name": "ALKALOID Uniform"
+    "name": "ALKALOID Uniform",
+    "fullName": "ALKALOID Uniform (Hiiro)"
   },
   {
     "group": "general",
@@ -162,7 +176,8 @@
     "Te": 75,
     "Ch": 0,
     "idol": "Aira",
-    "name": "ALKALOID Uniform"
+    "name": "ALKALOID Uniform",
+    "fullName": "ALKALOID Uniform (Aira)"
   },
   {
     "group": "general",
@@ -173,7 +188,8 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Mayoi",
-    "name": "ALKALOID Uniform"
+    "name": "ALKALOID Uniform",
+    "fullName": "ALKALOID Uniform (Mayoi)"
   },
   {
     "group": "general",
@@ -184,7 +200,8 @@
     "Te": 75,
     "Ch": 0,
     "idol": "Tatsumi",
-    "name": "ALKALOID Uniform"
+    "name": "ALKALOID Uniform",
+    "fullName": "ALKALOID Uniform (Tatsumi)"
   },
   {
     "group": "general",
@@ -195,7 +212,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Nagisa",
-    "name": "Eden Uniform"
+    "name": "Eden Uniform",
+    "fullName": "Eden Uniform (Nagisa)"
   },
   {
     "group": "general",
@@ -206,7 +224,8 @@
     "Te": 130,
     "Ch": 0,
     "idol": "Hiyori",
-    "name": "Eden Uniform"
+    "name": "Eden Uniform",
+    "fullName": "Eden Uniform (Hiyori)"
   },
   {
     "group": "general",
@@ -217,7 +236,8 @@
     "Te": 135,
     "Ch": 0,
     "idol": "Ibara",
-    "name": "Eden Uniform"
+    "name": "Eden Uniform",
+    "fullName": "Eden Uniform (Ibara)"
   },
   {
     "group": "general",
@@ -228,7 +248,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "name": "Eden Uniform"
+    "name": "Eden Uniform",
+    "fullName": "Eden Uniform (Jun)"
   },
   {
     "group": "general",
@@ -239,7 +260,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shu",
-    "name": "Valkyrie Uniform"
+    "name": "Valkyrie Uniform",
+    "fullName": "Valkyrie Uniform (Shu)"
   },
   {
     "group": "general",
@@ -250,7 +272,8 @@
     "Te": 85,
     "Ch": 135,
     "idol": "Mika",
-    "name": "Valkyrie Uniform"
+    "name": "Valkyrie Uniform",
+    "fullName": "Valkyrie Uniform (Mika)"
   },
   {
     "group": "general",
@@ -261,7 +284,8 @@
     "Te": 135,
     "Ch": 85,
     "idol": "Hinata",
-    "name": "2wink Uniform"
+    "name": "2wink Uniform",
+    "fullName": "2wink Uniform (Hinata)"
   },
   {
     "group": "general",
@@ -272,7 +296,8 @@
     "Te": 0,
     "Ch": 75,
     "idol": "Yuta",
-    "name": "2wink Uniform"
+    "name": "2wink Uniform",
+    "fullName": "2wink Uniform (Yuta)"
   },
   {
     "group": "general",
@@ -283,7 +308,8 @@
     "Te": 75,
     "Ch": 0,
     "idol": "Rinne",
-    "name": "Crazy:B Uniform"
+    "name": "Crazy:B Uniform",
+    "fullName": "Crazy:B Uniform (Rinne)"
   },
   {
     "group": "general",
@@ -294,7 +320,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "HiMERU",
-    "name": "Crazy:B Uniform"
+    "name": "Crazy:B Uniform",
+    "fullName": "Crazy:B Uniform (HiMERU)"
   },
   {
     "group": "general",
@@ -305,7 +332,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "Crazy:B Uniform"
+    "name": "Crazy:B Uniform",
+    "fullName": "Crazy:B Uniform (Kohaku)"
   },
   {
     "group": "general",
@@ -316,7 +344,8 @@
     "Te": 80,
     "Ch": 140,
     "idol": "Niki",
-    "name": "Crazy:B Uniform"
+    "name": "Crazy:B Uniform",
+    "fullName": "Crazy:B Uniform (Niki)"
   },
   {
     "group": "general",
@@ -327,7 +356,8 @@
     "Te": 0,
     "Ch": 70,
     "idol": "Rei",
-    "name": "UNDEAD Uniform"
+    "name": "UNDEAD Uniform",
+    "fullName": "UNDEAD Uniform (Rei)"
   },
   {
     "group": "general",
@@ -338,7 +368,8 @@
     "Te": 75,
     "Ch": 0,
     "idol": "Kaoru",
-    "name": "UNDEAD Uniform"
+    "name": "UNDEAD Uniform",
+    "fullName": "UNDEAD Uniform (Kaoru)"
   },
   {
     "group": "general",
@@ -349,7 +380,8 @@
     "Te": 100,
     "Ch": 0,
     "idol": "Koga",
-    "name": "UNDEAD Uniform"
+    "name": "UNDEAD Uniform",
+    "fullName": "UNDEAD Uniform (Koga)"
   },
   {
     "group": "general",
@@ -360,7 +392,8 @@
     "Te": 0,
     "Ch": 120,
     "idol": "Adonis",
-    "name": "UNDEAD Uniform"
+    "name": "UNDEAD Uniform",
+    "fullName": "UNDEAD Uniform (Adonis)"
   },
   {
     "group": "general",
@@ -371,7 +404,8 @@
     "Te": 150,
     "Ch": 0,
     "idol": "Tomoya",
-    "name": "Ra*bits Uniform"
+    "name": "Ra*bits Uniform",
+    "fullName": "Ra*bits Uniform (Tomoya)"
   },
   {
     "group": "general",
@@ -382,7 +416,8 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Nazuna",
-    "name": "Ra*bits Uniform"
+    "name": "Ra*bits Uniform",
+    "fullName": "Ra*bits Uniform (Nazuna)"
   },
   {
     "group": "general",
@@ -393,7 +428,8 @@
     "Te": 0,
     "Ch": 75,
     "idol": "Mitsuru",
-    "name": "Ra*bits Uniform"
+    "name": "Ra*bits Uniform",
+    "fullName": "Ra*bits Uniform (Mitsuru)"
   },
   {
     "group": "general",
@@ -404,7 +440,8 @@
     "Te": 85,
     "Ch": 0,
     "idol": "Hajime",
-    "name": "Ra*bits Uniform"
+    "name": "Ra*bits Uniform",
+    "fullName": "Ra*bits Uniform (Hajime)"
   },
   {
     "group": "general",
@@ -415,7 +452,8 @@
     "Te": 140,
     "Ch": 80,
     "idol": "Keito",
-    "name": "AKATSUKI Uniform"
+    "name": "AKATSUKI Uniform",
+    "fullName": "AKATSUKI Uniform (Keito)"
   },
   {
     "group": "general",
@@ -426,7 +464,8 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Kuro",
-    "name": "AKATSUKI Uniform"
+    "name": "AKATSUKI Uniform",
+    "fullName": "AKATSUKI Uniform (Kuro)"
   },
   {
     "group": "general",
@@ -437,7 +476,8 @@
     "Te": 80,
     "Ch": 145,
     "idol": "Souma",
-    "name": "AKATSUKI Uniform"
+    "name": "AKATSUKI Uniform",
+    "fullName": "AKATSUKI Uniform (Souma)"
   },
   {
     "group": "general",
@@ -448,7 +488,8 @@
     "Te": 0,
     "Ch": 95,
     "idol": "Tsukasa",
-    "name": "Knights Uniform"
+    "name": "Knights Uniform",
+    "fullName": "Knights Uniform (Tsukasa)"
   },
   {
     "group": "general",
@@ -459,7 +500,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Leo",
-    "name": "Knights Uniform"
+    "name": "Knights Uniform",
+    "fullName": "Knights Uniform (Leo)"
   },
   {
     "group": "general",
@@ -470,7 +512,8 @@
     "Te": 0,
     "Ch": 140,
     "idol": "Izumi",
-    "name": "Knights Uniform"
+    "name": "Knights Uniform",
+    "fullName": "Knights Uniform (Izumi)"
   },
   {
     "group": "general",
@@ -481,7 +524,8 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Ritsu",
-    "name": "Knights Uniform"
+    "name": "Knights Uniform",
+    "fullName": "Knights Uniform (Ritsu)"
   },
   {
     "group": "general",
@@ -492,7 +536,8 @@
     "Te": 145,
     "Ch": 0,
     "idol": "Arashi",
-    "name": "Knights Uniform"
+    "name": "Knights Uniform",
+    "fullName": "Knights Uniform (Arashi)"
   },
   {
     "group": "general",
@@ -503,7 +548,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Natsume",
-    "name": "Switch Uniform"
+    "name": "Switch Uniform",
+    "fullName": "Switch Uniform (Natsume)"
   },
   {
     "group": "general",
@@ -514,7 +560,8 @@
     "Te": 0,
     "Ch": 90,
     "idol": "Tsumugi",
-    "name": "Switch Uniform"
+    "name": "Switch Uniform",
+    "fullName": "Switch Uniform (Tsumugi)"
   },
   {
     "group": "general",
@@ -525,7 +572,8 @@
     "Te": 90,
     "Ch": 80,
     "idol": "Sora",
-    "name": "Switch Uniform"
+    "name": "Switch Uniform",
+    "fullName": "Switch Uniform (Sora)"
   },
   {
     "group": "general",
@@ -536,7 +584,8 @@
     "Te": 0,
     "Ch": 75,
     "idol": "Madara",
-    "name": "MaM Uniform"
+    "name": "MaM Uniform",
+    "fullName": "MaM Uniform (Madara)"
   },
   {
     "group": "general",
@@ -547,7 +596,8 @@
     "Te": 90,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "Double Face Uniform"
+    "name": "Double Face Uniform",
+    "fullName": "Double Face Uniform (Kohaku)"
   },
   {
     "group": "general",
@@ -558,7 +608,8 @@
     "Te": 70,
     "Ch": 140,
     "idol": "Madara",
-    "name": "Double Face Uniform"
+    "name": "Double Face Uniform",
+    "fullName": "Double Face Uniform (Madara)"
   },
   {
     "group": "general",
@@ -569,7 +620,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Eichi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Eichi)"
   },
   {
     "group": "general",
@@ -580,7 +632,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Wataru",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Wataru)"
   },
   {
     "group": "general",
@@ -591,7 +644,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tori",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tori)"
   },
   {
     "group": "general",
@@ -602,7 +656,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Yuzuru",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Yuzuru)"
   },
   {
     "group": "general",
@@ -613,7 +668,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hokuto",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Hokuto)"
   },
   {
     "group": "general",
@@ -624,7 +680,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Subaru",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Subaru)"
   },
   {
     "group": "general",
@@ -635,7 +692,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Makoto",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Makoto)"
   },
   {
     "group": "general",
@@ -646,7 +704,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mao",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Mao)"
   },
   {
     "group": "general",
@@ -657,7 +716,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Chiaki",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Chiaki)"
   },
   {
     "group": "general",
@@ -668,7 +728,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Kanata",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Kanata)"
   },
   {
     "group": "general",
@@ -679,7 +740,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Tetora",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tetora)"
   },
   {
     "group": "general",
@@ -690,7 +752,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Midori)"
   },
   {
     "group": "general",
@@ -701,7 +764,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Shinobu",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Shinobu)"
   },
   {
     "group": "general",
@@ -712,7 +776,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hiiro",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Hiiro)"
   },
   {
     "group": "general",
@@ -723,7 +788,8 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Aira",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Aira)"
   },
   {
     "group": "general",
@@ -734,7 +800,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Mayoi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Mayoi)"
   },
   {
     "group": "general",
@@ -745,7 +812,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tatsumi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tatsumi)"
   },
   {
     "group": "general",
@@ -756,7 +824,8 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Nagisa",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Nagisa)"
   },
   {
     "group": "general",
@@ -767,7 +836,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Hiyori",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Hiyori)"
   },
   {
     "group": "general",
@@ -778,7 +848,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Ibara",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Ibara)"
   },
   {
     "group": "general",
@@ -789,7 +860,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Jun",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Jun)"
   },
   {
     "group": "general",
@@ -800,7 +872,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Shu",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Shu)"
   },
   {
     "group": "general",
@@ -811,7 +884,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Mika)"
   },
   {
     "group": "general",
@@ -822,7 +896,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Hinata)"
   },
   {
     "group": "general",
@@ -833,7 +908,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Yuta",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Yuta)"
   },
   {
     "group": "general",
@@ -844,7 +920,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rinne",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Rinne)"
   },
   {
     "group": "general",
@@ -855,7 +932,8 @@
     "Te": 25,
     "Ch": 15,
     "idol": "HiMERU",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (HiMERU)"
   },
   {
     "group": "general",
@@ -866,7 +944,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Kohaku)"
   },
   {
     "group": "general",
@@ -877,7 +956,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Niki",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Niki)"
   },
   {
     "group": "general",
@@ -888,7 +968,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Rei",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Rei)"
   },
   {
     "group": "general",
@@ -899,7 +980,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Kaoru",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Kaoru)"
   },
   {
     "group": "general",
@@ -910,7 +992,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Koga)"
   },
   {
     "group": "general",
@@ -921,7 +1004,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Adonis",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Adonis)"
   },
   {
     "group": "general",
@@ -932,7 +1016,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Tomoya",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tomoya)"
   },
   {
     "group": "general",
@@ -943,7 +1028,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Nazuna",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Nazuna)"
   },
   {
     "group": "general",
@@ -954,7 +1040,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Mitsuru",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Mitsuru)"
   },
   {
     "group": "general",
@@ -965,7 +1052,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Hajime",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Hajime)"
   },
   {
     "group": "general",
@@ -976,7 +1064,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Keito)"
   },
   {
     "group": "general",
@@ -987,7 +1076,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Kuro",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Kuro)"
   },
   {
     "group": "general",
@@ -998,7 +1088,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Souma",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Souma)"
   },
   {
     "group": "general",
@@ -1009,7 +1100,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tsukasa)"
   },
   {
     "group": "general",
@@ -1020,7 +1112,8 @@
     "Te": 25,
     "Ch": 15,
     "idol": "Leo",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Leo)"
   },
   {
     "group": "general",
@@ -1031,7 +1124,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Izumi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Izumi)"
   },
   {
     "group": "general",
@@ -1042,7 +1136,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Ritsu",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Ritsu)"
   },
   {
     "group": "general",
@@ -1053,7 +1148,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Arashi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Arashi)"
   },
   {
     "group": "general",
@@ -1064,7 +1160,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Natsume",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Natsume)"
   },
   {
     "group": "general",
@@ -1075,7 +1172,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tsumugi",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Tsumugi)"
   },
   {
     "group": "general",
@@ -1086,7 +1184,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Sora",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Sora)"
   },
   {
     "group": "general",
@@ -1097,7 +1196,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Madara",
-    "name": "Casual (Spring-Summer)"
+    "name": "Casual (Spring-Summer)",
+    "fullName": "Casual (Spring-Summer) (Madara)"
   },
   {
     "group": "general",
@@ -1108,7 +1208,8 @@
     "Te": 40,
     "Ch": 25,
     "idol": "Eichi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Eichi)"
   },
   {
     "group": "general",
@@ -1119,7 +1220,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Wataru",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Wataru)"
   },
   {
     "group": "general",
@@ -1130,7 +1232,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Tori",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tori)"
   },
   {
     "group": "general",
@@ -1141,7 +1244,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Yuzuru",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Yuzuru)"
   },
   {
     "group": "general",
@@ -1152,7 +1256,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hokuto",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Hokuto)"
   },
   {
     "group": "general",
@@ -1163,7 +1268,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Subaru",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Subaru)"
   },
   {
     "group": "general",
@@ -1174,7 +1280,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Makoto",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Makoto)"
   },
   {
     "group": "general",
@@ -1185,7 +1292,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Mao",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Mao)"
   },
   {
     "group": "general",
@@ -1196,7 +1304,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Chiaki)"
   },
   {
     "group": "general",
@@ -1207,7 +1316,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Kanata",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Kanata)"
   },
   {
     "group": "general",
@@ -1218,7 +1328,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Tetora",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tetora)"
   },
   {
     "group": "general",
@@ -1229,7 +1340,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Midori",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Midori)"
   },
   {
     "group": "general",
@@ -1240,7 +1352,8 @@
     "Te": 40,
     "Ch": 15,
     "idol": "Shinobu",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Shinobu)"
   },
   {
     "group": "general",
@@ -1251,7 +1364,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Hiiro)"
   },
   {
     "group": "general",
@@ -1262,7 +1376,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Aira",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Aira)"
   },
   {
     "group": "general",
@@ -1273,7 +1388,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mayoi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Mayoi)"
   },
   {
     "group": "general",
@@ -1284,7 +1400,8 @@
     "Te": 40,
     "Ch": 15,
     "idol": "Tatsumi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tatsumi)"
   },
   {
     "group": "general",
@@ -1295,7 +1412,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Nagisa",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Nagisa)"
   },
   {
     "group": "general",
@@ -1306,7 +1424,8 @@
     "Te": 40,
     "Ch": 25,
     "idol": "Hiyori",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Hiyori)"
   },
   {
     "group": "general",
@@ -1317,7 +1436,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Ibara",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Ibara)"
   },
   {
     "group": "general",
@@ -1328,7 +1448,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Jun",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Jun)"
   },
   {
     "group": "general",
@@ -1339,7 +1460,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shu",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Shu)"
   },
   {
     "group": "general",
@@ -1350,7 +1472,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Mika",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Mika)"
   },
   {
     "group": "general",
@@ -1361,7 +1484,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Hinata",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Hinata)"
   },
   {
     "group": "general",
@@ -1372,7 +1496,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Yuta)"
   },
   {
     "group": "general",
@@ -1383,7 +1508,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Rinne",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Rinne)"
   },
   {
     "group": "general",
@@ -1394,7 +1520,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "HiMERU",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (HiMERU)"
   },
   {
     "group": "general",
@@ -1405,7 +1532,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Kohaku)"
   },
   {
     "group": "general",
@@ -1416,7 +1544,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Niki",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Niki)"
   },
   {
     "group": "general",
@@ -1427,7 +1556,8 @@
     "Te": 15,
     "Ch": 40,
     "idol": "Rei",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Rei)"
   },
   {
     "group": "general",
@@ -1438,7 +1568,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Kaoru",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Kaoru)"
   },
   {
     "group": "general",
@@ -1449,7 +1580,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Koga",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Koga)"
   },
   {
     "group": "general",
@@ -1460,7 +1592,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Adonis",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Adonis)"
   },
   {
     "group": "general",
@@ -1471,7 +1604,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Tomoya",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tomoya)"
   },
   {
     "group": "general",
@@ -1482,7 +1616,8 @@
     "Te": 15,
     "Ch": 25,
     "idol": "Nazuna",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Nazuna)"
   },
   {
     "group": "general",
@@ -1493,7 +1628,8 @@
     "Te": 25,
     "Ch": 40,
     "idol": "Mitsuru",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Mitsuru)"
   },
   {
     "group": "general",
@@ -1504,7 +1640,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Hajime",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Hajime)"
   },
   {
     "group": "general",
@@ -1515,7 +1652,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Keito",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Keito)"
   },
   {
     "group": "general",
@@ -1526,7 +1664,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Kuro",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Kuro)"
   },
   {
     "group": "general",
@@ -1537,7 +1676,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Souma",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Souma)"
   },
   {
     "group": "general",
@@ -1548,7 +1688,8 @@
     "Te": 15,
     "Ch": 0,
     "idol": "Tsukasa",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tsukasa)"
   },
   {
     "group": "general",
@@ -1559,7 +1700,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Leo",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Leo)"
   },
   {
     "group": "general",
@@ -1570,7 +1712,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Izumi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Izumi)"
   },
   {
     "group": "general",
@@ -1581,7 +1724,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Ritsu",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Ritsu)"
   },
   {
     "group": "general",
@@ -1592,7 +1736,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Arashi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Arashi)"
   },
   {
     "group": "general",
@@ -1603,7 +1748,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Natsume",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Natsume)"
   },
   {
     "group": "general",
@@ -1614,7 +1760,8 @@
     "Te": 0,
     "Ch": 15,
     "idol": "Tsumugi",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Tsumugi)"
   },
   {
     "group": "general",
@@ -1625,7 +1772,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Sora",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Sora)"
   },
   {
     "group": "general",
@@ -1636,7 +1784,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Madara",
-    "name": "Halloween Bat"
+    "name": "Halloween Bat",
+    "fullName": "Halloween Bat (Madara)"
   },
   {
     "group": "general",
@@ -1647,7 +1796,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Eichi",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Eichi)"
   },
   {
     "group": "general",
@@ -1658,7 +1808,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Wataru",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Wataru)"
   },
   {
     "group": "general",
@@ -1669,7 +1820,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Tori",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Tori)"
   },
   {
     "group": "general",
@@ -1680,7 +1832,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Yuzuru",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Yuzuru)"
   },
   {
     "group": "general",
@@ -1691,7 +1844,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Hokuto",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Hokuto)"
   },
   {
     "group": "general",
@@ -1702,7 +1856,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Subaru",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Subaru)"
   },
   {
     "group": "general",
@@ -1713,7 +1868,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Makoto",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Makoto)"
   },
   {
     "group": "general",
@@ -1724,7 +1880,8 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Mao",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Mao)"
   },
   {
     "group": "general",
@@ -1735,7 +1892,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Chiaki)"
   },
   {
     "group": "general",
@@ -1746,7 +1904,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Kanata",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Kanata)"
   },
   {
     "group": "general",
@@ -1757,7 +1916,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tetora",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Tetora)"
   },
   {
     "group": "general",
@@ -1768,7 +1928,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Midori",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Midori)"
   },
   {
     "group": "general",
@@ -1779,7 +1940,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Shinobu",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Shinobu)"
   },
   {
     "group": "general",
@@ -1790,7 +1952,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hiiro",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Hiiro)"
   },
   {
     "group": "general",
@@ -1801,7 +1964,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Aira",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Aira)"
   },
   {
     "group": "general",
@@ -1812,7 +1976,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mayoi",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Mayoi)"
   },
   {
     "group": "general",
@@ -1823,7 +1988,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tatsumi",
-    "name": "5th Anniversary (STARMAKER PRODUCTION)"
+    "name": "5th Anniversary (STARMAKER PRODUCTION)",
+    "fullName": "5th Anniversary (STARMAKER PRODUCTION) (Tatsumi)"
   },
   {
     "group": "general",
@@ -1834,7 +2000,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Nagisa",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Nagisa)"
   },
   {
     "group": "general",
@@ -1845,7 +2012,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Hiyori",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Hiyori)"
   },
   {
     "group": "general",
@@ -1856,7 +2024,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Ibara",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Ibara)"
   },
   {
     "group": "general",
@@ -1867,7 +2036,8 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Jun",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Jun)"
   },
   {
     "group": "general",
@@ -1878,7 +2048,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Shu",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Shu)"
   },
   {
     "group": "general",
@@ -1889,7 +2060,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mika",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Mika)"
   },
   {
     "group": "general",
@@ -1900,7 +2072,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Hinata",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Hinata)"
   },
   {
     "group": "general",
@@ -1911,7 +2084,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Yuta",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Yuta)"
   },
   {
     "group": "general",
@@ -1922,7 +2096,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Rinne",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Rinne)"
   },
   {
     "group": "general",
@@ -1933,7 +2108,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "HiMERU",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (HiMERU)"
   },
   {
     "group": "general",
@@ -1944,7 +2120,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kohaku",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Kohaku)"
   },
   {
     "group": "general",
@@ -1955,7 +2132,8 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Niki",
-    "name": "5th Anniversary (COSMIC PRODUCTION)"
+    "name": "5th Anniversary (COSMIC PRODUCTION)",
+    "fullName": "5th Anniversary (COSMIC PRODUCTION) (Niki)"
   },
   {
     "group": "general",
@@ -1966,7 +2144,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Rei",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Rei)"
   },
   {
     "group": "general",
@@ -1977,7 +2156,8 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Kaoru",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Kaoru)"
   },
   {
     "group": "general",
@@ -1988,7 +2168,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Koga",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Koga)"
   },
   {
     "group": "general",
@@ -1999,7 +2180,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Adonis",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Adonis)"
   },
   {
     "group": "general",
@@ -2010,7 +2192,8 @@
     "Te": 55,
     "Ch": 0,
     "idol": "Tomoya",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Tomoya)"
   },
   {
     "group": "general",
@@ -2021,7 +2204,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Nazuna",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Nazuna)"
   },
   {
     "group": "general",
@@ -2032,7 +2216,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Mitsuru)"
   },
   {
     "group": "general",
@@ -2043,7 +2228,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Hajime",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Hajime)"
   },
   {
     "group": "general",
@@ -2054,7 +2240,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Keito",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Keito)"
   },
   {
     "group": "general",
@@ -2065,7 +2252,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Kuro",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Kuro)"
   },
   {
     "group": "general",
@@ -2076,7 +2264,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Souma",
-    "name": "5th Anniversary (Rhythm Link)"
+    "name": "5th Anniversary (Rhythm Link)",
+    "fullName": "5th Anniversary (Rhythm Link) (Souma)"
   },
   {
     "group": "general",
@@ -2087,7 +2276,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tsukasa",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Tsukasa)"
   },
   {
     "group": "general",
@@ -2098,7 +2288,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Leo",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Leo)"
   },
   {
     "group": "general",
@@ -2109,7 +2300,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Izumi",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Izumi)"
   },
   {
     "group": "general",
@@ -2120,7 +2312,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Ritsu",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Ritsu)"
   },
   {
     "group": "general",
@@ -2131,7 +2324,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Arashi",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Arashi)"
   },
   {
     "group": "general",
@@ -2142,7 +2336,8 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Natsume",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Natsume)"
   },
   {
     "group": "general",
@@ -2153,7 +2348,8 @@
     "Te": 0,
     "Ch": 25,
     "idol": "Tsumugi",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Tsumugi)"
   },
   {
     "group": "general",
@@ -2164,7 +2360,8 @@
     "Te": 25,
     "Ch": 0,
     "idol": "Sora",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Sora)"
   },
   {
     "group": "general",
@@ -2175,6 +2372,7 @@
     "Te": 25,
     "Ch": 55,
     "idol": "Madara",
-    "name": "5th Anniversary (NEW DIMENSION)"
+    "name": "5th Anniversary (NEW DIMENSION)",
+    "fullName": "5th Anniversary (NEW DIMENSION) (Madara)"
   }
 ]

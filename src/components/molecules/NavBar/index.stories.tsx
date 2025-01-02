@@ -21,6 +21,9 @@ export const DashboardActive: Story = {
     nextjs: {
       navigation: {
         pathname: '/dashboard',
+        query: {
+          id: '1',
+        },
       },
     },
   },

@@ -14,6 +14,7 @@ const mapOutfitValues = (row, headers, group) => {
           } = value.match(nameRegex)
           obj.idol = idol
           obj.name = outfit
+          obj.fullName = `${outfit} (${idol})`
         }
       }
       return obj

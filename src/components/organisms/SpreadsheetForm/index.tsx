@@ -42,7 +42,7 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
     if (!result.ok) {
       setError('id', { message: result.error })
     } else {
-      router.push(`/dashboard?id=${id}`)
+      router.push(`/${id}/dashboard`)
     }
   }
 

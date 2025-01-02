@@ -4,16 +4,12 @@ import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { checkIdolsSheet } from '@/services/idols_actions'
 import { checkOutfitsSheet } from '@/services/outfits_actions'
 
-export type SearchParams = Promise<{
-  [key: string]: string | string[] | undefined
-}>
 interface DashboardProps {
-  searchParams: SearchParams
+  params: Promise<{ id: string }>
 }
 
-export default async function Dashboard({ searchParams }: DashboardProps) {
-  const queryParams = await searchParams
-  const spreadsheetId = queryParams.id as string
+export default async function Dashboard({ params }: DashboardProps) {
+  const { id: spreadsheetId } = await params
 
   const { ok: spreadsheetIsSetup } = await checkSpreadsheetAccess(spreadsheetId)
   const { ok: idolsAreSetup } = await checkIdolsSheet(spreadsheetId)

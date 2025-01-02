@@ -1,6 +1,7 @@
 'use server'
 
 import {
+  outfitKeys,
   OutfitsByIdol,
   OutfitsMap,
   startOutfits,
@@ -12,16 +13,13 @@ import {
   ServiceError,
   ServiceResponse,
 } from './services_types'
-import { createSheet, getRows } from './googleapis'
+import { createSheet, getRows, updateRows } from './googleapis'
 import { allIdols } from '@/data/idols'
 import { groupBy } from 'lodash'
 
-const indexOutfit = (
-  { name, idol, ...attrs }: UserOutfit,
-  allOutfits: OutfitsMap,
-): void => {
-  const id = `${name} (${idol})`
-  allOutfits[id] = { ...attrs, name, idol }
+const indexOutfit = (outfit: UserOutfit, allOutfits: OutfitsMap): void => {
+  const { fullName } = outfit
+  allOutfits[fullName] = outfit
 }
 
 const newOutfitSheet = (): OutfitsMap => {
@@ -89,4 +87,17 @@ export const initializeOutfits = async (
   const outfits = newSheet ? newOutfitSheet() : existingOutfitSheet(outfitRows)
 
   return { ok: true, newSheet: true, outfits }
+}
+
+export const updateOutfits = async (
+  spreadsheetId: string,
+  outfits: UserOutfit[],
+): Promise<ServiceResponse | ServiceError> => {
+  if (outfits.length === 0) return { ok: true }
+
+  const headers = outfitKeys
+  const outfitRows = outfits.map((outfit) =>
+    headers.map((header) => outfit[header]),
+  )
+  return await updateRows(spreadsheetId, 'outfits', [headers, ...outfitRows])
 }

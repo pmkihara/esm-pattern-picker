@@ -20,6 +20,7 @@
     "@googleapis/sheets": "^9.3.1",
     "@hookform/resolvers": "^3.9.1",
     "@kodingdotninja/use-tailwind-breakpoint": "^1.0.0",
+    "@radix-ui/react-collapsible": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "lodash": "^4.17.21",
     "next": "15.1.2",

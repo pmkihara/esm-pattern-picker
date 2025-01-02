@@ -1,18 +1,15 @@
 'use client'
 
-import Button from '@/components/atoms/Button'
 import SaveButton from '@/components/atoms/SaveButton'
 import IdolStatsHeader from '@/components/molecules/IdolStatsHeader'
 import IdolStatsRow from '@/components/molecules/IdolStatsRow'
 import { Stat, StatsMap } from '@/data/stats'
 import { idolsByUnit } from '@/data/idols'
-import { useBreakpoint } from '@/hooks/tailwind'
 import { updateIdolsStats } from '@/services/idols_actions'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useRouter } from 'next/navigation'
 import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
-import { twMerge } from 'tailwind-merge'
 import { z } from 'zod'
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 
@@ -25,7 +22,6 @@ const StatsSchema = z.record(z.nativeEnum(Stat), z.number().min(0).max(100))
 const IdolsStatsFormSchema = z.record(z.string(), StatsSchema)
 
 const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
-  const isLaptop = useBreakpoint('lg')
   const router = useRouter()
 
   const {
@@ -42,7 +38,7 @@ const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
   const onSubmit = async (data: StatsMap) => {
     const response = await updateIdolsStats(spreadsheetId, data)
     if (response.ok) {
-      router.push(`/dashboard?id=${spreadsheetId}`)
+      router.push(`/${spreadsheetId}/dashboard`)
     } else {
       console.error(response.error)
     }
@@ -51,7 +47,7 @@ const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className='max-w-screen-lg'>
+        <div className='max-w-screen-lg pb-8'>
           <IdolStatsHeader gridClassName={gridClassName} />
           {Object.entries(idolsByUnit).map(([groupName, groupIdols]) => (
             <Fragment key={groupName}>
@@ -74,23 +70,7 @@ const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
             </Fragment>
           ))}
         </div>
-        {isLaptop ? (
-          <div
-            className={twMerge(
-              'fixed left-1/2 transform -translate-x-1/2 bottom-8 z-10',
-              'md:sticky md:translate-x-0 md:-bottom-6 md:bg-white md:-left-10 md:-mx-10 px-10 py-4 md:shadow-up',
-            )}
-          >
-            <Button type='submit' variant='sun'>
-              Save settings
-            </Button>
-          </div>
-        ) : (
-          <SaveButton
-            type='submit'
-            className='fixed left-1/2 transform -translate-x-1/2 bottom-8 z-10'
-          />
-        )}
+        <SaveButton />
       </form>
       <LoadingOverlay isLoading={isSubmitting} />
     </>
