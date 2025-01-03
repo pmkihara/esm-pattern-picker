@@ -25,7 +25,7 @@ const Input = ({
           'peer w-full px-4 py-2 border border-grey-200 rounded text-sm',
           'hover:border-sky-300',
           'focus:border-sky-300 focus:outline-none focus-visible:outline-none',
-          'placeholder:text-gray-300',
+          'placeholder:text-grey-300',
           iconSrc && 'pl-9',
           className,
         )}
