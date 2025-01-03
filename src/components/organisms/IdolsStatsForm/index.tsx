@@ -12,17 +12,14 @@ import { Fragment } from 'react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
-
-interface IdolsStatsFormProps {
-  idols: StatsMap
-  spreadsheetId: string
-}
+import { useSettings } from '@/providers/SettingsProvider'
 
 const StatsSchema = z.record(z.nativeEnum(Stat), z.number().min(0).max(100))
 const IdolsStatsFormSchema = z.record(z.string(), StatsSchema)
 
-const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
+const IdolsStatsForm = () => {
   const router = useRouter()
+  const { spreadsheetId, idolStats, setIdolStats } = useSettings()
 
   const {
     register,
@@ -30,15 +27,20 @@ const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
     formState: { errors, isSubmitting },
   } = useForm<StatsMap>({
     resolver: zodResolver(IdolsStatsFormSchema),
-    values: idols,
+    values: idolStats,
   })
+
+  if (!idolStats || !spreadsheetId) {
+    return null
+  }
 
   const gridClassName = 'w-48 sm:w-72 md:w-[32rem]'
 
   const onSubmit = async (data: StatsMap) => {
     const response = await updateIdolsStats(spreadsheetId, data)
     if (response.ok) {
-      router.push(`/${spreadsheetId}/dashboard`)
+      setIdolStats(data)
+      router.push(`/dashboard?id=${spreadsheetId}`)
     } else {
       console.error(response.error)
     }
@@ -62,7 +64,7 @@ const IdolsStatsForm = ({ spreadsheetId, idols }: IdolsStatsFormProps) => {
                   key={idol}
                   gridClassName={gridClassName}
                   idol={idol}
-                  stats={idols[idol]}
+                  stats={idolStats[idol]}
                   register={register}
                   errors={errors[idol]}
                 />

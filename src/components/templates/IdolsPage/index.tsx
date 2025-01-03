@@ -1,3 +1,5 @@
+'use client'
+
 import { initializeIdols } from '@/services/idols_actions'
 import TopBar from '@/components/atoms/TopBar'
 import Input from '@/components/atoms/Input'
@@ -5,19 +7,33 @@ import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
 import H1 from '@/components/atoms/H1'
 import IdolsStatsForm from '@/components/organisms/IdolsStatsForm'
 import ContentLayout from '@/components/organisms/ContentLayout'
+import { useSettings } from '@/providers/SettingsProvider'
+import { useEffect } from 'react'
 
-interface IdolsProps {
-  params: Promise<{ id: string }>
+interface IdolsPageProps {
+  spreadsheetId: string
 }
 
-export default async function Idols({ params }: IdolsProps) {
-  const { id: spreadsheetId } = await params
+const IdolsPage = ({ spreadsheetId }: IdolsPageProps) => {
+  const { idolStats, setIdolStats, setSpreadsheetId } = useSettings()
 
-  const statsResponse = await initializeIdols(spreadsheetId)
-  if (!statsResponse.ok) {
-    return <div>An error has occured: {statsResponse.error}</div>
-  }
-  const { allStats } = statsResponse
+  useEffect(() => {
+    setSpreadsheetId(spreadsheetId)
+  }, [setSpreadsheetId, spreadsheetId])
+
+  useEffect(() => {
+    if (idolStats) return
+
+    const initialize = async () => {
+      const statsResponse = await initializeIdols(spreadsheetId)
+      if (!statsResponse.ok) {
+        return
+      }
+      const { allStats } = statsResponse
+      setIdolStats(allStats)
+    }
+    initialize()
+  }, [idolStats, setIdolStats, spreadsheetId])
 
   return (
     <div className='h-full flex flex-col max-h-full'>
@@ -30,8 +46,10 @@ export default async function Idols({ params }: IdolsProps) {
       </TopBar>
       <ContentLayout>
         <H1>Idol Stats</H1>
-        <IdolsStatsForm idols={allStats} spreadsheetId={spreadsheetId} />
+        <IdolsStatsForm />
       </ContentLayout>
     </div>
   )
 }
+
+export default IdolsPage

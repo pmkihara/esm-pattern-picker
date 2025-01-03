@@ -11,6 +11,7 @@ import { useForm } from 'react-hook-form'
 import ErrorMessage from '@/components/atoms/ErrorMessage'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { useRouter } from 'next/navigation'
+import { useSettings } from '@/providers/SettingsProvider'
 
 const spreadsheetSchema = z.object({
   id: z.string().min(8),
@@ -25,6 +26,7 @@ interface SpreadsheetFormProps {
 const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
   const id = initialId || ''
   const router = useRouter()
+  const { setSpreadsheetId } = useSettings()
 
   const {
     register,
@@ -42,7 +44,8 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
     if (!result.ok) {
       setError('id', { message: result.error })
     } else {
-      router.push(`/${id}/dashboard`)
+      setSpreadsheetId(id)
+      router.push(`/dashboard?id=${id}`)
     }
   }
 

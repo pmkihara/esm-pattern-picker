@@ -3,6 +3,8 @@
 import { drive } from '@googleapis/drive'
 import { sheets, auth } from '@googleapis/sheets'
 import { ServiceError, SheetRows, ServiceResponse } from './services_types'
+import { cache } from 'react'
+import 'server-only'
 
 // https://cloud.google.com/nodejs/docs/reference/google-auth-library/latest#loading-credentials-from-environment-variables
 const credentialsBase64 = process.env.GOOGLE_CREDENTIALS_BASE64 || ''
@@ -90,22 +92,24 @@ export const createSheet = async (
   }
 }
 
-export const getRows = async (
-  spreadsheetId: string,
-  sheetName: string,
-): Promise<ServiceResponse<SheetRows> | ServiceError> => {
-  try {
-    const response = await googleSheets.spreadsheets.values.get({
-      spreadsheetId,
-      range: sheetName,
-      valueRenderOption: 'UNFORMATTED_VALUE',
-    })
-    const rows = mapValues(response.data.values || [])
-    return { ok: true, rows }
-  } catch (error) {
-    return { ok: false, error: errorMessage(error.message, error.status) }
-  }
-}
+export const getRows = cache(
+  async (
+    spreadsheetId: string,
+    sheetName: string,
+  ): Promise<ServiceResponse<SheetRows> | ServiceError> => {
+    try {
+      const response = await googleSheets.spreadsheets.values.get({
+        spreadsheetId,
+        range: sheetName,
+        valueRenderOption: 'UNFORMATTED_VALUE',
+      })
+      const rows = mapValues(response.data.values || [])
+      return { ok: true, rows }
+    } catch (error) {
+      return { ok: false, error: errorMessage(error.message, error.status) }
+    }
+  },
+)
 
 export const updateRows = async (
   spreadsheetId: string,

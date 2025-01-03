@@ -14,6 +14,8 @@ interface IdolPatternsProps {
 }
 
 const IdolOutfits = ({ fields, idol, register }: IdolPatternsProps) => {
+  if (!fields) return null
+
   return (
     <Collapsible
       key={idol}
@@ -24,7 +26,7 @@ const IdolOutfits = ({ fields, idol, register }: IdolPatternsProps) => {
         <IdolOutfitsGroup
           key={group}
           idol={idol}
-          outfits={fields[group]}
+          outfits={fields[group] || []}
           group={group}
           register={register}
         />

@@ -64,10 +64,10 @@ const SetupSteps = ({
             {...getStepStatus('spreadsheet', spreadsheetIsSetup)}
           />
         </Link>
-        <Link href={`/${spreadsheetId}/idols`}>
+        <Link href={`/idols?id=${spreadsheetId}`}>
           <SetupStatusCard {...getStepStatus('idols', StatsAreSetup)} />
         </Link>
-        <Link href={`/${spreadsheetId}/outfits`}>
+        <Link href={`/outfits?id=${spreadsheetId}`}>
           <SetupStatusCard {...getStepStatus('outfits', outfitsAreSetup)} />
         </Link>
       </div>

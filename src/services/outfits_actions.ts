@@ -2,8 +2,6 @@
 
 import {
   outfitKeys,
-  OutfitsByIdol,
-  OutfitsMap,
   startOutfits,
   startPatterns,
   UserOutfit,
@@ -14,31 +12,17 @@ import {
   ServiceResponse,
 } from './services_types'
 import { createSheet, getRows, updateRows } from './googleapis'
-import { allIdols } from '@/data/idols'
-import { groupBy } from 'lodash'
 
-const indexOutfit = (outfit: UserOutfit, allOutfits: OutfitsMap): void => {
-  const { fullName } = outfit
-  allOutfits[fullName] = outfit
-}
-
-const newOutfitSheet = (): OutfitsMap => {
-  const allOutfits: OutfitsMap = {}
-  startOutfits.forEach((outfit) => {
-    indexOutfit({ ...outfit, crafted: true }, allOutfits)
-  })
-  startPatterns.forEach((outfit) => {
-    indexOutfit({ ...outfit, crafted: false }, allOutfits)
-  })
-  return allOutfits
-}
-
-const existingOutfitSheet = (outfitRows: UserOutfit[]): OutfitsMap => {
-  const allOutfits: OutfitsMap = {}
-  outfitRows.forEach((outfit) => {
-    indexOutfit(outfit, allOutfits)
-  })
-  return allOutfits
+const newOutfitSheet = (): UserOutfit[] => {
+  const startUserOutfits = startOutfits.map((outfit) => ({
+    ...outfit,
+    crafted: true,
+  }))
+  const startUserPatterns = startPatterns.map((outfit) => ({
+    ...outfit,
+    crafted: false,
+  }))
+  return [...startUserOutfits, ...startUserPatterns]
 }
 
 export const checkOutfitsSheet = async (
@@ -49,19 +33,6 @@ export const checkOutfitsSheet = async (
   const response = await getRows(spreadsheetId, 'outfits')
   const hasRows = response.ok && response.rows.length > 0
   return { ok: hasRows }
-}
-
-export const groupByIdol = async (
-  outfitsMap: OutfitsMap,
-): Promise<OutfitsByIdol> => {
-  const outfits = Object.values(outfitsMap)
-  return allIdols.reduce((acc, idol) => {
-    const idolOutfits = outfits.filter((outfit) => outfit.idol === idol)
-    const outfitsByGroup = groupBy(idolOutfits, 'group')
-
-    acc[idol] = outfitsByGroup
-    return acc
-  }, {} as OutfitsByIdol)
 }
 
 export const initializeOutfits = async (
@@ -84,7 +55,7 @@ export const initializeOutfits = async (
   newSheet = newSheet || outfitRows.length === 0
 
   // Map all outfits
-  const outfits = newSheet ? newOutfitSheet() : existingOutfitSheet(outfitRows)
+  const outfits = newSheet ? newOutfitSheet() : outfitRows
 
   return { ok: true, newSheet: true, outfits }
 }

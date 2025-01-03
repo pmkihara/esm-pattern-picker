@@ -1,6 +1,6 @@
 import { Stats, StatsMap } from '@/data/stats'
 import { Idol } from '@/data/idols'
-import { OutfitsMap } from '@/data/outfits'
+import { UserOutfit } from '@/data/outfits'
 
 export interface ServiceError {
   ok: false
@@ -27,6 +27,6 @@ export interface IdolRow extends Stats {
 }
 
 export interface OutfitsResponse {
-  outfits: OutfitsMap
+  outfits: UserOutfit[]
   newSheet: boolean
 }

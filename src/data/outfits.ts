@@ -1,4 +1,3 @@
-import { Idol } from './idols'
 import { Stat, Stats } from './stats'
 
 export type OutfitGroup = 'general' | 'event' | 'private' | 'collab'
@@ -13,10 +12,6 @@ export interface Outfit extends Stats {
 export interface UserOutfit extends Outfit {
   crafted: boolean
 }
-
-export type OutfitsMap = Record<string, UserOutfit>
-
-export type OutfitsByIdol = Record<Idol, Record<string, UserOutfit[]>>
 
 export type OutfitKey = keyof UserOutfit
 

@@ -5,16 +5,12 @@ import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import SaveButton from '@/components/atoms/SaveButton'
 import IdolOutfits from '@/components/molecules/IdolOutfits'
 import { allIdols, Idol } from '@/data/idols'
-import { OutfitsMap, UserOutfit } from '@/data/outfits'
+import { UserOutfit } from '@/data/outfits'
 import { FieldArrayWithId, useFieldArray, useForm } from 'react-hook-form'
 import { useMemo } from 'react'
 import { updateOutfits } from '@/services/outfits_actions'
 import { useRouter } from 'next/navigation'
-
-interface OutfitsFormProps {
-  spreadsheetId: string
-  outfits: OutfitsMap
-}
+import { useSettings } from '@/providers/SettingsProvider'
 
 export type OutfitField = FieldArrayWithId<
   {
@@ -24,29 +20,22 @@ export type OutfitField = FieldArrayWithId<
   'id'
 >
 
-const OutfitsForm = ({ outfits, spreadsheetId }: OutfitsFormProps) => {
+const OutfitsForm = () => {
+  const router = useRouter()
+  const { spreadsheetId, outfits, setOutfits } = useSettings()
+
   const {
     register,
     handleSubmit,
     control,
     formState: { isSubmitting },
   } = useForm<{ outfits: UserOutfit[] }>({
-    values: { outfits: Object.values(outfits) },
+    values: { outfits: outfits || [] },
   })
   const { fields } = useFieldArray({
     control,
     name: 'outfits',
   })
-  const router = useRouter()
-
-  const onSubmit = async (data: { outfits: UserOutfit[] }) => {
-    const response = await updateOutfits(spreadsheetId, data.outfits)
-    if (response.ok) {
-      router.push(`/${spreadsheetId}/dashboard`)
-    } else {
-      console.error(response.error)
-    }
-  }
 
   const fieldsByIdolAndGroup = useMemo(() => {
     return fields.reduce(
@@ -65,6 +54,20 @@ const OutfitsForm = ({ outfits, spreadsheetId }: OutfitsFormProps) => {
       {} as Record<Idol, Record<string, OutfitField[]>>,
     )
   }, [fields])
+
+  if (!outfits || !spreadsheetId) {
+    return null
+  }
+
+  const onSubmit = async (data: { outfits: UserOutfit[] }) => {
+    const response = await updateOutfits(spreadsheetId, data.outfits)
+    if (response.ok) {
+      setOutfits(data.outfits)
+      router.push(`/dashboard?id=${spreadsheetId}`)
+    } else {
+      console.error(response.error)
+    }
+  }
 
   return (
     <>
