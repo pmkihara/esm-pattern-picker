@@ -5,8 +5,8 @@ import { twMerge } from 'tailwind-merge'
 import { ComponentPropsWithRef, ReactNode } from 'react'
 import SvgImage from '@/components/atoms/SvgImage'
 
-interface CommandGroupItems {
-  items: ReactNode[]
+export interface CommandGroupItems {
+  items: ComponentPropsWithRef<typeof CommandItem>[]
   heading?: string
 }
 
@@ -47,7 +47,7 @@ const CommandMenu = ({
         <>
           <CommandGroup key={index} heading={heading}>
             {items.map((item, index) => (
-              <CommandItem key={index}>{item}</CommandItem>
+              <CommandItem key={item.key ?? index} {...item} />
             ))}
           </CommandGroup>
           {index < groups.length - 1 && <CommandSeparator />}

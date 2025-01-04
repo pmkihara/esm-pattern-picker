@@ -19,11 +19,23 @@ export const GroupedItems: Story = {
     groups: [
       {
         heading: 'Suggestions',
-        items: ['Calendar', 'Search Emoji', 'Calculator'],
+        items: [
+          { children: 'Calendar', key: 'calendar', value: 'calendar' },
+          {
+            children: 'Search Emoji',
+            key: 'emoji',
+            value: 'emoji',
+          },
+          { children: 'Calculator', key: 'calculator', value: 'calculator' },
+        ],
       },
       {
         heading: 'Settings',
-        items: ['Profile', 'Billing', 'Settings'],
+        items: [
+          { children: 'Profile', key: 'profile', value: 'profile' },
+          { children: 'Billing', key: 'billing', value: 'billing' },
+          { children: 'Settings', key: 'settings', value: 'settings' },
+        ],
       },
     ],
   },
@@ -34,10 +46,22 @@ export const GroupsWithoutHeading: Story = {
     input: <CommandInput placeholder='Type a command or search...' />,
     groups: [
       {
-        items: ['Calendar', 'Search Emoji', 'Calculator'],
+        items: [
+          { children: 'Calendar', key: 'calendar', value: 'calendar' },
+          {
+            children: 'Search Emoji',
+            key: 'emoji',
+            value: 'emoji',
+          },
+          { children: 'Calculator', key: 'calculator', value: 'calculator' },
+        ],
       },
       {
-        items: ['Profile', 'Billing', 'Settings'],
+        items: [
+          { children: 'Profile', key: 'profile', value: 'profile' },
+          { children: 'Billing', key: 'billing', value: 'billing' },
+          { children: 'Settings', key: 'settings', value: 'settings' },
+        ],
       },
     ],
   },
