@@ -1,6 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
 import OutfitSearch from '.'
-import { fn } from '@storybook/test'
 
 const meta: Meta<typeof OutfitSearch> = {
   title: 'Molecules/OutfitSearch',
@@ -16,6 +15,6 @@ type Story = StoryObj<typeof OutfitSearch>
 
 export const Default: Story = {
   args: {
-    addFields: fn(),
+    addFields: (data) => console.log(data),
   },
 }

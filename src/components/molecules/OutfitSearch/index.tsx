@@ -26,10 +26,11 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
     onClose,
     onSubmit,
     onCheckboxChange,
+    onSelectAll,
   } = useOutfitSearch(addFields)
 
   const trigger = (
-    <div className='w-full mt-2 mb-6'>
+    <div className='w-full mt-2 mb-6 max-w-screen-lg'>
       <Button
         variant='outline'
         className={twMerge('w-full h-11', isOpen && 'hidden')}
@@ -80,6 +81,16 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
             </div>
           ) : (
             <>
+              <div className='w-full border-b border-grey-100'>
+                <CheckboxInput
+                  key='select all'
+                  label={`Select all (${visibleOutfits.length})`}
+                  wrapperClassName='hover:bg-grey-50'
+                  value='select all'
+                  onChange={onSelectAll}
+                  defaultChecked={false}
+                />
+              </div>
               <div className='w-full max-h-80 overflow-y-auto'>
                 {visibleOutfits.map((outfit) => (
                   <CheckboxInput
@@ -88,7 +99,7 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
                     wrapperClassName='hover:bg-grey-50'
                     value={outfit.fullName}
                     onChange={onCheckboxChange}
-                    defaultChecked={selectedOutfits.has(outfit.fullName)}
+                    checked={selectedOutfits.has(outfit.fullName)}
                   />
                 ))}
               </div>

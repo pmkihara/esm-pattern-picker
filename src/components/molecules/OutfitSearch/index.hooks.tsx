@@ -13,6 +13,7 @@ interface HookResult {
   onOpenChange: (open: boolean) => void
   onSubmit: () => void
   onCheckboxChange: (e: ChangeEvent<HTMLInputElement>) => void
+  onSelectAll: (e: ChangeEvent<HTMLInputElement>) => void
 }
 
 const useOutfitSearch = (
@@ -22,9 +23,25 @@ const useOutfitSearch = (
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [query, setQuery] = useState<string>('uniform')
-  const selectedOutfitsRef = useRef<Set<string>>(new Set())
+  const [selectedOutfits, setSelectedOutfits] = useState<Set<string>>(new Set())
 
   const inputRef = useRef<HTMLInputElement>(null)
+
+  const addSelectedOutfit = (outfitFullName: string) => {
+    setSelectedOutfits((prev) => {
+      const newSelectedOutfits = new Set(prev)
+      newSelectedOutfits.add(outfitFullName)
+      return newSelectedOutfits
+    })
+  }
+
+  const removeSelectedOutfit = (outfitFullName: string) => {
+    setSelectedOutfits((prev) => {
+      const newSelectedOutfits = new Set(prev)
+      newSelectedOutfits.delete(outfitFullName)
+      return newSelectedOutfits
+    })
+  }
 
   const onQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
@@ -63,21 +80,41 @@ const useOutfitSearch = (
     if (inputRef.current) {
       inputRef.current.value = ''
     }
-    selectedOutfitsRef.current.clear()
+    setSelectedOutfits(new Set())
   }
 
   const onCheckboxChange = (e: ChangeEvent<HTMLInputElement>) => {
     const checkbox = e.target
     if (checkbox.checked) {
-      selectedOutfitsRef.current.add(checkbox.value)
+      addSelectedOutfit(checkbox.value)
     } else {
-      selectedOutfitsRef.current.delete(checkbox.value)
+      removeSelectedOutfit(checkbox.value)
     }
   }
 
   const onSubmit = () => {
-    addFields(selectedOutfitsRef.current)
+    addFields(selectedOutfits)
     onClose()
+  }
+
+  const onSelectAll = (e: ChangeEvent<HTMLInputElement>) => {
+    if (e.target.checked) {
+      setSelectedOutfits((prev) => {
+        const newSelectedOutfits = new Set(prev)
+        visibleOutfits.forEach((outfit) => {
+          newSelectedOutfits.add(outfit.fullName)
+        })
+        return newSelectedOutfits
+      })
+    } else {
+      setSelectedOutfits((prev) => {
+        const newSelectedOutfits = new Set(prev)
+        visibleOutfits.forEach((outfit) => {
+          newSelectedOutfits.delete(outfit.fullName)
+        })
+        return newSelectedOutfits
+      })
+    }
   }
 
   return {
@@ -85,13 +122,14 @@ const useOutfitSearch = (
     isOpen,
     isLoading,
     query,
-    selectedOutfits: selectedOutfitsRef.current,
+    selectedOutfits,
     inputRef,
     onQueryChange,
     onOpenChange,
     onClose,
     onSubmit,
     onCheckboxChange,
+    onSelectAll,
   }
 }
 
