@@ -65,6 +65,7 @@ export enum Unit {
   Knights = 'Knights',
   Switch = 'Switch',
   MaM = 'MaM',
+  DoubleFace = 'Double Face',
 }
 
 export const allIdols = Object.values(Idol)
@@ -90,6 +91,7 @@ export const idolsByUnit: Record<Unit, Idol[]> = {
   [Unit.Knights]: [Idol.Tsukasa, Idol.Leo, Idol.Izumi, Idol.Ritsu, Idol.Arashi],
   [Unit.Switch]: [Idol.Natsume, Idol.Tsumugi, Idol.Sora],
   [Unit.MaM]: [Idol.Madara],
+  [Unit.DoubleFace]: [Idol.Madara, Idol.Kohaku],
 }
 
 export const idolFullNames: Record<Idol, string> = {

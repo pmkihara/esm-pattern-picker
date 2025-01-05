@@ -53,26 +53,30 @@ const IdolsStatsForm = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='max-w-screen-lg pb-8'>
           <IdolStatsHeader gridClassName={gridClassName} />
-          {Object.entries(idolsByUnit).map(([groupName, groupIdols]) => (
-            <Fragment key={groupName}>
-              <div
-                key={groupName}
-                className='font-bold text-sky-600 text-sm bg-grey-50 p-1'
-              >
-                {groupName}
-              </div>
-              {groupIdols.map((idol) => (
-                <IdolStatsRow
-                  key={idol}
-                  gridClassName={gridClassName}
-                  idol={idol}
-                  stats={idolStats[idol]}
-                  register={register}
-                  errors={errors[idol]}
-                />
-              ))}
-            </Fragment>
-          ))}
+          {Object.entries(idolsByUnit).map(([groupName, groupIdols]) => {
+            if (groupName === 'Double Face') return null
+
+            return (
+              <Fragment key={groupName}>
+                <div
+                  key={groupName}
+                  className='font-bold text-sky-600 text-sm bg-grey-50 p-1'
+                >
+                  {groupName}
+                </div>
+                {groupIdols.map((idol) => (
+                  <IdolStatsRow
+                    key={idol}
+                    gridClassName={gridClassName}
+                    idol={idol}
+                    stats={idolStats[idol]}
+                    register={register}
+                    errors={errors[idol]}
+                  />
+                ))}
+              </Fragment>
+            )
+          })}
         </div>
         <SaveButton />
       </form>
