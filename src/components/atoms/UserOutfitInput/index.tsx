@@ -21,7 +21,7 @@ const UserOutfitInput = ({
   }
 
   return (
-    <div className='hover:bg-grey-50 px-2 flex items-center justify-between max-w-full'>
+    <div className='group/outfit hover:bg-grey-50 px-2 flex items-center justify-between max-w-full'>
       <div
         key={outfit.id}
         className='flex items-center gap-2 md:gap-3 py-1 shrink grow overflow-hidden'
@@ -34,7 +34,7 @@ const UserOutfitInput = ({
           src={TimesIcon.src}
           width='16'
           height='16'
-          className='group-hover/delete:fill-sky-400 fill-sky-800 md:invisible group-hover:visible'
+          className='group-hover/delete:fill-sky-400 fill-sky-800 md:invisible group-hover/outfit:visible'
         />
       </button>
     </div>
