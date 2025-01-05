@@ -35,5 +35,6 @@ export const Default: Story = {
     },
     idol: Idol.Eichi,
     register: fn(),
+    removeField: fn(),
   },
 }

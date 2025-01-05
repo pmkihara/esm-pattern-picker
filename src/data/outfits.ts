@@ -47,20 +47,6 @@ export const outfitGroups: OutfitGroup[] = [
   'collab',
 ]
 
-export const allOutfits = [
-  ...EventOutfits2020,
-  ...EventOutfits2021,
-  ...EventOutfits2022,
-  ...EventOutfits2023,
-  ...EventOutfits2024,
-  ...GeneralOutfits2020,
-  ...GeneralOutfits2021,
-  ...GeneralOutfits2022,
-  ...GeneralOutfits2023,
-  ...GeneralOutfits2024,
-  ...PrivateOutfits,
-] as Outfit[]
-
 export const startOutfits: Outfit[] = [
   {
     group: 'general',
@@ -1242,3 +1228,19 @@ export const startPatterns: Outfit[] = [
     fullName: 'ES Idol Uniform (Madara)',
   },
 ]
+
+export const allOutfits = [
+  ...startOutfits,
+  ...startPatterns,
+  ...EventOutfits2020,
+  ...EventOutfits2021,
+  ...EventOutfits2022,
+  ...EventOutfits2023,
+  ...EventOutfits2024,
+  ...GeneralOutfits2020,
+  ...GeneralOutfits2021,
+  ...GeneralOutfits2022,
+  ...GeneralOutfits2023,
+  ...GeneralOutfits2024,
+  ...PrivateOutfits,
+] as Outfit[]

@@ -26,6 +26,7 @@ const CheckboxInput = ({
           'group w-4 h-4 border border-grey-300 rounded shrink-0 grow-0',
           'flex justify-center items-center shrink-0 grow-0',
           'peer-checked:bg-sky-400 peer-checked:border-sky-400',
+          'peer-disabled:line-through peer-disabled:opacity-50 peer-disabled:bg-grey-100',
         )}
       >
         <SvgImage
@@ -35,7 +36,14 @@ const CheckboxInput = ({
           height='12'
         />
       </span>
-      <span className='truncate grow shrink text-xs md:text-base'>{label}</span>
+      <span
+        className={twMerge(
+          'truncate grow shrink text-xs md:text-base',
+          'peer-disabled:line-through peer-disabled:text-grey-400',
+        )}
+      >
+        {label}
+      </span>
     </label>
   )
 }

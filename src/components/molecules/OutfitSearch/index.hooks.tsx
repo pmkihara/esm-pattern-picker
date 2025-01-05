@@ -8,6 +8,7 @@ interface HookResult {
   query: string
   selectedOutfits: Set<string>
   inputRef: React.RefObject<HTMLInputElement | null>
+  isDisabled: (outfit: Outfit) => boolean
   onQueryChange: (e: React.ChangeEvent<HTMLInputElement>) => void
   onClose: () => void
   onOpenChange: (open: boolean) => void
@@ -18,6 +19,7 @@ interface HookResult {
 
 const useOutfitSearch = (
   addFields: (outfits: Set<string>) => void,
+  groupedFields: Record<string, Record<string, Outfit[]>>,
 ): HookResult => {
   const [visibleOutfits, setVisibleOutfits] = useState<Outfit[]>([])
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -41,6 +43,12 @@ const useOutfitSearch = (
       newSelectedOutfits.delete(outfitFullName)
       return newSelectedOutfits
     })
+  }
+
+  const isDisabled = (outfit: Outfit) => {
+    return groupedFields[outfit.idol]?.[outfit.group]?.some(
+      (field: Outfit) => field.fullName === outfit.fullName,
+    )
   }
 
   const onQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -102,7 +110,9 @@ const useOutfitSearch = (
       setSelectedOutfits((prev) => {
         const newSelectedOutfits = new Set(prev)
         visibleOutfits.forEach((outfit) => {
-          newSelectedOutfits.add(outfit.fullName)
+          if (!isDisabled(outfit)) {
+            newSelectedOutfits.add(outfit.fullName)
+          }
         })
         return newSelectedOutfits
       })
@@ -124,6 +134,7 @@ const useOutfitSearch = (
     query,
     selectedOutfits,
     inputRef,
+    isDisabled,
     onQueryChange,
     onOpenChange,
     onClose,

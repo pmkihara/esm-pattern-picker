@@ -5,13 +5,14 @@ import { Idol } from '@/data/idols'
 import { OutfitGroup, UserOutfit } from '@/data/outfits'
 import { capitalize, sortBy } from 'lodash'
 import { useMemo } from 'react'
-import { UseFormRegister } from 'react-hook-form'
+import { UseFieldArrayRemove, UseFormRegister } from 'react-hook-form'
 
 interface IdolOutfitsGroupProps {
   idol: Idol
   outfits: OutfitField[]
   group: OutfitGroup
   register: UseFormRegister<{ outfits: UserOutfit[] }>
+  removeField: UseFieldArrayRemove
 }
 
 const IdolOutfitsGroup = ({
@@ -19,6 +20,7 @@ const IdolOutfitsGroup = ({
   outfits = [],
   group,
   register,
+  removeField,
 }: IdolOutfitsGroupProps) => {
   const sortedOutfits = useMemo(() => sortBy(outfits, 'fullName'), [outfits])
 
@@ -41,6 +43,7 @@ const IdolOutfitsGroup = ({
             key={outfit.id}
             outfit={outfit}
             register={register}
+            removeField={removeField}
           />
         ))}
       </div>

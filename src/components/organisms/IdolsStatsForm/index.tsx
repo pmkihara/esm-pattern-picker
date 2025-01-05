@@ -19,7 +19,8 @@ const IdolsStatsFormSchema = z.record(z.string(), StatsSchema)
 
 const IdolsStatsForm = () => {
   const router = useRouter()
-  const { spreadsheetId, idolStats, setIdolStats } = useSettings()
+  const { spreadsheetId, idolStats, setIdolStats, setIdolsAreSetup } =
+    useSettings()
 
   const {
     register,
@@ -40,6 +41,7 @@ const IdolsStatsForm = () => {
     const response = await updateIdolsStats(spreadsheetId, data)
     if (response.ok) {
       setIdolStats(data)
+      setIdolsAreSetup(true)
       router.push(`/dashboard?id=${spreadsheetId}`)
     } else {
       console.error(response.error)

@@ -5,15 +5,21 @@ import { memo } from 'react'
 import IdolOutfitsGroup from '../IdolOutfitsGroup'
 import { Dictionary } from 'lodash'
 import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
-import { UseFormRegister } from 'react-hook-form'
+import { UseFieldArrayRemove, UseFormRegister } from 'react-hook-form'
 
 interface IdolPatternsProps {
   idol: Idol
   fields: Dictionary<OutfitField[]>
   register: UseFormRegister<{ outfits: UserOutfit[] }>
+  removeField: UseFieldArrayRemove
 }
 
-const IdolOutfits = ({ fields, idol, register }: IdolPatternsProps) => {
+const IdolOutfits = ({
+  fields,
+  idol,
+  register,
+  removeField,
+}: IdolPatternsProps) => {
   if (!fields) return null
 
   const totalOutfitsCount = outfitGroups.reduce(
@@ -44,6 +50,7 @@ const IdolOutfits = ({ fields, idol, register }: IdolPatternsProps) => {
           outfits={fields[group] || []}
           group={group}
           register={register}
+          removeField={removeField}
         />
       ))}
     </Collapsible>

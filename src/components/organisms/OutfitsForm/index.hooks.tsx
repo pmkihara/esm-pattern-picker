@@ -6,6 +6,7 @@ import { useMemo } from 'react'
 import {
   FieldArrayWithId,
   useFieldArray,
+  UseFieldArrayRemove,
   useForm,
   UseFormHandleSubmit,
   UseFormRegister,
@@ -26,6 +27,7 @@ interface HookResult {
   fieldsByIdolAndGroup: Record<Idol, Record<string, OutfitField[]>>
   onSubmit: (data: { outfits: UserOutfit[] }) => Promise<void>
   addFields: (outfits: Set<string>) => void
+  removeField: UseFieldArrayRemove
 }
 
 export type OutfitField = FieldArrayWithId<
@@ -38,7 +40,8 @@ export type OutfitField = FieldArrayWithId<
 
 const useOutfitsForm = (): HookResult => {
   const router = useRouter()
-  const { spreadsheetId, outfits, setOutfits } = useSettings()
+  const { spreadsheetId, outfits, setOutfits, setOutfitsAreSetup } =
+    useSettings()
 
   const {
     register,
@@ -48,7 +51,11 @@ const useOutfitsForm = (): HookResult => {
   } = useForm<{ outfits: UserOutfit[] }>({
     values: { outfits: outfits || [] },
   })
-  const { fields, append } = useFieldArray({
+  const {
+    fields,
+    append,
+    remove: removeField,
+  } = useFieldArray({
     control,
     name: 'outfits',
   })
@@ -77,6 +84,7 @@ const useOutfitsForm = (): HookResult => {
     const response = await updateOutfits(spreadsheetId, data.outfits)
     if (response.ok) {
       setOutfits(data.outfits)
+      setOutfitsAreSetup(true)
       router.push(`/dashboard?id=${spreadsheetId}`)
     } else {
       console.error(response.error)
@@ -100,6 +108,7 @@ const useOutfitsForm = (): HookResult => {
     fieldsByIdolAndGroup,
     onSubmit,
     addFields,
+    removeField,
   }
 }
 

@@ -24,6 +24,7 @@ export const Crafted: Story = {
   args: {
     outfit: { ...startOutfits[0], crafted: true, index: 0, id: '1' },
     register: fn(),
+    removeField: fn(),
   },
 }
 
@@ -31,5 +32,6 @@ export const NotCrafted: Story = {
   args: {
     outfit: { ...startOutfits[0], crafted: false, index: 0, id: '1' },
     register: fn(),
+    removeField: fn(),
   },
 }

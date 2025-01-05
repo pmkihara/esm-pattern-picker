@@ -8,12 +8,15 @@ import { debounce } from 'lodash'
 import Spinner from '@/components/atoms/Spinner'
 import useOutfitSearch from './index.hooks'
 import CheckboxInput from '@/components/atoms/CheckboxInput'
+import { Idol } from '@/data/idols'
+import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 
 interface OutfitSearchProps {
   addFields: (outfits: Set<string>) => void
+  groupedFields: Record<Idol, Record<string, OutfitField[]>>
 }
 
-const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
+const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
   const {
     visibleOutfits,
     isOpen,
@@ -21,13 +24,14 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
     query,
     selectedOutfits,
     inputRef,
+    isDisabled,
     onQueryChange,
     onOpenChange,
     onClose,
     onSubmit,
     onCheckboxChange,
     onSelectAll,
-  } = useOutfitSearch(addFields)
+  } = useOutfitSearch(addFields, groupedFields)
 
   const trigger = (
     <div className='w-full mt-2 mb-6 max-w-screen-lg'>
@@ -100,6 +104,7 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
                     value={outfit.fullName}
                     onChange={onCheckboxChange}
                     checked={selectedOutfits.has(outfit.fullName)}
+                    disabled={isDisabled(outfit)}
                   />
                 ))}
               </div>

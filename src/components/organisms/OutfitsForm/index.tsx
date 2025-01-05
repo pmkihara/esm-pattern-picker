@@ -17,6 +17,7 @@ const OutfitsForm = () => {
     fieldsByIdolAndGroup,
     onSubmit,
     addFields,
+    removeField,
   } = useOutfitsForm()
 
   if (!outfits || !spreadsheetId) {
@@ -25,7 +26,10 @@ const OutfitsForm = () => {
 
   return (
     <>
-      <OutfitSearch addFields={addFields} />
+      <OutfitSearch
+        addFields={addFields}
+        groupedFields={fieldsByIdolAndGroup}
+      />
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='max-w-screen-lg pb-8 divide-y divide-grey-100'>
           {allIdols.map((idol) => (
@@ -34,6 +38,7 @@ const OutfitsForm = () => {
               fields={fieldsByIdolAndGroup[idol]}
               idol={idol}
               register={register}
+              removeField={removeField}
             />
           ))}
         </div>
