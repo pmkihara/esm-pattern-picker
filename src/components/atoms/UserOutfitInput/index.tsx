@@ -1,7 +1,7 @@
 import { UseFormRegister } from 'react-hook-form'
 import CraftedCheckbox from '../CraftedCheckbox'
-import { OutfitField } from '@/components/organisms/OutfitsForm'
 import { UserOutfit } from '@/data/outfits'
+import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 
 interface UserOutfitProps {
   outfit: OutfitField

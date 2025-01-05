@@ -22,8 +22,6 @@ const mapIdolStats = (idolRows: IdolRow[]): StatsMap => {
 export const checkIdolsSheet = async (
   spreadsheetId: string,
 ): Promise<{ ok: boolean }> => {
-  console.log('checking idols sheet')
-
   const response = await getRows(spreadsheetId, 'idols')
   const hasRows = response.ok && response.rows.length > 0
   return { ok: hasRows }

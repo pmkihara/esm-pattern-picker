@@ -4,7 +4,7 @@ import IdolOutfits from '.'
 import { startOutfits, startPatterns } from '@/data/outfits'
 import { Idol } from '@/data/idols'
 import { fn } from '@storybook/test'
-import { OutfitField } from '@/components/organisms/OutfitsForm'
+import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 
 const meta = {
   title: 'Molecules/IdolOutfits',

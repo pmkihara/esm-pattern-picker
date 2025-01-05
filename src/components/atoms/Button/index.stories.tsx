@@ -47,3 +47,17 @@ export const SkyLoading: Story = {
     disabled: true,
   },
 }
+
+export const Small: Story = {
+  args: {
+    children: 'Button',
+    size: 'sm',
+  },
+}
+
+export const Large: Story = {
+  args: {
+    children: 'Button',
+    size: 'lg',
+  },
+}

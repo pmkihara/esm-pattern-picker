@@ -1,6 +1,7 @@
 'use server'
 
 import {
+  Outfit,
   outfitKeys,
   startOutfits,
   startPatterns,
@@ -28,8 +29,6 @@ const newOutfitSheet = (): UserOutfit[] => {
 export const checkOutfitsSheet = async (
   spreadsheetId: string,
 ): Promise<{ ok: boolean }> => {
-  console.log('checking outfits sheet')
-
   const response = await getRows(spreadsheetId, 'outfits')
   const hasRows = response.ok && response.rows.length > 0
   return { ok: hasRows }
@@ -71,4 +70,18 @@ export const updateOutfits = async (
     headers.map((header) => outfit[header]),
   )
   return await updateRows(spreadsheetId, 'outfits', [headers, ...outfitRows])
+}
+
+export const findOutfits = async (
+  allOutfits: Outfit[] = [],
+  query: string,
+): Promise<Outfit[]> => {
+  if (query.length < 3) return []
+
+  return new Promise((resolve) => {
+    const filteredOutfits = allOutfits.filter((outfit) =>
+      outfit.fullName.includes(query),
+    )
+    resolve(filteredOutfits)
+  })
 }

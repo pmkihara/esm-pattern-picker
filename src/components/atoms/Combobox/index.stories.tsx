@@ -23,21 +23,20 @@ export const Default: Story = {
       {
         heading: 'Suggestions',
         items: [
-          { children: 'Calendar', key: 'calendar', value: 'calendar' },
+          { children: 'Calendar', value: 'calendar' },
           {
             children: 'Search Emoji',
-            key: 'emoji',
             value: 'emoji',
           },
-          { children: 'Calculator', key: 'calculator', value: 'calculator' },
+          { children: 'Calculator', value: 'calculator' },
         ],
       },
       {
         heading: 'Settings',
         items: [
-          { children: 'Profile', key: 'profile', value: 'profile' },
-          { children: 'Billing', key: 'billing', value: 'billing' },
-          { children: 'Settings', key: 'settings', value: 'settings' },
+          { children: 'Profile', value: 'profile' },
+          { children: 'Billing', value: 'billing' },
+          { children: 'Settings', value: 'settings' },
         ],
       },
     ],

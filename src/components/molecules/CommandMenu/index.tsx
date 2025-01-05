@@ -2,7 +2,7 @@
 
 import { Command as CommandPrimitive } from 'cmdk'
 import { twMerge } from 'tailwind-merge'
-import { ComponentPropsWithRef, ReactNode } from 'react'
+import { ComponentPropsWithRef, Fragment, ReactNode } from 'react'
 import SvgImage from '@/components/atoms/SvgImage'
 
 export interface CommandGroupItems {
@@ -44,14 +44,14 @@ const CommandMenu = ({
         {fallbackMessage}
       </CommandPrimitive.Empty>
       {groups.map(({ items, heading }, index) => (
-        <>
+        <Fragment key={heading ?? index}>
           <CommandGroup key={index} heading={heading}>
             {items.map((item, index) => (
-              <CommandItem key={item.key ?? index} {...item} />
+              <CommandItem key={item.value ?? index} {...item} />
             ))}
           </CommandGroup>
           {index < groups.length - 1 && <CommandSeparator />}
-        </>
+        </Fragment>
       ))}
     </CommandPrimitive.List>
   </CommandPrimitive>

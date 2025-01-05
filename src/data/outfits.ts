@@ -1,4 +1,15 @@
 import { Stat, Stats } from './stats'
+import EventOutfits2020 from '@/data/outfits/event_2020.json'
+import EventOutfits2021 from '@/data/outfits/event_2021.json'
+import EventOutfits2022 from '@/data/outfits/event_2022.json'
+import EventOutfits2023 from '@/data/outfits/event_2023.json'
+import EventOutfits2024 from '@/data/outfits/event_2024.json'
+import GeneralOutfits2020 from '@/data/outfits/general_2020.json'
+import GeneralOutfits2021 from '@/data/outfits/general_2021.json'
+import GeneralOutfits2022 from '@/data/outfits/general_2022.json'
+import GeneralOutfits2023 from '@/data/outfits/general_2023.json'
+import GeneralOutfits2024 from '@/data/outfits/general_2024.json'
+import PrivateOutfits from '@/data/outfits/private.json'
 
 export type OutfitGroup = 'general' | 'event' | 'private' | 'collab'
 
@@ -35,6 +46,20 @@ export const outfitGroups: OutfitGroup[] = [
   'private',
   'collab',
 ]
+
+export const allOutfits = [
+  ...EventOutfits2020,
+  ...EventOutfits2021,
+  ...EventOutfits2022,
+  ...EventOutfits2023,
+  ...EventOutfits2024,
+  ...GeneralOutfits2020,
+  ...GeneralOutfits2021,
+  ...GeneralOutfits2022,
+  ...GeneralOutfits2023,
+  ...GeneralOutfits2024,
+  ...PrivateOutfits,
+] as Outfit[]
 
 export const startOutfits: Outfit[] = [
   {

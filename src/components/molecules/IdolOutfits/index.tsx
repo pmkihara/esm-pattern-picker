@@ -4,7 +4,7 @@ import { outfitGroups, UserOutfit } from '@/data/outfits'
 import { memo } from 'react'
 import IdolOutfitsGroup from '../IdolOutfitsGroup'
 import { Dictionary } from 'lodash'
-import { OutfitField } from '@/components/organisms/OutfitsForm'
+import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 import { UseFormRegister } from 'react-hook-form'
 
 interface IdolPatternsProps {

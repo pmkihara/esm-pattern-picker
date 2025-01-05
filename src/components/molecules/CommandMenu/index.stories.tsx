@@ -20,21 +20,17 @@ export const GroupedItems: Story = {
       {
         heading: 'Suggestions',
         items: [
-          { children: 'Calendar', key: 'calendar', value: 'calendar' },
-          {
-            children: 'Search Emoji',
-            key: 'emoji',
-            value: 'emoji',
-          },
-          { children: 'Calculator', key: 'calculator', value: 'calculator' },
+          { children: 'Calendar', value: 'calendar' },
+          { children: 'Search Emoji', value: 'emoji' },
+          { children: 'Calculator', value: 'calculator' },
         ],
       },
       {
         heading: 'Settings',
         items: [
-          { children: 'Profile', key: 'profile', value: 'profile' },
-          { children: 'Billing', key: 'billing', value: 'billing' },
-          { children: 'Settings', key: 'settings', value: 'settings' },
+          { children: 'Profile', value: 'profile' },
+          { children: 'Billing', value: 'billing' },
+          { children: 'Settings', value: 'settings' },
         ],
       },
     ],
@@ -47,20 +43,16 @@ export const GroupsWithoutHeading: Story = {
     groups: [
       {
         items: [
-          { children: 'Calendar', key: 'calendar', value: 'calendar' },
-          {
-            children: 'Search Emoji',
-            key: 'emoji',
-            value: 'emoji',
-          },
-          { children: 'Calculator', key: 'calculator', value: 'calculator' },
+          { children: 'Calendar', value: 'calendar' },
+          { children: 'Search Emoji', value: 'emoji' },
+          { children: 'Calculator', value: 'calculator' },
         ],
       },
       {
         items: [
-          { children: 'Profile', key: 'profile', value: 'profile' },
-          { children: 'Billing', key: 'billing', value: 'billing' },
-          { children: 'Settings', key: 'settings', value: 'settings' },
+          { children: 'Profile', value: 'profile' },
+          { children: 'Billing', value: 'billing' },
+          { children: 'Settings', value: 'settings' },
         ],
       },
     ],

@@ -1,6 +1,6 @@
 import Collapsible from '@/components/atoms/Collapsible'
 import UserOutfitInput from '@/components/atoms/UserOutfitInput'
-import { OutfitField } from '@/components/organisms/OutfitsForm'
+import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 import { Idol } from '@/data/idols'
 import { OutfitGroup, UserOutfit } from '@/data/outfits'
 import { capitalize, sortBy } from 'lodash'

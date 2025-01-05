@@ -8,6 +8,8 @@ import {
   Portal,
   Root,
   Trigger,
+  Title,
+  Description,
 } from '@radix-ui/react-dialog'
 import { ReactNode } from 'react'
 import { twMerge } from 'tailwind-merge'
@@ -27,8 +29,8 @@ interface DialogWindowProps extends DialogProps {
 const DialogWindow = ({
   children,
   trigger,
-  title,
-  description,
+  title = '',
+  description = '',
   footer,
   contentClassNames,
   ...props
@@ -55,14 +57,14 @@ const DialogWindow = ({
       <Portal>
         <Overlay className={overlayCls} />
         <Content className={contentCls}>
-          {(title || description) && (
-            <div className='flex flex-col space-y-1.5 text-left'>
-              {title && <H2>{title}</H2>}
-              {description && (
-                <p className='text-sm text-grey-500'>{description}</p>
-              )}
-            </div>
-          )}
+          <div className='flex flex-col space-y-1.5 text-left'>
+            <Title asChild>
+              <H2>{title}</H2>
+            </Title>
+            <Description asChild>
+              <p className='text-sm text-grey-500'>{description}</p>
+            </Description>
+          </div>
           {children}
           {footer && (
             <div className='flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2'>

@@ -10,7 +10,7 @@ const CraftedCheckbox = ({
       <span
         className={twMerge(
           'group block min-w-14 p-0.5 rounded-full text-2xs font-semibold border text-center cursor-pointer',
-          'text-grey-400 border-grey-300 transition-colors',
+          'bg-white text-grey-400 border-grey-300 transition-colors',
           'peer-checked:bg-sky-400 peer-checked:text-white peer-checked:border-sky-400',
         )}
       >

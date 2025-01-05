@@ -1,12 +1,8 @@
-import { InputHTMLAttributes } from 'react'
+import { ComponentPropsWithRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 import SvgImage from '../SvgImage'
 
-export interface InputProps
-  extends Omit<
-    InputHTMLAttributes<HTMLInputElement>,
-    'dangerouslySetInnerHTML'
-  > {
+export interface InputProps extends ComponentPropsWithRef<'input'> {
   iconSrc?: string
   wrapperClassName?: string
 }
