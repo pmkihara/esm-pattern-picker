@@ -29,7 +29,7 @@ const OutfitSearch = ({ addFields }: OutfitSearchProps) => {
   } = useOutfitSearch(addFields)
 
   const trigger = (
-    <div className='w-full my-8'>
+    <div className='w-full mt-2 mb-6'>
       <Button
         variant='outline'
         className={twMerge('w-full h-11', isOpen && 'hidden')}

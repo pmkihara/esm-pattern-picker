@@ -25,10 +25,17 @@ const IdolOutfitsGroup = ({
   return (
     <Collapsible
       key={`${idol}-${group}`}
-      triggerText={capitalize(group)}
-      triggerClassName='font-semibold'
+      contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2'
+      triggerProps={{
+        children: (
+          <div className='flex w-full items-center justify-between text-sm'>
+            <span className='font-semibold'>{capitalize(group)}</span>
+            <span className='text-grey-400'>({outfits.length})</span>
+          </div>
+        ),
+      }}
     >
-      <div className='-ml-3 md:-ml-6'>
+      <div>
         {sortedOutfits.map((outfit) => (
           <UserOutfitInput
             key={outfit.id}

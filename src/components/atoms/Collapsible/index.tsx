@@ -1,38 +1,36 @@
 import { ReactNode, useState } from 'react'
 import { Content, Root, Trigger } from '@radix-ui/react-collapsible'
-import CollapseButton from '@/components/atoms/CollapseButton'
-import { twMerge } from 'tailwind-merge'
+import CollapseButton, {
+  CollapseButtonProps,
+} from '@/components/atoms/CollapseButton'
 
 interface CollapsibleProps {
-  triggerText: string
+  triggerProps: Omit<CollapseButtonProps, 'onClick' | 'isOpen'>
   children: ReactNode
-  triggerClassName?: string
   contentClassName?: string
+  rootClassName?: string
   defaultOpen?: boolean
 }
 
 const Collapsible = ({
-  triggerText,
+  triggerProps,
   children,
-  triggerClassName,
-  contentClassName,
+  contentClassName = 'pl-2',
+  rootClassName,
   defaultOpen = true,
 }: CollapsibleProps) => {
   const [isOpen, setIsOpen] = useState(defaultOpen)
 
   return (
-    <Root open={isOpen} onOpenChange={setIsOpen}>
+    <Root open={isOpen} onOpenChange={setIsOpen} className={rootClassName}>
       <Trigger asChild>
         <CollapseButton
-          title={triggerText}
+          {...triggerProps}
           isOpen={isOpen}
           onClick={() => setIsOpen(!isOpen)}
-          className={triggerClassName}
         />
       </Trigger>
-      <Content className={twMerge('pl-3 md:pl-6', contentClassName)}>
-        {children}
-      </Content>
+      <Content className={contentClassName}>{children}</Content>
     </Root>
   )
 }

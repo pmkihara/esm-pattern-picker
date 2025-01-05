@@ -19,7 +19,7 @@ type Story = StoryObj<typeof Collapsible>
 
 export const Base: Story = {
   args: {
-    triggerText: 'Collapsible trigger',
+    triggerProps: { children: 'Collapsible trigger' },
     children: (
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, eaque

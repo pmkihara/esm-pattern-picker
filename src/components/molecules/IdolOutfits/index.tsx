@@ -16,11 +16,26 @@ interface IdolPatternsProps {
 const IdolOutfits = ({ fields, idol, register }: IdolPatternsProps) => {
   if (!fields) return null
 
+  const totalOutfitsCount = outfitGroups.reduce(
+    (acc, group) => acc + (fields[group] || []).length,
+    0,
+  )
+
   return (
     <Collapsible
       key={idol}
-      triggerText={idolFullNames[idol]}
-      triggerClassName='font-semibold'
+      rootClassName='group'
+      contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2 mb-1'
+      triggerProps={{
+        children: (
+          <div className='flex w-full items-center justify-between text-sm'>
+            <span className='text-sm font-semibold'>{idolFullNames[idol]}</span>
+            <span className='text-grey-400 group-data-[state="closed"]:visible invisible'>
+              ({totalOutfitsCount})
+            </span>
+          </div>
+        ),
+      }}
     >
       {outfitGroups.map((group) => (
         <IdolOutfitsGroup

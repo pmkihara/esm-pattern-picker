@@ -27,7 +27,7 @@ const OutfitsForm = () => {
     <>
       <OutfitSearch addFields={addFields} />
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className='max-w-screen-lg pb-8'>
+        <div className='max-w-screen-lg pb-8 divide-y divide-grey-100'>
           {allIdols.map((idol) => (
             <IdolOutfits
               key={idol}

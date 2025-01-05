@@ -2,7 +2,6 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 import CollapseButton from '.'
 import { fn } from '@storybook/test'
-import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
 
 const meta = {
   title: 'Atoms/CollapseButton',
@@ -15,7 +14,7 @@ type Story = StoryObj<typeof meta>
 
 export const Close: Story = {
   args: {
-    title: 'Collapse Button',
+    children: <span className='text-sm'>Collapse Button</span>,
     isOpen: false,
     onClick: fn(),
   },
@@ -23,26 +22,26 @@ export const Close: Story = {
 
 export const Open: Story = {
   args: {
-    title: 'Collapse Button',
+    children: 'Collapse Button',
     isOpen: true,
     onClick: fn(),
   },
 }
 
-export const WithIcon: Story = {
+export const WithClassName: Story = {
   args: {
-    title: 'Collapse Button',
+    children: 'Collapse Button',
     isOpen: false,
     onClick: fn(),
-    iconSrc: MagnifierIcon.src,
+    className: 'w-80 font-bold',
   },
 }
 
-export const WithClassName: Story = {
+export const ArrowRight: Story = {
   args: {
-    title: 'Collapse Button',
+    children: 'Collapse Button',
     isOpen: false,
     onClick: fn(),
-    className: 'font-bold',
+    arrowPosition: 'right',
   },
 }
