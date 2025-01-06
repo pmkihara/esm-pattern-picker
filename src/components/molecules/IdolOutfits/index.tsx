@@ -30,12 +30,15 @@ const IdolOutfits = ({
   return (
     <Collapsible
       key={idol}
+      defaultOpen={false}
       rootClassName='group'
       contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2 mb-1'
       triggerProps={{
         children: (
-          <div className='flex w-full items-center justify-between text-sm'>
-            <span className='text-sm font-semibold'>{idolFullNames[idol]}</span>
+          <div className='w-full text-sm'>
+            <span className='text-sm font-semibold mr-1'>
+              {idolFullNames[idol]}
+            </span>
             <span className='text-grey-400 group-data-[state="closed"]:visible invisible'>
               ({totalOutfitsCount})
             </span>

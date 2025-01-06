@@ -4,6 +4,7 @@ import { UserOutfit } from '@/data/outfits'
 import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 import SvgImage from '../SvgImage'
 import TimesIcon from '@@/public/assets/icons/times.svg'
+import { memo } from 'react'
 
 interface UserOutfitProps {
   outfit: OutfitField
@@ -41,4 +42,4 @@ const UserOutfitInput = ({
   )
 }
 
-export default UserOutfitInput
+export default memo(UserOutfitInput)

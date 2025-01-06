@@ -4,7 +4,7 @@ import { OutfitField } from '@/components/organisms/OutfitsForm/index.hooks'
 import { Idol } from '@/data/idols'
 import { OutfitGroup, UserOutfit } from '@/data/outfits'
 import { capitalize, sortBy } from 'lodash'
-import { useMemo } from 'react'
+import { memo, useMemo } from 'react'
 import { UseFieldArrayRemove, UseFormRegister } from 'react-hook-form'
 
 interface IdolOutfitsGroupProps {
@@ -30,8 +30,8 @@ const IdolOutfitsGroup = ({
       contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2'
       triggerProps={{
         children: (
-          <div className='flex w-full items-center justify-between text-sm'>
-            <span className='font-semibold'>{capitalize(group)}</span>
+          <div className='w-full text-sm'>
+            <span className='font-semibold mr-1'>{capitalize(group)}</span>
             <span className='text-grey-400'>({outfits.length})</span>
           </div>
         ),
@@ -51,4 +51,4 @@ const IdolOutfitsGroup = ({
   )
 }
 
-export default IdolOutfitsGroup
+export default memo(IdolOutfitsGroup)

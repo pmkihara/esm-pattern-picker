@@ -34,7 +34,7 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
   } = useOutfitSearch(addFields, groupedFields)
 
   const trigger = (
-    <div className='w-full mt-2 mb-6 max-w-screen-lg'>
+    <div className='w-full mb-6 max-w-screen-lg'>
       <Button
         variant='outline'
         className={twMerge('w-full h-11', isOpen && 'hidden')}
@@ -105,6 +105,7 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
                     onChange={onCheckboxChange}
                     checked={selectedOutfits.has(outfit.fullName)}
                     disabled={isDisabled(outfit)}
+                    id={outfit.fullName}
                   />
                 ))}
               </div>
