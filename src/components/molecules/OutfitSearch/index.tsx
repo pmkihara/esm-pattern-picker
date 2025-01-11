@@ -2,7 +2,6 @@ import Button from '@/components/atoms/Button'
 import Input from '@/components/atoms/Input'
 import TimesIcon from '@@/public/assets/icons/times.svg'
 import SvgImage from '@/components/atoms/SvgImage'
-import { twMerge } from 'tailwind-merge'
 import Popover from '@/components/atoms/Popover'
 import { debounce } from 'lodash'
 import Spinner from '@/components/atoms/Spinner'
@@ -19,7 +18,6 @@ interface OutfitSearchProps {
 const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
   const {
     visibleOutfits,
-    isOpen,
     isLoading,
     query,
     selectedOutfits,
@@ -34,10 +32,10 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
   } = useOutfitSearch(addFields, groupedFields)
 
   const trigger = (
-    <div className='w-full mb-6 max-w-screen-lg'>
+    <div className='w-full mb-6 max-w-screen-lg group/trigger data-[state="open"]:mb-[4.25rem]'>
       <Button
         variant='outline'
-        className={twMerge('w-full h-11', isOpen && 'hidden')}
+        className={'w-full h-11 group-data-[state="open"]/trigger:hidden'}
       >
         + Add Patterns
       </Button>
@@ -54,7 +52,6 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
     <Popover
       trigger={trigger}
       contentClassName='w-[var(--radix-popover-trigger-width)]'
-      open={isOpen}
       onOpenChange={onOpenChange}
       contentProps={{ onOpenAutoFocus: () => inputRef.current?.focus() }}
     >

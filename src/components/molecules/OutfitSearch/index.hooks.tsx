@@ -3,7 +3,6 @@ import { useState, useRef, ChangeEvent } from 'react'
 
 interface HookResult {
   visibleOutfits: Outfit[]
-  isOpen: boolean
   isLoading: boolean
   query: string
   selectedOutfits: Set<string>
@@ -22,7 +21,6 @@ const useOutfitSearch = (
   groupedFields: Record<string, Record<string, Outfit[]>>,
 ): HookResult => {
   const [visibleOutfits, setVisibleOutfits] = useState<Outfit[]>([])
-  const [isOpen, setIsOpen] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [query, setQuery] = useState<string>('uniform')
   const [selectedOutfits, setSelectedOutfits] = useState<Set<string>>(new Set())
@@ -70,19 +68,12 @@ const useOutfitSearch = (
   }
 
   const onOpenChange = (open: boolean) => {
-    setIsOpen(open)
-
     if (!open) {
-      setQuery('')
-      setVisibleOutfits([])
-      if (inputRef.current) {
-        inputRef.current.value = ''
-      }
+      onClose()
     }
   }
 
   const onClose = () => {
-    setIsOpen(false)
     setQuery('')
     setVisibleOutfits([])
     if (inputRef.current) {
@@ -129,7 +120,6 @@ const useOutfitSearch = (
 
   return {
     visibleOutfits,
-    isOpen,
     isLoading,
     query,
     selectedOutfits,
