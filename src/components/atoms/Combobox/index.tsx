@@ -3,15 +3,12 @@
 import { ReactNode } from 'react'
 import { twMerge } from 'tailwind-merge'
 import Popover from '../Popover'
-import {
-  CommandGroupItems,
-  CommandMenu,
-} from '@/components/molecules/CommandMenu'
+import { CommandMenu } from '@/components/atoms/CommandMenu'
 
 interface ComboboxProps {
   trigger: ReactNode
   input: ReactNode
-  groups: CommandGroupItems[]
+  children: ReactNode
   value?: string
   setValue: (value?: string) => void
   contentClassName?: string
@@ -21,7 +18,7 @@ interface ComboboxProps {
 const Combobox = ({
   trigger,
   input,
-  groups,
+  children,
   contentClassName,
   noResultsText = 'No results found',
 }: ComboboxProps) => {
@@ -33,11 +30,9 @@ const Combobox = ({
         contentClassName,
       )}
     >
-      <CommandMenu
-        input={input}
-        fallbackMessage={noResultsText}
-        groups={groups}
-      />
+      <CommandMenu input={input} fallbackMessage={noResultsText}>
+        {children}
+      </CommandMenu>
     </Popover>
   )
 }

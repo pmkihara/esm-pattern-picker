@@ -2,27 +2,28 @@
 
 import { Command as CommandPrimitive } from 'cmdk'
 import { twMerge } from 'tailwind-merge'
-import { ComponentPropsWithRef, Fragment, ReactNode } from 'react'
+import { ComponentPropsWithRef, ReactNode } from 'react'
 import SvgImage from '@/components/atoms/SvgImage'
 
 export interface CommandGroupItems {
   items: ComponentPropsWithRef<typeof CommandItem>[]
   heading?: string
+  collapsible?: boolean
+  triggerContent?: ReactNode
 }
 
 interface CommandMenuProps
   extends ComponentPropsWithRef<typeof CommandPrimitive> {
   input: ReactNode
   fallbackMessage?: string
-  groups: CommandGroupItems[]
 }
 
-const CommandMenu = ({
+export const CommandMenu = ({
   className,
   ref,
   input,
   fallbackMessage = 'No results found.',
-  groups,
+  children,
   ...props
 }: CommandMenuProps) => (
   <CommandPrimitive
@@ -43,16 +44,7 @@ const CommandMenu = ({
       <CommandPrimitive.Empty className='py-6 text-center text-sm'>
         {fallbackMessage}
       </CommandPrimitive.Empty>
-      {groups.map(({ items, heading }, index) => (
-        <Fragment key={heading ?? index}>
-          <CommandGroup key={index} heading={heading}>
-            {items.map((item, index) => (
-              <CommandItem key={item.value ?? index} {...item} />
-            ))}
-          </CommandGroup>
-          {index < groups.length - 1 && <CommandSeparator />}
-        </Fragment>
-      ))}
+      {children}
     </CommandPrimitive.List>
   </CommandPrimitive>
 )
@@ -62,7 +54,7 @@ interface CommandInputProps
   iconSrc?: string
 }
 
-const CommandInput = ({
+export const CommandInput = ({
   className,
   ref,
   iconSrc,
@@ -83,22 +75,20 @@ const CommandInput = ({
   </div>
 )
 
-const CommandGroup = ({
-  className,
+export const CommandGroup = ({
+  className = 'overflow-hidden p-1 text-black [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-grey-500',
+  children,
   ref,
   ...props
-}: ComponentPropsWithRef<typeof CommandPrimitive.Group>) => (
-  <CommandPrimitive.Group
-    ref={ref}
-    className={twMerge(
-      'overflow-hidden p-1 text-black [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-grey-500',
-      className,
-    )}
-    {...props}
-  />
-)
+}: ComponentPropsWithRef<typeof CommandPrimitive.Group>) => {
+  return (
+    <CommandPrimitive.Group ref={ref} className={className} {...props}>
+      {children}
+    </CommandPrimitive.Group>
+  )
+}
 
-const CommandSeparator = ({
+export const CommandSeparator = ({
   className,
   ref,
   ...props
@@ -110,7 +100,7 @@ const CommandSeparator = ({
   />
 )
 
-const CommandItem = ({
+export const CommandItem = ({
   className,
   ref,
   ...props
@@ -124,5 +114,3 @@ const CommandItem = ({
     {...props}
   />
 )
-
-export { CommandMenu, CommandInput }
