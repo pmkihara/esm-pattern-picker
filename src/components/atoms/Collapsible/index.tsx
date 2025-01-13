@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react'
+import { forwardRef, ReactNode } from 'react'
 import { Content, Root, Trigger } from '@radix-ui/react-collapsible'
 import CollapseButton, {
   CollapseButtonProps,
@@ -18,21 +18,16 @@ const Collapsible = ({
   contentClassName = 'pl-2',
   rootClassName,
   defaultOpen = true,
+  ...props
 }: CollapsibleProps) => {
-  const [isOpen, setIsOpen] = useState(defaultOpen)
-
   return (
-    <Root open={isOpen} onOpenChange={setIsOpen} className={rootClassName}>
+    <Root className={rootClassName} defaultOpen={defaultOpen} {...props}>
       <Trigger asChild>
-        <CollapseButton
-          {...triggerProps}
-          isOpen={isOpen}
-          onClick={() => setIsOpen(!isOpen)}
-        />
+        <CollapseButton {...triggerProps} />
       </Trigger>
       <Content className={contentClassName}>{children}</Content>
     </Root>
   )
 }
 
-export default Collapsible
+export default forwardRef(Collapsible)
