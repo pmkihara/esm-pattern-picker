@@ -28,10 +28,7 @@ export const CommandMenu = ({
 }: CommandMenuProps) => (
   <CommandPrimitive
     ref={ref}
-    className={twMerge(
-      'flex h-full w-full flex-col overflow-hidden rounded-md',
-      className,
-    )}
+    className={twMerge('flex h-full w-full flex-col rounded-md', className)}
     {...props}
   >
     {input}
@@ -52,26 +49,38 @@ export const CommandMenu = ({
 interface CommandInputProps
   extends ComponentPropsWithRef<typeof CommandPrimitive.Input> {
   iconSrc?: string
+  wrapperClassName?: string
 }
 
 export const CommandInput = ({
   className,
   ref,
   iconSrc,
+  wrapperClassName,
   ...props
 }: CommandInputProps) => (
-  <div className='flex items-center border-b px-3' cmdk-input-wrapper=''>
-    {iconSrc && (
-      <SvgImage src={iconSrc} className='mr-2 h-4 w-4 shrink-0 opacity-50' />
-    )}
+  <div className={twMerge('relative', wrapperClassName)} cmdk-input-wrapper=''>
     <CommandPrimitive.Input
       ref={ref}
       className={twMerge(
-        'flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-grey-300 disabled:cursor-not-allowed disabled:opacity-50',
+        'disabled:cursor-not-allowed disabled:opacity-50',
+        'peer w-full px-4 py-2 border border-grey-200 rounded text-sm',
+        'hover:border-sky-300',
+        'focus:border-sky-300 focus:outline-none focus-visible:outline-none',
+        'placeholder:text-grey-300',
+        iconSrc && 'pl-9',
         className,
       )}
       {...props}
     />
+    {iconSrc && (
+      <SvgImage
+        src={iconSrc}
+        className='absolute inset-y-0 left-0 flex items-center pl-3 fill-grey-300 peer-focus:fill-sky-400'
+        width='16'
+        height='16'
+      />
+    )}
   </div>
 )
 

@@ -2,7 +2,7 @@ import { twMerge } from 'tailwind-merge'
 import SvgImage from '../SvgImage'
 import ChevronDownIcon from '@@/public/assets/icons/chevron-down.svg'
 import CaretSquareDownIcon from '@@/public/assets/icons/caret-square-down.svg'
-import { ComponentPropsWithRef, forwardRef, ReactNode } from 'react'
+import { ComponentPropsWithRef, ReactNode } from 'react'
 import { Trigger } from '@radix-ui/react-collapsible'
 
 export interface CollapseButtonProps
@@ -45,4 +45,4 @@ const CollapseButton = ({
   )
 }
 
-export default forwardRef(CollapseButton)
+export default CollapseButton
