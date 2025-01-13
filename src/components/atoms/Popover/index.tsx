@@ -10,6 +10,7 @@ interface PopoverProps
   trigger: ReactNode
   contentProps?: ComponentPropsWithRef<typeof PopoverPrimitive.Content>
   contentClassName?: string
+  forceMount?: true
 }
 
 const Popover = ({
@@ -18,15 +19,16 @@ const Popover = ({
   contentProps,
   contentClassName,
   onOpenChange,
+  forceMount,
   ...props
 }: PopoverProps) => (
   <PopoverPrimitive.Root {...props} onOpenChange={onOpenChange}>
     <PopoverPrimitive.Trigger asChild>{trigger}</PopoverPrimitive.Trigger>
-    <PopoverPrimitive.Portal>
+    <PopoverPrimitive.Portal forceMount={forceMount}>
       <PopoverPrimitive.Content
         {...contentProps}
         className={twMerge(
-          'z-50 w-72 rounded border bg-white text-black',
+          'z-50 rounded border border-grey-200 bg-white text-black',
           'shadow-md outline-none',
           contentClassName,
         )}

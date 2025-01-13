@@ -2,7 +2,7 @@
 
 import { Command as CommandPrimitive } from 'cmdk'
 import { twMerge } from 'tailwind-merge'
-import { ComponentPropsWithRef, ReactNode } from 'react'
+import { ComponentPropsWithRef, ReactNode, RefObject } from 'react'
 import SvgImage from '@/components/atoms/SvgImage'
 
 export interface CommandGroupItems {
@@ -14,33 +14,28 @@ export interface CommandGroupItems {
 
 interface CommandMenuProps
   extends ComponentPropsWithRef<typeof CommandPrimitive> {
-  input: ReactNode
-  fallbackMessage?: string
+  input?: ReactNode
 }
 
 export const CommandMenu = ({
   className,
   ref,
   input,
-  fallbackMessage = 'No results found.',
   children,
   ...props
 }: CommandMenuProps) => (
   <CommandPrimitive
     ref={ref}
-    className={twMerge('flex h-full w-full flex-col rounded-md', className)}
+    className={twMerge('flex h-full w-full flex-col', className)}
     {...props}
   >
     {input}
     <CommandPrimitive.List
       className={twMerge(
-        'max-h-[300px] overflow-y-auto overflow-x-hidden',
+        'max-h-[300px] overflow-y-auto overflow-x-hidden py-2',
         className,
       )}
     >
-      <CommandPrimitive.Empty className='py-6 text-center text-sm'>
-        {fallbackMessage}
-      </CommandPrimitive.Empty>
       {children}
     </CommandPrimitive.List>
   </CommandPrimitive>
@@ -50,6 +45,7 @@ interface CommandInputProps
   extends ComponentPropsWithRef<typeof CommandPrimitive.Input> {
   iconSrc?: string
   wrapperClassName?: string
+  wrapperRef?: RefObject<HTMLDivElement | null>
 }
 
 export const CommandInput = ({
@@ -57,9 +53,14 @@ export const CommandInput = ({
   ref,
   iconSrc,
   wrapperClassName,
+  wrapperRef,
   ...props
 }: CommandInputProps) => (
-  <div className={twMerge('relative', wrapperClassName)} cmdk-input-wrapper=''>
+  <div
+    className={twMerge('relative', wrapperClassName)}
+    cmdk-input-wrapper=''
+    ref={wrapperRef}
+  >
     <CommandPrimitive.Input
       ref={ref}
       className={twMerge(
@@ -117,9 +118,26 @@ export const CommandItem = ({
   <CommandPrimitive.Item
     ref={ref}
     className={twMerge(
-      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected='true']:bg-grey-50 data-[selected=true]:text-black data-[disabled=true]:opacity-50",
+      'relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none',
+      'data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 ',
+      'data-[selected=true]:text-black data-[selected=true]:bg-sky-50 data-[selected=true]:font-semibold',
+      'hover:bg-grey-50',
       className,
     )}
     {...props}
   />
+)
+
+interface CommandEmptyProps
+  extends ComponentPropsWithRef<typeof CommandPrimitive.Empty> {
+  fallbackMessage?: string
+}
+
+export const CommandEmpty = ({
+  fallbackMessage = 'No results found.',
+  ...props
+}: CommandEmptyProps) => (
+  <CommandPrimitive.Empty className='py-6 text-center text-sm' {...props}>
+    {fallbackMessage}
+  </CommandPrimitive.Empty>
 )

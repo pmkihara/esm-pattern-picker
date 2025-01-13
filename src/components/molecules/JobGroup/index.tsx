@@ -14,9 +14,16 @@ import { useCommandState } from 'cmdk'
 interface JobGroupProps {
   jobs: OfficeJob[]
   jobGroup: OfficeJobGroup | 'custom'
+  selectedJob?: OfficeJob
+  onJobSelect: (job: OfficeJob) => void
 }
 
-const JobGroup = ({ jobs, jobGroup }: JobGroupProps) => {
+const JobGroup = ({
+  jobs,
+  jobGroup,
+  selectedJob,
+  onJobSelect,
+}: JobGroupProps) => {
   const search = useCommandState((state) => state.search)
 
   const icons = {
@@ -36,9 +43,14 @@ const JobGroup = ({ jobs, jobGroup }: JobGroupProps) => {
     </div>
   )
 
-  const mapJobs = ({ name }: OfficeJob) => (
-    <CommandItem key={name} value={name} className='text-xs'>
-      {name}
+  const mapJobs = (job: OfficeJob) => (
+    <CommandItem
+      key={job.name}
+      value={job.name}
+      className='text-xs'
+      onSelect={() => onJobSelect(job)}
+    >
+      {job.name}
     </CommandItem>
   )
 
@@ -54,7 +66,10 @@ const JobGroup = ({ jobs, jobGroup }: JobGroupProps) => {
             children: unit,
             className: 'text-sm',
           }}
-          defaultOpen={!!search}
+          defaultOpen={
+            !!search ||
+            (selectedJob?.group === jobGroup && selectedJob?.unit === unit)
+          }
           rootClassName='group/sub'
           contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2 mb-1 group-data-[state="closed"]/sub:hidden'
           contentProps={{ forceMount: true }}
@@ -72,7 +87,7 @@ const JobGroup = ({ jobs, jobGroup }: JobGroupProps) => {
     >
       <Collapsible
         triggerProps={{ arrowPosition: 'right', children: triggerContent }}
-        defaultOpen={!!search}
+        defaultOpen={!!search || selectedJob?.group === jobGroup}
         rootClassName='group/item'
         contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2 mb-1 group-data-[state="closed"]/item:hidden'
         contentProps={{ forceMount: true }}

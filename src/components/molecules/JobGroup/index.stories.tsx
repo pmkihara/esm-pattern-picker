@@ -27,6 +27,7 @@ export const Default: Story = {
   args: {
     jobs: primaryJobs,
     jobGroup: OfficeJobGroup.Primary,
+    onJobSelect: (job) => console.log(job),
   },
 }
 
@@ -34,5 +35,6 @@ export const GroupedJobs: Story = {
   args: {
     jobs: unitJobs,
     jobGroup: OfficeJobGroup.Unit,
+    onJobSelect: (job) => console.log(job),
   },
 }
