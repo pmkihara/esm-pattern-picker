@@ -1,9 +1,9 @@
-import { InputHTMLAttributes } from 'react'
+import { ComponentPropsWithRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 export interface StatInputProps
   extends Omit<
-    InputHTMLAttributes<HTMLInputElement>,
+    ComponentPropsWithRef<'input'>,
     'dangerouslySetInnerHTML' | 'type'
   > {
   isError?: boolean
@@ -13,11 +13,13 @@ const StatInput = ({
   className,
   placeholder = '0',
   isError,
+  ref,
   ...props
 }: StatInputProps) => {
   return (
     <input
       {...props}
+      ref={ref}
       type='number'
       placeholder={placeholder}
       className={twMerge(

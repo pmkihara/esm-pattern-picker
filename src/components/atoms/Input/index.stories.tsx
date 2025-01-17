@@ -24,3 +24,11 @@ export const WithIcon: Story = {
     iconSrc: SpreadsheetIcon.src,
   },
 }
+
+export const WithError: Story = {
+  args: {
+    placeholder: 'Placeholder',
+    iconSrc: SpreadsheetIcon.src,
+    errorMsg: 'Error message',
+  },
+}

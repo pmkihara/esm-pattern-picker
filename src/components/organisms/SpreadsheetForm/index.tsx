@@ -8,7 +8,6 @@ import Button from '@/components/atoms/Button'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
-import ErrorMessage from '@/components/atoms/ErrorMessage'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { useRouter } from 'next/navigation'
 import { useSettings } from '@/providers/SettingsProvider'
@@ -56,11 +55,11 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
           placeholder='Enter your spreadsheet ID'
           iconSrc={SpreadsheetIcon.src}
           wrapperClassName='grow'
+          errorMsg={errors.id?.message}
           {...register('id')}
         />
         <IconButton iconSrc={InfoIcon.src} className='grow-0' />
       </div>
-      <ErrorMessage message={errors.id?.message} />
       <Button
         type='submit'
         className='w-full'
