@@ -16,6 +16,7 @@ export const AllCompleted: Story = {
     spreadsheetIsSetup: true,
     StatsAreSetup: true,
     outfitsAreSetup: true,
+    officeJobIsSetup: true,
     spreadsheetId: '1234567890',
   },
 }
@@ -25,6 +26,7 @@ export const AllNotCompleted: Story = {
     spreadsheetIsSetup: false,
     StatsAreSetup: false,
     outfitsAreSetup: false,
+    officeJobIsSetup: false,
     spreadsheetId: '1234567890',
   },
 }

@@ -6,6 +6,7 @@ interface SetupStepsProps {
   spreadsheetIsSetup: boolean
   StatsAreSetup: boolean
   outfitsAreSetup: boolean
+  officeJobIsSetup: boolean
   spreadsheetId: string
 }
 
@@ -13,6 +14,7 @@ const SetupSteps = ({
   spreadsheetIsSetup,
   StatsAreSetup,
   outfitsAreSetup,
+  officeJobIsSetup,
   spreadsheetId,
 }: SetupStepsProps) => {
   const setupCompleted = {
@@ -27,6 +29,10 @@ const SetupSteps = ({
     outfits: {
       title: 'Outfits & Patterns',
       text: 'Outfits sheet is set up',
+    },
+    work: {
+      title: 'Work',
+      text: 'Office job is set up',
     },
   }
 
@@ -43,10 +49,14 @@ const SetupSteps = ({
       title: 'Outfits & Patterns',
       text: 'Add the outfits you own',
     },
+    work: {
+      title: 'Work',
+      text: 'Select a job',
+    },
   }
 
   const getStepStatus = (
-    stepName: 'spreadsheet' | 'idols' | 'outfits',
+    stepName: 'spreadsheet' | 'idols' | 'outfits' | 'work',
     completed: boolean,
   ) => {
     const status = completed
@@ -69,6 +79,9 @@ const SetupSteps = ({
         </Link>
         <Link href={`/outfits?id=${spreadsheetId}`}>
           <SetupStatusCard {...getStepStatus('outfits', outfitsAreSetup)} />
+        </Link>
+        <Link href={`/work?id=${spreadsheetId}`}>
+          <SetupStatusCard {...getStepStatus('work', officeJobIsSetup)} />
         </Link>
       </div>
     </div>

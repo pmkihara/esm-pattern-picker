@@ -1,6 +1,7 @@
 'use client'
 
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
+import { OfficeJob } from '@/data/office-jobs'
 import { UserOutfit } from '@/data/outfits'
 import { StatsMap } from '@/data/stats'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
@@ -25,12 +26,15 @@ interface SettingsContext {
   setIdolStats: (names: StatsMap) => void
   outfits?: UserOutfit[]
   setOutfits: (outfits: UserOutfit[]) => void
+  officeJob?: OfficeJob
+  setOfficeJob: (job: OfficeJob) => void
   spreadsheetIsSetup: boolean
   setSpreadsheetIsSetup: (isSetup: boolean) => void
   idolsAreSetup: boolean
   setIdolsAreSetup: (areSetup: boolean) => void
   outfitsAreSetup: boolean
   setOutfitsAreSetup: (areSetup: boolean) => void
+  officeJobIsSetup: boolean
 }
 
 export const SettingsContext = createContext<SettingsContext | undefined>(
@@ -41,6 +45,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [spreadsheetId, setSpreadsheetId] = useState<string>()
   const [idolStats, setIdolStats] = useState<StatsMap>()
   const [outfits, setOutfits] = useState<UserOutfit[]>()
+  const [officeJob, setOfficeJob] = useState<OfficeJob>()
   const [spreadsheetIsSetup, setSpreadsheetIsSetup] = useState(false)
   const [idolsAreSetup, setIdolsAreSetup] = useState(false)
   const [outfitsAreSetup, setOutfitsAreSetup] = useState(false)
@@ -94,12 +99,15 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         setIdolStats,
         outfits,
         setOutfits,
+        officeJob,
+        setOfficeJob,
         spreadsheetIsSetup,
         setSpreadsheetIsSetup,
         idolsAreSetup,
         setIdolsAreSetup,
         outfitsAreSetup,
         setOutfitsAreSetup,
+        officeJobIsSetup: !!officeJob,
       }}
     >
       {children}

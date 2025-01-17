@@ -14,6 +14,7 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
     idolsAreSetup,
     outfitsAreSetup,
     setSpreadsheetId,
+    officeJobIsSetup,
   } = useSettings()
 
   useEffect(() => {
@@ -22,7 +23,10 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      {spreadsheetIsSetup && idolsAreSetup && outfitsAreSetup ? (
+      {spreadsheetIsSetup &&
+      idolsAreSetup &&
+      outfitsAreSetup &&
+      officeJobIsSetup ? (
         <div className='h-full flex flex-col max-h-full'>
           Show the dashboard
         </div>
@@ -32,6 +36,7 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
           StatsAreSetup={idolsAreSetup}
           outfitsAreSetup={outfitsAreSetup}
           spreadsheetId={spreadsheetId}
+          officeJobIsSetup={officeJobIsSetup}
         />
       )}
     </div>
