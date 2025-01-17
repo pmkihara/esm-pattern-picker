@@ -1,5 +1,6 @@
 import {
   advancedJobs,
+  emptyJob,
   esJobs,
   expertJobs,
   OfficeJob,
@@ -11,12 +12,13 @@ import {
 import JobGroup from '../JobGroup'
 import {
   CommandEmpty,
-  CommandInput,
+  CommandInputAsChild,
   CommandMenu,
 } from '@/components/atoms/CommandMenu'
 import WorkIcon from '@@/public/assets/icons/work.svg'
 import Popover from '@/components/atoms/Popover'
 import { useState } from 'react'
+import Input from '@/components/atoms/Input'
 
 interface JobSearchProps {
   selectedJob?: OfficeJob
@@ -34,17 +36,17 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
     [OfficeJobGroup.Expert]: expertJobs,
     [OfficeJobGroup.Unit]: unitJobs,
     [OfficeJobGroup.EsWork]: esJobs,
+    [OfficeJobGroup.Custom]: [emptyJob],
   }
 
   const input = (
-    <CommandInput
-      placeholder={selectedJob?.name ?? 'Select job...'}
-      iconSrc={WorkIcon.src}
-      wrapperClassName='w-full max-w-screen-lg'
-      className={selectedJob && 'placeholder:text-black'}
-      value={search}
-      onValueChange={setSearch}
-    />
+    <CommandInputAsChild value={search} onValueChange={setSearch}>
+      <Input
+        placeholder={selectedJob?.name ?? 'Select job...'}
+        iconSrc={WorkIcon.src}
+        className={selectedJob && 'placeholder:text-black'}
+      />
+    </CommandInputAsChild>
   )
 
   const onJobSelect = (job: OfficeJob) => {

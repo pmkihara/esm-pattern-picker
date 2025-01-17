@@ -8,6 +8,7 @@ export enum OfficeJobGroup {
   Expert = 'Expert',
   Unit = 'Unit',
   EsWork = 'ES Work',
+  Custom = 'Custom',
 }
 
 export interface OfficeJob extends Stats {
@@ -2885,3 +2886,17 @@ export const esJobs: OfficeJob[] = [
     idol: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
+
+export const emptyJob: OfficeJob = {
+  group: OfficeJobGroup.Custom,
+  name: 'Custom job',
+  Ac: 0,
+  Pa: 0,
+  Un: 0,
+  Sm: 0,
+  Te: 0,
+  Ch: 0,
+  unit: null,
+  outfit: null,
+  idol: null,
+}

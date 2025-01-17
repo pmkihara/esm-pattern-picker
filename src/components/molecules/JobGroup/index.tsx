@@ -13,7 +13,7 @@ import { useCommandState } from 'cmdk'
 
 interface JobGroupProps {
   jobs: OfficeJob[]
-  jobGroup: OfficeJobGroup | 'custom'
+  jobGroup: OfficeJobGroup
   selectedJob?: OfficeJob
   onJobSelect: (job: OfficeJob) => void
 }
@@ -33,7 +33,7 @@ const JobGroup = ({
     [OfficeJobGroup.Expert]: CalendarIcon,
     [OfficeJobGroup.Unit]: CalendarIcon,
     [OfficeJobGroup.EsWork]: EsIcon,
-    custom: LightstickIcon,
+    [OfficeJobGroup.Custom]: LightstickIcon,
   }
 
   const triggerContent = (
