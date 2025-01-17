@@ -23,10 +23,18 @@ const buttonVariants = cva(
           'hover:border-sky-400 hover:text-sky-400 hover:ring-2',
           'disabled:border-sky-200 disabled:text-sky-200',
         ),
+        outlineGrey: twMerge(
+          'border border-grey-200 text-grey-300 bg-white',
+          'hover:border-sky-300',
+          'focus:border-sky-300 focus-visible:ring-0',
+          'disabled:border-grey-200 disabled:text-grey-200',
+        ),
         ghost: twMerge(),
       },
       size: {
         hug: 'text-xs py-1',
+        icon: 'p-1.5',
+        input: 'px-3 py-2 h-[38px] text-sm font-normal',
         sm: 'px-4 py-1 h-8 text-sm',
         md: 'px-6 py-2 h-10 text-base',
         lg: 'px-8 py-2 h-12 text-base',

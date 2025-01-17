@@ -32,7 +32,7 @@ export const CommandMenu = ({
     {input}
     <CommandPrimitive.List
       className={twMerge(
-        'max-h-[300px] overflow-y-auto overflow-x-hidden py-2',
+        'max-h-[300px] overflow-y-auto overflow-x-hidden',
         className,
       )}
     >
@@ -122,7 +122,7 @@ export const CommandItem = ({
   <CommandPrimitive.Item
     ref={ref}
     className={twMerge(
-      'relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none',
+      'relative flex cursor-pointer select-none items-center px-2 py-1.5 text-sm outline-none',
       'data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 ',
       'data-[selected=true]:text-black data-[selected=true]:bg-sky-50 data-[selected=true]:font-semibold',
       'hover:bg-grey-50',

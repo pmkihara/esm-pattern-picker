@@ -21,8 +21,10 @@ import { useState } from 'react'
 import Input from '@/components/atoms/Input'
 import LightstickIcon from '@@/public/assets/icons/lightstick.svg'
 import Image from 'next/image'
-import IconButton from '@/components/atoms/IconButton'
 import { useJobGroupImages } from '@/hooks/useJobGroupImages'
+import Button from '@/components/atoms/Button'
+import SvgImage from '@/components/atoms/SvgImage'
+import { twMerge } from 'tailwind-merge'
 
 interface JobSearchProps {
   selectedJob?: OfficeJob
@@ -44,13 +46,23 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
 
   const popoverTrigger = (
     <div className='w-full max-w-screen-lg group/trigger data-[state="open"]:mb-[37px]'>
-      <IconButton
-        iconSrc={groupIcons[selectedJob?.group ?? 'none'].src}
-        text={selectedJob?.name ?? 'Select job...'}
-        textClassName={selectedJob && 'text-black'}
-        className='w-full group-data-[state="open"]/trigger:hidden'
-        fakeInput
-      />
+      <Button
+        variant='outlineGrey'
+        size='input'
+        className='w-full group-data-[state="open"]/trigger:hidden group flex items-center gap-2 px-3'
+      >
+        <SvgImage
+          src={groupIcons[selectedJob?.group ?? 'none'].src}
+          width='16'
+          height='16'
+          className={'group-focus:fill-sky-400 fill-grey-300 -ml-px'}
+        />
+        <span
+          className={twMerge('ml-px', selectedJob && 'text-black font-normal')}
+        >
+          {selectedJob?.name ?? 'Select job...'}
+        </span>
+      </Button>
     </div>
   )
 

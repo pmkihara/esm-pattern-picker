@@ -58,7 +58,7 @@ const JobGroup = ({
           triggerProps={{
             arrowPosition: 'right',
             children: unit,
-            className: 'text-sm',
+            className: 'text-sm rounded-none',
           }}
           defaultOpen={
             !!search ||
@@ -80,7 +80,11 @@ const JobGroup = ({
       aria-label={jobGroup}
     >
       <Collapsible
-        triggerProps={{ arrowPosition: 'right', children: triggerContent }}
+        triggerProps={{
+          arrowPosition: 'right',
+          children: triggerContent,
+          className: 'rounded-none',
+        }}
         defaultOpen={!!search || selectedJob?.group === jobGroup}
         rootClassName='group/item'
         contentClassName='border-l-2 border-grey-100 ml-[15px] pl-2 mb-1 group-data-[state="closed"]/item:hidden'

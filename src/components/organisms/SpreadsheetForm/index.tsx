@@ -1,7 +1,6 @@
 'use client'
 
 import Input from '@/components/atoms/Input'
-import IconButton from '@/components/atoms/IconButton'
 import SpreadsheetIcon from '@@/public/assets/icons/spreadsheet.svg'
 import InfoIcon from '@@/public/assets/icons/info.svg'
 import Button from '@/components/atoms/Button'
@@ -11,6 +10,7 @@ import { useForm } from 'react-hook-form'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { useRouter } from 'next/navigation'
 import { useSettings } from '@/providers/SettingsProvider'
+import SvgImage from '@/components/atoms/SvgImage'
 
 const spreadsheetSchema = z.object({
   id: z.string().min(8),
@@ -58,7 +58,16 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
           errorMsg={errors.id?.message}
           {...register('id')}
         />
-        <IconButton iconSrc={InfoIcon.src} className='grow-0' />
+        <Button size='icon' variant='outlineGrey' className='group'>
+          <SvgImage
+            src={InfoIcon.src}
+            width='24'
+            height='24'
+            className={
+              'group-focus:fill-sky-400 fill-grey-400 group-hover:fill-sky-400'
+            }
+          />
+        </Button>
       </div>
       <Button
         type='submit'

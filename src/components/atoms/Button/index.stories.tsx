@@ -31,6 +31,14 @@ export const Outline: Story = {
   },
 }
 
+export const OutlineGrey: Story = {
+  args: {
+    children: 'Button',
+    variant: 'outlineGrey',
+    size: 'input',
+  },
+}
+
 export const SkyDisabled: Story = {
   args: {
     children: 'Button',
