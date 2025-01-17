@@ -85,6 +85,10 @@ export const CommandInput = ({
   </div>
 )
 
+export const CommandInputAsChild = ({ ...props }) => (
+  <CommandPrimitive.Input {...props} asChild />
+)
+
 export const CommandGroup = ({
   className = 'overflow-hidden p-1 text-black [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-grey-500',
   children,
