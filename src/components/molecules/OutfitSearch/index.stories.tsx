@@ -6,8 +6,15 @@ const meta: Meta<typeof OutfitSearch> = {
   component: OutfitSearch,
   tags: ['autodocs'],
   parameters: {
-    layout: 'fullscreen',
+    layout: 'padded',
   },
+  decorators: [
+    (Story) => (
+      <div className='w-[320px]'>
+        <Story />
+      </div>
+    ),
+  ],
 }
 
 export default meta

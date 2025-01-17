@@ -56,14 +56,15 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
       contentProps={{ onOpenAutoFocus: () => inputRef.current?.focus() }}
     >
       <>
-        <div className='relative -top-px'>
+        <div className='relative'>
           <Input
             id='search'
             placeholder='Search by outfit or idol name...'
             onChange={debounce(onQueryChange, 300)}
-            className='text-sm h-11 pr-8 bg-white'
+            className='text-sm h-11 pr-8 bg-white '
             autoFocus={true}
             ref={inputRef}
+            popoverSearch
           />
           <button className='absolute right-2 inset-y-0' onClick={onClose}>
             <span className='sr-only'>Close</span>

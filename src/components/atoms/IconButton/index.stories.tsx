@@ -10,7 +10,7 @@ const meta = {
 } satisfies Meta<typeof IconButton>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof IconButton>
 
 export const Default: Story = {
   args: {
@@ -22,5 +22,13 @@ export const WithText: Story = {
   args: {
     iconSrc: SpreadsheetIcon.src,
     text: 'Spreadsheet',
+  },
+}
+
+export const FakeInput: Story = {
+  args: {
+    iconSrc: SpreadsheetIcon.src,
+    text: 'Spreadsheet',
+    fakeInput: true,
   },
 }

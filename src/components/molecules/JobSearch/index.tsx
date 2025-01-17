@@ -16,12 +16,13 @@ import {
   CommandItem,
   CommandMenu,
 } from '@/components/atoms/CommandMenu'
-import WorkIcon from '@@/public/assets/icons/work.svg'
 import Popover from '@/components/atoms/Popover'
 import { useState } from 'react'
 import Input from '@/components/atoms/Input'
 import LightstickIcon from '@@/public/assets/icons/lightstick.svg'
 import Image from 'next/image'
+import IconButton from '@/components/atoms/IconButton'
+import { useJobGroupImages } from '@/hooks/useJobGroupImages'
 
 interface JobSearchProps {
   selectedJob?: OfficeJob
@@ -30,7 +31,7 @@ interface JobSearchProps {
 
 const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
   const [open, setIsOpen] = useState(false)
-  const [search, setSearch] = useState('')
+  const groupIcons = useJobGroupImages()
 
   const officeJobs: Partial<Record<OfficeJobGroup, OfficeJob[]>> = {
     [OfficeJobGroup.Primary]: primaryJobs,
@@ -41,12 +42,27 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
     [OfficeJobGroup.EsWork]: esJobs,
   }
 
+  const popoverTrigger = (
+    <div className='w-full max-w-screen-lg group/trigger data-[state="open"]:mb-[37px]'>
+      <IconButton
+        iconSrc={groupIcons[selectedJob?.group ?? 'none'].src}
+        text={selectedJob?.name ?? 'Select job...'}
+        textClassName={selectedJob && 'text-black'}
+        className='w-full group-data-[state="open"]/trigger:hidden'
+        fakeInput
+      />
+    </div>
+  )
+
   const input = (
-    <CommandInputAsChild value={search} onValueChange={setSearch}>
+    <CommandInputAsChild>
       <Input
         placeholder={selectedJob?.name ?? 'Select job...'}
-        iconSrc={WorkIcon.src}
+        iconSrc={groupIcons.none.src}
         className={selectedJob && 'placeholder:text-black'}
+        id='job-search'
+        autoFocus
+        popoverSearch
       />
     </CommandInputAsChild>
   )
@@ -54,18 +70,16 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
   const onJobSelect = (job: OfficeJob) => {
     setOfficeJob(job)
     setIsOpen(false)
-    setSearch('')
   }
 
   return (
-    <CommandMenu value={selectedJob?.name}>
-      <Popover
-        trigger={input}
-        contentClassName='w-[var(--radix-popover-trigger-width)] data-[state="closed"]:hidden max-h-[300px] overflow-y-auto'
-        forceMount
-        open={open}
-        onOpenChange={setIsOpen}
-      >
+    <Popover
+      trigger={popoverTrigger}
+      contentClassName='w-[var(--radix-popover-trigger-width)] -my-px'
+      open={open}
+      onOpenChange={setIsOpen}
+    >
+      <CommandMenu value={selectedJob?.name} className='pt-0' input={input}>
         {Object.entries(officeJobs).map(([jobGroup, jobs]) => (
           <JobGroup
             key={jobGroup}
@@ -91,8 +105,8 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
           </div>
         </CommandItem>
         <CommandEmpty />
-      </Popover>
-    </CommandMenu>
+      </CommandMenu>
+    </Popover>
   )
 }
 
