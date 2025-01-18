@@ -65,9 +65,8 @@ export const CommandInput = ({
       ref={ref}
       className={twMerge(
         'disabled:cursor-not-allowed disabled:opacity-50',
-        'peer w-full px-4 py-2 border border-grey-200 rounded text-sm',
-        'hover:border-sky-300',
-        'focus:border-sky-300 focus:outline-none focus-visible:outline-none',
+        'peer w-full px-4 py-2 border-0 border-b border-grey-200 rounded rounded-b-none text-sm',
+        'focus:outline-none focus-visible:outline-none',
         'placeholder:text-grey-300',
         iconSrc && 'pl-9',
         className,

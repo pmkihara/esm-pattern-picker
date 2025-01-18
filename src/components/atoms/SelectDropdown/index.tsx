@@ -3,7 +3,6 @@
 import {
   Root,
   Trigger,
-  Portal,
   Icon,
   Value,
   Content,
@@ -36,7 +35,7 @@ interface SelectDropdownGroup {
   items: SelectDropdownItem[]
 }
 
-interface SelectDropdownProps {
+interface SelectDropdownProps extends ComponentPropsWithRef<typeof Root> {
   groups: SelectDropdownGroup[]
   trigger?: ReactNode
   valuePlaceholder?: string
@@ -48,9 +47,10 @@ const SelectDropdown = ({
   trigger,
   valuePlaceholder,
   contentProps,
+  ...props
 }: SelectDropdownProps) => {
   return (
-    <Root>
+    <Root {...props}>
       {trigger ? (
         <Trigger asChild>{trigger}</Trigger>
       ) : (
@@ -77,9 +77,9 @@ interface SelectTriggerProps extends ComponentPropsWithRef<typeof Trigger> {
 const SelectTrigger = ({ valuePlaceholder, ...props }: SelectTriggerProps) => (
   <Trigger {...props} asChild>
     <Button
-      variant='outlineGrey'
+      variant='fakeInput'
       size='input'
-      className='w-full flex gap-4 items-center justify-between disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 text-black data-[placeholder]:text-grey-500'
+      className='w-full flex gap-4 items-center justify-between disabled:cursor-not-allowed [&>span]:line-clamp-1 text-black data-[placeholder]:text-grey-500'
     >
       <SelectValue placeholder={valuePlaceholder} />
       <Icon>
@@ -179,30 +179,28 @@ const SelectContent = ({
   children,
   ...props
 }: ComponentPropsWithRef<typeof Content>) => (
-  <Portal>
-    <Content
-      {...props}
-      position={position ?? 'item-aligned'}
-      className={twMerge(
-        'relative z-50 max-h-96 min-w-32 overflow-hidden rounded',
-        'border border-grey-200 shadow-md',
-        'data-[state=open]:animate-in data-[state=closed]:animate-out',
-        'data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0',
-        'data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95',
-        'data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2',
-        'data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2',
-        position === 'popper' &&
-          'w-[--radix-select-trigger-width] max-h-[--radix-select-content-available-height]',
-        className,
-      )}
-    >
-      <SelectScrollUpButton />
-      <Viewport className={twMerge('p-1', position === 'popper' && 'w-full ')}>
-        {children}
-      </Viewport>
-      <SelectScrollDownButton />
-    </Content>
-  </Portal>
+  <Content
+    {...props}
+    position={position ?? 'item-aligned'}
+    className={twMerge(
+      'relative z-50 max-h-96 min-w-32 overflow-hidden rounded',
+      'bg-white border border-grey-200 shadow-md',
+      'data-[state=open]:animate-in data-[state=closed]:animate-out',
+      'data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0',
+      'data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95',
+      'data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2',
+      'data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2',
+      position === 'popper' &&
+        'w-[--radix-select-trigger-width] max-h-[--radix-select-content-available-height]',
+      className,
+    )}
+  >
+    <SelectScrollUpButton />
+    <Viewport className={twMerge('p-1', position === 'popper' && 'w-full ')}>
+      {children}
+    </Viewport>
+    <SelectScrollDownButton />
+  </Content>
 )
 
 export default SelectDropdown

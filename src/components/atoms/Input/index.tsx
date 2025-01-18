@@ -29,6 +29,7 @@ const Input = ({
             'focus:outline-none focus-visible:outline-none',
             'placeholder:text-grey-300',
             'read-only:hover:border-grey-200 read-only:focus:border-grey-200',
+            'disabled:bg-grey-50 disabled:text-grey-600',
             popoverSearch &&
               'rounded-b-none border-0 border-b hover:placeholder:text-grey-500',
             iconSrc && 'pl-9',

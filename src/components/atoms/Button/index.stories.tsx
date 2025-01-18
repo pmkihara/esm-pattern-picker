@@ -31,10 +31,10 @@ export const Outline: Story = {
   },
 }
 
-export const OutlineGrey: Story = {
+export const FakeInput: Story = {
   args: {
     children: 'Button',
-    variant: 'outlineGrey',
+    variant: 'fakeInput',
     size: 'input',
   },
 }

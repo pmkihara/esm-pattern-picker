@@ -42,6 +42,7 @@ export default {
           300: '#CBD2D6',
           400: '#B5BDC4',
           500: '#A1AAB3',
+          600: '#89929E',
         },
         sun: {
           50: '#FEF4C3',
@@ -61,6 +62,9 @@ export default {
       },
       spacing: {
         15: '3.75rem',
+      },
+      gridTemplateColumns: {
+        form: '15rem 1fr',
       },
     },
   },

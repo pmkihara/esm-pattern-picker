@@ -20,6 +20,7 @@ const JobStatsInputs = ({ register, readOnly }: JobStatsInputsProps) => {
             <Input
               className='col-span-2'
               readOnly={readOnly}
+              disabled={readOnly}
               {...register(stat, { valueAsNumber: true })}
             />
           </div>

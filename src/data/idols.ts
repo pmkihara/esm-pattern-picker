@@ -145,3 +145,15 @@ export const idolFullNames: Record<Idol, string> = {
   [Idol.Sora]: 'Sora Harukawa',
   [Idol.Madara]: 'Madara Mikejima',
 }
+
+export const unitByAgency: Record<string, Unit[]> = {
+  'STARMAKER PRODUCTION': [
+    Unit.Fine,
+    Unit.Trickstar,
+    Unit.Ryuseitai,
+    Unit.Alkaloid,
+  ],
+  'COSMIC PRODUCTION': [Unit.Eden, Unit.Valkyrie, Unit.Twink, Unit.CrazyB],
+  'Rhythm Link': [Unit.Undead, Unit.Rabits, Unit.Akatsuki],
+  'New Dimension': [Unit.Knights, Unit.Switch, Unit.MaM, Unit.DoubleFace],
+}

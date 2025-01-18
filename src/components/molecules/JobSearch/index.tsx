@@ -47,7 +47,7 @@ const JobSearch = ({ selectedJob, setOfficeJob }: JobSearchProps) => {
   const popoverTrigger = (
     <div className='w-full max-w-screen-lg group/trigger data-[state="open"]:mb-[37px]'>
       <Button
-        variant='outlineGrey'
+        variant='fakeInput'
         size='input'
         className='w-full group-data-[state="open"]/trigger:hidden group flex items-center gap-2 px-3'
       >

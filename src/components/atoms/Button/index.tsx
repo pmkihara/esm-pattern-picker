@@ -23,11 +23,11 @@ const buttonVariants = cva(
           'hover:border-sky-400 hover:text-sky-400 hover:ring-2',
           'disabled:border-sky-200 disabled:text-sky-200',
         ),
-        outlineGrey: twMerge(
+        fakeInput: twMerge(
           'border border-grey-200 text-grey-300 bg-white',
           'hover:border-sky-300',
           'focus:border-sky-300 focus-visible:ring-0',
-          'disabled:border-grey-200 disabled:text-grey-200',
+          'disabled:pointer-events-none disabled:bg-grey-50 disabled:text-grey-600',
         ),
         ghost: twMerge(),
       },

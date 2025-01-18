@@ -16,7 +16,7 @@ export interface OfficeJob extends Stats {
   name: string
   unit: Unit | null
   outfit: string | null
-  idol: Idol[] | undefined[] | null
+  idol: (string | undefined)[] | null
 }
 
 export const allOfficeJobGroups = Object.values(OfficeJobGroup)
