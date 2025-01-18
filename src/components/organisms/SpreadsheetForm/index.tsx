@@ -58,7 +58,7 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
           errorMsg={errors.id?.message}
           {...register('id')}
         />
-        <Button size='icon' variant='outlineGrey' className='group'>
+        <Button size='icon' variant='fakeInput' className='group'>
           <SvgImage
             src={InfoIcon.src}
             width='24'
