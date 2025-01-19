@@ -56,6 +56,7 @@ const WorkPage = ({ spreadsheetId }: WorkPageProps) => {
               officeJob={officeJob}
               onFormSubmit={onFormSubmit}
               outfits={outfits ?? []}
+              key={officeJob.name}
             />
           </>
         ) : (
