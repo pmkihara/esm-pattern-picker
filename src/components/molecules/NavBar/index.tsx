@@ -9,6 +9,7 @@ import { usePathname, useSearchParams } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 import LogoHorizontal from '@@/public/assets/logo-horizontal.png'
 import Image from 'next/image'
+import { Suspense } from 'react'
 
 const NavBar = () => {
   const pathName = usePathname()
@@ -72,4 +73,10 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+const SuspenseNavbar = () => (
+  <Suspense>
+    <NavBar />
+  </Suspense>
+)
+
+export default SuspenseNavbar
