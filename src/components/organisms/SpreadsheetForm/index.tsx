@@ -9,7 +9,6 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { useRouter } from 'next/navigation'
-import { useSettings } from '@/providers/SettingsProvider'
 import SvgImage from '@/components/atoms/SvgImage'
 
 const spreadsheetSchema = z.object({
@@ -25,7 +24,6 @@ interface SpreadsheetFormProps {
 const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
   const id = initialId || ''
   const router = useRouter()
-  const { setSpreadsheetId } = useSettings()
 
   const {
     register,
@@ -40,11 +38,10 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
   const onSubmit = async ({ id }: SpreadsheetSchema) => {
     const result = await checkSpreadsheetAccess(id)
 
-    if (!result.ok) {
-      setError('id', { message: result.error })
-    } else {
-      setSpreadsheetId(id)
+    if (result.ok) {
       router.push(`/dashboard?id=${id}`)
+    } else {
+      setError('id', { message: result.error })
     }
   }
 
