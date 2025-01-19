@@ -22,7 +22,6 @@ const JobIdolInput = ({
   onIdolSelect,
   onRemove,
   isCustomJob,
-  ...props
 }: JobIdolInputProps) => {
   const [open, setOpen] = useState(false)
 
@@ -46,7 +45,6 @@ const JobIdolInput = ({
                   'group flex justify-center',
                 )}
               >
-                <input type='hidden' {...props} />
                 <IdolImage idol={idol} />
               </button>
             </DialogTrigger>

@@ -2,31 +2,19 @@ import Button from '@/components/atoms/Button'
 import JobIdolInput from '@/components/atoms/JobIdolInput'
 import { JobInput } from '@/components/organisms/JobForm'
 import { Idol } from '@/data/idols'
-import {
-  FieldArrayWithId,
-  UseFieldArrayAppend,
-  UseFieldArrayRemove,
-  UseFieldArrayUpdate,
-  UseFormRegister,
-} from 'react-hook-form'
+import { Control, useFieldArray } from 'react-hook-form'
 
-interface JobIdolsInputsProps {
-  register: UseFormRegister<JobInput>
-  fields: FieldArrayWithId<JobInput, 'idols', 'id'>[]
-  append: UseFieldArrayAppend<JobInput, 'idols'>
-  remove: UseFieldArrayRemove
-  update: UseFieldArrayUpdate<JobInput>
+export interface JobIdolsInputsProps {
+  control: Control<JobInput>
   isCustomJob?: boolean
 }
 
-const JobIdolsInputs = ({
-  register,
-  fields,
-  append,
-  remove,
-  update,
-  isCustomJob,
-}: JobIdolsInputsProps) => {
+const JobIdolsInputs = ({ control, isCustomJob }: JobIdolsInputsProps) => {
+  const { fields, append, update, remove } = useFieldArray({
+    control,
+    name: 'idols',
+  })
+
   return (
     <>
       <div>
@@ -45,12 +33,11 @@ const JobIdolsInputs = ({
               update(index, { name: idol })
             }}
             isCustomJob={isCustomJob}
-            {...register(`idols.${index}.name` as const)}
           />
         ))}
         {isCustomJob && fields.length < 5 && (
           <Button
-            onClick={() => append({ name: undefined })}
+            onClick={() => append({ name: '' })}
             variant='outline'
             size='sm'
           >

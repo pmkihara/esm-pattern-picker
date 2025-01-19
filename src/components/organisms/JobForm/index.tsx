@@ -8,7 +8,7 @@ import { OfficeJob, OfficeJobGroup } from '@/data/office-jobs'
 import { Outfit } from '@/data/outfits'
 import { Stat } from '@/data/stats'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { useFieldArray, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 
 interface JobFormProps {
@@ -47,21 +47,20 @@ const JobForm = ({ officeJob, onFormSubmit, outfits }: JobFormProps) => {
   } = useForm<JobInput>({
     values: {
       ...job,
-      idols: jobIdols?.map((idol) => ({ name: idol })) || [],
+      idols: jobIdols?.map((idol) => ({ name: idol ?? '' })) || [],
     },
     resolver: zodResolver(jobSchema),
   })
-  const { fields, append, remove, update } = useFieldArray({
-    control,
-    name: 'idols',
-  })
 
   const onSubmit = (data: JobInput) => {
-    const { idols, unit, outfit, group, ...job } = data
+    const { idols, unit, outfit, group, ...jobAtrrs } = data
     const officeJob: OfficeJob = {
-      ...job,
+      ...jobAtrrs,
       group: group as OfficeJobGroup,
-      idol: idols.map((idol) => (idol.name === '' ? undefined : idol.name)),
+      idol:
+        idols.length === 0
+          ? null
+          : idols.map((idol) => (idol.name === '' ? undefined : idol.name)),
       unit: unit === 'null' ? null : (unit as Unit),
       outfit: outfit === 'null' ? null : outfit,
     }
@@ -85,14 +84,7 @@ const JobForm = ({ officeJob, onFormSubmit, outfits }: JobFormProps) => {
           />
         </div>
         <div className={rowCls}>
-          <JobIdolsInputs
-            register={register}
-            fields={fields}
-            append={append}
-            remove={remove}
-            update={update}
-            isCustomJob={isCustomJob}
-          />
+          <JobIdolsInputs control={control} isCustomJob={isCustomJob} />
         </div>
         <div className={rowCls}>
           <JobOutfitInput

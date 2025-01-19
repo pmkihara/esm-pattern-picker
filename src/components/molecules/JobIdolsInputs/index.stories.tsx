@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import JobIdolsInputs from '.'
+import JobIdolsInputs, { JobIdolsInputsProps } from '.'
+import { Control, useForm } from 'react-hook-form'
+import { JobInput } from '@/components/organisms/JobForm'
 import { fn } from '@storybook/test'
 
 const meta = {
@@ -19,15 +21,22 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
+const Template = (args: JobIdolsInputsProps) => {
+  const { control } = useForm<JobInput>()
+  return <JobIdolsInputs {...args} control={control} />
+}
+
 export const Default: Story = {
+  render: (args: JobIdolsInputsProps) => <Template {...args} />,
   args: {
-    register: fn(),
-    fields: [
-      { id: '1', name: undefined },
-      { id: '2', name: undefined },
-    ],
-    append: fn(),
-    remove: fn(),
-    update: fn(),
+    control: fn() as unknown as Control<JobInput>,
+  },
+}
+
+export const CustomJob: Story = {
+  render: (args: JobIdolsInputsProps) => <Template {...args} />,
+  args: {
+    control: fn() as unknown as Control<JobInput>,
+    isCustomJob: true,
   },
 }
