@@ -1,6 +1,5 @@
 'use client'
 
-import { initializeIdols } from '@/services/idols_actions'
 import TopBar from '@/components/atoms/TopBar'
 import Input from '@/components/atoms/Input'
 import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
@@ -15,25 +14,12 @@ interface IdolsPageProps {
 }
 
 const IdolsPage = ({ spreadsheetId }: IdolsPageProps) => {
-  const { idolStats, setIdolStats, setSpreadsheetId } = useSettings()
+  const { spreadsheetIsSetup, setSpreadsheetId } = useSettings()
 
   useEffect(() => {
+    if (spreadsheetIsSetup) return
     setSpreadsheetId(spreadsheetId)
-  }, [setSpreadsheetId, spreadsheetId])
-
-  useEffect(() => {
-    if (idolStats) return
-
-    const initialize = async () => {
-      const statsResponse = await initializeIdols(spreadsheetId)
-      if (!statsResponse.ok) {
-        return
-      }
-      const { allStats } = statsResponse
-      setIdolStats(allStats)
-    }
-    initialize()
-  }, [idolStats, setIdolStats, spreadsheetId])
+  }, [setSpreadsheetId, spreadsheetId, spreadsheetIsSetup])
 
   return (
     <div className='h-full flex flex-col max-h-full'>

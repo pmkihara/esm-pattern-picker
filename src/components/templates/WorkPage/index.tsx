@@ -7,7 +7,6 @@ import { useSettings } from '@/providers/SettingsProvider'
 import { useEffect } from 'react'
 import JobSearch from '@/components/molecules/JobSearch'
 import JobForm from '@/components/organisms/JobForm'
-import { initializeOutfits } from '@/services/outfits_actions'
 import { OfficeJob } from '@/data/office-jobs'
 import { useRouter } from 'next/navigation'
 
@@ -16,27 +15,19 @@ interface WorkPageProps {
 }
 
 const WorkPage = ({ spreadsheetId }: WorkPageProps) => {
-  const { setSpreadsheetId, officeJob, setOfficeJob, outfits, setOutfits } =
-    useSettings()
+  const {
+    spreadsheetIsSetup,
+    setSpreadsheetId,
+    officeJob,
+    setOfficeJob,
+    outfits,
+  } = useSettings()
   const router = useRouter()
 
   useEffect(() => {
+    if (spreadsheetIsSetup) return
     setSpreadsheetId(spreadsheetId)
-  }, [setSpreadsheetId, spreadsheetId])
-
-  useEffect(() => {
-    if (outfits) return
-
-    const initialize = async () => {
-      const outfitsResponse = await initializeOutfits(spreadsheetId)
-      if (!outfitsResponse.ok) {
-        return
-      }
-      const { outfits: data } = outfitsResponse
-      setOutfits(data)
-    }
-    initialize()
-  }, [outfits, setOutfits, spreadsheetId])
+  }, [spreadsheetIsSetup, setSpreadsheetId, spreadsheetId])
 
   const onFormSubmit = (job: OfficeJob) => {
     setOfficeJob(job)

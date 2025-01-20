@@ -16,7 +16,7 @@ export interface OfficeJob extends Stats {
   name: string
   unit: Unit | null
   outfit: string | null
-  idol: (string | undefined)[] | null
+  idols: (string | undefined)[] | null
 }
 
 export const allOfficeJobGroups = Object.values(OfficeJobGroup)
@@ -33,7 +33,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -46,7 +46,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -59,7 +59,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -72,7 +72,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -85,7 +85,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 70,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -98,7 +98,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -111,7 +111,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 230,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -124,7 +124,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 280,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -137,7 +137,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 100,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -150,7 +150,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -163,7 +163,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 210,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -176,7 +176,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -189,7 +189,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 70,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -202,7 +202,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 160,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -215,7 +215,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 170,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -228,7 +228,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -241,7 +241,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -254,7 +254,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 130,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -267,7 +267,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 280,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -280,7 +280,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -293,7 +293,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 80,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -306,7 +306,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -319,7 +319,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 230,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -332,7 +332,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -345,7 +345,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 100,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -358,7 +358,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -371,7 +371,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 230,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Primary,
@@ -384,7 +384,7 @@ export const primaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
 
@@ -400,7 +400,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -413,7 +413,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -426,7 +426,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -439,7 +439,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -452,7 +452,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 140,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -465,7 +465,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -478,7 +478,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 450,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -491,7 +491,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 560,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -504,7 +504,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 160,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -517,7 +517,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -530,7 +530,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 430,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -543,7 +543,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -556,7 +556,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 150,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -569,7 +569,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 280,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -582,7 +582,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 350,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -595,7 +595,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -608,7 +608,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -621,7 +621,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 270,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -634,7 +634,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 520,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -647,7 +647,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -660,7 +660,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 160,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -673,7 +673,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -686,7 +686,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 450,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -699,7 +699,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -712,7 +712,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 150,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -725,7 +725,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -738,7 +738,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 450,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Secondary,
@@ -751,7 +751,7 @@ export const secondaryJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
 
@@ -767,7 +767,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -780,7 +780,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -793,7 +793,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -806,7 +806,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -819,7 +819,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 210,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -832,7 +832,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -845,7 +845,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 680,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -858,7 +858,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 840,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -871,7 +871,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 240,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -884,7 +884,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -897,7 +897,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 640,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -910,7 +910,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -923,7 +923,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 220,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -936,7 +936,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 430,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -949,7 +949,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 510,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -962,7 +962,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -975,7 +975,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -988,7 +988,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 380,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1001,7 +1001,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 770,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1014,7 +1014,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1027,7 +1027,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 250,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1040,7 +1040,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1053,7 +1053,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 540,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1066,7 +1066,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 
   {
@@ -1080,7 +1080,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1093,7 +1093,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 370,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1106,7 +1106,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 660,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Advanced,
@@ -1119,7 +1119,7 @@ export const advancedJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
 
@@ -1135,7 +1135,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1148,7 +1148,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1161,7 +1161,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1174,7 +1174,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1187,7 +1187,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 320,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1200,7 +1200,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1213,7 +1213,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 1020,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1226,7 +1226,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 1260,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1239,7 +1239,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 360,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1252,7 +1252,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1265,7 +1265,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 960,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1278,7 +1278,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1291,7 +1291,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 330,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1304,7 +1304,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 650,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1317,7 +1317,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 770,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1330,7 +1330,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1343,7 +1343,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1356,7 +1356,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 600,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1369,7 +1369,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 1150,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1382,7 +1382,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1395,7 +1395,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 280,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1408,7 +1408,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 660,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1421,7 +1421,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1434,7 +1434,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1447,7 +1447,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined],
+    idols: [undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1460,7 +1460,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 520,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1473,7 +1473,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.Expert,
@@ -1486,7 +1486,7 @@ export const expertJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
 
@@ -1502,7 +1502,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1515,7 +1515,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1528,7 +1528,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1541,7 +1541,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1554,7 +1554,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1567,7 +1567,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1580,7 +1580,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.Fine,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1593,7 +1593,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1606,7 +1606,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 300,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1619,7 +1619,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1632,7 +1632,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 290,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1645,7 +1645,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1658,7 +1658,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1671,7 +1671,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.Trickstar,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1684,7 +1684,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1697,7 +1697,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1710,7 +1710,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1723,7 +1723,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1736,7 +1736,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 350,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1749,7 +1749,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 350,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1762,7 +1762,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Ryuseitai,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1775,7 +1775,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1788,7 +1788,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1801,7 +1801,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 240,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1814,7 +1814,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1827,7 +1827,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 290,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1840,7 +1840,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1853,7 +1853,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 340,
     unit: Unit.Alkaloid,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1866,7 +1866,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1879,7 +1879,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 240,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1892,7 +1892,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1905,7 +1905,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1918,7 +1918,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 290,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1931,7 +1931,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1944,7 +1944,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Eden,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1957,7 +1957,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1970,7 +1970,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 130,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1983,7 +1983,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -1996,7 +1996,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 170,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2009,7 +2009,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2022,7 +2022,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 160,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2035,7 +2035,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 160,
     unit: Unit.Valkyrie,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2048,7 +2048,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2061,7 +2061,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2074,7 +2074,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2087,7 +2087,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2100,7 +2100,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 140,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2113,7 +2113,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 140,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2126,7 +2126,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Twink,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2139,7 +2139,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2152,7 +2152,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2165,7 +2165,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2178,7 +2178,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2191,7 +2191,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2204,7 +2204,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 340,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2217,7 +2217,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 250,
     unit: Unit.CrazyB,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2230,7 +2230,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2243,7 +2243,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2256,7 +2256,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2269,7 +2269,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 340,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2282,7 +2282,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2295,7 +2295,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2308,7 +2308,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 280,
     unit: Unit.Undead,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2321,7 +2321,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2334,7 +2334,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 250,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2347,7 +2347,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2360,7 +2360,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 340,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2373,7 +2373,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2386,7 +2386,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2399,7 +2399,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 240,
     unit: Unit.Rabits,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2412,7 +2412,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2425,7 +2425,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 180,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2438,7 +2438,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2451,7 +2451,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 240,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2464,7 +2464,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2477,7 +2477,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 220,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2490,7 +2490,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 250,
     unit: Unit.Akatsuki,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2503,7 +2503,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2516,7 +2516,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 400,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2529,7 +2529,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 400,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2542,7 +2542,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 320,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2555,7 +2555,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 360,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2568,7 +2568,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 330,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2581,7 +2581,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Knights,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2594,7 +2594,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 220,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2607,7 +2607,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2620,7 +2620,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 190,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2633,7 +2633,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 180,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2646,7 +2646,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 180,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2659,7 +2659,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2672,7 +2672,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.Switch,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2685,7 +2685,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 120,
     unit: Unit.MaM,
     outfit: null,
-    idol: [Idol.Madara, Idol.Natsume],
+    idols: [Idol.Madara, Idol.Natsume],
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2698,7 +2698,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.MaM,
     outfit: null,
-    idol: [Idol.Madara, Idol.Leo],
+    idols: [Idol.Madara, Idol.Leo],
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2711,7 +2711,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 140,
     unit: Unit.MaM,
     outfit: null,
-    idol: [Idol.Madara, Idol.Tsukasa],
+    idols: [Idol.Madara, Idol.Tsukasa],
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2724,7 +2724,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2737,7 +2737,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 150,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2750,7 +2750,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 130,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2763,7 +2763,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2776,7 +2776,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 160,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2789,7 +2789,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 160,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
   {
     group: OfficeJobGroup.Unit,
@@ -2802,7 +2802,7 @@ export const unitJobs: OfficeJob[] = [
     Ch: 0,
     unit: Unit.DoubleFace,
     outfit: null,
-    idol: null,
+    idols: null,
   },
 ]
 
@@ -2818,7 +2818,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.EsWork,
@@ -2831,7 +2831,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 360,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.EsWork,
@@ -2844,7 +2844,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.EsWork,
@@ -2857,7 +2857,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.EsWork,
@@ -2870,7 +2870,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 1200,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
   {
     group: OfficeJobGroup.EsWork,
@@ -2883,7 +2883,7 @@ export const esJobs: OfficeJob[] = [
     Ch: 0,
     unit: null,
     outfit: null,
-    idol: [undefined, undefined, undefined, undefined, undefined],
+    idols: [undefined, undefined, undefined, undefined, undefined],
   },
 ]
 
@@ -2898,5 +2898,5 @@ export const emptyJob: OfficeJob = {
   Ch: 0,
   unit: null,
   outfit: null,
-  idol: null,
+  idols: null,
 }

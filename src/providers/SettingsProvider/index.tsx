@@ -5,8 +5,11 @@ import { OfficeJob } from '@/data/office-jobs'
 import { UserOutfit } from '@/data/outfits'
 import { StatsMap } from '@/data/stats'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
-import { checkIdolsSheet } from '@/services/idols_actions'
-import { checkOutfitsSheet } from '@/services/outfits_actions'
+import { checkIdolsSheet, initializeIdols } from '@/services/idols_actions'
+import {
+  checkOutfitsSheet,
+  initializeOutfits,
+} from '@/services/outfits_actions'
 import {
   createContext,
   ReactNode,
@@ -89,6 +92,36 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
 
     checkOutfits()
   }, [outfitsAreSetup, spreadsheetId])
+
+  useEffect(() => {
+    if (!spreadsheetId || !idolsAreSetup || idolStats) return
+
+    const initialize = async () => {
+      setIsLoading(true)
+      const statsResponse = await initializeIdols(spreadsheetId)
+      if (statsResponse.ok) {
+        const { allStats } = statsResponse
+        setIdolStats(allStats)
+      }
+      setIsLoading(false)
+    }
+    initialize()
+  }, [idolStats, idolsAreSetup, spreadsheetId])
+
+  useEffect(() => {
+    if (!spreadsheetId || !outfitsAreSetup || outfits) return
+
+    const initialize = async () => {
+      setIsLoading(true)
+      const outfitsResponse = await initializeOutfits(spreadsheetId)
+      if (outfitsResponse.ok) {
+        const { outfits: data } = outfitsResponse
+        setOutfits(data)
+      }
+      setIsLoading(false)
+    }
+    initialize()
+  }, [outfits, outfitsAreSetup, spreadsheetId])
 
   return (
     <SettingsContext.Provider

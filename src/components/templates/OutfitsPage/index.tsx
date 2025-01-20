@@ -8,32 +8,18 @@ import OutfitsForm from '../../organisms/OutfitsForm'
 import ContentLayout from '../../organisms/ContentLayout'
 import { useSettings } from '@/providers/SettingsProvider'
 import { useEffect } from 'react'
-import { initializeOutfits } from '@/services/outfits_actions'
 
 interface OutfitsPageProps {
   spreadsheetId: string
 }
 
 const OutfitsPage = ({ spreadsheetId }: OutfitsPageProps) => {
-  const { setSpreadsheetId, outfits, setOutfits } = useSettings()
+  const { spreadsheetIsSetup, setSpreadsheetId } = useSettings()
 
   useEffect(() => {
+    if (spreadsheetIsSetup) return
     setSpreadsheetId(spreadsheetId)
-  }, [setSpreadsheetId, spreadsheetId])
-
-  useEffect(() => {
-    if (outfits) return
-
-    const initialize = async () => {
-      const outfitsResponse = await initializeOutfits(spreadsheetId)
-      if (!outfitsResponse.ok) {
-        return
-      }
-      const { outfits: data } = outfitsResponse
-      setOutfits(data)
-    }
-    initialize()
-  }, [outfits, setOutfits, spreadsheetId])
+  }, [spreadsheetIsSetup, setSpreadsheetId, spreadsheetId])
 
   return (
     <div className='h-full flex flex-col max-h-full'>

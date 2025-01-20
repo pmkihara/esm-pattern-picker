@@ -34,7 +34,7 @@ const jobSchema = z.object({
 export type JobInput = z.infer<typeof jobSchema>
 
 const JobForm = ({ officeJob, onFormSubmit, outfits }: JobFormProps) => {
-  const { idol: jobIdols, ...job } = officeJob
+  const { idols: jobIdols, ...job } = officeJob
   const isCustomJob = officeJob.group === OfficeJobGroup.Custom
   const rowCls = 'py-4 md:py-8 grid md:grid-cols-form md:gap-8'
 
@@ -57,7 +57,7 @@ const JobForm = ({ officeJob, onFormSubmit, outfits }: JobFormProps) => {
     const officeJob: OfficeJob = {
       ...jobAtrrs,
       group: group as OfficeJobGroup,
-      idol:
+      idols:
         idols.length === 0
           ? null
           : idols.map((idol) => (idol.name === '' ? undefined : idol.name)),
