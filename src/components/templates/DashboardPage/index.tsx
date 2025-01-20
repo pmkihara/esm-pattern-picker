@@ -3,6 +3,7 @@
 import { useSettings } from '@/providers/SettingsProvider'
 import SetupSteps from '../../organisms/SetupSteps'
 import { useEffect } from 'react'
+import DashboardOverview from '@/components/organisms/DashboardOverview'
 
 interface DashboardPageProps {
   spreadsheetId: string
@@ -15,6 +16,9 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
     outfitsAreSetup,
     setSpreadsheetId,
     officeJobIsSetup,
+    idolStats,
+    outfits,
+    officeJob,
   } = useSettings()
 
   useEffect(() => {
@@ -23,13 +27,12 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      {spreadsheetIsSetup &&
-      idolsAreSetup &&
-      outfitsAreSetup &&
-      officeJobIsSetup ? (
-        <div className='h-full flex flex-col max-h-full'>
-          Show the dashboard
-        </div>
+      {spreadsheetIsSetup && idolStats && outfits && officeJob ? (
+        <DashboardOverview
+          idolStats={idolStats}
+          outfits={outfits}
+          officeJob={officeJob}
+        />
       ) : (
         <SetupSteps
           spreadsheetIsSetup={spreadsheetIsSetup}
