@@ -48,7 +48,7 @@ const OutfitOverview = ({
             src={outfitStateIcon().src}
             width='16'
             height='16'
-            className='fill-sky-400'
+            className='fill-black'
           />
           <span className='font-bold'>{outfit.name}</span>
         </div>
