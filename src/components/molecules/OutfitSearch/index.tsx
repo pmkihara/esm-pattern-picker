@@ -20,15 +20,15 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
     visibleOutfits,
     isLoading,
     query,
-    selectedOutfits,
     inputRef,
     isDisabled,
     onQueryChange,
     onOpenChange,
     onClose,
     onSubmit,
-    onCheckboxChange,
     onSelectAll,
+    register,
+    handleSubmit,
   } = useOutfitSearch(addFields, groupedFields)
 
   const trigger = (
@@ -76,7 +76,7 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
             />
           </button>
         </div>
-        <div className='p-2'>
+        <form className='p-2' onSubmit={handleSubmit(onSubmit)}>
           {isLoading || query.length < 3 || visibleOutfits.length === 0 ? (
             <div className='grid py-20 text-grey-500 justify-items-center'>
               {noResults()}
@@ -100,19 +100,18 @@ const OutfitSearch = ({ addFields, groupedFields }: OutfitSearchProps) => {
                     label={outfit.fullName}
                     wrapperClassName='hover:bg-grey-50'
                     value={outfit.fullName}
-                    onChange={onCheckboxChange}
-                    checked={selectedOutfits.has(outfit.fullName)}
                     disabled={isDisabled(outfit)}
                     id={outfit.fullName}
+                    {...register(outfit.fullName)}
                   />
                 ))}
               </div>
-              <Button size='sm' className='w-full mt-2' onClick={onSubmit}>
+              <Button size='sm' className='w-full mt-2' type='submit'>
                 Confirm
               </Button>
             </>
           )}
-        </div>
+        </form>
       </>
     </Popover>
   )

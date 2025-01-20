@@ -1,19 +1,25 @@
 import { Outfit, allOutfits } from '@/data/outfits'
 import { useState, useRef, ChangeEvent } from 'react'
+import {
+  FieldValues,
+  useForm,
+  UseFormHandleSubmit,
+  UseFormRegister,
+} from 'react-hook-form'
 
 interface HookResult {
   visibleOutfits: Outfit[]
   isLoading: boolean
   query: string
-  selectedOutfits: Set<string>
   inputRef: React.RefObject<HTMLInputElement | null>
   isDisabled: (outfit: Outfit) => boolean
   onQueryChange: (e: React.ChangeEvent<HTMLInputElement>) => void
   onClose: () => void
   onOpenChange: (open: boolean) => void
-  onSubmit: () => void
-  onCheckboxChange: (e: ChangeEvent<HTMLInputElement>) => void
+  onSubmit: (data: FieldValues) => void
   onSelectAll: (e: ChangeEvent<HTMLInputElement>) => void
+  register: UseFormRegister<FieldValues>
+  handleSubmit: UseFormHandleSubmit<FieldValues, undefined>
 }
 
 const useOutfitSearch = (
@@ -23,25 +29,10 @@ const useOutfitSearch = (
   const [visibleOutfits, setVisibleOutfits] = useState<Outfit[]>([])
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [query, setQuery] = useState<string>('uniform')
-  const [selectedOutfits, setSelectedOutfits] = useState<Set<string>>(new Set())
 
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const addSelectedOutfit = (outfitFullName: string) => {
-    setSelectedOutfits((prev) => {
-      const newSelectedOutfits = new Set(prev)
-      newSelectedOutfits.add(outfitFullName)
-      return newSelectedOutfits
-    })
-  }
-
-  const removeSelectedOutfit = (outfitFullName: string) => {
-    setSelectedOutfits((prev) => {
-      const newSelectedOutfits = new Set(prev)
-      newSelectedOutfits.delete(outfitFullName)
-      return newSelectedOutfits
-    })
-  }
+  const { register, handleSubmit, reset, setValue } = useForm()
 
   const isDisabled = (outfit: Outfit) => {
     return groupedFields[outfit.idol]?.[outfit.group]?.some(
@@ -79,58 +70,36 @@ const useOutfitSearch = (
     if (inputRef.current) {
       inputRef.current.value = ''
     }
-    setSelectedOutfits(new Set())
+    reset()
   }
 
-  const onCheckboxChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const checkbox = e.target
-    if (checkbox.checked) {
-      addSelectedOutfit(checkbox.value)
-    } else {
-      removeSelectedOutfit(checkbox.value)
-    }
-  }
-
-  const onSubmit = () => {
-    addFields(selectedOutfits)
+  const onSubmit = (data: FieldValues) => {
+    const outfits = new Set(Object.keys(data).filter((key) => data[key]))
+    addFields(outfits)
     onClose()
   }
 
   const onSelectAll = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.checked) {
-      setSelectedOutfits((prev) => {
-        const newSelectedOutfits = new Set(prev)
-        visibleOutfits.forEach((outfit) => {
-          if (!isDisabled(outfit)) {
-            newSelectedOutfits.add(outfit.fullName)
-          }
-        })
-        return newSelectedOutfits
-      })
-    } else {
-      setSelectedOutfits((prev) => {
-        const newSelectedOutfits = new Set(prev)
-        visibleOutfits.forEach((outfit) => {
-          newSelectedOutfits.delete(outfit.fullName)
-        })
-        return newSelectedOutfits
-      })
-    }
+    visibleOutfits.forEach((outfit) => {
+      if (!isDisabled(outfit)) {
+        setValue(outfit.fullName, e.target.checked)
+      }
+    })
   }
 
   return {
     visibleOutfits,
     isLoading,
     query,
-    selectedOutfits,
     inputRef,
     isDisabled,
     onQueryChange,
     onOpenChange,
     onClose,
     onSubmit,
-    onCheckboxChange,
     onSelectAll,
+    register,
+    handleSubmit,
   }
 }
 
