@@ -1,32 +1,25 @@
 import JobStatBar from '@/components/atoms/JobStatBar'
 import SvgImage from '@/components/atoms/SvgImage'
 import TopBar from '@/components/atoms/TopBar'
-import { Idol } from '@/data/idols'
 import { OfficeJob } from '@/data/office-jobs'
-import { Outfit, UserOutfit } from '@/data/outfits'
-import { allStats, Stat, StatsMap } from '@/data/stats'
+import { allStats, Stat } from '@/data/stats'
 import { useJobGroupImages } from '@/hooks/useJobGroupImages'
+import { OutfitContribution } from '@/lib/outfitStat'
 import { twMerge } from 'tailwind-merge'
 
 interface JobStatsProps {
   selectedJob: OfficeJob
-  selectedOutfits: (Outfit | UserOutfit)[]
-  idolStats: StatsMap
+  selectedOutfits: OutfitContribution[]
 }
 
-const JobStats = ({
-  selectedJob,
-  selectedOutfits,
-  idolStats,
-}: JobStatsProps) => {
+const JobStats = ({ selectedJob, selectedOutfits }: JobStatsProps) => {
   const groupIcons = useJobGroupImages()
   const statValues = allStats.map((stat) => selectedJob[stat])
   const maxValue = Math.max(...statValues) + 500
 
   const totalOutfitValue = (stat: Stat) => {
-    return selectedOutfits.reduce((acc, outfit) => {
-      const idol = outfit.idol as Idol
-      return acc + outfit[stat] + idolStats[idol][stat]
+    return selectedOutfits.reduce((acc, outfitContribution) => {
+      return acc + outfitContribution.statContributions[stat]
     }, 0)
   }
 

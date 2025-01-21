@@ -1,14 +1,18 @@
-import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import RadioTag from '@/components/atoms/RadioTag'
 import JobStats from '@/components/molecules/JobStats'
 import OutfitOverview from '@/components/molecules/OutfitOverview'
 import { Idol } from '@/data/idols'
 import { OfficeJob } from '@/data/office-jobs'
-import { Outfit, UserOutfit } from '@/data/outfits'
+import { UserOutfit } from '@/data/outfits'
 import { StatsMap } from '@/data/stats'
-import { autoSelect } from '@/services/autoSelect'
-import { FormEvent, useEffect, useState } from 'react'
+import { autoSelectByBalance } from '@/lib/autoSelect'
+import { FormEvent, useEffect, useMemo, useState } from 'react'
 import ContentLayout from '../ContentLayout'
+import {
+  getOutfitsContribution,
+  isValidOutfit,
+  OutfitContribution,
+} from '@/lib/outfitStat'
 
 interface DashboardOverviewProps {
   idolStats: StatsMap
@@ -21,69 +25,57 @@ const DashboardOverview = ({
   outfits,
   officeJob,
 }: DashboardOverviewProps) => {
-  const [selectedOutfits, setSelectedOutfits] = useState<
-    (Outfit | UserOutfit)[]
-  >([])
+  const [selectedOutfits, setSelectedOutfits] = useState<OutfitContribution[]>(
+    [],
+  )
   const [onlyCrafted, setOnlyCrafted] = useState(true)
-  const [isLoading, setIsLoading] = useState(false)
+
+  const outfitsContribution = useMemo(() => {
+    return getOutfitsContribution(outfits, officeJob, idolStats)
+  }, [outfits, officeJob, idolStats])
+
+  const visibleContributions = useMemo(() => {
+    return outfitsContribution.filter((contribution) =>
+      isValidOutfit(contribution.outfit, onlyCrafted),
+    )
+  }, [outfitsContribution, onlyCrafted])
 
   useEffect(() => {
-    const getAutoSelectedOutfits = async () => {
-      setIsLoading(true)
-      const autoSelectedOutfits = await autoSelect({
-        outfits,
-        selectedJob: officeJob,
-        idolsStats: idolStats,
-        onlyCrafted,
-      })
-      setSelectedOutfits(autoSelectedOutfits)
-      setIsLoading(false)
-    }
-
-    getAutoSelectedOutfits()
-  }, [idolStats, officeJob, outfits, onlyCrafted])
+    const selectedOutfits = autoSelectByBalance(visibleContributions, officeJob)
+    setSelectedOutfits(selectedOutfits)
+  }, [officeJob, visibleContributions])
 
   const onRadioChange = (e: FormEvent<HTMLFieldSetElement>) => {
     const input = e.target as HTMLInputElement
-    setOnlyCrafted(input.value === 'true')
+    setOnlyCrafted(input.value === 'crafted')
   }
 
-  return isLoading ? (
-    <LoadingOverlay isLoading={isLoading} />
-  ) : (
+  return (
     <>
-      <JobStats
-        selectedJob={officeJob}
-        selectedOutfits={selectedOutfits}
-        idolStats={idolStats}
-      />
+      <JobStats selectedJob={officeJob} selectedOutfits={selectedOutfits} />
       <ContentLayout>
         <fieldset
           className='grid grid-cols-2 gap-4 p-4 pb-0'
           onChange={onRadioChange}
         >
-          <RadioTag
-            name='only-checked'
-            value='false'
-            defaultChecked={!onlyCrafted}
-          >
-            All Patterns
+          <RadioTag name='patterns' value='owned'>
+            Owned
           </RadioTag>
           <RadioTag
-            name='only-checked'
-            value='true'
+            name='patterns'
+            value='crafted'
             defaultChecked={onlyCrafted}
           >
-            Only Crafted
+            Crafted
           </RadioTag>
         </fieldset>
         <div className='grid divide-y divide-grey-100 p-4 pt-0'>
-          {selectedOutfits.map((outfit) => (
+          {selectedOutfits.map(({ outfit, statContributions }) => (
             <OutfitOverview
               key={outfit.fullName}
               outfit={outfit}
               idolStats={idolStats[outfit.idol as Idol]}
-              selectedJob={officeJob}
+              statContributions={statContributions}
             />
           ))}
         </div>

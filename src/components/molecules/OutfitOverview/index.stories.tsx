@@ -2,8 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 import OutfitOverview from '.'
 import { startPatterns } from '@/data/outfits'
-import { emptyStats } from '@/data/stats'
-import { primaryJobs } from '@/data/office-jobs'
+import { emptyStats, Stat } from '@/data/stats'
 
 const meta = {
   title: 'Molecules/OutfitOverview',
@@ -14,11 +13,18 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
+const outfit = startPatterns[0]
+const statContributions = {
+  [Stat.Passion]: outfit[Stat.Passion],
+  [Stat.Smart]: outfit[Stat.Smart],
+  [Stat.Technique]: outfit[Stat.Technique],
+}
+
 export const Default: Story = {
   args: {
-    outfit: { ...startPatterns[0], crafted: true },
+    outfit: { ...outfit, crafted: true },
     idolStats: emptyStats,
-    selectedJob: primaryJobs[0],
+    statContributions,
   },
 }
 
@@ -26,7 +32,7 @@ export const Pattern: Story = {
   args: {
     outfit: { ...startPatterns[0], crafted: false },
     idolStats: emptyStats,
-    selectedJob: primaryJobs[0],
+    statContributions,
   },
 }
 
@@ -34,6 +40,6 @@ export const NotOwned: Story = {
   args: {
     outfit: { ...startPatterns[0] },
     idolStats: emptyStats,
-    selectedJob: primaryJobs[0],
+    statContributions,
   },
 }
