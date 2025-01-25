@@ -5,7 +5,7 @@ import { Idol } from '@/data/idols'
 import { OfficeJob } from '@/data/office-jobs'
 import { UserOutfit } from '@/data/outfits'
 import { StatsMap } from '@/data/stats'
-import { autoSelectByBalance } from '@/lib/autoSelect'
+import { autoSelect } from '@/lib/autoSelect'
 import { FormEvent, useEffect, useMemo, useState } from 'react'
 import ContentLayout from '../ContentLayout'
 import {
@@ -41,7 +41,7 @@ const DashboardOverview = ({
   }, [outfitsContribution, onlyCrafted])
 
   useEffect(() => {
-    const selectedOutfits = autoSelectByBalance(visibleContributions, officeJob)
+    const selectedOutfits = autoSelect(visibleContributions, officeJob)
     setSelectedOutfits(selectedOutfits)
   }, [officeJob, visibleContributions])
 
