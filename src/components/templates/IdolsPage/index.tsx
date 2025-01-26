@@ -1,9 +1,6 @@
 'use client'
 
 import TopBar from '@/components/atoms/TopBar'
-import Input from '@/components/atoms/Input'
-import MagnifierIcon from '@@/public/assets/icons/magnifier.svg'
-import H1 from '@/components/atoms/H1'
 import IdolsStatsForm from '@/components/organisms/IdolsStatsForm'
 import ContentLayout from '@/components/organisms/ContentLayout'
 import { useSettings } from '@/providers/SettingsProvider'
@@ -23,15 +20,10 @@ const IdolsPage = ({ spreadsheetId }: IdolsPageProps) => {
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      <TopBar className='flex items-center justify-between px-4 grow-0 shrink-0'>
-        <Input
-          placeholder='Search by name...'
-          wrapperClassName='w-full max-w-screen-lg'
-          iconSrc={MagnifierIcon.src}
-        />
+      <TopBar>
+        <h1 className='font-bold text-sky-700 text-lg'>Idol Stats</h1>
       </TopBar>
       <ContentLayout>
-        <H1>Idol Stats</H1>
         <IdolsStatsForm />
       </ContentLayout>
     </div>

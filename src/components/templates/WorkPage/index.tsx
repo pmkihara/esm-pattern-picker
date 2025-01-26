@@ -36,7 +36,7 @@ const WorkPage = ({ spreadsheetId }: WorkPageProps) => {
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      <TopBar className='flex items-center justify-between px-4 grow-0 shrink-0'>
+      <TopBar>
         <JobSearch selectedJob={officeJob} setOfficeJob={setOfficeJob} />
       </TopBar>
       <ContentLayout>
