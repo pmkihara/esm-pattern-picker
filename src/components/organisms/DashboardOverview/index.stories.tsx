@@ -10,13 +10,6 @@ const meta = {
   title: 'Organisms/DashboardOverview',
   component: DashboardOverview,
   tags: ['autodocs'],
-  decorators: [
-    (Story) => (
-      <div className='w-[320px] md:w-[560px]'>
-        <Story />
-      </div>
-    ),
-  ],
   parameters: {
     layout: 'padded',
   },

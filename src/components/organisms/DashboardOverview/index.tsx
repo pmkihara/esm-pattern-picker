@@ -1,4 +1,3 @@
-import RadioTag from '@/components/atoms/RadioTag'
 import JobStats from '@/components/molecules/JobStats'
 import OutfitOverview from '@/components/molecules/OutfitOverview'
 import { Idol } from '@/data/idols'
@@ -13,6 +12,7 @@ import {
   isValidOutfit,
   OutfitContribution,
 } from '@/lib/outfitStat'
+import SwitchToggle from '@/components/atoms/SwitchToggle'
 
 interface DashboardOverviewProps {
   idolStats: StatsMap
@@ -45,31 +45,19 @@ const DashboardOverview = ({
     setSelectedOutfits(selectedOutfits)
   }, [officeJob, visibleContributions])
 
-  const onRadioChange = (e: FormEvent<HTMLFieldSetElement>) => {
+  const onToggleChange = (e: FormEvent<HTMLInputElement>) => {
     const input = e.target as HTMLInputElement
-    setOnlyCrafted(input.value === 'crafted')
+    setOnlyCrafted(input.checked)
   }
 
   return (
     <>
       <JobStats selectedJob={officeJob} selectedOutfits={selectedOutfits} />
       <ContentLayout>
-        <fieldset
-          className='grid grid-cols-2 gap-4 p-4 pb-0'
-          onChange={onRadioChange}
-        >
-          <RadioTag name='patterns' value='owned'>
-            Owned
-          </RadioTag>
-          <RadioTag
-            name='patterns'
-            value='crafted'
-            defaultChecked={onlyCrafted}
-          >
-            Crafted
-          </RadioTag>
-        </fieldset>
-        <div className='grid divide-y divide-grey-100 p-4 pt-0'>
+        <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
+          <span className='text-sm font-bold'>Only crafted outfits</span>
+        </SwitchToggle>
+        <div className='grid divide-y divide-grey-100'>
           {selectedOutfits.map(({ outfit, statContributions }) => (
             <OutfitOverview
               key={outfit.fullName}
