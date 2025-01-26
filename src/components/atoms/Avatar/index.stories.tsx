@@ -14,8 +14,14 @@ const meta: Meta<typeof Avatar> = {
 export default meta
 type Story = StoryObj<typeof Avatar>
 
-export const Active: Story = {
+export const Default: Story = {
   args: {
     idol: Idol.Hokuto,
+  },
+}
+
+export const UndefinedIdol: Story = {
+  args: {
+    idol: undefined,
   },
 }

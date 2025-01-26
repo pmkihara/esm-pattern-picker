@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import AvatarHead from '.'
+import IdolHeadImage from '.'
 import { Idol } from '@/data/idols'
 
-const meta: Meta<typeof AvatarHead> = {
-  title: 'Atoms/AvatarHead',
-  component: AvatarHead,
+const meta: Meta<typeof IdolHeadImage> = {
+  title: 'Atoms/IdolHeadImage',
+  component: IdolHeadImage,
   tags: ['autodocs'],
   parameters: {
     layout: 'padded',
@@ -12,9 +12,9 @@ const meta: Meta<typeof AvatarHead> = {
 }
 
 export default meta
-type Story = StoryObj<typeof AvatarHead>
+type Story = StoryObj<typeof IdolHeadImage>
 
-export const Active: Story = {
+export const Default: Story = {
   args: {
     idol: Idol.Hokuto,
   },

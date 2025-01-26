@@ -115,7 +115,7 @@ const IdolImage = ({ idol, className }: IdolImageProps) => {
       src={idol ? idolImages[idol] : UndefinedCharacter}
       alt={idol ?? 'Undefined'}
       className={twMerge(
-        'object-cover object-top',
+        'object-cover object-[0_25%]',
         className,
         !idol && 'mix-blend-luminosity',
       )}

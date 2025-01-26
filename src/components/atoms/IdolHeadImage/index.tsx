@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { twMerge } from 'tailwind-merge'
 import AdonisImage from '@@/public/assets/idols/heads/Adonis.png'
 import AiraImage from '@@/public/assets/idols/heads/Aira.png'
 import ArashiImage from '@@/public/assets/idols/heads/Arashi.png'
@@ -49,10 +48,12 @@ import TsumugiImage from '@@/public/assets/idols/heads/Tsumugi.png'
 import WataruImage from '@@/public/assets/idols/heads/Wataru.png'
 import YutaImage from '@@/public/assets/idols/heads/Yuta.png'
 import YuzuruImage from '@@/public/assets/idols/heads/Yuzuru.png'
+import UndefinedCharacter from '@@/public/assets/idols/chibis/Undefined.png'
 import { Idol } from '@/data/idols'
+import { twMerge } from 'tailwind-merge'
 
-interface AvatarHeadProps {
-  idol: Idol
+interface IdolHeadImageProps {
+  idol?: Idol
   className?: string
 }
 
@@ -108,22 +109,19 @@ const idolImages = {
   [Idol.Yuzuru]: YuzuruImage,
 }
 
-const AvatarHead = ({ idol, className }: AvatarHeadProps) => {
+const IdolHeadImage = ({ idol, className }: IdolHeadImageProps) => {
   return (
-    <div
+    <Image
+      src={idol ? idolImages[idol] : UndefinedCharacter}
+      alt={idol ?? 'Undefined'}
       className={twMerge(
-        'h-8 w-8 overflow-clip shrink-0 grow-0',
-        'sm:h-12 sm:w-12',
+        'object-cover object-[0_25%]',
         className,
+        !idol && 'mix-blend-luminosity',
       )}
-    >
-      <Image
-        src={idolImages[idol]}
-        alt={idol}
-        className='object-cover h-auto'
-      />
-    </div>
+      sizes='56px'
+    />
   )
 }
 
-export default AvatarHead
+export default IdolHeadImage

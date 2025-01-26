@@ -1,5 +1,5 @@
 import StatInput from '@/components/atoms/StatInput'
-import AvatarHead from '@/components/atoms/AvatarHead'
+import Avatar from '@/components/atoms/Avatar'
 import { Stat, Stats, StatsMap } from '@/data/stats'
 import { Idol } from '@/data/idols'
 import { FieldErrors, UseFormRegister } from 'react-hook-form'
@@ -26,7 +26,7 @@ const IdolStatsRow = ({
       id={idol}
     >
       <div className='grow shrink flex gap-2 items-center max-w-full'>
-        <AvatarHead idol={idol} />
+        <Avatar idol={idol} rounded={false} />
         <span className='font-bold max-w-full overflow-hidden truncate'>
           {idol}
         </span>
