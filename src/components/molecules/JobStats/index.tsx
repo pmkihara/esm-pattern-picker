@@ -10,12 +10,15 @@ import { twMerge } from 'tailwind-merge'
 interface JobStatsProps {
   selectedJob: OfficeJob
   selectedOutfits: OutfitContribution[]
+  maxValue: number
 }
 
-const JobStats = ({ selectedJob, selectedOutfits }: JobStatsProps) => {
+const JobStats = ({
+  selectedJob,
+  selectedOutfits,
+  maxValue,
+}: JobStatsProps) => {
   const groupIcons = useJobGroupImages()
-  const statValues = allStats.map((stat) => selectedJob[stat])
-  const maxValue = Math.max(...statValues) + 500
 
   const totalOutfitValue = (stat: Stat) => {
     return selectedOutfits.reduce((acc, outfitContribution) => {
@@ -38,7 +41,7 @@ const JobStats = ({ selectedJob, selectedOutfits }: JobStatsProps) => {
           {selectedJob.name}
         </span>
       </div>
-      <div className='bg-white p-4 rounded-lg grid xl:grid-cols-3 gap-2 xl:gap-6 shadow-lg'>
+      <div className='bg-white p-4 rounded-lg grid xl:grid-cols-3 gap-2 xl:gap-6 shadow-md lg:py-6'>
         {allStats.map((stat) => {
           return (
             selectedJob[stat] > 0 && (

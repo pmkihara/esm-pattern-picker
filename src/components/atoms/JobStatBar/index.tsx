@@ -8,6 +8,7 @@ interface JobStatBarProps {
   outfitValue: number
   maxStat?: number
   showTarget?: boolean
+  additionalOutfitValue?: number
 }
 
 const JobStatBar = ({
@@ -16,6 +17,7 @@ const JobStatBar = ({
   outfitValue,
   maxStat = 2000,
   showTarget = true,
+  additionalOutfitValue,
 }: JobStatBarProps) => {
   const outfitPercentage = Math.min(
     100,
@@ -29,8 +31,16 @@ const JobStatBar = ({
   return (
     <div className='flex items-center gap-2 h-2.5 md:h-3.5'>
       <StatTag type={stat} responsive={false} />
-      <div className='text-sm font-bold grow-0 shrink-0 w-9 text-right'>
+      <div
+        className={twMerge(
+          'text-sm font-bold grow-0 shrink-0 text-right overflow-hidden truncate',
+          additionalOutfitValue !== undefined ? 'w-20' : 'w-9',
+        )}
+      >
         {outfitValue}
+        {additionalOutfitValue !== undefined && (
+          <span className='font-normal text-grey-500'>{` (${additionalOutfitValue})`}</span>
+        )}
       </div>
       <div
         className={twMerge(

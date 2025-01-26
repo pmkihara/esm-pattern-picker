@@ -34,5 +34,6 @@ export const Default: Story = {
   args: {
     selectedJob: primaryJobs[0],
     selectedOutfits: outfitsContributions,
+    maxValue: 500,
   },
 }

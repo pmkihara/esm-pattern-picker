@@ -75,3 +75,9 @@ export const HideTarget: Story = {
     showTarget: false,
   },
 }
+
+export const WithAdditionalOutfitValue: Story = {
+  args: {
+    additionalOutfitValue: 100,
+  },
+}

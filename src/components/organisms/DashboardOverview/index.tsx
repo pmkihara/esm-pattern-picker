@@ -3,7 +3,7 @@ import OutfitOverview from '@/components/molecules/OutfitOverview'
 import { Idol } from '@/data/idols'
 import { OfficeJob } from '@/data/office-jobs'
 import { UserOutfit } from '@/data/outfits'
-import { StatsMap } from '@/data/stats'
+import { allStats, StatsMap } from '@/data/stats'
 import { autoSelect } from '@/lib/autoSelect'
 import { FormEvent, useEffect, useMemo, useState } from 'react'
 import ContentLayout from '../ContentLayout'
@@ -25,6 +25,9 @@ const DashboardOverview = ({
   outfits,
   officeJob,
 }: DashboardOverviewProps) => {
+  const statValues = allStats.map((stat) => officeJob[stat])
+  const maxValue = Math.max(...statValues) + 500
+
   const [selectedOutfits, setSelectedOutfits] = useState<OutfitContribution[]>(
     [],
   )
@@ -52,18 +55,24 @@ const DashboardOverview = ({
 
   return (
     <>
-      <JobStats selectedJob={officeJob} selectedOutfits={selectedOutfits} />
+      <JobStats
+        selectedJob={officeJob}
+        selectedOutfits={selectedOutfits}
+        maxValue={maxValue}
+      />
       <ContentLayout>
         <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
           <span className='text-sm font-bold'>Only crafted outfits</span>
         </SwitchToggle>
-        <div className='grid divide-y divide-grey-100'>
+        <div className='grid gap-4 mt-4'>
           {selectedOutfits.map(({ outfit, statContributions }) => (
             <OutfitOverview
               key={outfit.fullName}
               outfit={outfit}
               idolStats={idolStats[outfit.idol as Idol]}
               statContributions={statContributions}
+              maxValue={maxValue}
+              selectedJob={officeJob}
             />
           ))}
         </div>

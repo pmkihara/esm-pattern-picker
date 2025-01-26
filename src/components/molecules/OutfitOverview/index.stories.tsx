@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import OutfitOverview from '.'
 import { startPatterns } from '@/data/outfits'
 import { emptyStats, Stat } from '@/data/stats'
+import { primaryJobs } from '@/data/office-jobs'
 
 const meta = {
   title: 'Molecules/OutfitOverview',
@@ -25,6 +26,8 @@ export const Default: Story = {
     outfit: { ...outfit, crafted: true },
     idolStats: emptyStats,
     statContributions,
+    maxValue: 500,
+    selectedJob: primaryJobs[0],
   },
 }
 
@@ -33,6 +36,8 @@ export const Pattern: Story = {
     outfit: { ...startPatterns[0], crafted: false },
     idolStats: emptyStats,
     statContributions,
+    maxValue: 500,
+    selectedJob: primaryJobs[0],
   },
 }
 
@@ -41,5 +46,7 @@ export const NotOwned: Story = {
     outfit: { ...startPatterns[0] },
     idolStats: emptyStats,
     statContributions,
+    maxValue: 500,
+    selectedJob: primaryJobs[0],
   },
 }

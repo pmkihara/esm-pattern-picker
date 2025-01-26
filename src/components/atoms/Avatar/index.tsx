@@ -21,7 +21,7 @@ const Avatar = ({
   return (
     <div
       className={twMerge(
-        'overflow-clip shrink-0 grow-0',
+        'overflow-clip shrink-0 grow-0 flex',
         size === 'sm' && 'h-8 w-8 sm:h-12 sm:w-12',
         size === 'md' && 'h-12 w-12 sm:h-14 sm:w-14',
         rounded && 'rounded-full',
