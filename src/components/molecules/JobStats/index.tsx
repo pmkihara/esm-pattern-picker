@@ -24,8 +24,8 @@ const JobStats = ({ selectedJob, selectedOutfits }: JobStatsProps) => {
   }
 
   return (
-    <TopBar className='rounded-b-2xl md:rounded-none px-4 py-3 h-fit'>
-      <div className='flex gap-2 items-center mb-4'>
+    <TopBar className='rounded-b-2xl md:rounded-none pt-3 pb-4 h-fit block'>
+      <div className='flex gap-2 items-center mb-2'>
         <SvgImage
           src={groupIcons[selectedJob?.group ?? 'none'].src}
           width='16'
@@ -33,12 +33,12 @@ const JobStats = ({ selectedJob, selectedOutfits }: JobStatsProps) => {
           className={'group-focus:fill-sky-400 fill-grey-300 -ml-px'}
         />
         <span
-          className={twMerge('ml-px', selectedJob && 'text-sky-900 font-bold')}
+          className={twMerge('ml-px', selectedJob && 'text-sky-950 font-bold')}
         >
           {selectedJob.name}
         </span>
       </div>
-      <div className='bg-white p-4 md:p-6 rounded grid gap-2 md:gap-3'>
+      <div className='bg-white p-4 rounded-lg grid xl:grid-cols-3 gap-2 xl:gap-6 shadow-lg'>
         {allStats.map((stat) => {
           return (
             selectedJob[stat] > 0 && (

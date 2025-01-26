@@ -4,6 +4,7 @@ import { twMerge } from 'tailwind-merge'
 
 interface StatTagProps {
   type: Stat
+  responsive?: boolean
 }
 
 export const statColors = {
@@ -15,7 +16,16 @@ export const statColors = {
   [Stat.Charisma]: 'bg-charisma',
 }
 
-const StatTag = ({ type }: StatTagProps) => {
+export const statBgColors = {
+  [Stat.Active]: 'bg-active/20',
+  [Stat.Passion]: 'bg-passion/20',
+  [Stat.Unique]: 'bg-unique/20',
+  [Stat.Smart]: 'bg-smart/20',
+  [Stat.Technique]: 'bg-technique/20',
+  [Stat.Charisma]: 'bg-charisma/20',
+}
+
+const StatTag = ({ type, responsive = true }: StatTagProps) => {
   const isTablet = useBreakpoint('md')
 
   return (
@@ -23,11 +33,11 @@ const StatTag = ({ type }: StatTagProps) => {
       className={twMerge(
         'text-2xs font-bold text-white rounded-sm w-5 text-center capitalize',
         'grow-0 shrink-0',
-        'md:text-sm md:w-20',
+        responsive && 'md:text-sm md:w-20',
         statColors[type],
       )}
     >
-      {isTablet ? longStats[type] : type}
+      {responsive && isTablet ? longStats[type] : type}
     </div>
   )
 }

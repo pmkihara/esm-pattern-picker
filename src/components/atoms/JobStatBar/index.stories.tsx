@@ -69,3 +69,9 @@ export const AboveMax: Story = {
     outfitValue: 2000,
   },
 }
+
+export const HideTarget: Story = {
+  args: {
+    showTarget: false,
+  },
+}

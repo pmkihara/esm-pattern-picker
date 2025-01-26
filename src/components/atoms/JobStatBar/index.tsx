@@ -1,5 +1,5 @@
 import { Stat } from '@/data/stats'
-import StatTag, { statColors } from '../StatTag'
+import StatTag, { statBgColors, statColors } from '../StatTag'
 import { twMerge } from 'tailwind-merge'
 
 interface JobStatBarProps {
@@ -7,6 +7,7 @@ interface JobStatBarProps {
   targetValue: number
   outfitValue: number
   maxStat?: number
+  showTarget?: boolean
 }
 
 const JobStatBar = ({
@@ -14,6 +15,7 @@ const JobStatBar = ({
   targetValue,
   outfitValue,
   maxStat = 2000,
+  showTarget = true,
 }: JobStatBarProps) => {
   const outfitPercentage = Math.min(
     100,
@@ -25,24 +27,31 @@ const JobStatBar = ({
   )
 
   return (
-    <div className='flex items-center gap-2 h-3 md:h-5'>
-      <StatTag type={stat} />
+    <div className='flex items-center gap-2 h-2.5 md:h-3.5'>
+      <StatTag type={stat} responsive={false} />
       <div className='text-sm font-bold grow-0 shrink-0 w-9 text-right'>
         {outfitValue}
       </div>
-      <div className='grow shrink bg-grey-300 border border-black h-full rounded-full relative overflow-hidden'>
+      <div
+        className={twMerge(
+          'grow shrink h-full rounded-full relative overflow-hidden',
+          statBgColors[stat],
+        )}
+      >
         <div
-          className='absolute left-0 border-r-4 border-black h-full'
+          className='absolute left-0 top-0 border-r-4 z-10 border-black h-full'
           style={{ width: `${targetPercentage}%` }}
-        ></div>
+        />
         <div
           className={twMerge('h-full', statColors[stat])}
           style={{ width: `${outfitPercentage}%` }}
         />
       </div>
-      <div className='bg-sky-100 text-sky-800 text-xs font-semibold rounded text-center w-9 h-full flex items-center justify-center md:text-sm md:w-12'>
-        {targetValue}
-      </div>
+      {showTarget && (
+        <div className='bg-sky-100 text-sky-800 text-xs font-semibold rounded text-center w-9 h-full flex items-center justify-center md:text-sm md:w-12'>
+          {targetValue}
+        </div>
+      )}
     </div>
   )
 }
