@@ -15,7 +15,7 @@ const NavBar = () => {
   const pathName = usePathname()
   const searchParams = useSearchParams()
   const spreadsheetId = searchParams.get('id')
-  const isDashboardPage = pathName.includes('dashboard')
+  const withoutMiddleButton = pathName.includes('steps')
 
   const getHref = (path: string) => {
     const queryParams = spreadsheetId ? `?id=${spreadsheetId}` : ''
@@ -54,7 +54,7 @@ const NavBar = () => {
       className={twMerge(
         'bg-sky-300 text-white grid grow-0 shrink-0',
         'lg:block lg:px-3 lg:py-5 lg:w-60 lg:h-full',
-        isDashboardPage ? 'grid-cols-4' : 'grid-cols-5',
+        withoutMiddleButton ? 'grid-cols-4' : 'grid-cols-5',
       )}
     >
       <Image
@@ -66,7 +66,7 @@ const NavBar = () => {
       />
       <NavItem {...items.home} />
       <NavItem {...items.idols} />
-      {!isDashboardPage && <div className='block lg:hidden' />}
+      {!withoutMiddleButton && <div className='block lg:hidden' />}
       <NavItem {...items.outfits} />
       <NavItem {...items.work} />
     </nav>

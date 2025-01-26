@@ -13,6 +13,7 @@ import {
   OutfitContribution,
 } from '@/lib/outfitStat'
 import SwitchToggle from '@/components/atoms/SwitchToggle'
+import SaveButton from '@/components/atoms/SaveButton'
 
 interface DashboardOverviewProps {
   idolStats: StatsMap
@@ -61,21 +62,24 @@ const DashboardOverview = ({
         maxValue={maxValue}
       />
       <ContentLayout>
-        <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
-          <span className='text-sm font-bold'>Only crafted outfits</span>
-        </SwitchToggle>
-        <div className='grid gap-4 mt-4'>
-          {selectedOutfits.map(({ outfit, statContributions }) => (
-            <OutfitOverview
-              key={outfit.fullName}
-              outfit={outfit}
-              idolStats={idolStats[outfit.idol as Idol]}
-              statContributions={statContributions}
-              maxValue={maxValue}
-              selectedJob={officeJob}
-            />
-          ))}
+        <div className='grow'>
+          <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
+            <span className='text-sm font-bold'>Only crafted outfits</span>
+          </SwitchToggle>
+          <div className='grid gap-4 mt-4'>
+            {selectedOutfits.map(({ outfit, statContributions }) => (
+              <OutfitOverview
+                key={outfit.fullName}
+                outfit={outfit}
+                idolStats={idolStats[outfit.idol as Idol]}
+                statContributions={statContributions}
+                maxValue={maxValue}
+                selectedJob={officeJob}
+              />
+            ))}
+          </div>
         </div>
+        <SaveButton type='button' icon='edit' />
       </ContentLayout>
     </>
   )

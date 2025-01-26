@@ -1,19 +1,22 @@
 'use client'
 
 import { useSettings } from '@/providers/SettingsProvider'
+import SetupSteps from '../../organisms/SetupSteps'
 import { useEffect } from 'react'
-import DashboardOverview from '@/components/organisms/DashboardOverview'
 import { useRouter } from 'next/navigation'
 
-interface DashboardPageProps {
+interface StepsPageProps {
   spreadsheetId: string
 }
 
-const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
+const StepsPage = ({ spreadsheetId }: StepsPageProps) => {
   const router = useRouter()
   const {
     spreadsheetIsSetup,
+    idolsAreSetup,
+    outfitsAreSetup,
     setSpreadsheetId,
+    officeJobIsSetup,
     idolStats,
     outfits,
     officeJob,
@@ -24,22 +27,22 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
   }, [setSpreadsheetId, spreadsheetId])
 
   useEffect(() => {
-    if (!(spreadsheetIsSetup && idolStats && outfits && officeJob)) {
-      router.push(`/steps?id=${spreadsheetId}`)
+    if (spreadsheetIsSetup && idolStats && outfits && officeJob) {
+      router.push(`/dashboard/${spreadsheetId}`)
     }
   }, [idolStats, officeJob, outfits, router, spreadsheetId, spreadsheetIsSetup])
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      {idolStats && outfits && officeJob && (
-        <DashboardOverview
-          idolStats={idolStats}
-          outfits={outfits}
-          officeJob={officeJob}
-        />
-      )}
+      <SetupSteps
+        spreadsheetIsSetup={spreadsheetIsSetup}
+        StatsAreSetup={idolsAreSetup}
+        outfitsAreSetup={outfitsAreSetup}
+        spreadsheetId={spreadsheetId}
+        officeJobIsSetup={officeJobIsSetup}
+      />
     </div>
   )
 }
 
-export default DashboardPage
+export default StepsPage

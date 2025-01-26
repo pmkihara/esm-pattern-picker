@@ -39,7 +39,7 @@ const SpreadsheetForm = ({ initialId }: SpreadsheetFormProps) => {
     const result = await checkSpreadsheetAccess(id)
 
     if (result.ok) {
-      router.push(`/dashboard?id=${id}`)
+      router.push(`/steps?id=${id}`)
     } else {
       setError('id', { message: result.error })
     }
