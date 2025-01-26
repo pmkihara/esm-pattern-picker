@@ -33,6 +33,7 @@ const JobIdolsInputs = ({ control, isCustomJob }: JobIdolsInputsProps) => {
               update(index, { name: idol })
             }}
             isCustomJob={isCustomJob}
+            id={field.id}
           />
         ))}
         {isCustomJob && fields.length < 5 && (

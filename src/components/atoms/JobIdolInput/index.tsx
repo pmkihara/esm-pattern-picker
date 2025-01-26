@@ -22,6 +22,7 @@ const JobIdolInput = ({
   onIdolSelect,
   onRemove,
   isCustomJob,
+  id,
 }: JobIdolInputProps) => {
   const [open, setOpen] = useState(false)
 
@@ -49,7 +50,7 @@ const JobIdolInput = ({
               </button>
             </DialogTrigger>
             <DialogPortalWithContent>
-              <IdolPicker onSelect={onSelect} />
+              <IdolPicker onSelect={onSelect} id={id} />
             </DialogPortalWithContent>
           </DialogWindow>
           {onRemove && (

@@ -4,25 +4,31 @@ import { twMerge } from 'tailwind-merge'
 
 interface IdolPickerProps {
   onSelect: (idol: Idol | undefined) => void
+  id?: string
 }
 
-const IdolPicker = ({ onSelect }: IdolPickerProps) => {
-  const pickerCls = twMerge(
-    'overflow-hidden rounded-tl-lg rounded-br-lg aspect-square',
+const IdolPicker = ({ onSelect, id }: IdolPickerProps) => {
+  const buttonCls = twMerge(
+    'overflow-hidden rounded-tl-lg rounded-br-lg',
     'bg-grey-50 ring-2 cursor-pointer ring-grey-200',
     'hover:ring-sky-300 hover:bg-sky-100',
-    'group flex justify-center max-w-14 w-full',
+    'group max-w-14 w-full',
     'focus:outline-sky-300',
   )
 
+  const containerCls = 'flex align-center aspect-square'
+
   return (
     <div className='flex flex-wrap gap-2 sm:gap-4'>
-      <button className={pickerCls} onClick={() => onSelect(undefined)}>
-        <IdolImage idol={undefined} />
-      </button>
-      {allIdols.map((idol) => (
-        <button className={pickerCls} key={idol} onClick={() => onSelect(idol)}>
-          <IdolImage idol={idol} />
+      {[undefined, ...allIdols].map((idol) => (
+        <button
+          className={buttonCls}
+          key={`${id}-${idol}`}
+          onClick={() => onSelect(idol)}
+        >
+          <div className={containerCls}>
+            <IdolImage idol={idol} />
+          </div>
         </button>
       ))}
     </div>
