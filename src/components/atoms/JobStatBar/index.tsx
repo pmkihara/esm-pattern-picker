@@ -1,5 +1,5 @@
 import { Stat } from '@/data/stats'
-import StatTag, { statBgColors, statColors } from '../StatTag'
+import StatTag, { statColors } from '../StatTag'
 import { twMerge } from 'tailwind-merge'
 
 interface JobStatBarProps {
@@ -43,7 +43,7 @@ const JobStatBar = ({
       <div
         className={twMerge(
           'grow shrink h-full rounded-full relative overflow-hidden',
-          statBgColors[stat],
+          'bg-grey-200',
         )}
       >
         {/* target line */}
@@ -61,7 +61,7 @@ const JobStatBar = ({
         >
           {highlightedValue !== undefined && (
             <div
-              className='h-full animate-highlight bg-white mix-blend-screen'
+              className='h-full animate-highlight bg-white'
               style={{ width: `${highlightedPercentage}%` }}
             />
           )}

@@ -12,6 +12,7 @@ interface JobStatsProps {
   selectedOutfits: OutfitContribution[]
   maxValue: number
   activeOutfit?: OutfitContribution
+  activeOutfitIndex?: number
 }
 
 const JobStats = ({
@@ -19,11 +20,19 @@ const JobStats = ({
   selectedOutfits,
   maxValue,
   activeOutfit,
+  activeOutfitIndex,
 }: JobStatsProps) => {
   const groupIcons = useJobGroupImages()
 
   const totalOutfitValue = (stat: Stat) => {
-    return selectedOutfits.reduce((acc, outfitContribution) => {
+    return selectedOutfits.reduce((acc, outfitContribution, currentIndex) => {
+      if (
+        activeOutfitIndex !== undefined &&
+        activeOutfit !== undefined &&
+        currentIndex === activeOutfitIndex
+      ) {
+        return acc + activeOutfit.statContributions[stat]
+      }
       return acc + outfitContribution.statContributions[stat]
     }, 0)
   }

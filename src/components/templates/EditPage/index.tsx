@@ -1,13 +1,16 @@
 'use client'
 
 import { useSettings } from '@/providers/SettingsProvider'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import SaveButton from '@/components/atoms/SaveButton'
 import IdolTab from '@/components/atoms/IdolTab'
 import { Idol } from '@/data/idols'
 import ContentLayout from '@/components/organisms/ContentLayout'
 import JobStats from '@/components/molecules/JobStats'
+import OutfitsTable, {
+  outfitsTableData,
+} from '@/components/organisms/OutfitsTable'
 
 interface EditPageProps {
   spreadsheetId: string
@@ -15,10 +18,21 @@ interface EditPageProps {
 
 const EditPage = ({ spreadsheetId }: EditPageProps) => {
   const router = useRouter()
-  const { setSpreadsheetId, selectedOutfits, officeJob, maxValue } =
-    useSettings()
+  const {
+    setSpreadsheetId,
+    selectedOutfits,
+    setSelectedOutfits,
+    officeJob,
+    maxValue,
+    outfitsContribution,
+  } = useSettings()
 
-  const [activeTab, setActiveTab] = useState(0)
+  const tableData = useMemo(
+    () => outfitsTableData(outfitsContribution),
+    [outfitsContribution],
+  )
+  const [tab, setTab] = useState(0)
+  const [activeOutfit, setActiveOutfit] = useState(selectedOutfits[tab])
 
   useEffect(() => {
     setSpreadsheetId(spreadsheetId)
@@ -31,7 +45,18 @@ const EditPage = ({ spreadsheetId }: EditPageProps) => {
   }, [router, selectedOutfits, spreadsheetId])
 
   const onSave = () => {
-    console.log('Save')
+    const newOutfits = [...selectedOutfits]
+    newOutfits[tab] = activeOutfit
+    setSelectedOutfits(newOutfits)
+  }
+
+  const onClick = (outfitName: string) => {
+    const outfit = outfitsContribution.find(
+      (outfit) => outfit.outfit.fullName === outfitName,
+    )
+    if (outfit) {
+      setActiveOutfit(outfit)
+    }
   }
 
   if (!(selectedOutfits && officeJob)) return
@@ -42,23 +67,34 @@ const EditPage = ({ spreadsheetId }: EditPageProps) => {
         selectedJob={officeJob}
         selectedOutfits={selectedOutfits}
         maxValue={maxValue}
-        activeOutfit={selectedOutfits[activeTab]}
+        activeOutfit={activeOutfit}
+        activeOutfitIndex={
+          selectedOutfits[tab] !== activeOutfit ? tab : undefined
+        }
       />
       <ContentLayout>
-        <div className='grow'>
-          <div className='relative'>
-            <div className='grid grid-cols-5 gap-2 w-fit'>
-              {selectedOutfits.map(({ outfit }, index) => (
+        <div className='grow flex flex-col mb-8 md:mb-6 overflow-y-hidden -mx-4 md:-mx-10 lg:mx-0'>
+          <div className='relative shrink-0 grow-0 mb-2'>
+            <div className='grid grid-cols-5 gap-2 w-fit px-4 md:px-0'>
+              {selectedOutfits.map((outfitContribution, index) => (
                 <IdolTab
-                  key={outfit.idol}
-                  idol={outfit.idol as Idol}
-                  onClick={() => setActiveTab(index)}
-                  active={index === activeTab}
+                  key={outfitContribution.outfit.idol}
+                  idol={outfitContribution.outfit.idol as Idol}
+                  onClick={() => setTab(index)}
+                  active={tab === index}
                 />
               ))}
             </div>
-            <div className='absolute h-2 bg-sky-300 inset-x-0 -bottom-2 -mx-4 ' />
+            <div className='absolute h-2 bg-sky-300 inset-x-0 -bottom-2 ' />
           </div>
+          <OutfitsTable
+            data={tableData}
+            stats={Object.keys(outfitsContribution[0].statContributions)}
+            activeOutfit={activeOutfit}
+            originalOutfit={selectedOutfits[tab]}
+            onClick={onClick}
+            selectedOutfits={selectedOutfits}
+          />
         </div>
         <SaveButton type='button' icon='save' onClick={onSave} />
       </ContentLayout>

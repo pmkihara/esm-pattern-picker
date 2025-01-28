@@ -19,6 +19,7 @@ import {
 import {
   createContext,
   ReactNode,
+  useCallback,
   useContext,
   useEffect,
   useMemo,
@@ -47,11 +48,9 @@ interface SettingsContext {
   officeJobIsSetup: boolean
   selectedOutfits: OutfitContribution[]
   setSelectedOutfits: (outfits: OutfitContribution[]) => void
-  onlyCrafted: boolean
-  setOnlyCrafted: (onlyCrafted: boolean) => void
   maxValue: number
-  visibleContributions: OutfitContribution[]
-  autoSelectedOutfits: OutfitContribution[]
+  outfitsContribution: OutfitContribution[]
+  updateAutoSelectOutfits: (onlyCrafted: boolean) => void
 }
 
 export const SettingsContext = createContext<SettingsContext | undefined>(
@@ -68,7 +67,6 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [idolsAreSetup, setIdolsAreSetup] = useState(false)
   const [outfitsAreSetup, setOutfitsAreSetup] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
-  const [onlyCrafted, setOnlyCrafted] = useState(true)
   const [selectedOutfits, setSelectedOutfits] = useState<OutfitContribution[]>(
     [],
   )
@@ -83,14 +81,6 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     return getOutfitsContribution(outfits, officeJob, idolStats)
   }, [outfits, officeJob, idolStats])
 
-  // The visibleContributions represents the outfits that are currently visible,
-  // based on the onlyCrafted filter.
-  const visibleContributions = useMemo(() => {
-    return outfitsContribution.filter((contribution) =>
-      isValidOutfit(contribution.outfit, onlyCrafted),
-    )
-  }, [outfitsContribution, onlyCrafted])
-
   // The statValues represents the values of each stat for the office job.
   const statValues = useMemo(() => {
     if (!officeJob) return []
@@ -104,13 +94,20 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     [statValues, officeJob],
   )
 
-  // The autoSelectedOutfits represents the outfits that are automatically
-  // selected when the office job is set.
-  const autoSelectedOutfits = useMemo(() => {
-    if (!officeJob) return []
+  // --------------------------- Callback functions ---------------------------
+  const updateAutoSelectOutfits = useCallback(
+    (onlyCrafted: boolean) => {
+      if (!officeJob) return
 
-    return autoSelect(visibleContributions, officeJob)
-  }, [officeJob, visibleContributions])
+      const visibleContributions = outfitsContribution.filter((contribution) =>
+        isValidOutfit(contribution.outfit, onlyCrafted),
+      )
+
+      const newAutoSelectedOutfits = autoSelect(visibleContributions, officeJob)
+      setSelectedOutfits(newAutoSelectedOutfits)
+    },
+    [officeJob, outfitsContribution],
+  )
 
   // ----------------------- Effects to check the setup -----------------------
   // Update the spreadSheetIsSetup state based on the access to the spreadsheet.
@@ -188,12 +185,11 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     initialize()
   }, [outfits, outfitsAreSetup, spreadsheetId])
 
-  // Set the auto selected outfits when there are no selected outfits yet
+  // Initialize the auto selected outfits on office job change
   useEffect(() => {
-    if (selectedOutfits.length > 0 || autoSelectedOutfits.length === 0) return
-
-    setSelectedOutfits(autoSelectedOutfits)
-  }, [selectedOutfits.length, autoSelectedOutfits])
+    if (!officeJob) return
+    updateAutoSelectOutfits(false)
+  }, [officeJob, updateAutoSelectOutfits])
 
   return (
     <SettingsContext.Provider
@@ -215,11 +211,9 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         officeJobIsSetup: !!officeJob,
         selectedOutfits,
         setSelectedOutfits,
-        onlyCrafted,
-        setOnlyCrafted,
         maxValue,
-        visibleContributions,
-        autoSelectedOutfits,
+        outfitsContribution,
+        updateAutoSelectOutfits,
       }}
     >
       {children}

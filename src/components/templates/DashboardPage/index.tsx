@@ -21,12 +21,9 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
     setSpreadsheetId,
     idolStats,
     officeJob,
-    onlyCrafted,
-    setOnlyCrafted,
     selectedOutfits,
-    setSelectedOutfits,
     maxValue,
-    autoSelectedOutfits,
+    updateAutoSelectOutfits,
   } = useSettings()
 
   useEffect(() => {
@@ -39,13 +36,9 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
     }
   }, [idolStats, officeJob, router, selectedOutfits, spreadsheetId])
 
-  useEffect(() => {
-    setSelectedOutfits(autoSelectedOutfits)
-  }, [autoSelectedOutfits, setSelectedOutfits])
-
   const onToggleChange = (e: FormEvent<HTMLInputElement>) => {
     const input = e.target as HTMLInputElement
-    setOnlyCrafted(input.checked)
+    updateAutoSelectOutfits(input.checked)
   }
 
   if (!(idolStats && officeJob && selectedOutfits)) return
@@ -59,7 +52,7 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
       />
       <ContentLayout>
         <div className='grow mb-12 md:mb-6'>
-          <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
+          <SwitchToggle onChange={onToggleChange} defaultChecked={false}>
             <span className='text-sm font-bold'>Only crafted outfits</span>
           </SwitchToggle>
           <div className='grid gap-4 mt-4'>

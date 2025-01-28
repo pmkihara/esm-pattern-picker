@@ -16,15 +16,6 @@ export const statColors = {
   [Stat.Charisma]: 'bg-charisma',
 }
 
-export const statBgColors = {
-  [Stat.Active]: 'bg-active/15',
-  [Stat.Passion]: 'bg-passion/15',
-  [Stat.Unique]: 'bg-unique/15',
-  [Stat.Smart]: 'bg-smart/15',
-  [Stat.Technique]: 'bg-technique/15',
-  [Stat.Charisma]: 'bg-charisma/15',
-}
-
 const StatTag = ({ type, responsive = true }: StatTagProps) => {
   const isTablet = useBreakpoint('md')
 
