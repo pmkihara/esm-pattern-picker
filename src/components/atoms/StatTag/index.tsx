@@ -17,12 +17,12 @@ export const statColors = {
 }
 
 export const statBgColors = {
-  [Stat.Active]: 'bg-active/20',
-  [Stat.Passion]: 'bg-passion/20',
-  [Stat.Unique]: 'bg-unique/20',
-  [Stat.Smart]: 'bg-smart/20',
-  [Stat.Technique]: 'bg-technique/20',
-  [Stat.Charisma]: 'bg-charisma/20',
+  [Stat.Active]: 'bg-active/15',
+  [Stat.Passion]: 'bg-passion/15',
+  [Stat.Unique]: 'bg-unique/15',
+  [Stat.Smart]: 'bg-smart/15',
+  [Stat.Technique]: 'bg-technique/15',
+  [Stat.Charisma]: 'bg-charisma/15',
 }
 
 const StatTag = ({ type, responsive = true }: StatTagProps) => {

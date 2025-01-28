@@ -11,7 +11,7 @@ const SetupStatusCard = ({ completed, title, text }: SetupStatusCardProps) => {
   return (
     <div
       className={twMerge(
-        'flex gap-6 items-center w-full h-36 p-4 border-2 rounded-lg',
+        'flex gap-6 items-center w-full h-full p-4 border-2 rounded-lg',
         'hover:ring-2',
         completed
           ? 'border-sky-300 hover:ring-sky-300'

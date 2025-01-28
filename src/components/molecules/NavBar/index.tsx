@@ -27,7 +27,7 @@ const NavBar = () => {
       iconSrc: HomeIcon.src,
       text: 'Home',
       href: getHref('dashboard'),
-      active: pathName === '/dashboard',
+      active: pathName.includes('/dashboard'),
     },
     idols: {
       iconSrc: UserCardIcon.src,

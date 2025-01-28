@@ -3,7 +3,13 @@
 import LoadingOverlay from '@/components/atoms/LoadingOverlay'
 import { OfficeJob } from '@/data/office-jobs'
 import { UserOutfit } from '@/data/outfits'
-import { StatsMap } from '@/data/stats'
+import { allStats, StatsMap } from '@/data/stats'
+import { autoSelect } from '@/lib/autoSelect'
+import {
+  getOutfitsContribution,
+  isValidOutfit,
+  OutfitContribution,
+} from '@/lib/outfitStat'
 import { checkSpreadsheetAccess } from '@/services/access_actions'
 import { checkIdolsSheet, initializeIdols } from '@/services/idols_actions'
 import {
@@ -15,6 +21,7 @@ import {
   ReactNode,
   useContext,
   useEffect,
+  useMemo,
   useState,
 } from 'react'
 
@@ -38,6 +45,13 @@ interface SettingsContext {
   outfitsAreSetup: boolean
   setOutfitsAreSetup: (areSetup: boolean) => void
   officeJobIsSetup: boolean
+  selectedOutfits: OutfitContribution[]
+  setSelectedOutfits: (outfits: OutfitContribution[]) => void
+  onlyCrafted: boolean
+  setOnlyCrafted: (onlyCrafted: boolean) => void
+  maxValue: number
+  visibleContributions: OutfitContribution[]
+  autoSelectedOutfits: OutfitContribution[]
 }
 
 export const SettingsContext = createContext<SettingsContext | undefined>(
@@ -45,6 +59,7 @@ export const SettingsContext = createContext<SettingsContext | undefined>(
 )
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
+  // --------------------------------- States ---------------------------------
   const [spreadsheetId, setSpreadsheetId] = useState<string>()
   const [idolStats, setIdolStats] = useState<StatsMap>()
   const [outfits, setOutfits] = useState<UserOutfit[]>()
@@ -53,7 +68,52 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [idolsAreSetup, setIdolsAreSetup] = useState(false)
   const [outfitsAreSetup, setOutfitsAreSetup] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
+  const [onlyCrafted, setOnlyCrafted] = useState(true)
+  const [selectedOutfits, setSelectedOutfits] = useState<OutfitContribution[]>(
+    [],
+  )
 
+  // ----------------------------- Memoized values -----------------------------
+  // The outfitsContribution represents the contribution of each outfit to the
+  // office job stats. It is calculated based on the idol stats and the outfits
+  // stats.
+  const outfitsContribution = useMemo(() => {
+    if (!(outfits && officeJob && idolStats)) return []
+
+    return getOutfitsContribution(outfits, officeJob, idolStats)
+  }, [outfits, officeJob, idolStats])
+
+  // The visibleContributions represents the outfits that are currently visible,
+  // based on the onlyCrafted filter.
+  const visibleContributions = useMemo(() => {
+    return outfitsContribution.filter((contribution) =>
+      isValidOutfit(contribution.outfit, onlyCrafted),
+    )
+  }, [outfitsContribution, onlyCrafted])
+
+  // The statValues represents the values of each stat for the office job.
+  const statValues = useMemo(() => {
+    if (!officeJob) return []
+
+    return allStats.map((stat) => officeJob[stat])
+  }, [officeJob])
+
+  // The maxValue represents the maximum value of the stats for the office job.
+  const maxValue = useMemo(
+    () => (officeJob !== undefined ? Math.max(...statValues) + 500 : 0),
+    [statValues, officeJob],
+  )
+
+  // The autoSelectedOutfits represents the outfits that are automatically
+  // selected when the office job is set.
+  const autoSelectedOutfits = useMemo(() => {
+    if (!officeJob) return []
+
+    return autoSelect(visibleContributions, officeJob)
+  }, [officeJob, visibleContributions])
+
+  // ----------------------- Effects to check the setup -----------------------
+  // Update the spreadSheetIsSetup state based on the access to the spreadsheet.
   useEffect(() => {
     if (!spreadsheetId || spreadsheetIsSetup) return
 
@@ -67,6 +127,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     checkSpreadsheet()
   }, [spreadsheetId, spreadsheetIsSetup])
 
+  // Update the idolsAreSetup state based on the idols sheet.
   useEffect(() => {
     if (!spreadsheetId || idolsAreSetup) return
 
@@ -80,6 +141,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     checkIdols()
   }, [idolsAreSetup, spreadsheetId])
 
+  // Update the outfitsAreSetup state based on the outfits sheet.
   useEffect(() => {
     if (!spreadsheetId || outfitsAreSetup) return
 
@@ -93,6 +155,8 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     checkOutfits()
   }, [outfitsAreSetup, spreadsheetId])
 
+  // ------------ Effects to initialize the idol stats and outfits ------------
+  // Initialize the idol stats
   useEffect(() => {
     if (!spreadsheetId || !idolsAreSetup || idolStats) return
 
@@ -108,6 +172,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     initialize()
   }, [idolStats, idolsAreSetup, spreadsheetId])
 
+  // Initialize the outfits
   useEffect(() => {
     if (!spreadsheetId || !outfitsAreSetup || outfits) return
 
@@ -122,6 +187,13 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
     }
     initialize()
   }, [outfits, outfitsAreSetup, spreadsheetId])
+
+  // Set the auto selected outfits when there are no selected outfits yet
+  useEffect(() => {
+    if (selectedOutfits.length > 0 || autoSelectedOutfits.length === 0) return
+
+    setSelectedOutfits(autoSelectedOutfits)
+  }, [selectedOutfits.length, autoSelectedOutfits])
 
   return (
     <SettingsContext.Provider
@@ -141,6 +213,13 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         outfitsAreSetup,
         setOutfitsAreSetup,
         officeJobIsSetup: !!officeJob,
+        selectedOutfits,
+        setSelectedOutfits,
+        onlyCrafted,
+        setOnlyCrafted,
+        maxValue,
+        visibleContributions,
+        autoSelectedOutfits,
       }}
     >
       {children}

@@ -81,3 +81,10 @@ export const WithAdditionalOutfitValue: Story = {
     additionalOutfitValue: 100,
   },
 }
+
+export const WithHighlitedValue: Story = {
+  args: {
+    outfitValue: 200,
+    highlightedValue: 50,
+  },
+}

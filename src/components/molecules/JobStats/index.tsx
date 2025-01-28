@@ -11,12 +11,14 @@ interface JobStatsProps {
   selectedJob: OfficeJob
   selectedOutfits: OutfitContribution[]
   maxValue: number
+  activeOutfit?: OutfitContribution
 }
 
 const JobStats = ({
   selectedJob,
   selectedOutfits,
   maxValue,
+  activeOutfit,
 }: JobStatsProps) => {
   const groupIcons = useJobGroupImages()
 
@@ -51,6 +53,7 @@ const JobStats = ({
                 targetValue={selectedJob[stat]}
                 outfitValue={totalOutfitValue(stat)}
                 maxStat={maxValue}
+                highlightedValue={activeOutfit?.statContributions[stat]}
               />
             )
           )

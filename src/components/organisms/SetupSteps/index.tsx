@@ -1,6 +1,7 @@
 import H1 from '@/components/atoms/H1'
 import SetupStatusCard from '@/components/molecules/SetupStatusCard'
 import Link from 'next/link'
+import ContentLayout from '../ContentLayout'
 
 interface SetupStepsProps {
   spreadsheetIsSetup: boolean
@@ -66,9 +67,9 @@ const SetupSteps = ({
   }
 
   return (
-    <div className='px-4 py-6 md:px-10 flex-grow h-full max-h-full overflow-auto w-full max-w-4xl mx-auto lg:mx-0'>
+    <ContentLayout>
       <H1 className='mb-4'>Setup steps</H1>
-      <div className='grid gap-4'>
+      <div className='grid gap-4 grow shrink md:mb-8'>
         <Link href={`/?id=${spreadsheetId}`}>
           <SetupStatusCard
             {...getStepStatus('spreadsheet', spreadsheetIsSetup)}
@@ -84,7 +85,7 @@ const SetupSteps = ({
           <SetupStatusCard {...getStepStatus('work', officeJobIsSetup)} />
         </Link>
       </div>
-    </div>
+    </ContentLayout>
   )
 }
 

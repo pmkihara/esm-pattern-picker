@@ -37,3 +37,10 @@ export const Default: Story = {
     maxValue: 500,
   },
 }
+
+export const WithActiveOutfit: Story = {
+  args: {
+    ...Default.args,
+    activeOutfit: outfitsContributions[0],
+  },
+}

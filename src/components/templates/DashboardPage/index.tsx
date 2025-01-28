@@ -1,9 +1,15 @@
 'use client'
 
 import { useSettings } from '@/providers/SettingsProvider'
-import { useEffect } from 'react'
-import DashboardOverview from '@/components/organisms/DashboardOverview'
+import { FormEvent, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import SwitchToggle from '@/components/atoms/SwitchToggle'
+import OutfitOverview from '@/components/molecules/OutfitOverview'
+import { Idol } from '@/data/idols'
+import SaveButton from '@/components/atoms/SaveButton'
+import Link from 'next/link'
+import ContentLayout from '@/components/organisms/ContentLayout'
+import JobStats from '@/components/molecules/JobStats'
 
 interface DashboardPageProps {
   spreadsheetId: string
@@ -12,11 +18,15 @@ interface DashboardPageProps {
 const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
   const router = useRouter()
   const {
-    spreadsheetIsSetup,
     setSpreadsheetId,
     idolStats,
-    outfits,
     officeJob,
+    onlyCrafted,
+    setOnlyCrafted,
+    selectedOutfits,
+    setSelectedOutfits,
+    maxValue,
+    autoSelectedOutfits,
   } = useSettings()
 
   useEffect(() => {
@@ -24,20 +34,51 @@ const DashboardPage = ({ spreadsheetId }: DashboardPageProps) => {
   }, [setSpreadsheetId, spreadsheetId])
 
   useEffect(() => {
-    if (!(spreadsheetIsSetup && idolStats && outfits && officeJob)) {
+    if (!(idolStats && officeJob && selectedOutfits)) {
       router.push(`/steps?id=${spreadsheetId}`)
     }
-  }, [idolStats, officeJob, outfits, router, spreadsheetId, spreadsheetIsSetup])
+  }, [idolStats, officeJob, router, selectedOutfits, spreadsheetId])
+
+  useEffect(() => {
+    setSelectedOutfits(autoSelectedOutfits)
+  }, [autoSelectedOutfits, setSelectedOutfits])
+
+  const onToggleChange = (e: FormEvent<HTMLInputElement>) => {
+    const input = e.target as HTMLInputElement
+    setOnlyCrafted(input.checked)
+  }
+
+  if (!(idolStats && officeJob && selectedOutfits)) return
 
   return (
     <div className='h-full flex flex-col max-h-full'>
-      {idolStats && outfits && officeJob && (
-        <DashboardOverview
-          idolStats={idolStats}
-          outfits={outfits}
-          officeJob={officeJob}
-        />
-      )}
+      <JobStats
+        selectedJob={officeJob}
+        selectedOutfits={selectedOutfits}
+        maxValue={maxValue}
+      />
+      <ContentLayout>
+        <div className='grow mb-12 md:mb-6'>
+          <SwitchToggle onChange={onToggleChange} defaultChecked={onlyCrafted}>
+            <span className='text-sm font-bold'>Only crafted outfits</span>
+          </SwitchToggle>
+          <div className='grid gap-4 mt-4'>
+            {selectedOutfits.map(({ outfit, statContributions }) => (
+              <OutfitOverview
+                key={outfit.fullName}
+                outfit={outfit}
+                idolStats={idolStats[outfit.idol as Idol]}
+                statContributions={statContributions}
+                maxValue={maxValue}
+                selectedJob={officeJob}
+              />
+            ))}
+          </div>
+        </div>
+        <Link href={`/dashboard/edit?id=${spreadsheetId}`}>
+          <SaveButton type='button' icon='edit' />
+        </Link>
+      </ContentLayout>
     </div>
   )
 }

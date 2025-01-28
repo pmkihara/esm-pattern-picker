@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        highlight: 'highlight 2s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite',
+      },
       backgroundImage: {
         sparkles: "url('/assets/sparkles.svg')",
       },
@@ -60,11 +63,17 @@ export default {
       fontSize: {
         '2xs': '0.625rem',
       },
-      spacing: {
-        15: '3.75rem',
-      },
       gridTemplateColumns: {
         form: '15rem 1fr',
+      },
+      keyframes: {
+        highlight: {
+          '0%, 100%': { opacity: '0.25' },
+          '50%': { opacity: '0.7' },
+        },
+      },
+      spacing: {
+        15: '3.75rem',
       },
     },
   },
