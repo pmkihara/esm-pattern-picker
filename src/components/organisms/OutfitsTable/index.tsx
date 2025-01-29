@@ -1,5 +1,6 @@
 'use client'
 
+import OutfitStatus from '@/components/atoms/OutfitStatus'
 import StatTag from '@/components/atoms/StatTag'
 import ValueCompare from '@/components/atoms/ValueCompare'
 import TableHeader from '@/components/molecules/TableHeader'
@@ -67,7 +68,10 @@ const OutfitsTable = ({
   const columnHelper = createColumnHelper<OutfitRow>()
   const columns = useMemo(
     () => [
-      columnHelper.accessor('status', { header: 'Status' }),
+      columnHelper.accessor('status', {
+        header: 'Status',
+        cell: (cell) => <OutfitStatus status={cell.row.original.status} />,
+      }),
       columnHelper.accessor('outfit', { header: 'Outfit' }),
       columnHelper.accessor('totalContribution', {
         header: 'Total',
@@ -119,7 +123,7 @@ const OutfitsTable = ({
   const originalRow = getRow(originalOutfit.outfit.fullName)
 
   return (
-    <div className='grow shrink overflow-auto px-4 md:px-0'>
+    <div className='grow shrink overflow-auto px-4 lg:px-0'>
       <div className='grid grid-cols-[auto_1fr_auto_auto_auto_auto] min-w-[34rem]'>
         {getHeaderGroups().map((headerGroup) => (
           <TableHeader key={headerGroup.id} headerGroup={headerGroup} />

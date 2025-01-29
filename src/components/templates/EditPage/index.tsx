@@ -59,6 +59,11 @@ const EditPage = ({ spreadsheetId }: EditPageProps) => {
     }
   }
 
+  const onTabChange = (index: number) => {
+    setTab(index)
+    setActiveOutfit(selectedOutfits[index])
+  }
+
   if (!(selectedOutfits && officeJob)) return
 
   return (
@@ -75,12 +80,12 @@ const EditPage = ({ spreadsheetId }: EditPageProps) => {
       <ContentLayout>
         <div className='grow flex flex-col mb-8 md:mb-6 overflow-y-hidden -mx-4 md:-mx-10 lg:mx-0'>
           <div className='relative shrink-0 grow-0 mb-2'>
-            <div className='grid grid-cols-5 gap-2 w-fit px-4 md:px-0'>
+            <div className='grid grid-cols-5 gap-2 w-fit px-4 lg:px-0'>
               {selectedOutfits.map((outfitContribution, index) => (
                 <IdolTab
                   key={outfitContribution.outfit.idol}
                   idol={outfitContribution.outfit.idol as Idol}
-                  onClick={() => setTab(index)}
+                  onClick={() => onTabChange(index)}
                   active={tab === index}
                 />
               ))}
