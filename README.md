@@ -81,6 +81,7 @@ As of today (28-Jan-2025), you can find the service account email in the Google 
 ```bash
 base64 -i <path-to-credentials-file>
 ```
+
 3. Run the development server:
 
 ```bash
@@ -103,7 +104,3 @@ Because I am playing on the EN server and pulled data from the JP server, I do n
 ![Screenshot 2025-01-28 at 19 28 15](https://github.com/user-attachments/assets/e07368d2-0348-4754-ad0b-b1c91deace70)
 ![Screenshot 2025-01-28 at 19 29 11](https://github.com/user-attachments/assets/8c756e07-8d6c-4112-a932-03c842d24fec)
 ![Screenshot 2025-01-28 at 19 29 23](https://github.com/user-attachments/assets/c8f517f4-94d1-4ce4-800a-89f388cfeac2)
-
-
-
-
