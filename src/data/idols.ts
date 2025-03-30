@@ -69,6 +69,13 @@ export enum Unit {
 }
 
 export const allIdols = Object.values(Idol)
+export const indexedIdols = Object.values(Idol).reduce(
+  (acc, idol, index) => {
+    acc[idol] = index
+    return acc
+  },
+  {} as Record<string, number>,
+)
 
 export const idolsByUnit: Record<Unit, Idol[]> = {
   [Unit.Fine]: [Idol.Eichi, Idol.Wataru, Idol.Tori, Idol.Yuzuru],

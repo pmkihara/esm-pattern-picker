@@ -1,3 +1,4 @@
+import { indexedIdols } from '@/data/idols'
 import { Outfit, allOutfits } from '@/data/outfits'
 import { useState, useRef, ChangeEvent } from 'react'
 import {
@@ -53,7 +54,12 @@ const useOutfitSearch = (
       outfit.fullName.toLowerCase().includes(value.toLowerCase()),
     )
     setVisibleOutfits(
-      filteredOutfits.sort((a, b) => a.fullName.localeCompare(b.fullName)),
+      filteredOutfits.sort((a, b) => {
+        const compareName = a.name.localeCompare(b.name)
+        if (compareName !== 0) return compareName
+
+        return indexedIdols[a.idol] - indexedIdols[b.idol]
+      }),
     )
     setIsLoading(false)
   }
