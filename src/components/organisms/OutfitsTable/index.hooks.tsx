@@ -26,7 +26,7 @@ interface HookResult {
   headerGroups: HeaderGroup<OutfitRow>[]
   visibleRows: Row<OutfitRow>[]
   originalRow: Row<OutfitRow>
-  onScroll: (e: React.UIEvent<HTMLDivElement>) => void
+  onBottomReached: () => void
 }
 
 interface HookArgs {
@@ -57,7 +57,7 @@ export const outfitsTableData = (
   )
 }
 
-const PAGE_SIZE = 20
+const PAGE_SIZE = 50
 
 const useOutfitsTable = ({
   data,
@@ -128,26 +128,22 @@ const useOutfitsTable = ({
   const { rows } = getRowModel()
 
   const onBottomReached = useCallback(() => {
-    // return if last page
-    if (visibleRows.length === rows.length) return
-
     setVisibleRows((prev) => {
       return rows.slice(0, prev.length + PAGE_SIZE)
     })
-  }, [rows, visibleRows.length])
-
-  const onScroll = (e: React.UIEvent<HTMLDivElement>) => {
-    const bottom = e.currentTarget.scrollHeight - e.currentTarget.scrollTop
-    if (bottom === e.currentTarget.clientHeight) {
-      onBottomReached()
-    }
-  }
+  }, [rows])
 
   useEffect(() => {
     setVisibleRows(rows.slice(0, PAGE_SIZE))
   }, [rows, originalOutfit])
 
-  return { selectedIdols, headerGroups, visibleRows, originalRow, onScroll }
+  return {
+    selectedIdols,
+    headerGroups,
+    visibleRows,
+    originalRow,
+    onBottomReached,
+  }
 }
 
 export default useOutfitsTable

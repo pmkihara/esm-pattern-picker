@@ -52,28 +52,48 @@ const OutfitsTable = ({
   selectedOutfits,
   onClick,
 }: OutfitsTableProps) => {
-  const { selectedIdols, headerGroups, visibleRows, originalRow, onScroll } =
-    useOutfitsTable({
-      data,
-      selectedOutfits,
-      originalOutfit,
-      stats,
-    })
-  const scrollContainerRef = useRef<HTMLDivElement>(null)
+  const {
+    selectedIdols,
+    headerGroups,
+    visibleRows,
+    originalRow,
+    onBottomReached,
+  } = useOutfitsTable({
+    data,
+    selectedOutfits,
+    originalOutfit,
+    stats,
+  })
 
-  // Use useEffect to reset scroll position when originalOutfit changes
+  const sentinelRef = useRef<HTMLDivElement>(null)
+
   useEffect(() => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTop = 0
+    const sentinel = sentinelRef.current
+
+    if (!sentinel) return
+
+    const scrollableContainer = sentinel?.parentElement
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          onBottomReached()
+        }
+      },
+      { threshold: 1.0, root: scrollableContainer },
+    )
+    observer.observe(sentinel)
+
+    return () => {
+      if (!sentinel) return
+
+      observer.unobserve(sentinel)
+      observer.disconnect()
     }
-  }, [originalOutfit])
+  }, [originalOutfit, onBottomReached])
 
   return (
-    <div
-      className='grow shrink overflow-auto px-4 lg:px-0'
-      onScroll={onScroll}
-      ref={scrollContainerRef}
-    >
+    <div className='grow shrink overflow-auto px-4 lg:px-0 pb-1'>
       <div className='grid grid-cols-[auto_1fr_auto_auto_auto_auto] min-w-[34rem]'>
         {headerGroups.map((headerGroup) => (
           <TableHeader key={headerGroup.id} headerGroup={headerGroup} />
@@ -101,6 +121,7 @@ const OutfitsTable = ({
           )
         })}
       </div>
+      <div ref={sentinelRef} className='h-px' />
     </div>
   )
 }
