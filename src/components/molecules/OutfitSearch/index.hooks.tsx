@@ -20,7 +20,7 @@ interface HookResult {
   onSubmit: (data: FieldValues) => void
   onSelectAll: (e: ChangeEvent<HTMLInputElement>) => void
   register: UseFormRegister<FieldValues>
-  handleSubmit: UseFormHandleSubmit<FieldValues, undefined>
+  handleSubmit: UseFormHandleSubmit<FieldValues>
 }
 
 const useOutfitSearch = (
@@ -33,7 +33,7 @@ const useOutfitSearch = (
 
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const { register, handleSubmit, reset, setValue } = useForm()
+  const { register, handleSubmit, reset, setValue } = useForm<FieldValues>()
 
   const isDisabled = (outfit: Outfit) => {
     return groupedFields[outfit.idol]?.[outfit.group]?.some(

@@ -3,6 +3,6 @@ import { ReactNode } from 'react'
 
 export default function Layout({
   children,
-}: Readonly<{ children: ReactNode; params: Promise<{ id: string }> }>) {
+}: Readonly<{ children: ReactNode }>) {
   return <WorkspaceLayout>{children}</WorkspaceLayout>
 }

@@ -21,7 +21,7 @@ interface HookResult {
     {
       outfits: UserOutfit[]
     },
-    undefined
+    { outfits: UserOutfit[] }
   >
   isSubmitting: boolean
   fieldsByIdolAndGroup: Record<Idol, Record<string, OutfitField[]>>
