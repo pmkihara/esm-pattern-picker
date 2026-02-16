@@ -45,7 +45,7 @@ export const getTotalContribution = (
   idolStats: Stats,
 ) => {
   return stats.reduce((acc, stat) => {
-    return acc + outfit[stat] + idolStats[stat]
+    return acc + outfit[stat] + (idolStats?.[stat] || 0)
   }, 0)
 }
 
@@ -55,7 +55,7 @@ export const getStatsContribution = (
   idolStats: Stats,
 ) => {
   return stats.reduce((acc, stat) => {
-    acc[stat] = outfit[stat] + idolStats[stat]
+    acc[stat] = outfit[stat] + (idolStats?.[stat] || 0)
     return acc
   }, {} as TargetStats)
 }

@@ -1,3 +1,5 @@
+import NamesTranslations from '@/data/names_translations.json'
+
 const nameRegex = /(?<outfit>.+)（(?<idol>[^（]+)）$/
 
 const mapOutfitValues = (row, headers, group) => {
@@ -12,9 +14,10 @@ const mapOutfitValues = (row, headers, group) => {
           const {
             groups: { outfit, idol },
           } = value.match(nameRegex)
-          obj.idol = idol
+          const translatedIdol = NamesTranslations[idol] || idol
+          obj.idol = translatedIdol
           obj.name = outfit
-          obj.fullName = `${outfit} (${idol})`
+          obj.fullName = `${outfit} (${translatedIdol})`
         }
       }
       return obj

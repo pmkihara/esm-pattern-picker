@@ -668,8 +668,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Rinne",
-    "name": "Number Eight Outfit",
-    "fullName": "Number Eight Outfit (Rinne)"
+    "name": "NUMBER EIGHT Outfit",
+    "fullName": "NUMBER EIGHT Outfit (Rinne)"
   },
   {
     "group": "event",
@@ -680,8 +680,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "HiMERU",
-    "name": "Number Eight Outfit",
-    "fullName": "Number Eight Outfit (HiMERU)"
+    "name": "NUMBER EIGHT Outfit",
+    "fullName": "NUMBER EIGHT Outfit (HiMERU)"
   },
   {
     "group": "event",
@@ -692,8 +692,8 @@
     "Te": 0,
     "Ch": 30,
     "idol": "Kohaku",
-    "name": "Number Eight Outfit",
-    "fullName": "Number Eight Outfit (Kohaku)"
+    "name": "NUMBER EIGHT Outfit",
+    "fullName": "NUMBER EIGHT Outfit (Kohaku)"
   },
   {
     "group": "event",
@@ -704,8 +704,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Niki",
-    "name": "Number Eight Outfit",
-    "fullName": "Number Eight Outfit (Niki)"
+    "name": "NUMBER EIGHT Outfit",
+    "fullName": "NUMBER EIGHT Outfit (Niki)"
   },
   {
     "group": "event",
@@ -764,8 +764,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Tetora",
-    "name": "Tropical Outfit",
-    "fullName": "Tropical Outfit (Tetora)"
+    "name": "Tropical Paradise Outfit",
+    "fullName": "Tropical Paradise Outfit (Tetora)"
   },
   {
     "group": "event",
@@ -776,8 +776,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Midori",
-    "name": "Tropical Outfit",
-    "fullName": "Tropical Outfit (Midori)"
+    "name": "Tropical Paradise Outfit",
+    "fullName": "Tropical Paradise Outfit (Midori)"
   },
   {
     "group": "event",
@@ -788,8 +788,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Shinobu",
-    "name": "Tropical Outfit",
-    "fullName": "Tropical Outfit (Shinobu)"
+    "name": "Tropical Paradise Outfit",
+    "fullName": "Tropical Paradise Outfit (Shinobu)"
   },
   {
     "group": "event",
@@ -800,8 +800,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Chiaki",
-    "name": "Tropical Outfit",
-    "fullName": "Tropical Outfit (Chiaki)"
+    "name": "Tropical Paradise Outfit",
+    "fullName": "Tropical Paradise Outfit (Chiaki)"
   },
   {
     "group": "event",
@@ -812,8 +812,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Kanata",
-    "name": "Tropical Outfit",
-    "fullName": "Tropical Outfit (Kanata)"
+    "name": "Tropical Paradise Outfit",
+    "fullName": "Tropical Paradise Outfit (Kanata)"
   },
   {
     "group": "event",
@@ -980,8 +980,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Shu",
-    "name": "Raison d`être Outfit",
-    "fullName": "Raison d`être Outfit (Shu)"
+    "name": "Raison d'être Outfit",
+    "fullName": "Raison d'être Outfit (Shu)"
   },
   {
     "group": "event",
@@ -992,8 +992,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Mika",
-    "name": "Raison d`être Outfit",
-    "fullName": "Raison d`être Outfit (Mika)"
+    "name": "Raison d'être Outfit",
+    "fullName": "Raison d'être Outfit (Mika)"
   },
   {
     "group": "event",
@@ -1004,8 +1004,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Midori",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Midori)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Midori)"
   },
   {
     "group": "event",
@@ -1016,8 +1016,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Kaoru",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Kaoru)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Kaoru)"
   },
   {
     "group": "event",
@@ -1028,8 +1028,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Koga",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Koga)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Koga)"
   },
   {
     "group": "event",
@@ -1040,8 +1040,8 @@
     "Te": 0,
     "Ch": 0,
     "idol": "Mitsuru",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Mitsuru)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Mitsuru)"
   },
   {
     "group": "event",
@@ -1052,8 +1052,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Hajime",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Hajime)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Hajime)"
   },
   {
     "group": "event",
@@ -1064,8 +1064,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Keito",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Keito)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Keito)"
   },
   {
     "group": "event",
@@ -1076,8 +1076,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Tsukasa",
-    "name": "Escape Mansion Outfit",
-    "fullName": "Escape Mansion Outfit (Tsukasa)"
+    "name": "Escape Complex Outfit",
+    "fullName": "Escape Complex Outfit (Tsukasa)"
   },
   {
     "group": "event",
@@ -1088,8 +1088,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Hinata",
-    "name": "2×2 Outfit",
-    "fullName": "2×2 Outfit (Hinata)"
+    "name": "2x2 Outfit",
+    "fullName": "2x2 Outfit (Hinata)"
   },
   {
     "group": "event",
@@ -1100,8 +1100,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Yuta",
-    "name": "2×2 Outfit",
-    "fullName": "2×2 Outfit (Yuta)"
+    "name": "2x2 Outfit",
+    "fullName": "2x2 Outfit (Yuta)"
   },
   {
     "group": "event",
@@ -1160,8 +1160,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Tori",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Tori)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Tori)"
   },
   {
     "group": "event",
@@ -1172,8 +1172,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Yuzuru",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Yuzuru)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Yuzuru)"
   },
   {
     "group": "event",
@@ -1184,8 +1184,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Mao",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Mao)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Mao)"
   },
   {
     "group": "event",
@@ -1196,8 +1196,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Mika",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Mika)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Mika)"
   },
   {
     "group": "event",
@@ -1208,8 +1208,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Hajime",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Hajime)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Hajime)"
   },
   {
     "group": "event",
@@ -1220,8 +1220,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Ritsu",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Ritsu)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Ritsu)"
   },
   {
     "group": "event",
@@ -1232,8 +1232,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Arashi",
-    "name": "Chanbara Night Outfit",
-    "fullName": "Chanbara Night Outfit (Arashi)"
+    "name": "CHANBARANIGHT Outfit",
+    "fullName": "CHANBARANIGHT Outfit (Arashi)"
   },
   {
     "group": "event",
@@ -1244,8 +1244,8 @@
     "Te": 0,
     "Ch": 80,
     "idol": "Rei",
-    "name": "Flashback Outfit",
-    "fullName": "Flashback Outfit (Rei)"
+    "name": "FLASHBACK Outfit",
+    "fullName": "FLASHBACK Outfit (Rei)"
   },
   {
     "group": "event",
@@ -1256,8 +1256,8 @@
     "Te": 30,
     "Ch": 80,
     "idol": "Kaoru",
-    "name": "Flashback Outfit",
-    "fullName": "Flashback Outfit (Kaoru)"
+    "name": "FLASHBACK Outfit",
+    "fullName": "FLASHBACK Outfit (Kaoru)"
   },
   {
     "group": "event",
@@ -1268,8 +1268,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Koga",
-    "name": "Flashback Outfit",
-    "fullName": "Flashback Outfit (Koga)"
+    "name": "FLASHBACK Outfit",
+    "fullName": "FLASHBACK Outfit (Koga)"
   },
   {
     "group": "event",
@@ -1280,8 +1280,8 @@
     "Te": 0,
     "Ch": 40,
     "idol": "Adonis",
-    "name": "Flashback Outfit",
-    "fullName": "Flashback Outfit (Adonis)"
+    "name": "FLASHBACK Outfit",
+    "fullName": "FLASHBACK Outfit (Adonis)"
   },
   {
     "group": "event",
@@ -1292,8 +1292,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Keito",
-    "name": "TENCHI MEIDO Outfit",
-    "fullName": "TENCHI MEIDO Outfit (Keito)"
+    "name": "Worlds Shaken Outfit",
+    "fullName": "Worlds Shaken Outfit (Keito)"
   },
   {
     "group": "event",
@@ -1304,8 +1304,8 @@
     "Te": 30,
     "Ch": 0,
     "idol": "Kuro",
-    "name": "TENCHI MEIDO Outfit",
-    "fullName": "TENCHI MEIDO Outfit (Kuro)"
+    "name": "Worlds Shaken Outfit",
+    "fullName": "Worlds Shaken Outfit (Kuro)"
   },
   {
     "group": "event",
@@ -1316,8 +1316,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Souma",
-    "name": "TENCHI MEIDO Outfit",
-    "fullName": "TENCHI MEIDO Outfit (Souma)"
+    "name": "Worlds Shaken Outfit",
+    "fullName": "Worlds Shaken Outfit (Souma)"
   },
   {
     "group": "event",
@@ -1376,8 +1376,8 @@
     "Te": 80,
     "Ch": 40,
     "idol": "Ibara",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Ibara)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Ibara)"
   },
   {
     "group": "event",
@@ -1388,8 +1388,8 @@
     "Te": 40,
     "Ch": 30,
     "idol": "Yuta",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Yuta)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Yuta)"
   },
   {
     "group": "event",
@@ -1400,8 +1400,8 @@
     "Te": 80,
     "Ch": 0,
     "idol": "Rinne",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Rinne)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Rinne)"
   },
   {
     "group": "event",
@@ -1412,8 +1412,8 @@
     "Te": 40,
     "Ch": 80,
     "idol": "Arashi",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Arashi)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Arashi)"
   },
   {
     "group": "event",
@@ -1424,8 +1424,8 @@
     "Te": 40,
     "Ch": 0,
     "idol": "Natsume",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Natsume)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Natsume)"
   },
   {
     "group": "event",
@@ -1436,8 +1436,8 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Tsumugi",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Tsumugi)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Tsumugi)"
   },
   {
     "group": "event",
@@ -1448,7 +1448,7 @@
     "Te": 80,
     "Ch": 30,
     "idol": "Madara",
-    "name": "SUGOROKU Outfit",
-    "fullName": "SUGOROKU Outfit (Madara)"
+    "name": "Dice for Survival Outfit",
+    "fullName": "Dice for Survival Outfit (Madara)"
   }
 ]

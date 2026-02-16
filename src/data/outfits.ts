@@ -10,6 +10,7 @@ import GeneralOutfits2022 from '@/data/outfits/general_2022.json'
 import GeneralOutfits2023 from '@/data/outfits/general_2023.json'
 import GeneralOutfits2024 from '@/data/outfits/general_2024.json'
 import PrivateOutfits from '@/data/outfits/private.json'
+import CollabOutfits2025 from '@/data/outfits/collab_2025.json'
 
 export type OutfitGroup = 'general' | 'event' | 'private' | 'collab'
 
@@ -1243,4 +1244,5 @@ export const allOutfits = [
   ...GeneralOutfits2023,
   ...GeneralOutfits2024,
   ...PrivateOutfits,
+  ...CollabOutfits2025,
 ] as Outfit[]
